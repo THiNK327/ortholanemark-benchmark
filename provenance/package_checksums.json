@@ -22,8 +22,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1793,
-      "sha256": "69be0bdd52a5277ea2cabaae10db78c68bae74eb3a42a4d9e485511fae3f9cdd"
+      "bytes": 2573,
+      "sha256": "fc917db4d70039a835992621328494f918dcacff48b23a39f2a3ccaef8ddd6a7"
     },
     {
       "path": "LICENSE",
@@ -67,8 +67,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10343,
-      "sha256": "19498c52ffaba4c459e03eab77140a41b3795c77b848188921f05065b45be2a0"
+      "bytes": 10791,
+      "sha256": "64825fd3808fd4bcb4bef5dde15433086812b8684e5600813901b960de1256ac"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

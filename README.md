@@ -135,7 +135,18 @@ Per-method `train.py` scripts and dataset readers are included under [ortholanem
 
 ## Citation
 
-Please cite this benchmark when using its code or results, and acknowledge the original methods described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+Please cite the accompanying paper when using OrthoLaneMark:
+
+```bibtex
+@unpublished{wang2026presenceaware,
+  author = {Wang, Haolin and Luo, Shiwei and Yang, Zhongyu and Tsai, Yi-Chang J.},
+  title  = {Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement},
+  year   = {2026},
+  note   = {Under review at the ASCE Journal of Computing in Civil Engineering (JCCE)}
+}
+```
+
+For the code and saved results, also cite the software release:
 
 ```bibtex
 @software{wang2026ortholanemark,
@@ -146,6 +157,8 @@ Please cite this benchmark when using its code or results, and acknowledge the o
   url     = {https://github.com/THiNK327/ortholanemark-benchmark}
 }
 ```
+
+The paper is the preferred citation in [CITATION.cff](CITATION.cff). Please also acknowledge the original methods described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## License
 

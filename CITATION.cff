@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite it using the metadata below."
+message: "If you use OrthoLaneMark, please cite the accompanying paper as the preferred citation below. Also cite the software release when using its code or saved results."
 type: software
 title: 'OrthoLaneMark Benchmark: Code, Results, and Checkpoints'
 abstract: Nine-method intensity-only lane-marking benchmark with code, configurations, saved predictions and scores, verification tools, and 18 selected checkpoints in a separate companion package.
@@ -37,3 +37,22 @@ contact:
   orcid: https://orcid.org/0000-0002-7535-0924
 repository-code: "https://github.com/THiNK327/ortholanemark-benchmark"
 license: MIT
+preferred-citation:
+  type: unpublished
+  title: 'Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement'
+  authors:
+  - family-names: Wang
+    given-names: Haolin
+    orcid: https://orcid.org/0009-0008-7186-7409
+  - family-names: Luo
+    given-names: Shiwei
+    orcid: https://orcid.org/0009-0008-2205-8808
+  - family-names: Yang
+    given-names: Zhongyu
+    orcid: https://orcid.org/0000-0002-7535-0924
+  - family-names: Tsai
+    given-names: Yi-Chang J.
+    orcid: https://orcid.org/0000-0002-6650-2279
+  year: 2026
+  status: submitted
+  notes: 'Under review at the ASCE Journal of Computing in Civil Engineering (JCCE).'
