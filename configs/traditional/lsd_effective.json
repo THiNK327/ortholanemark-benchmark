@@ -1,0 +1,14 @@
+{
+  "method": "lsd",
+  "effective_parameters": {
+    "max_angle_from_vertical_deg": 15,
+    "min_segment_length_px": 15,
+    "min_total_length_px": 400
+  },
+  "selected_overrides": {
+    "max_angle_from_vertical_deg": 15,
+    "min_segment_length_px": 15,
+    "min_total_length_px": 400
+  },
+  "basis": "Saved selected_configuration plus constructor defaults; no execution/tuning"
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+work/
+/weights/
+/data/
+*.npz
+*.pth
+.DS_Store
+Thumbs.db
+
+# Retained numeric predictions are intentional release artifacts.
+!artifacts/**/*.npz

@@ -1,0 +1,19 @@
+{
+  "method": "steger_ridge",
+  "selected_parameters": {
+    "sigmas": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "response_threshold_percentile": 97
+  },
+  "selected_candidate": 0,
+  "validation_gra": 0.5141909559317576,
+  "original_validation_gra": 0.5141909559317576,
+  "archived_validation_difference": 0.0,
+  "selection_split": "val",
+  "n_candidates": 9,
+  "plan_sha256": "5b65db5734c48ab951bb2a12027d24c1f7f4c9a6e2dc153d114b55ecf18ef500"
+}

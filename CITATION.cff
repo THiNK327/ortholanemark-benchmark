@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: Citation metadata for the planned 1.0.0 release. Creators confirmed; public release awaits agreement of all authors. DOI and publication date will be added when available.
+type: software
+title: 'OrthoLaneMark Benchmark: Code, Results, and Checkpoints'
+abstract: Nine-method intensity-only lane-marking benchmark with code, configurations, saved predictions and scores, verification tools, and 18 selected checkpoints in a separate companion folder. Local unpublished candidate.
+authors:
+- family-names: Wang
+  given-names: Haolin
+  affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
+  orcid: https://orcid.org/0009-0008-7186-7409
+  email: hlwang98@gatech.edu
+- family-names: Luo
+  given-names: Shiwei
+  affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
+  orcid: https://orcid.org/0009-0008-2205-8808
+  email: sluo308@gatech.edu
+- family-names: Yang
+  given-names: Zhongyu
+  affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
+  orcid: https://orcid.org/0000-0002-7535-0924
+  email: zyang398@gatech.edu
+- family-names: Tsai
+  given-names: Yi-Chang J.
+  affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
+  orcid: https://orcid.org/0000-0002-6650-2279
+  email: james.tsai@ce.gatech.edu
+keywords:
+- lane-marking detection
+- orthographic pavement imagery
+- gated region accuracy
+version: 1.0.0
+contact:
+- family-names: Yang
+  given-names: Zhongyu
+  affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
+  email: zyang398@gatech.edu
+  orcid: https://orcid.org/0000-0002-7535-0924

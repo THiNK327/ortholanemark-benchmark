@@ -1,0 +1,24 @@
+{
+  "epoch": 37,
+  "seed": 0,
+  "config": {
+    "input_h": 800,
+    "input_w": 320,
+    "num_lanes": 2,
+    "batch_size": 4,
+    "lr": 0.05,
+    "epochs": 100,
+    "rotation_deg": 2.0
+  },
+  "config_model": null,
+  "env": {
+    "python_version": "3.12.4",
+    "torch_version": "2.5.1",
+    "cuda_version": "12.1",
+    "cudnn_version": 90100,
+    "gpu_name": "NVIDIA GeForce RTX 4070"
+  },
+  "val_gra": 0.8678451006196776,
+  "best_val_gra": 0.8678451006196776,
+  "method": "scnn_faithful"
+}

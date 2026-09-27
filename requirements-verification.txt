@@ -1,0 +1,4 @@
+# OrthoLaneMark offline checks; installation specification, not a historical lock.
+numpy
+opencv-python
+scipy

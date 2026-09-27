@@ -1,0 +1,28 @@
+{
+  "epoch": 63,
+  "seed": 0,
+  "config": {
+    "img_h": 360,
+    "img_w": 640,
+    "max_lanes": 2,
+    "max_points": 56,
+    "backbone": "efficientnet-b0",
+    "num_outputs": 14,
+    "batch_size": 16,
+    "lr": 0.0003,
+    "epochs": 100,
+    "cosine_t_max": 100,
+    "rotation_deg": 2.0
+  },
+  "config_model": null,
+  "env": {
+    "python_version": "3.12.4",
+    "torch_version": "2.5.1",
+    "cuda_version": "12.1",
+    "cudnn_version": 90100,
+    "gpu_name": "NVIDIA GeForce RTX 4070"
+  },
+  "val_gra": 0.8716158508160553,
+  "best_val_gra": 0.8716158508160553,
+  "method": "polylanenet_faithful"
+}

@@ -1,0 +1,38 @@
+{
+  "source_sha256": "92e474a008e51d2b12cac176a3faf4f14d4d0b67e44c7cecbbd818cbaeffbe7d",
+  "source_artifact": "paper_tables/table_latency.md",
+  "device": "RTX 4070",
+  "scope": "Retained median timings; no retiming",
+  "rows": [
+    {
+      "method": "laneatt_faithful",
+      "median_ms": 8.0,
+      "parameters_millions": 22.1
+    },
+    {
+      "method": "ufldv2_faithful",
+      "median_ms": 9.2,
+      "parameters_millions": 59.2
+    },
+    {
+      "method": "polylanenet_faithful",
+      "median_ms": 9.3,
+      "parameters_millions": 4.1
+    },
+    {
+      "method": "clrnet_faithful",
+      "median_ms": 9.6,
+      "parameters_millions": 11.8
+    },
+    {
+      "method": "unet_seg",
+      "median_ms": 28.1,
+      "parameters_millions": 31.0
+    },
+    {
+      "method": "scnn_faithful",
+      "median_ms": 30.9,
+      "parameters_millions": 20.6
+    }
+  ]
+}

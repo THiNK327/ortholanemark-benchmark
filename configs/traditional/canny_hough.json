@@ -1,0 +1,15 @@
+{
+  "method": "canny_hough",
+  "selected_parameters": {
+    "hough_threshold": 120,
+    "max_angle_from_vertical_deg": 15,
+    "min_total_length_px": 80
+  },
+  "selected_candidate": 3,
+  "validation_gra": 0.5872530627165605,
+  "original_validation_gra": 0.5558338271936812,
+  "archived_validation_difference": 0.0,
+  "selection_split": "val",
+  "n_candidates": 18,
+  "plan_sha256": "5b65db5734c48ab951bb2a12027d24c1f7f4c9a6e2dc153d114b55ecf18ef500"
+}

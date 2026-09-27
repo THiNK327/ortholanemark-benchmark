@@ -1,0 +1,2652 @@
+{
+  "n_images": 294,
+  "wheelpath_disagreement_percent": 22.36351794076855,
+  "per_image": [
+    {
+      "stem": "olm_000044",
+      "project": "section_01",
+      "disagreement": 0.1730020864316173,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000045",
+      "project": "section_01",
+      "disagreement": 0.2009379589857032,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000046",
+      "project": "section_01",
+      "disagreement": 0.017795439660900247,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000047",
+      "project": "section_01",
+      "disagreement": 0.7357614441146023,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000048",
+      "project": "section_01",
+      "disagreement": 0.7054171734481184,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000049",
+      "project": "section_01",
+      "disagreement": 0.17430117921665378,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000050",
+      "project": "section_01",
+      "disagreement": 0.17763231350227138,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000051",
+      "project": "section_01",
+      "disagreement": 0.17413402251142795,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000052",
+      "project": "section_01",
+      "disagreement": 0.10577647253148581,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000053",
+      "project": "section_01",
+      "disagreement": 0.684894556485288,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000054",
+      "project": "section_01",
+      "disagreement": 0.03250459803675443,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000055",
+      "project": "section_01",
+      "disagreement": 0.717042662708387,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000056",
+      "project": "section_02",
+      "disagreement": 0.26244213063516075,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000057",
+      "project": "section_02",
+      "disagreement": 0.2921035750371126,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000058",
+      "project": "section_02",
+      "disagreement": 0.08950004508779896,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000059",
+      "project": "section_02",
+      "disagreement": 0.4750741723922548,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000060",
+      "project": "section_02",
+      "disagreement": 0.48277016043604093,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000061",
+      "project": "section_02",
+      "disagreement": 0.44878281819389465,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000062",
+      "project": "section_02",
+      "disagreement": 0.04921137419013011,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000063",
+      "project": "section_02",
+      "disagreement": 0.0903887739302931,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000064",
+      "project": "section_02",
+      "disagreement": 0.17967062753018737,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000065",
+      "project": "section_02",
+      "disagreement": 0.12557451141225218,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000066",
+      "project": "section_02",
+      "disagreement": 0.11975081433592227,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000067",
+      "project": "section_02",
+      "disagreement": 0.1844471024138865,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000068",
+      "project": "section_02",
+      "disagreement": 0.09418826523105683,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000069",
+      "project": "section_02",
+      "disagreement": 0.37691215978455783,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000070",
+      "project": "section_02",
+      "disagreement": 0.16891401952670093,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000071",
+      "project": "section_02",
+      "disagreement": 0.03540744454546807,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000072",
+      "project": "section_02",
+      "disagreement": 0.48943978940095767,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000073",
+      "project": "section_02",
+      "disagreement": 0.03794920172001226,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000074",
+      "project": "section_02",
+      "disagreement": 0.19283596805801428,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000075",
+      "project": "section_02",
+      "disagreement": 0.09630126565506658,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000076",
+      "project": "section_02",
+      "disagreement": 0.10591854995185246,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000077",
+      "project": "section_02",
+      "disagreement": 0.1312882151560001,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000078",
+      "project": "section_02",
+      "disagreement": 0.46296483017605816,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000079",
+      "project": "section_02",
+      "disagreement": 0.2565008110758227,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000080",
+      "project": "section_02",
+      "disagreement": 0.03594997171767955,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000081",
+      "project": "section_02",
+      "disagreement": 0.4513132547479415,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000212",
+      "project": "section_03",
+      "disagreement": 0.4030722635076597,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000213",
+      "project": "section_03",
+      "disagreement": 0.198369596550094,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000214",
+      "project": "section_03",
+      "disagreement": 0.2062831747926822,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000215",
+      "project": "section_03",
+      "disagreement": 0.20032153481596615,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000216",
+      "project": "section_03",
+      "disagreement": 0.18743121301453392,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000217",
+      "project": "section_03",
+      "disagreement": 0.13900168606447239,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000218",
+      "project": "section_03",
+      "disagreement": 0.07508107758501215,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000219",
+      "project": "section_03",
+      "disagreement": 0.38473327423610804,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000288",
+      "project": "section_04",
+      "disagreement": 0.5685241751454571,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000289",
+      "project": "section_04",
+      "disagreement": 0.17986699924136862,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000290",
+      "project": "section_04",
+      "disagreement": 0.1955933502562618,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000291",
+      "project": "section_04",
+      "disagreement": 0.19196291354328265,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000292",
+      "project": "section_04",
+      "disagreement": 0.20258970874763638,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000293",
+      "project": "section_04",
+      "disagreement": 0.36818606092192896,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000294",
+      "project": "section_04",
+      "disagreement": 0.19760974213563054,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000295",
+      "project": "section_04",
+      "disagreement": 0.18738390193891918,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000296",
+      "project": "section_04",
+      "disagreement": 0.18663302994519282,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000297",
+      "project": "section_04",
+      "disagreement": 0.18834378057175982,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000298",
+      "project": "section_05",
+      "disagreement": 0.32453041613973144,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000299",
+      "project": "section_05",
+      "disagreement": 0.1994529222135476,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000300",
+      "project": "section_05",
+      "disagreement": 0.1982371552326797,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000301",
+      "project": "section_05",
+      "disagreement": 0.1709141697815998,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000302",
+      "project": "section_05",
+      "disagreement": 0.6145951265715068,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000303",
+      "project": "section_05",
+      "disagreement": 0.13021902614327763,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000304",
+      "project": "section_05",
+      "disagreement": 0.3665778302795961,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000305",
+      "project": "section_05",
+      "disagreement": 0.0,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": false,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000306",
+      "project": "section_05",
+      "disagreement": 0.0,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": false,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000307",
+      "project": "section_05",
+      "disagreement": 0.3185002636591586,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000308",
+      "project": "section_05",
+      "disagreement": 0.0,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": false,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000309",
+      "project": "section_05",
+      "disagreement": 0.0,
+      "gt_left": false,
+      "gt_right": false,
+      "pred_left": false,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000310",
+      "project": "section_05",
+      "disagreement": 0.5229448698034984,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000559",
+      "project": "section_06",
+      "disagreement": 0.01286234461577107,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000560",
+      "project": "section_06",
+      "disagreement": 0.2986489236236586,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000561",
+      "project": "section_06",
+      "disagreement": 0.02740642607863386,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000562",
+      "project": "section_06",
+      "disagreement": 0.011749763597046936,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000563",
+      "project": "section_06",
+      "disagreement": 0.024260500462718215,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000564",
+      "project": "section_06",
+      "disagreement": 0.01761153908675328,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000565",
+      "project": "section_06",
+      "disagreement": 0.013624943785585875,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000566",
+      "project": "section_06",
+      "disagreement": 0.34974566280155095,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000567",
+      "project": "section_06",
+      "disagreement": 0.01792273545690448,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000568",
+      "project": "section_06",
+      "disagreement": 0.17829799109989264,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000569",
+      "project": "section_06",
+      "disagreement": 0.21845326112130548,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000570",
+      "project": "section_06",
+      "disagreement": 0.1912722374034772,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000571",
+      "project": "section_06",
+      "disagreement": 0.2013819142476453,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000572",
+      "project": "section_06",
+      "disagreement": 0.18389580501724212,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000573",
+      "project": "section_06",
+      "disagreement": 0.19579779656393304,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000574",
+      "project": "section_06",
+      "disagreement": 0.1886617470719717,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000575",
+      "project": "section_06",
+      "disagreement": 0.19029680580147412,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000576",
+      "project": "section_06",
+      "disagreement": 0.558833568198646,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000577",
+      "project": "section_06",
+      "disagreement": 0.6113150390640094,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000578",
+      "project": "section_06",
+      "disagreement": 0.18785952866951194,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000579",
+      "project": "section_06",
+      "disagreement": 0.17831319155757808,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000580",
+      "project": "section_06",
+      "disagreement": 0.013230296807499542,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000581",
+      "project": "section_06",
+      "disagreement": 0.15485490886090336,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000582",
+      "project": "section_06",
+      "disagreement": 0.15264201749226325,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000583",
+      "project": "section_06",
+      "disagreement": 0.024098099577552157,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000584",
+      "project": "section_06",
+      "disagreement": 0.060961809479414764,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000585",
+      "project": "section_06",
+      "disagreement": 0.09301655032796297,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000586",
+      "project": "section_06",
+      "disagreement": 0.19786569630144368,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000587",
+      "project": "section_06",
+      "disagreement": 0.1934092679549827,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000588",
+      "project": "section_06",
+      "disagreement": 0.07975027536381052,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000589",
+      "project": "section_06",
+      "disagreement": 0.19418557112086088,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000590",
+      "project": "section_06",
+      "disagreement": 0.18394461757505753,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000591",
+      "project": "section_06",
+      "disagreement": 0.177332431234398,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000592",
+      "project": "section_06",
+      "disagreement": 0.28472169462728003,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000593",
+      "project": "section_06",
+      "disagreement": 0.07012099569405394,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000594",
+      "project": "section_06",
+      "disagreement": 0.17550790150089834,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000595",
+      "project": "section_06",
+      "disagreement": 0.16669441069125157,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000596",
+      "project": "section_06",
+      "disagreement": 0.10972373234292943,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000597",
+      "project": "section_06",
+      "disagreement": 0.12149141559147092,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000598",
+      "project": "section_06",
+      "disagreement": 0.09251456937371916,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000599",
+      "project": "section_06",
+      "disagreement": 0.0723278029703115,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000600",
+      "project": "section_06",
+      "disagreement": 0.08525076321904579,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000601",
+      "project": "section_06",
+      "disagreement": 0.1545239262282012,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000602",
+      "project": "section_06",
+      "disagreement": 0.31515270781917415,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000603",
+      "project": "section_06",
+      "disagreement": 0.23430117171774245,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000604",
+      "project": "section_06",
+      "disagreement": 0.030160604945557612,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000605",
+      "project": "section_06",
+      "disagreement": 0.13458162852957523,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000606",
+      "project": "section_06",
+      "disagreement": 0.7143311617356183,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000607",
+      "project": "section_06",
+      "disagreement": 0.6807201613615532,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000608",
+      "project": "section_06",
+      "disagreement": 0.6708972143331033,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000609",
+      "project": "section_06",
+      "disagreement": 0.255585355598701,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000610",
+      "project": "section_06",
+      "disagreement": 0.6128404367000251,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000611",
+      "project": "section_06",
+      "disagreement": 0.19410614032806595,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000612",
+      "project": "section_06",
+      "disagreement": 0.18857381344339075,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000613",
+      "project": "section_06",
+      "disagreement": 0.16420388498517047,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000614",
+      "project": "section_06",
+      "disagreement": 0.1840488302005754,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000615",
+      "project": "section_06",
+      "disagreement": 0.608622261326699,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000616",
+      "project": "section_06",
+      "disagreement": 0.17947732065666977,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000617",
+      "project": "section_06",
+      "disagreement": 0.21257617106646998,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000618",
+      "project": "section_06",
+      "disagreement": 0.18241038556164968,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000619",
+      "project": "section_06",
+      "disagreement": 0.19134028196281538,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000620",
+      "project": "section_06",
+      "disagreement": 0.19352284001332454,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000621",
+      "project": "section_06",
+      "disagreement": 0.21378557424650335,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000622",
+      "project": "section_06",
+      "disagreement": 0.23544400110955277,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000623",
+      "project": "section_06",
+      "disagreement": 0.0931198237737616,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000624",
+      "project": "section_06",
+      "disagreement": 0.10154374683432799,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000625",
+      "project": "section_06",
+      "disagreement": 0.021344156316977503,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000626",
+      "project": "section_06",
+      "disagreement": 0.2506863101962564,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000627",
+      "project": "section_06",
+      "disagreement": 0.08499185738863468,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000628",
+      "project": "section_06",
+      "disagreement": 0.5035374378577375,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000629",
+      "project": "section_06",
+      "disagreement": 0.040709357258623236,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000630",
+      "project": "section_06",
+      "disagreement": 0.6322843623053194,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000631",
+      "project": "section_06",
+      "disagreement": 0.010955656245400291,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000632",
+      "project": "section_06",
+      "disagreement": 0.02252580406078286,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000633",
+      "project": "section_06",
+      "disagreement": 0.19606077399094857,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000634",
+      "project": "section_06",
+      "disagreement": 0.6041733356162854,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000635",
+      "project": "section_06",
+      "disagreement": 0.22532293798497482,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000636",
+      "project": "section_06",
+      "disagreement": 0.19745769433208593,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000637",
+      "project": "section_06",
+      "disagreement": 0.18915769032133756,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000638",
+      "project": "section_06",
+      "disagreement": 0.1844115024067441,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000639",
+      "project": "section_06",
+      "disagreement": 0.18567905678534258,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000640",
+      "project": "section_06",
+      "disagreement": 0.2028300394802297,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000641",
+      "project": "section_06",
+      "disagreement": 0.05331427138667877,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000642",
+      "project": "section_06",
+      "disagreement": 0.18220025027466957,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000643",
+      "project": "section_06",
+      "disagreement": 0.2010402304971174,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000644",
+      "project": "section_06",
+      "disagreement": 0.18704871110041066,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000645",
+      "project": "section_06",
+      "disagreement": 0.18771896885558803,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000646",
+      "project": "section_06",
+      "disagreement": 0.18768218324852892,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000647",
+      "project": "section_06",
+      "disagreement": 0.19492760215626725,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000648",
+      "project": "section_06",
+      "disagreement": 0.1893242558122692,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000649",
+      "project": "section_06",
+      "disagreement": 0.18422952500896994,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000650",
+      "project": "section_06",
+      "disagreement": 0.18418600326991785,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000651",
+      "project": "section_06",
+      "disagreement": 0.19226753283565257,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000652",
+      "project": "section_06",
+      "disagreement": 0.19305018188756873,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000653",
+      "project": "section_06",
+      "disagreement": 0.2129671393249447,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000654",
+      "project": "section_06",
+      "disagreement": 0.20414741214153898,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000655",
+      "project": "section_06",
+      "disagreement": 0.19617661595517855,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000656",
+      "project": "section_06",
+      "disagreement": 0.15999776255727927,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000657",
+      "project": "section_06",
+      "disagreement": 0.00444131540842696,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000658",
+      "project": "section_06",
+      "disagreement": 0.20614159713671498,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000659",
+      "project": "section_06",
+      "disagreement": 0.19492760215626725,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000660",
+      "project": "section_06",
+      "disagreement": 0.1901186268647208,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000661",
+      "project": "section_06",
+      "disagreement": 0.18978575752397453,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000662",
+      "project": "section_06",
+      "disagreement": 0.18611872941244756,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000663",
+      "project": "section_06",
+      "disagreement": 0.1919799121736162,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000664",
+      "project": "section_06",
+      "disagreement": 0.1892901582850115,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000665",
+      "project": "section_06",
+      "disagreement": 0.18879822415288283,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000666",
+      "project": "section_06",
+      "disagreement": 0.18900158933220523,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000667",
+      "project": "section_06",
+      "disagreement": 0.18728401489037416,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000668",
+      "project": "section_06",
+      "disagreement": 0.18567378995327743,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000669",
+      "project": "section_06",
+      "disagreement": 0.18465144581620252,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000670",
+      "project": "section_06",
+      "disagreement": 0.1875507938890013,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000671",
+      "project": "section_06",
+      "disagreement": 0.18621084936118348,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000672",
+      "project": "section_06",
+      "disagreement": 0.19026405495227006,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000673",
+      "project": "section_06",
+      "disagreement": 0.18724063945449,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000674",
+      "project": "section_06",
+      "disagreement": 0.1872464865225456,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000675",
+      "project": "section_06",
+      "disagreement": 0.18876410681075406,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000676",
+      "project": "section_06",
+      "disagreement": 0.18802107983796557,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000677",
+      "project": "section_06",
+      "disagreement": 0.18618058241015967,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000678",
+      "project": "section_06",
+      "disagreement": 0.18866043469251426,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000679",
+      "project": "section_06",
+      "disagreement": 0.4031915729393347,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000680",
+      "project": "section_06",
+      "disagreement": 0.18959698980670692,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000681",
+      "project": "section_06",
+      "disagreement": 0.18978837902066104,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000682",
+      "project": "section_06",
+      "disagreement": 0.1872656134438183,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000683",
+      "project": "section_06",
+      "disagreement": 0.18917736500679416,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000684",
+      "project": "section_06",
+      "disagreement": 0.18636348467767327,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000685",
+      "project": "section_06",
+      "disagreement": 0.18931376440219827,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000686",
+      "project": "section_06",
+      "disagreement": 0.18831127421140814,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000687",
+      "project": "section_06",
+      "disagreement": 0.19046054226830833,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000688",
+      "project": "section_06",
+      "disagreement": 0.1515041949763799,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000689",
+      "project": "section_06",
+      "disagreement": 0.1889307447116778,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000690",
+      "project": "section_06",
+      "disagreement": 0.19451826858635113,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000691",
+      "project": "section_06",
+      "disagreement": 0.645526002499316,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000692",
+      "project": "section_06",
+      "disagreement": 0.19666715236431365,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000693",
+      "project": "section_06",
+      "disagreement": 0.1995308697634256,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000694",
+      "project": "section_06",
+      "disagreement": 0.19112101250875502,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000695",
+      "project": "section_06",
+      "disagreement": 0.1984163358959059,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000696",
+      "project": "section_06",
+      "disagreement": 0.18806179144156354,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000697",
+      "project": "section_06",
+      "disagreement": 0.1885094983692962,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000698",
+      "project": "section_06",
+      "disagreement": 0.18845626826488238,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000699",
+      "project": "section_06",
+      "disagreement": 0.17932882777907244,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000700",
+      "project": "section_06",
+      "disagreement": 0.2062394168125592,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000701",
+      "project": "section_06",
+      "disagreement": 0.18746406647511782,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000702",
+      "project": "section_06",
+      "disagreement": 0.18938064505849384,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000703",
+      "project": "section_06",
+      "disagreement": 0.18172297022098616,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000704",
+      "project": "section_06",
+      "disagreement": 0.17110819138694378,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000705",
+      "project": "section_06",
+      "disagreement": 0.1797304981786383,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000706",
+      "project": "section_06",
+      "disagreement": 0.6084919838006203,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000707",
+      "project": "section_06",
+      "disagreement": 0.3099422676509559,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000708",
+      "project": "section_06",
+      "disagreement": 0.03544991340263215,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000709",
+      "project": "section_06",
+      "disagreement": 0.0391972316602196,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000710",
+      "project": "section_06",
+      "disagreement": 0.04510330439569543,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000711",
+      "project": "section_06",
+      "disagreement": 0.029646676807402184,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000712",
+      "project": "section_06",
+      "disagreement": 0.02031473828164898,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000713",
+      "project": "section_06",
+      "disagreement": 0.006736430863680809,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000714",
+      "project": "section_06",
+      "disagreement": 0.08205431929039075,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000715",
+      "project": "section_06",
+      "disagreement": 0.10944641566164837,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000716",
+      "project": "section_06",
+      "disagreement": 0.639418165731964,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000717",
+      "project": "section_06",
+      "disagreement": 0.20301993282169717,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000718",
+      "project": "section_06",
+      "disagreement": 0.19099738997103421,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000719",
+      "project": "section_06",
+      "disagreement": 0.189170806825812,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000720",
+      "project": "section_06",
+      "disagreement": 0.19182429739716722,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000721",
+      "project": "section_06",
+      "disagreement": 0.19235641525477654,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000722",
+      "project": "section_06",
+      "disagreement": 0.18853574997155997,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000723",
+      "project": "section_06",
+      "disagreement": 0.18799218662230877,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000724",
+      "project": "section_06",
+      "disagreement": 0.19395741496067886,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000725",
+      "project": "section_06",
+      "disagreement": 0.1943161405746553,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000726",
+      "project": "section_06",
+      "disagreement": 0.19021689164683753,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000727",
+      "project": "section_06",
+      "disagreement": 0.6477763598921348,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000728",
+      "project": "section_06",
+      "disagreement": 0.615819375871111,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000729",
+      "project": "section_06",
+      "disagreement": 0.08459277692563472,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000730",
+      "project": "section_06",
+      "disagreement": 0.0706646097378959,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000731",
+      "project": "section_06",
+      "disagreement": 0.07806884357402322,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000732",
+      "project": "section_06",
+      "disagreement": 0.07728691339946436,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000733",
+      "project": "section_06",
+      "disagreement": 0.13714766010843293,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000734",
+      "project": "section_06",
+      "disagreement": 0.6731461629440965,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000735",
+      "project": "section_06",
+      "disagreement": 0.6284124184636902,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000736",
+      "project": "section_06",
+      "disagreement": 0.20555445496228797,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000737",
+      "project": "section_06",
+      "disagreement": 0.20411587906372664,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000738",
+      "project": "section_06",
+      "disagreement": 0.6329836170116294,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000739",
+      "project": "section_06",
+      "disagreement": 0.20573089551971002,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000740",
+      "project": "section_06",
+      "disagreement": 0.2204607156025734,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000741",
+      "project": "section_06",
+      "disagreement": 0.6530793437547915,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000742",
+      "project": "section_06",
+      "disagreement": 0.09965702610007054,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000743",
+      "project": "section_06",
+      "disagreement": 0.666009866438591,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000744",
+      "project": "section_06",
+      "disagreement": 0.206631875325048,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000745",
+      "project": "section_06",
+      "disagreement": 0.66292817802421,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000746",
+      "project": "section_06",
+      "disagreement": 0.6655014177559448,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000747",
+      "project": "section_06",
+      "disagreement": 0.6529815734787039,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000748",
+      "project": "section_06",
+      "disagreement": 0.06827787745463931,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000749",
+      "project": "section_06",
+      "disagreement": 0.1138822790941203,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000750",
+      "project": "section_06",
+      "disagreement": 0.12551969966326837,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000751",
+      "project": "section_06",
+      "disagreement": 0.04496578690127073,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000752",
+      "project": "section_06",
+      "disagreement": 0.15096279367333432,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000753",
+      "project": "section_06",
+      "disagreement": 0.19770459657419692,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000754",
+      "project": "section_06",
+      "disagreement": 0.24720077964509324,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000755",
+      "project": "section_06",
+      "disagreement": 0.19944528510343462,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000756",
+      "project": "section_06",
+      "disagreement": 0.6227763166221942,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000757",
+      "project": "section_06",
+      "disagreement": 0.18560795197231672,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000758",
+      "project": "section_06",
+      "disagreement": 0.1986681672961721,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000759",
+      "project": "section_06",
+      "disagreement": 0.06293598468324746,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000760",
+      "project": "section_06",
+      "disagreement": 0.6714815139248225,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000761",
+      "project": "section_06",
+      "disagreement": 0.45028362744748274,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000762",
+      "project": "section_06",
+      "disagreement": 0.11931374510833503,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000763",
+      "project": "section_06",
+      "disagreement": 0.13037144284470714,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000764",
+      "project": "section_06",
+      "disagreement": 0.012050156769724651,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000765",
+      "project": "section_06",
+      "disagreement": 0.04775046190224075,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000766",
+      "project": "section_06",
+      "disagreement": 0.06790614351747737,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000767",
+      "project": "section_06",
+      "disagreement": 0.19764930306731132,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000768",
+      "project": "section_06",
+      "disagreement": 0.19309850359645675,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000769",
+      "project": "section_06",
+      "disagreement": 0.18697567357452838,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000770",
+      "project": "section_06",
+      "disagreement": 0.19073948095934234,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000771",
+      "project": "section_06",
+      "disagreement": 0.19327217921005524,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000772",
+      "project": "section_06",
+      "disagreement": 0.1870920957215374,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000773",
+      "project": "section_06",
+      "disagreement": 0.18014523896876833,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000774",
+      "project": "section_06",
+      "disagreement": 0.1938373731170755,
+      "gt_left": false,
+      "gt_right": true,
+      "pred_left": false,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000775",
+      "project": "section_06",
+      "disagreement": 0.663139839386115,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000776",
+      "project": "section_06",
+      "disagreement": 0.6788674677047492,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000777",
+      "project": "section_06",
+      "disagreement": 0.17844797938877455,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000778",
+      "project": "section_06",
+      "disagreement": 0.11435458883124683,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000779",
+      "project": "section_06",
+      "disagreement": 0.037282216834779947,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000780",
+      "project": "section_06",
+      "disagreement": 0.08858856792468117,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000781",
+      "project": "section_06",
+      "disagreement": 0.10133840453187737,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": false
+    },
+    {
+      "stem": "olm_000782",
+      "project": "section_06",
+      "disagreement": 0.24912674288171943,
+      "gt_left": true,
+      "gt_right": false,
+      "pred_left": true,
+      "pred_right": true
+    },
+    {
+      "stem": "olm_000783",
+      "project": "section_06",
+      "disagreement": 0.23101467072288084,
+      "gt_left": true,
+      "gt_right": true,
+      "pred_left": true,
+      "pred_right": true
+    }
+  ]
+}

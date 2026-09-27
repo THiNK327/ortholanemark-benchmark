@@ -1,0 +1,17 @@
+{
+  "method": "ufldv2_faithful",
+  "seed": 2,
+  "checkpoint": "weights/ufldv2_faithful_seed2/best_gra.pth",
+  "checkpoint_sha256": "b03e9d634415b0edfa64968c3ae2f670cd781eb52245c5dc82a7bfcea88b5eb7",
+  "training_performed": false,
+  "historical_checkpoint_rule": "native decoder presence decisions",
+  "best_logged_validation_gra": 0.7011467878201237,
+  "recomputed_historical_rule_validation_gra": 0.7011468086615151,
+  "old_threshold": 0.54,
+  "new_threshold": 0.54,
+  "old_gra": 0.8272554807496139,
+  "new_gra": 0.8272554839631233,
+  "old_report": "lcms_lane_benchmark\\runs_reselect\\ufldv2_faithful_seed2__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "5cb2ab9d58e08a3ae07bfb5a99587608a657b23fccffe5d9ea77fbf32f653b99"
+}

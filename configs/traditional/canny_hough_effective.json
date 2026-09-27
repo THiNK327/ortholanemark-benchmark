@@ -1,0 +1,17 @@
+{
+  "method": "canny_hough",
+  "effective_parameters": {
+    "hough_threshold": 120,
+    "hough_min_line_length": 40,
+    "hough_max_line_gap": 12,
+    "max_angle_from_vertical_deg": 15,
+    "min_segment_length_px": 30.0,
+    "min_total_length_px": 80
+  },
+  "selected_overrides": {
+    "hough_threshold": 120,
+    "max_angle_from_vertical_deg": 15,
+    "min_total_length_px": 80
+  },
+  "basis": "Saved selected_configuration plus constructor defaults; no execution/tuning"
+}

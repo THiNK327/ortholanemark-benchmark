@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-24",
+  "source_computations_modified": false,
+  "original_files_modified": false,
+  "training_or_benchmark_inference_or_selection_or_timing_run": false,
+  "checks": [
+    {
+      "check": "18 retained selected checkpoints match archived hashes",
+      "status": "pass",
+      "count": 18
+    },
+    {
+      "check": "Checkpoint copies match originals and metadata epochs match history",
+      "status": "pass",
+      "count": 18
+    },
+    {
+      "check": "All repackaged prediction numeric arrays retain exact dtype and values",
+      "status": "pass",
+      "scope": "54 learning and 3 traditional NPZ files"
+    },
+    {
+      "check": "Learning mean/std score reconstruction matches retained summary at1e-12 absolute tolerance",
+      "status": "pass",
+      "method_count": 6
+    },
+    {
+      "check": "Traditional saved-score summaries reconstructed",
+      "status": "pass",
+      "method_count": 3
+    },
+    {
+      "check": "Existing synthetic ground truth/GRA functions",
+      "status": "pass",
+      "count": 17
+    },
+    {
+      "check": "Independent historical raster comparisons",
+      "status": "pass",
+      "count": 100
+    },
+    {
+      "check": "Additional edge-case conventions",
+      "status": "pass",
+      "count": 11
+    },
+    {
+      "check": "Existing synthetic Torch decoder stubs",
+      "status": "pass",
+      "count": 6
+    },
+    {
+      "check": "Portable companion manifest paths resolve",
+      "status": "pass",
+      "images": 1391
+    },
+    {
+      "check": "Saved CLRNet seed0 test predictions reevaluated with original helpers match saved region/boundary/wheelpath values exactly",
+      "status": "pass",
+      "images": 294
+    }
+  ],
+  "remaining_gaps": [
+    "No complete original dependency lock",
+    "GPU original raw timing log/command unavailable; exact warm-up count unverified",
+    "Redistribution approval and final publication/citation/license metadata pending",
+    "No new benchmark inference/training reproduction undertaken",
+    "Range physical units/scale, invalid-value codes and calibrated registration undocumented"
+  ],
+  "remaining_gaps_updated_date": "2026-09-26",
+  "packaging_updates": [
+    {
+      "date": "2026-09-26",
+      "change": "All 1,391 paired range-image exports added to the companion dataset; documentation and metadata updated",
+      "resolved_previous_gap": "Incomplete range omitted",
+      "range_images": 1391,
+      "range_pairing_report": "../../dataset/reports/range_pairing_report.json",
+      "dataset_validation_report": "../../dataset/reports/validation_report.json",
+      "historical_checks_above": "Preserved 2026-09-24 results; not newly executed by this packaging update",
+      "source_computations_modified": false,
+      "training_or_benchmark_inference_or_selection_or_timing_run": false
+    },
+    {
+      "date": "2026-09-26",
+      "change": "PNG standardization of all 1,391 intensity and 1,391 range images; paths, annotation filename references, hashes and documentation updated",
+      "intensity_images": 1391,
+      "range_images": 1391,
+      "converted_jpeg_images": 2490,
+      "existing_png_images_retained_byte_for_byte": 292,
+      "conversion": "Decoded pixels, image modes and dimensions preserved; original source files unchanged",
+      "png_conversion_report": "../../dataset/reports/png_conversion_report.json",
+      "dataset_validation_report": "../../dataset/reports/validation_report.json",
+      "historical_checks_above": "Preserved 2026-09-24 results; not newly executed by this packaging update",
+      "source_computations_modified": false,
+      "training_or_benchmark_inference_or_selection_or_timing_run": false,
+      "annotation_values_splits_checkpoints_and_reported_results_modified": false,
+      "annotation_filename_references_updated": {
+        "dense": 1245,
+        "benchmark_compat": 1245,
+        "total": 2490
+      }
+    }
+  ]
+}

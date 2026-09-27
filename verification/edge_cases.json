@@ -1,0 +1,51 @@
+{
+  "scope": "Synthetic software tests only; original source/results unchanged.",
+  "test_count": 11,
+  "passed": 11,
+  "results": [
+    {
+      "name": "correct_absence_full_image_GRA_one_and_presence_mismatch_zero",
+      "status": "pass"
+    },
+    {
+      "name": "nonfinite_prediction_corresponding_edge_and_finite_coordinate_clipping",
+      "status": "pass"
+    },
+    {
+      "name": "inclusive_integer_pixels_reversed_empty_equal_integer_one_pixel",
+      "status": "pass"
+    },
+    {
+      "name": "two_empty_regions_IoU_one_wheelpath_disagreement_zero",
+      "status": "pass"
+    },
+    {
+      "name": "wheelpath_equal_boundaries_valid_strips_instead_of_lane_one_pixel",
+      "status": "pass"
+    },
+    {
+      "name": "GT_NaN_coefficients_are_not_prediction_style_sanitized",
+      "status": "pass"
+    },
+    {
+      "name": "strict_less_than_tolerances_and_finite_row_mask",
+      "status": "pass"
+    },
+    {
+      "name": "MAE_equal_side_weights_and_images_without_rows_excluded",
+      "status": "pass"
+    },
+    {
+      "name": "LaneATT_CLRNet_two_to_four_linear_five_quadratic_no_curve_under_two",
+      "status": "pass"
+    },
+    {
+      "name": "segmentation_support_full_height_absence_and_zero_threshold_endpoint",
+      "status": "pass"
+    },
+    {
+      "name": "wheelpath_interval_calculation_equals_independent_synthetic_raster",
+      "status": "pass"
+    }
+  ]
+}

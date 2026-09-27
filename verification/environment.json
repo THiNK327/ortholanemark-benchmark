@@ -1,0 +1,17 @@
+{
+  "purpose": "Current local verification, distinct from recorded original training/timing environments",
+  "default_python": "3.13.1",
+  "default_dependencies": {
+    "numpy": "2.4.4",
+    "opencv-python": "4.13.0.92",
+    "scipy": "1.17.1"
+  },
+  "decoder_stubs": {
+    "environment": "existing AISC environment",
+    "python": "3.9.18",
+    "torch": "2.5.1",
+    "efficientnet_pytorch": "0.6.3 from retained dependency directory",
+    "benchmark_inference": false,
+    "cuda": "11.8"
+  }
+}

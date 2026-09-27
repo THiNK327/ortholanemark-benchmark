@@ -1,0 +1,1925 @@
+{
+  "identifiers": "Match companion core dataset; private ID crosswalk excluded",
+  "files": [
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "9e2b52564816811b08987b04bc6d7ed12fd3fe67e0f39d1f48d1ec45403ed7e7",
+      "package_sha256": "d40449154ca8c7dd37fc73430e9fa058445744cb02a76e5d80fe6b8ced16dbed",
+      "bytes": 254526,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "43c6da006a0f691d8f5924d9500109aaeb08a1845a9504db43654212845545f1",
+      "package_sha256": "dfa1f4505f00ee0401a89d3f415b2b543f4e6cf96c1238150e5082e699a3e1c2",
+      "bytes": 165546,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "6170aae5ecb19d116db7c32725dec28004f71117e214acbef21495b8dbaa4fd0",
+      "package_sha256": "b6e45726903efb1db30047898b512d4cb4e23ad5eb5bd4a03e21fc5dbc6f93a6",
+      "bytes": 1946,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "9d088693a14c44fe2abf8a379883cbf5e62c37e97b27b51efccdb0c8e96c2c2a",
+      "package_sha256": "f34149fac5e6b5ffc0dee870146561437924bea6a998198b9a83d3cca2ce07f0",
+      "bytes": 65456,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "f6091a70f4eeb12a253dbbee2ec0a0a27d2b72abd973b51955d615b91ea4fb4c",
+      "package_sha256": "9dbacf2da80e8e20add38d8594a60d5a10b3f875f197354c34b541c8a26caaff",
+      "bytes": 743,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "f88ad1a7a8590cbe9d4e2d9f5769109bcc8decd63db39dd0b93616a290ceb49e",
+      "package_sha256": "13635729c0603298b4860d3706894a12294522b63a644daf3f6978280c4a17b0",
+      "bytes": 4286334,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "b09ceb4e2e4935d5b33c2e5773f3d71a48dffec99d14b82f0fdd6a3fbe3a56ad",
+      "package_sha256": "5e85718133f293bbc59aadfa6614deb39f7203ed2fe2c12e4949e2b8cd44a81f",
+      "bytes": 7315231,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "9bbce07f3d8b7847ec14591f78535241fa9cc42e7c189bed355d9ae3016e0c80",
+      "package_sha256": "d737143df2a2e7edf29422a66d373a809028e74413f186dc6b23f38705eaac41",
+      "bytes": 7315684,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "0d644c3fd571d2f185de09843735aee5f7b0f5cbd5653de2899cd4e7e231fb3f",
+      "package_sha256": "7be5d88a294f29142d6dd0894c56ae491938251f462e414c61129a688da87c2a",
+      "bytes": 254890,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "164215ebef71f76e8e2312111adbcf3734444e094162997b0c45b144a88329b2",
+      "package_sha256": "38294b1d71f6ac3a6ecb748eee8611561f5f6a278ccc00196221def50958edde",
+      "bytes": 165756,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "f217f9faf9d0565451f7659b66c6409e2a24eae55a846cf7a8db8daf6c9addc9",
+      "package_sha256": "38024f9182351804257ecaff1bd8043af4f32587ed4df63fae4dcff8a37edc8d",
+      "bytes": 1979,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "9c6031081e9a4800fc6071937ba401b1b8eb76ee288fea27f70d5c45fb72f4e2",
+      "package_sha256": "1b4abc10de35118c317fe71a9a3ddd0e30b871c1ca965f11c51f186071d3f267",
+      "bytes": 65467,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "c74254e7660c72d372284df176fcf64b0aa589a7f8dfa87f86f235fd447bdf1c",
+      "package_sha256": "f934dbb5c20fe95ed34583c4530bb2a0bbe8dcc73c30e39004992b64a6b07885",
+      "bytes": 749,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "a0781a94a83ae690f3e48d713ef94f87ae3047344fed167f91b94fe5e82d4b8d",
+      "package_sha256": "63be4329d7dda22b3d02b8e775a141cf9a4ca769da5e820f91803b4c069feb46",
+      "bytes": 4328631,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "660c42d518f2c5b239f22a7f72c9968d64c7cd6ab08c160747411f2e52362346",
+      "package_sha256": "c0be5cd3336fbff12c29d1cbf0b84389a88d2ddd1bc8e43d00dbc3d652049e94",
+      "bytes": 7392587,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "fee1b752819a98b75eb48d1048277cd3f5d80f8dc39949308cf858f4f6bc95b9",
+      "package_sha256": "1a4892afe52b0b423df8e3491d5dfe2ddecfa1f36559095b3d9bf9095ae5b644",
+      "bytes": 7393041,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "ab13a56f0d4b5168d2c0f44b9f95525149b29398711c892667f84ec368b4a358",
+      "package_sha256": "09dcd09158ffafe50180659759b98f15c30f649f8d5e23684a3e14749fc68d3a",
+      "bytes": 254826,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "042212ceef667ecd9b958a904ae5a197e2f92159a153394ed373f712fc3a62b1",
+      "package_sha256": "60d4727cce26ca17ca9197c6311db72daad03e67a1edd8d3c47d4e4c97cfab83",
+      "bytes": 165949,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "a5e2cc0dc9cbf6e75cab80dd0ec4f6120b08000795998568344c8ca13e1194ff",
+      "package_sha256": "4fc3667ee37d6cd6cf9b2fc164a6a518d2df7a7e52a6c97797e96f88075023a5",
+      "bytes": 1954,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "bb82817e3b338b85bc92ff9623e88c7bb848430059106258ec25455b5dd2c0e4",
+      "package_sha256": "157d8bf35d746207d3181d0b73a8a770d62a7205ead8102184f4548257f26707",
+      "bytes": 65479,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "59ecdf27751f25e0990471ff28424d4167131019d9f5e1dfe917e626def8fc7f",
+      "package_sha256": "16ba63c97bbff2d327e82264ede9b8c01a3c70baf03680cb73b77b9db8efa6c4",
+      "bytes": 746,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "9c0296eb8e80cb40943d1544043a60c0410ad4c070e0c0c80028406abebe2135",
+      "package_sha256": "1234ca7e95e2350ec23584fb9e2ff9c268dae9082dd71646638e15fa6689700a",
+      "bytes": 4455978,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "056390078ac724c7c4f548dfc3aff8d0794b66551d20a0e151d78df7357bb4b1",
+      "package_sha256": "16b8a5de4354c48d15554685b75e1809e11f1f127d6d58219c47522878c3311c",
+      "bytes": 7492174,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/clrnet_faithful_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "6fc4e549dc1349b07371f8680bf8060e8ed5bbf31056cb5ccbb8aa2c9881ac01",
+      "package_sha256": "ad58a84663d7afde7c8ac64c67ccda912198ed1bd9c1db47703f3657aea7bd63",
+      "bytes": 7492622,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "2492dfcc59873b557c69e260242a865b335090842c17de86e14e7c5d15934aff",
+      "package_sha256": "a9ae22e005552b1180ea4a9c13b70e117a942b2ddb2f7cf9d0aa1203ca69889f",
+      "bytes": 261650,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "9f7cf084e2a9a4c89a99782c231153d6b579329bbb1db0daa5b484b1c606b5d1",
+      "package_sha256": "db08687f61cddbe918fcdb90001cd88155445a7a690fae235cdc76b3b7eaf838",
+      "bytes": 169179,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "5be94edd7ad20a9d1f7505a0558f23712c64e47b2d0583676347aa3b4ee44b8b",
+      "package_sha256": "bb7e359373afa1f128222eebef2fcd75e0832bbe312dbdf3e3437edd84283c63",
+      "bytes": 1983,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "dd5e76f45f304561d582f0c8d80c1bed0e7d6f775b6023519515fc1c95a3afab",
+      "package_sha256": "1348bf6c1f1e9f9104b15fea162dfda79107c4fddaa9b16a2a97d5c5649315d7",
+      "bytes": 65171,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "5c17d1362a6f341f79fd7c7cc95515e705af3ae700348d042b24c9144b3da25a",
+      "package_sha256": "d933d7440bfc4b334586e922431fa455c00b9a66b5f89c12eff11bb4db8e63bf",
+      "bytes": 762,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "97aee670db4d46e7ebbdeaa1b4bfecfa69d7eb9cf57e01e14395979a737948f6",
+      "package_sha256": "c050c1b3510eba62773ac15459151988d799c04de6aef178fc9200479a8158a0",
+      "bytes": 3238121,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "8ffebd39f94a00aeaa6b1939faef188b45ae5742d86b562aca29e9bdd6cc875d",
+      "package_sha256": "b71a24c18fa85e963b7e5ec5e2ccf2f48c8802b99e7c1cfc86b4d02fc98e5447",
+      "bytes": 6416193,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "c210d51cf8d8e23b34a6e0d79fe7c7447131aab9af865368a7975beb55b059f7",
+      "package_sha256": "e061e40f54519951eb6fe3db61e65af6450e203f3196c245ee765cf80b4e3d87",
+      "bytes": 6416650,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "0db3924b3367bff54e38225c8c75864f03314910a1a77482222ebe33dbadf79e",
+      "package_sha256": "d8cb0fe2612ff1997f3aa3cf3bf4ef250fd380f03e0dfe2cd288bd346e4e62f5",
+      "bytes": 261713,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "6f54fd8bc6689423ac27fc41e25e581fe3f0d683836acc3a5d350feec5192f2b",
+      "package_sha256": "410132926a78bc3e73e0c60375f1cd3cd76a60b4602d00cd9b20caa43c2d6953",
+      "bytes": 169588,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "8397506d87380fe4bc6af77eb7b20f3cc2055f46b4f48ca33cc8fd7ebc4aa959",
+      "package_sha256": "2b6ff88f19a004315b5d48d86930801f01e9cce16a582d62846561e2118c26dd",
+      "bytes": 1993,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "b15e1993976d5e5216cdc013bba00d3b193aec5e273173162c3724610c64dd2c",
+      "package_sha256": "25b7cf561723f81fcc8fc40ef3e565dc50568bfc9f3aa4e98311a7a3fbd7cf69",
+      "bytes": 65146,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "713dd68d332aabfec3529a9aca84767a09dff2b1870f97b7c5ad9573b26fc60a",
+      "package_sha256": "95c4d8bbf6a86aac1f7dd02df3a87701210340356cafc9ac7444bf8d70e66d6f",
+      "bytes": 768,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "dd7e247f658e6cc8bc239587aeeb915551770b0cfc45c0c014e6c099e18a59fe",
+      "package_sha256": "d11f5e6644d2621240c3008acd0ef2ea3d11a3fb0c1452e6a6f5773432cfe24f",
+      "bytes": 3157476,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "4733826df23c0ea310e909467ce8c9a41daf2329315d4d8cc4bf576058a04a7d",
+      "package_sha256": "070b9e2c46ee9899cfe418b70633a1b8f1bbebf44be442f04a04f6ed789457ae",
+      "bytes": 5936066,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "551c1d8bf10f7d0cfdf3ef3f71c29c22f37a0b7cec46cf0239991d2db0d5ed43",
+      "package_sha256": "88adda096244154fc4e8a75f0178c7e697506f23150d335751193bb3ca4b60b4",
+      "bytes": 5936535,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "46035c2f2d7b9aa83662ab57827575a0024583e9f7a61afea34e13936cca4be7",
+      "package_sha256": "143a84f8ffb9c5870e48daaff3390da47faf6e30cedcd42ced56b854f28b15a8",
+      "bytes": 257143,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "8ac55caf46bb41e4c4895aa963e2ac938d44941dde185df0cd19ed2c26f15172",
+      "package_sha256": "466d227a52a1eec9f287925c760602fad237de32649b2c96dec3e8c5b7664c95",
+      "bytes": 168957,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "670000c99227ca4ba2c559b31072dfb73e88ed3b7c708ef97df325dde8bd08fd",
+      "package_sha256": "4c31076bd23fdc3b1274c7f654bba285d718ba778f7edd4ab6ab877c457d6468",
+      "bytes": 1992,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "6fc5c3ce00b330d1a4a8419f40267398b6d0b7b8e50daa9696f2801f8b5201db",
+      "package_sha256": "7ead0383e76dba8ad1d4f842e84edc7f0e54cb48a04effa5d364932ba4245417",
+      "bytes": 65272,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "5ff8f1a3b14542812676756318a4d53dcdbf023c183fda0a380972ad0cba8431",
+      "package_sha256": "793e1950ad7030dabb41a02d9461f5c63ad25663229e127cd8ff3fa63ce68e32",
+      "bytes": 766,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "bda5773deb87f925a8e65806ef8b054cb2e0d83ffb58ab4291bd1eed135d2d1a",
+      "package_sha256": "1faf0455bf23394d12e8c85596c6be9b69ba8e5c9075c81e3c903c05f6474cf1",
+      "bytes": 4176180,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "be742ad6a70728cf1d3d13fc16029f739875d8e4bacea6d70b39976092fbb4cc",
+      "package_sha256": "32aab6cdfa958a59acc10b603c700be3421cf28c2fddc9c0ce3ef68cb8516535",
+      "bytes": 7215903,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/laneatt_faithful_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "796e573059779624da6459a5f9807a79a2cac7e4c46b6795c9dd8aee52712cb0",
+      "package_sha256": "bfca05056b8669d60674594ffcd21f26d26a4445e747b63bca2cc19832b49224",
+      "bytes": 7216369,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "8cf8e547d476eca76e4d0eda59447699dcbb3091ba72332036c46780dc9e0165",
+      "package_sha256": "c179cf911c963aec0f56d888a12cdcfcb54b5aa1ebc6c0f205fb720f8406c78e",
+      "bytes": 257491,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "2bdb473ec020901939789ef919e3c33566f0260b9fabfce926f221cb8306d833",
+      "package_sha256": "d24cbf9d0236f119695eb84ddf9db66ad22b2fca57979702868e89d645866400",
+      "bytes": 167773,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "19f403716401cb736345a79daec3eca66c7c129eef86c3951e15e2c402ded0ef",
+      "package_sha256": "e0a574deec64ac48a1c07077225e25327d5fd2200c229dcb66c48759139abded",
+      "bytes": 2006,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "0cdb1f7c10ce40cf5f5115448a739bacfd1e09eca2d4b8bf7dd74348d64861eb",
+      "package_sha256": "d107313359f56a471be65ac2c4e22b0fd073d5cc24e19f82a4e185bcc4ee8f5d",
+      "bytes": 65323,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "adae0728a7ee757599f847da2fa8cc0047f3a95a52359d8f8127f5b0186cf224",
+      "package_sha256": "044d26e8d33d982a0ab63eca16c708300e53e4e491e50fbaa5c2102ffc06aa9e",
+      "bytes": 774,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "2744d529c466ca919eaa34fb6c8baec5becec4c166b9652d4c581976747305d4",
+      "package_sha256": "db32b7e96b20211cae48d5102aea17e8fb87690758ce3f97af9919f2ba94327b",
+      "bytes": 6025069,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "1986767d5dd244583b1a8461f51b6fd07c75f7115844d37af56196ea7be1d8f9",
+      "package_sha256": "9e524323438c29eb92c8bc111894cdec78e1ab2d1296c1cb533b05ee8466d2b2",
+      "bytes": 9409863,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "2712dc8182bd717a98f12b2173a292bd6edd07c45639dc9ecc8c6badb5670a22",
+      "package_sha256": "2ccfdecb9f34aa09423075ee616ab379166367d60646b8b7c8103186f6caf51b",
+      "bytes": 9410310,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "5fff081744d952187856a8aa74fbdd79878f295f30e9adb2cfacd0467b9d1d10",
+      "package_sha256": "44837362e10479fa6d7faa5b37ab0a2afd5432155b7f14a94edc2c6d2997b61b",
+      "bytes": 257216,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "1bd74b3b42dafd02b3a4abc1927b7bac8619b8c79987f054160d60f625217f98",
+      "package_sha256": "d661ce3cd1e11a22d7b34baa18af39c39ed2d04d18d01202c33b5004df95d73b",
+      "bytes": 167634,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "b85aca004edd744f30c9d2898d0ce8b635e2e53e318e744edc508eb10a2c07c2",
+      "package_sha256": "b4001539d2e2e021a6d36fc2bb1b4e27b294f69071b69bc6b7d7d1603f6bee06",
+      "bytes": 2002,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "99f4df5306eb6331339c27a75e953898cc50104bdd1ddcaf10f2fe3a2fe65c93",
+      "package_sha256": "f6d866ca9a8f47934dafb3cfc6df426d45a28a03316fd20d50b175464f6222b8",
+      "bytes": 65388,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "7a0054266af04879385694b988be9aa151dc86fa92f3f75859fe0437bd57b07f",
+      "package_sha256": "d673e56ebd83198c2e55f64f74afff71da3db979a3760c3e07c1ce3544c1c15a",
+      "bytes": 780,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "3cdccb33b57569906769e8d6b92864defd2f1ebfb5f83f966219d34bfbd7a878",
+      "package_sha256": "4c63724d6dd2bae8b3e794580aa03ad29c4298826d371c82e01a1c414fd95f4e",
+      "bytes": 6037008,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "15b69646aba042f9f9692d8dfb9c64a9c079f22f021d57dc10aeb27a5ba60b57",
+      "package_sha256": "982919ad7102151ac622f49ff3de87b2df8176ae13616288598090123983a91f",
+      "bytes": 9434678,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "07fa9d7774e0e204535cf5b2a8957e78d475d92efeebc0b199cee2f1041216f0",
+      "package_sha256": "c4dd5e8084b3f0876c8df47f6b27ac00536a185cecb71d1845a0f05697deb1e6",
+      "bytes": 9435127,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "0bcfd9665f3525cbb5b3e003accafa7cd2f8c65aa29d593ced3dba051ae3e70f",
+      "package_sha256": "949c2d521d6b4e2113e818baf337ddb6408cb176f6c966573e729a4a976bb6e7",
+      "bytes": 257596,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "1d2011b6a4c931e88f7a496cfef26bc57c2ee8c2da5e948c4c1625547454e180",
+      "package_sha256": "127380bf7f65c77a823dd53f6cc31ac553031bafb11e07c977a9f135a8f284e7",
+      "bytes": 167748,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "0c223f362b463c9de3ce14ad2182b52972770e54b9d517f999631c929f00c1f2",
+      "package_sha256": "471c43b9a39955a975fe6202c10281a01d3ea4784337dd688b524ea0b98930e9",
+      "bytes": 2005,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "b094512d6522eeb5d237665396edc0d53cb2702d03b7560dde09e4ea2168fdcb",
+      "package_sha256": "ad9ab1e9f0e2f0d5f9dcff26d1ff288087b25071c9e2302466a751904687c42a",
+      "bytes": 65400,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "fec67a0ee3fd8e7c06d20b2c01d5098c274055b79052b9a807ef3769e8263246",
+      "package_sha256": "a62c3d58a447c2bcda9be017869a8934cd0d7ab0fff9463c42ddc279e4caf26d",
+      "bytes": 778,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "d67c77fb24982092a370c7bb731c0da1c854490052dc5c19422434feb07f1fd4",
+      "package_sha256": "8b59afc3458ddcd167bc6d3de886f73e349d80c1740d99ddc8f6d762babf1a99",
+      "bytes": 6081810,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "405af819b09e537118f51231fac7b1d89e9caf3beb158b952bbc42462706ebc3",
+      "package_sha256": "beb2de32dda043e5989115777a2b3501c266f2410ee92f3933e5eddb3aa4ca2a",
+      "bytes": 9469429,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/polylanenet_faithful_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "7ef298420f054e978d1342ab03f3bf78484933242208d37e3df9fc255068e427",
+      "package_sha256": "86298ec27998bb2d2b91861648ab5711a603982737bea094926f31c1721ca2f8",
+      "bytes": 9469879,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "5febd8bbe37ca5392b8b64f2f59e4fb44d4b0dcabc4ac120df7832813cc08d60",
+      "package_sha256": "dad352c87bfe5d5f26a7b53bf20fab819ee3664135b4f16ddc5a5437830143d3",
+      "bytes": 258029,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "9c4770faa6bbb7e8b8fb3abde16d9ab1989b9b245995007a09204d5bbc111556",
+      "package_sha256": "6918c15f704d1cfe2697a1b33e01e17996e2243aa55d1f63adbe16928064c60c",
+      "bytes": 169086,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "ee74e4bfc7445766a8b693014189df97051a5ef36ba3f7f4b65ae67cf26f5c68",
+      "package_sha256": "97e4283da60822b7fddfc187bb957eebcb4638f95d46f46c1d481ded7cec6819",
+      "bytes": 2015,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "ebd1b1d1a38c60830e7624a4de60ad79420d505c4d6e06ccbbbb2e4a01322301",
+      "package_sha256": "e19b9c80b25fa01fd182f89a115742f4259e720744d605cc933f15478af5e248",
+      "bytes": 65475,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "1e10cbb72aadb6dadf0af08aa3dbb121c00f34e3fdaac641cedba816ad4f4800",
+      "package_sha256": "218d3c18ee4fc4f30d420a8b45e4e254de53c8ca351263465f260ee55b4fa84e",
+      "bytes": 751,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "371c65e06c2a7c12a44829e97728eb2100e48f5b59f5d516e8b1d7361768d1b3",
+      "package_sha256": "53ce0f4a839326984b1d90e39455ce0a74f7e601d4b4bec798566599f61552c3",
+      "bytes": 5191189,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "96509aae5d6992aa790525988e666836706f48fdaa32212b6864cbb4b94d561b",
+      "package_sha256": "4899884e52f0837ff9d41322460c0766044c3b9ef1dd851edf4e2c220db4a9fe",
+      "bytes": 7919520,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "cde642fb8164f7ead4b0d95abdf3c138669ba6737a494a9b15d0e56cf69a7cfb",
+      "package_sha256": "d76649e0d828c6aa48e5cf0564995a59f0d7886d8ff1c5a2753db6abc7467c88",
+      "bytes": 7919963,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "2a23563c8f1b61778d5706409590f059611bbea5531c84a84cb4c2ac61d4a266",
+      "package_sha256": "1880080d848d4efdcb94e303ca909c7c6a401d9732868daf543fbb8c9e11bd50",
+      "bytes": 258273,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "46d9c4af0013314a9d316b6b73971a7905f4178cddeafd06f5eb809d931db54e",
+      "package_sha256": "3a3be93df5efaa4e317caeccdd40f84ca40b56efccd202d18eaf3a8b4032e515",
+      "bytes": 168606,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "41ae3cc7c73e82c98d159276770378315026f6020be372e4b5e5148780b5a462",
+      "package_sha256": "db5665304680bfda5d79ebe3b560a31902d0c1ec8297d2d1ef40729d7d68ac02",
+      "bytes": 2004,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "e48eab40aa9a05837996816bd7e18b1dda3336b89c75b03e82dde11fe3797c67",
+      "package_sha256": "b865c1db05b250196709d4ee34dfe803f03dcfdc7fe88191266d918eca902636",
+      "bytes": 65507,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "29f289120b3784f50e26acdfe825e6c5db2c6fbdbc44fdcff476ec32a1b34a88",
+      "package_sha256": "c30caf4bdcd395c1292be866e62306a190da0273f5bcd3f86253d1b2020f4ff0",
+      "bytes": 759,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "f0907023e297cda06d71fb38b23f1c25699a0b6bae0ea918503bad427a576531",
+      "package_sha256": "28a9b6dd9ca36e258c123be3a11154d6198ce6afb6dc5751cb72f31737ddfa01",
+      "bytes": 4654514,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "18a95af100245c5a097ae8e40b81bac16b683e25512f14fd34cb2a3cf2b101d5",
+      "package_sha256": "4611329155eb70d05ef897bcdfdc346c1059815786285806db7c13f2eca32d69",
+      "bytes": 7159334,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "2835c05977d8eb29f393a68cdbb98ad6306be38a7ecca63d98ea0cadbf545739",
+      "package_sha256": "0be25138874917718c0cc56a43e331ec8218a538c7d57549d0353f79b05126df",
+      "bytes": 7159784,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "86d75b96f00fd9935025ceecfd4f8aa88586d0a8f1c3848835f7f8c0cbd6cbfe",
+      "package_sha256": "615c2bc663137b032cadc5207e90dddf50169332141f7d15bfa85fb0f2466117",
+      "bytes": 257451,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "806c68b9666a950786fe082dc333944dcfce7e1c4b9b835dff6478ebeac6e28b",
+      "package_sha256": "175dfc69e89514b8f466a947334c67f31fc40e7de0ebdf1837a3be3235773a29",
+      "bytes": 168314,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "f668a88ef6838647a8276d593594016e22acb013cc663c695f44d0c91d6557e9",
+      "package_sha256": "525ef12ba8b370953e6b6ae6382500f12294ebaa519f68af6ab8714eecc04a43",
+      "bytes": 2012,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "ab0e8720b3e133cbc7304b43d1a7be4592e42e03cc4307dc013eec36a11df56e",
+      "package_sha256": "ec77cdd18e73b9fdb69467317664922b0b422a193a1555662ee1e7081922ae2e",
+      "bytes": 65450,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "5b2f8d90432e006c6bf0afe8dba549811401dc8abf63424b39037500d448ec78",
+      "package_sha256": "1b07f42f6052624fcd7c00a362af7ffe8b971fcae793b21055d3be60f63ec427",
+      "bytes": 757,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "e245460a18562f1d3c32670ef552516948db2384b988b5b867b7f628c35337ff",
+      "package_sha256": "6a691bc2b2bb3fe14f6fb6f5a948c8cec918f1f863d1a651e2815e46652c766f",
+      "bytes": 4720450,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "5be5d4be08bb1c8ea0a4272844b9018d98f48322555f015a7f41de3ef0e58f94",
+      "package_sha256": "8d392f82e74aa55f80de90dcfb3eb62b88ce3b906aeb63ec192d1c69e8d50230",
+      "bytes": 7560310,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/scnn_faithful_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "cf6015adabecb2bcf6817dbb45b4edd6a32206c0497064e18f1dd32e717a5737",
+      "package_sha256": "ad98ddb6c6de82ded50872ea5cb27cae7e7520aa48342474731b91b5061be877",
+      "bytes": 7560765,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "32a5363bae06e413415892a05023bcb005dae93312d6d90ab065d7ef1b4eeeb4",
+      "package_sha256": "b1f9b74539bb44b172a34440773d4608791016b260fd5c0b4af481a6bf2a71c8",
+      "bytes": 254894,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "4462794edb6cfa5bc63bee86f2bc6e2b04e9f8930dcea9010aecfb422d874903",
+      "package_sha256": "b0f0fed46e8dae90d6e5be8d7c926a0b4cada1369b00836b6ca1471cd4f02212",
+      "bytes": 166637,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "9f376a7f37c477c24177965c30a5801313475aa03c240c8fa4d26ce50e9c2213",
+      "package_sha256": "8facca8f9a36fbfd2790216a88a47eec715b126c8259b2d527c9cb8992a3b801",
+      "bytes": 1992,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "d69586155638e05988bd95d9dcad719b7626d13684319714332b371269cb81d0",
+      "package_sha256": "c0005ca8794439c9cade0dd8ee68786a8313fc010ef389f39e4a97540a0c3a29",
+      "bytes": 65365,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "90410b625f0e3d80d4041783271d5d6786bac56ddaa06cb9a6f4b05b0c8b204a",
+      "package_sha256": "13755a060bbbd4e578cef1bb0f0db8ee3b20f57e2acbb78f0999eb8953aee5cc",
+      "bytes": 759,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "627290ed39c410810a9134131c9d2091ff546c7dca31827c59fa08f9e09a0e51",
+      "package_sha256": "27951e7f446c4acac7ac4e4b8a001a354a6a6cf2050b88588a6826c8c645b60a",
+      "bytes": 4902828,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "7b442c6d7cf0d7e089a8298d40f68b5bfd25bdc44350d5c223ba6d9d59f43f94",
+      "package_sha256": "910dd2ee9e10f9c12946fa02c7c16294cfcedceab369a19b7e597ee5e1f21152",
+      "bytes": 7619442,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "ba10df4e0edf30c629360422821ea006a898f74fae23eaf2b09a97d8e0582986",
+      "package_sha256": "958ef7d62a5d60827b70471d4b6f0d4a9e4b811c47cea0e54b8bd403a2aba432",
+      "bytes": 7619908,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "3f0ff5d286a6b225f8013c1a37bdd3b8274a4bd522ffe76a04cf86f25184afb9",
+      "package_sha256": "14ad768ce936c42e48db642febc468fdc5f3f8e3af30c03578ef318649728eed",
+      "bytes": 255175,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "d3a404a2bb83fe521bf8e9fa95da991f2f5ce7b7f58a53d063b90043c98ff038",
+      "package_sha256": "b8f9a3977d76594b72c36f063d48b793e7cfbd808de3120f383225843e6cd33c",
+      "bytes": 167509,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "19cc3eb52f2cdeb41ed0286e4f9f98933d413aa23d990d22b05d74b8d6b44acc",
+      "package_sha256": "5c7187fab49f472ddad598960391abfc1e607f1ac22b12e67e64831ef22eaa7f",
+      "bytes": 1988,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "5a57b000a398a90a6278e0acf36a2b8e51754a6d4d65c99e16bbbe34380454b0",
+      "package_sha256": "b88fc6081db774033de2a28d9305cad6341aadd719c32baad7d4df663f3d1ba3",
+      "bytes": 65347,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "26eb79a1912a918b2549006217c428f03337c4f041d138121d5437f53bb3d5c6",
+      "package_sha256": "dd7b7388700c3d4f3faaa060ce2496d0ecdf7eb0d6d77f765ede0af139ae8000",
+      "bytes": 763,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "35828d45232fc8fdaa30a11e1ca0b56384d8bac19da9f5ec092bfd93da890da0",
+      "package_sha256": "44b1a41612a88e1a693dac4a1c5e1e389b736b047fad5045068762f277cc811e",
+      "bytes": 4764027,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "5a84612c8a88d2d8cbd5cf2a292ba33532a4e71898c352354cf12a37c4df74a8",
+      "package_sha256": "780b4b8cf3cd8516373992ad45ca42f848ddb23d2b5ef54e199a261b263ff300",
+      "bytes": 7269271,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "1a3a6e7055958e91f1d80973c3d051570e29f2bffdd3c44bea17415555a3d178",
+      "package_sha256": "569f72500b2f10d377cb37060d06989d435064ea177e2db1b048bde7e3b12e9c",
+      "bytes": 7269729,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "32484406142f9585a4a27e9e302f3fb076b76278152ef9385b99413b2a66174f",
+      "package_sha256": "35bd62b19e4e80b120a4f32392b91cc798c2a62c46f63ba7866424f601411861",
+      "bytes": 255617,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "c930f22d63b2c2bd31a32cc6b7a8e8661e9569caae5ebea7eb2dcd48233c9aaf",
+      "package_sha256": "2292c5aac5d2a31319f9c1f6002b529fe5f6147015c3fa90e3d5d46607547511",
+      "bytes": 166943,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "35edaca6ed0f60bb43ab31abc76c7ed441522943f3040124667078b3ed683c7b",
+      "package_sha256": "d169f47a07d62f68544ca52693db01e2429fd5f936177c01a9c05cc6c6ffd389",
+      "bytes": 1986,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "37b95c20548f0e1d7c3fff64516fb8cbd3206e9ef51d1eefd9f6e739f62e1618",
+      "package_sha256": "b8b7584d9eca3d5e13699b472a0e570b646cdd7e87ac5f0713df84fb86707c78",
+      "bytes": 65392,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "81616d2f8504ee0c0427f17deb33ffbd6ceb25833474511f691d732fb6bff971",
+      "package_sha256": "17fc36dee70eeefd521c118e8879cddc3fe73daa945c4a6faccd402b95006b73",
+      "bytes": 765,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "c3f56b8153f84777e3c0201d95f363ba4c70b593dc9278659b4f87cd6d992286",
+      "package_sha256": "4a66394b18a5ad50c17c1f00dcf38de8da56a65b4dedcd83f6743252c440fd51",
+      "bytes": 4819230,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "3ffe08e10f5f72b97854b7ddf58ce97085895c512aaab3936132f8c7c05500aa",
+      "package_sha256": "5a5a60b66e97382fb48288949028afca1a09de975906946caa7b318ecc8f5e6d",
+      "bytes": 7353503,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/ufldv2_faithful_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "ab0b15b69bbe273cf0e2c0da447091a3e31866f6aac2c7483778aa8773e92b2e",
+      "package_sha256": "e474608976381702b6619c0378160d297ae8013a693ee986b3cf3a46d1f64581",
+      "bytes": 7353959,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "0e0b573baef42d59f82d900469e03b01f245283e22c62571adbb6a937e9efd37",
+      "package_sha256": "ac44ad634cb3b2cf0e87720fcf21d0bd68ecdf5fd9216b62d1b59b38cda109c7",
+      "bytes": 248572,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "a5e37efa93023a49968fdbf4b065c8ed96d1d662749c0d4903baf8d448da0b0c",
+      "package_sha256": "f9d587dedf532de16e39b4674f8fd7540e17a9b568634221a285ee56feb5ac6e",
+      "bytes": 162646,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "f04eb0b74196d65ebc2dd5cf061b6d957c07f17f028c88e906cbc9fe77456166",
+      "package_sha256": "d4994a9d4ba6cfd1bc380f82fbedbe7239dabb477f0fd9d1ff943932086b2be0",
+      "bytes": 2014,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "06bdf2c7c78a38efc8c2181aa46362b7cb2d30a383ce050f9431965dd8447542",
+      "package_sha256": "df41b92ab79105cb22a73ce96d7525abd5ab4870cade533aeed928835f8e7cd4",
+      "bytes": 65332,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "16b1fc1e96ead5e5e62ac6f3f03d2108828ee5b37ae6eead39c0a92139a0c62f",
+      "package_sha256": "5d2845a98ea204e36fc35fdbf637dde1ad41fab023c18908b14ddda24b4ed782",
+      "bytes": 722,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "09b6d7109bc8d3d6d6dbe9d5b525ae7522914c77eaa41cd1e9cbb80347a4ffe2",
+      "package_sha256": "106747fe6e94e84c8409255236fd939c19f13d89ff402814f78fcbffc5e009fc",
+      "bytes": 5518254,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "fd9584a02d902acf9695aba6aa9df9f4a1502215a52572265bc1d217d6dbe2c7",
+      "package_sha256": "d43d94f14e1d9e524833503c727fcbbc85ce7b8521178562ca3f8b5aee698162",
+      "bytes": 8847731,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed0/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "d9cc493db173b7638356ee9005f1e412a46e4c4227ce3c52944c86a432e5f923",
+      "package_sha256": "7868fdcd24b704f5fd4721c4b75c24e1f9b1de569083dfaf9864fc1c16a1b176",
+      "bytes": 8848180,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "114e90a2ba34f9d0216a93124ce9f63624f26a75ad77213359a18eb33549a3ba",
+      "package_sha256": "19195bb7a5bf812c70d62d98d6008c5a00c71a5ee6efa5c269a9c65badd33c38",
+      "bytes": 247978,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "20597d73fa7a00aed466fe97b96a1b103eaa1b8dae7a90fa29f0468e9d20a8a0",
+      "package_sha256": "cbe5790e87bf174af8e8fd10cc4d539dad4d2e413e2d1bfdaa3d0801b0e1aacb",
+      "bytes": 162250,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "8301f7ce27fa4f7ce4a16433ac69fa045c0ae2bcde86d95d73086bf44ea026b4",
+      "package_sha256": "9284c6ac4be4e2b837e1ef02573f589df8d4fb974d55a4426bee15a422542dd9",
+      "bytes": 2016,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "f19c52c0707936964dbde9ae8920d34ac30a0959db81f5339f6ff76f3512c200",
+      "package_sha256": "5e2684a6a9e919a28464ea042535d8e333ad015c3c92d0fa6702c3f8b0f1450a",
+      "bytes": 65324,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "08fd92637c5e62c2fbaeccbb22398df35a4cd6dc3f2ce90721e5b91f2c7dece4",
+      "package_sha256": "a41875d2af3c226e27a93e7ca39ad98389b32959e6704af203990ab924478451",
+      "bytes": 728,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "726703d7749063a0ec1f15e550cbb3996e05f4ac31d5d7ad2ef468880589ecd6",
+      "package_sha256": "ddd22c718fa1c6da957b2eeed32d593fb720eb1f4e6e574fd0aa6f19c0abbcea",
+      "bytes": 5567547,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "77cef65624c8269d44bcc6741cdf054a7898c83fa7aa333c518a44df7f4e4948",
+      "package_sha256": "829174506a38c4f538296fd6b790a879bc7c123c36f215fb59521fefceb656b3",
+      "bytes": 8846152,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed1/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "2fe68a32734374eb9c8716f1ff5e46f5056a24d3a15e5f1cc79d850088904396",
+      "package_sha256": "09298c02db01c88086600b94810fd2f00158d9c975a8f3ed1d765acff6ea5911",
+      "bytes": 8846601,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/report_tuned.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_tuned.json",
+      "source_sha256": "0131674082317506f6c7994beaab17ed2b6c9fcb07ff7dc300764751bb91ca39",
+      "package_sha256": "238ee8043bf9a52571306036840737993f5f5f639fd332733f03428122d2466f",
+      "bytes": 248580,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/report_val_tuning.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "report_val_tuning.json",
+      "source_sha256": "65e329e4eda93913bfa4011233e489c411562aa8791c9c2fda2bd26f5a23b5e1",
+      "package_sha256": "4982da893c1359272ebf51bbba8f7f8cd05c8f34118e6cd5018f399b81c85508",
+      "bytes": 162857,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/threshold_grid.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "threshold_grid.json",
+      "source_sha256": "070c841401a2cd6e2f3423dac85805a89331c8f377c7e48f614d97405c7901d5",
+      "package_sha256": "f567b7c753262a12d597953071b47deb834a029308693b4d76237d630de5eeef",
+      "bytes": 2014,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/wheelpath.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "c3408dbf060d479d7936343ee0cf9feda2e401645151499e1bc0bf80702d574f",
+      "package_sha256": "4767f8186c8b437981c351f0d2477bb294d695d4352af74ae0cf12d34ebf0d43",
+      "bytes": 65387,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/audit.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "audit.json",
+      "source_sha256": "0b115a828b51cdfae3b7aec90c2efe05282427a09822b60115cbe2109e45ced1",
+      "package_sha256": "fcf0f3590dc8cfcc1b22d5a4318a069181d60613a6aa444fc59872ef9db9e5e6",
+      "bytes": 728,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/raw_val.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_val.npz",
+      "source_sha256": "815a5f7690908bf5d9311e456aafc88dce62cd4d872a2bd4216a63fc9c2cacea",
+      "package_sha256": "33aec6cfe96e5fd78f45e038cab296c45b54c9c814767b87adb658751d4111e5",
+      "bytes": 5313941,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/raw_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "raw_test.npz",
+      "source_sha256": "2e92fe0e96d01ed359462be1eb283e3d8c3c29c74f38618957de021934cd070d",
+      "package_sha256": "b7bdb7e8fc7d9771167b4ad142a9e81a8acf1fbec9b372afbdd9a9f4de4c25f7",
+      "bytes": 8887148,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning/unet_seg_seed2/predictions_test.npz",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "811940a6fa9891d7b064d05babd7632c514c0fff14e0edcc51142bd052878c63",
+      "package_sha256": "e11df848f243effb346860a6065272d18787967a0580188c503a718b5257c65f",
+      "bytes": 8887600,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/learning_summary.json",
+      "source_family": "runs_decoder_audit_20260923",
+      "source_artifact": "summary.json",
+      "source_sha256": "92572a14fbbf102ddf8d074fc69639e1d44ea244ecf04e7dc852f56e36bdc606",
+      "package_sha256": "1095589ea1d6b0f498a0d4ae20afdf3b7dbbeefe1de8229cca731fd0372e6147",
+      "bytes": 19774,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/report_test.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "report_test.json",
+      "source_sha256": "7e59de4764307e3594c823bdef2d992c6375c561db049905ccc0cb393003723d",
+      "package_sha256": "e611e8b296f00fb24b96eb0984f8d096539e0720e07a33f0872704d840902a9e",
+      "bytes": 248006,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/predictions_test.npz",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "02d8ef5dac5138581be898fc5b153b7b66da32320dcc687125ca13f8839eb8d7",
+      "package_sha256": "379e8c2a4d3a2bcc31f5f1061fbc7debf59ea26bfe4a82207011e97e60566a2c",
+      "bytes": 8166288,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/selected_configuration.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "selected_configuration.json",
+      "source_sha256": "d7a69e2f0f7ee6959826a9f1cefea001798ba80fa2b691c0064c6ca083e97ad6",
+      "package_sha256": "f33b8c817b6c03b5bb8da1c2b0cfdb6f854ec58bf1bc9701f0aaeed122f4f7b1",
+      "bytes": 466,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/wheelpath.json",
+      "source_family": "runs_wheelpath_20260921",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "bbf5863398bf146865eaa47e57f39bf859fba819e5f81fa312dbe91e2738ac32",
+      "package_sha256": "c02b4ba41c96d5406916c3948cd12267c120333ecf6ddd9d5f728eac8d986c57",
+      "bytes": 65307,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_00.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_00.json",
+      "source_sha256": "a20bd2d5e38ae21b11403e65fc36768161ff2d7e42b5d1993906db44285951cc",
+      "package_sha256": "792d968285f9ce3900d2600f41e7ef0480b9d02d924acf2c3c701f7bcd40cc2f",
+      "bytes": 3991,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_01.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_01.json",
+      "source_sha256": "b1dbb18aebb846d80d1eb5783174141f19ea653906050bbd9b7319f1674e6202",
+      "package_sha256": "632b1c64a946e7112abf949b321ac058d005714850066dccb5673a7c5e3b9c34",
+      "bytes": 3518,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_02.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_02.json",
+      "source_sha256": "117c943b58740ba8fe1cefde488cb2299522ad00a8facaf711f4c09c98088b53",
+      "package_sha256": "f4c2bd53cc6626597986562ed5589056a8ad10a39841760bae12554a90a1ecad",
+      "bytes": 3935,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_03.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_03.json",
+      "source_sha256": "ab99eb1040cb1b25328dd635d4271d4c2e095eeb29d46c5c7d0d1e3f1151495a",
+      "package_sha256": "7ff2f9d4af7ae46171e7f4c333c59705728ac0087af60c6beffd0126a5f6fb0e",
+      "bytes": 4066,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_04.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_04.json",
+      "source_sha256": "5687c80340de2e7ed52e0832b19e86cfb8f68a09091f023572a7bbda1d746601",
+      "package_sha256": "08c596aa213e87ec1182973d702b4b731d0b956039f51efedc4692e0967ac5dc",
+      "bytes": 3513,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_05.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_05.json",
+      "source_sha256": "8e2eaf29e0805fcf49e6106272fc1d199c5e148a85466f0077a643744dbe6c92",
+      "package_sha256": "1bfd62046a11b2cbd30360582583051abb2cfcbeaf32ec0925f70e3e98280c34",
+      "bytes": 3930,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_06.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_06.json",
+      "source_sha256": "86494e2cd6b3913f150436dd3a24c1db01087ea045452b46658ce2e80cf82e3f",
+      "package_sha256": "6cb59db08705af79ce92b232ce051d3ad8262b55883ef4033e82e65c13e1fffc",
+      "bytes": 4062,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_07.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_07.json",
+      "source_sha256": "c52d0fff10f3386c9a59b254a0ffa1210750cfd433095cc2b97de05800fac275",
+      "package_sha256": "d290eb3886e25ace246265de98fae4294c6539f886243998eaad8ce0fd5f6a2a",
+      "bytes": 3715,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_08.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_08.json",
+      "source_sha256": "1071f8f4aba991720afc5fadd228368ab4c9696cb981ca7b28c2d8af0f662d4f",
+      "package_sha256": "55098fadd2c0071116fca32e162a963caf08832176f831e7be7e3b3372502955",
+      "bytes": 4009,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_09.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_09.json",
+      "source_sha256": "7fd0ce84559b987b3f8a5c7036588c787d48ad85a2497194fd75cf86b70c6807",
+      "package_sha256": "f0ea52a44c4069d015eb5ecae18aa78c1a2708b1b511486d84609824c5b8b3b9",
+      "bytes": 3905,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_10.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_10.json",
+      "source_sha256": "c109fedd30e29c5996364073eb48a8973f78ad4b3ead8ad8657c17e83f647346",
+      "package_sha256": "a2c58616322d7b8ecd8ca824c113df41f78d8cf6c448271929ebdd2a42f2b22c",
+      "bytes": 3737,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_11.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_11.json",
+      "source_sha256": "e5449e72e401712c068e95b9da628b8bf993f85121b1eabc9f8f0b1a56bc9f92",
+      "package_sha256": "f8086fc021bee41829ca1493e77075b2acb79dec0f0e6dd63134581b49020d8d",
+      "bytes": 4000,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_12.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_12.json",
+      "source_sha256": "b175c75d145c0a5f989a35626b28205b7cf59a52ec5016e8d064837a4290dc2d",
+      "package_sha256": "ddc07b3c587d902b94d12669258719fd23c04ef7b3cc844b12a1d852cb94174f",
+      "bytes": 3897,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_13.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_13.json",
+      "source_sha256": "768b50fcd24c1bdf326df57a3bc090e819732e8b8974ff4ea1cecbf7efa10237",
+      "package_sha256": "a31d643ee427318017a9b4b68c9ee1895362bbf52c340dfa8efdb1845e1b4beb",
+      "bytes": 3742,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_14.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_14.json",
+      "source_sha256": "505a7f0f7298de473787ca8b6d22c212714f4631d006368c7047eb8153fcbea9",
+      "package_sha256": "4d5d45b7f5ab6d2f9821b17da2d6af9dff5610c2729a9f71aaed2c1faeb61a15",
+      "bytes": 4053,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_15.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_15.json",
+      "source_sha256": "f3531660b5ce0137ef3931eb5e1be019d2d8da062910d1ddde7063eb758246e9",
+      "package_sha256": "8abec9f7b0f1e0760a74b324eedebe2ec3d288979c2ae97d8f1ac8edc998ed40",
+      "bytes": 3993,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_16.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_16.json",
+      "source_sha256": "772448a9093e643b47560799980ca740b9faa01f9bc4c8cf4e4b6d01ab08359c",
+      "package_sha256": "5a567f80b0e0332037c0634efaebb069f5d576be0ddc9e95e195cedaf44bb81f",
+      "bytes": 3742,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/canny_hough/validation_17.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_17.json",
+      "source_sha256": "f77d3cfe690edcbf7fe27bf325c62a5e27ed4cf5e13ea6626554a70df70529a7",
+      "package_sha256": "2a63bd32ec16683674de271936a1d18881038c6ad951e63b0a3df4c3545e30fd",
+      "bytes": 4023,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/report_test.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "report_test.json",
+      "source_sha256": "16f5d66eb50dfe4ed4c8430fcb5e11b56c2d80220c77e55ae3063847b176df77",
+      "package_sha256": "ccb4d597f58afb6b23ebf9f7aaeded46c3443c76a63fa856f515a01e5e3e356f",
+      "bytes": 247687,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/predictions_test.npz",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "e10f4d835871859e989d5c6269265cf181e2c0ac6e2f9ea3bab6bd4e0ce6b5a6",
+      "package_sha256": "1c1f31685f5c40a9263c400f548d84ade11eb987dc463e0e70d8cb8432b222a7",
+      "bytes": 7077641,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/traditional/lsd/selected_configuration.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "selected_configuration.json",
+      "source_sha256": "c7728d7d7752b7d346eb1b6637aff3198080e6095031e59efaf8617f84788ffb",
+      "package_sha256": "4596b41f6b83190b8b1ba144daf9ba2c3169bbbc12121cedfae6704d912c4b74",
+      "bytes": 464,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/wheelpath.json",
+      "source_family": "runs_wheelpath_20260921",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "822f32ef86b78b9e5d77e7bda18cd89dfef836231ffafde933716da24d9c94cc",
+      "package_sha256": "3e5fa05078809f0c7bab402a8a5faebb107f282c1fc7e0ada71c9fbc17a941af",
+      "bytes": 65454,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_00.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_00.json",
+      "source_sha256": "70a2bb74d90de06db771364afe985f0b9b9d78b1181d64e4277b2aa1c60b4d4b",
+      "package_sha256": "9eb9aa10c96868f1be08473a058ea7548708a339453f53d9dd867db709ddc2bb",
+      "bytes": 4245,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_01.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_01.json",
+      "source_sha256": "19b6a8f18eb1cc91fabeccc74f95b02813f466cfd5b7414047e129b8df77a051",
+      "package_sha256": "e9f1c8f47f7733aa008558dd2de2d96c5936bb74f0c0d47b1f32e7c82b7ae7e7",
+      "bytes": 2742,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_02.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_02.json",
+      "source_sha256": "46ab06bcf9ea3e43328a05619e2b8e1a27a5ae01ac84352278894a1fb58c45cf",
+      "package_sha256": "46ca0348886a8e4aa191d31c1369bc820bb58a73d25d40823bbb51b9ca19f6da",
+      "bytes": 4500,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_03.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_03.json",
+      "source_sha256": "c111a0768549e3459cdda21e563d1778e3f4fffd36112fddec4dc0a81198a622",
+      "package_sha256": "d8b973ed04c5992fe8ed64712f2c6c520eb056d43e9d9eb976b8130373b16968",
+      "bytes": 4099,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_04.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_04.json",
+      "source_sha256": "105d360c182e44591db276ab919387860e0980ca73060a29d1d500b087f8ad04",
+      "package_sha256": "760e2c6873756a8ae918e6957d64bf57feb42e76ab9a474af0f4dddefd4e9fa3",
+      "bytes": 2460,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_05.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_05.json",
+      "source_sha256": "cfbe927a14f3b54804170442904d034d43dbf24175cd1faad86d25dfd6928042",
+      "package_sha256": "0f935736a26df5b536b8251be28d5dc194eaa6035205b140d49f5dce42d2c2aa",
+      "bytes": 3114,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_06.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_06.json",
+      "source_sha256": "381dcedf4e4ab2d0281e448f9c7c8d793f8142c6cf761ab4bfaa07b1c3ac9f81",
+      "package_sha256": "ad7173ebeedbaa7e731cd62b342995a41ac7c5c903f7680398f73df739bc9537",
+      "bytes": 4244,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_07.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_07.json",
+      "source_sha256": "a531b6bb5ef883d7ceefb7afe9b02b5e037dd36414a2b15eacb7738c5965723d",
+      "package_sha256": "6c88c5e639640798ab25b889cca720fa561849e61b769e338903fd57e4997464",
+      "bytes": 2354,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_08.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_08.json",
+      "source_sha256": "7c598ff3bccdc53fb3a1e73665ef932c83055bdb1dad8b2154c70e6248ef9b53",
+      "package_sha256": "a1e994a04988076a2e8303f5af5a6fd608e379e52c1c89eea58612b2956c877c",
+      "bytes": 2534,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_09.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_09.json",
+      "source_sha256": "f32926d1c0bbaa564ce324fb4161842e49186280c1e6cf0d242ad0be7e6a7f3b",
+      "package_sha256": "78f6f6e3a455730dcbac9d6a9d81a9be8782ee69940b8b37ea59aacc466ed477",
+      "bytes": 3112,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_10.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_10.json",
+      "source_sha256": "5d222b73efd13294af46b5009e5bb68bc73dc09170087d993646fe57393ca76d",
+      "package_sha256": "de9baa18ffec54ba0043b760ae37975eaba9a4d454a757b4cb6e02235811e238",
+      "bytes": 2761,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_11.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_11.json",
+      "source_sha256": "abbe0fd7a5d23a326f6493bf6c77333d980d9e0efee9b6579355012427dea37a",
+      "package_sha256": "840e16d8803f63c0e02c97580d454df08de1e5d58e4dec09b77100313bd5efae",
+      "bytes": 4479,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_12.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_12.json",
+      "source_sha256": "14277a6608b73ac14dac2bbb4eee5b481998897304b30f059774dc798eb57830",
+      "package_sha256": "67f204c86ce8559469d7ff6d60e3108de542579dee57602e654f583e266df7a1",
+      "bytes": 4121,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_13.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_13.json",
+      "source_sha256": "4dc1e2ac821d60bc0aba96bcab2dccd255d7759eb50581ed1ec3eb838736b3d1",
+      "package_sha256": "a8c2ab3e0a5304d2ac7cac0fc7bcbc7d18546c76ec83cbb22d483c896f557a66",
+      "bytes": 2460,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_14.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_14.json",
+      "source_sha256": "5d413f68ae140dd1b24a63b894f10543a16fe92caaacf02c5e07d89eee4c5936",
+      "package_sha256": "dccead3cd0a02c93e8507db415b78c737126ea30a894cff52a4a9d9db7f2ac81",
+      "bytes": 3116,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_15.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_15.json",
+      "source_sha256": "1d7567def96f9a577e43b5b5fa13cc1dc731e0c825833796fa3f135cf5d867fb",
+      "package_sha256": "968dc195287d0a6e978f73b6108bb6c2ecd2393042b90c4c6bd877fcdc077a08",
+      "bytes": 2356,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_16.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_16.json",
+      "source_sha256": "c23e4a3f4b6f9742dc291bf9e5443dc56010b0a341e909e5fa77b1774c3f573b",
+      "package_sha256": "a8763ab9fbfb11effbb0f31156407c88c91a45483f927d5494a33b179308aeb9",
+      "bytes": 2534,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_17.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_17.json",
+      "source_sha256": "c49df83771b698da0f9324480d39502f2de1af7c2949be7d3696606a6f9cc575",
+      "package_sha256": "9b9e220caa9a941f6b7c9fe39c5809b06dd6283f3d4200bf70a9dac2e44ef63d",
+      "bytes": 3113,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_18.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_18.json",
+      "source_sha256": "120a306e4df44d1d5281e0dac5533059aced3e8deccf0b5573046de77bb646d7",
+      "package_sha256": "5615c0b296c15ce683310011ede830b64268a240c9b00d36eae1231e280831bf",
+      "bytes": 2790,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_19.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_19.json",
+      "source_sha256": "b6341d2013b65ea6d00ad70d8495b62744e05f442342ca01ede399abfea8eb27",
+      "package_sha256": "8b18c117a822743bd832e524c3957c03e791f1e245dec8784528b42dc4b67f05",
+      "bytes": 4442,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_20.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_20.json",
+      "source_sha256": "7781b8a0ebcb6de6a775c7cb1ac6bf4d21624b76d098946134f368368ba93140",
+      "package_sha256": "426933f40496c27aca72c155b5cff43217d1d0740adcd0ca8842e55df6810804",
+      "bytes": 4101,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_21.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_21.json",
+      "source_sha256": "11b17bc5e27507bca46a7282a893bc457a3c8c15d1ca95b6bab7579aac2c33ef",
+      "package_sha256": "b369bfd77df5be271e6aa0f76c3d31e14de9f4ea4c89733e8c3d6c6edd743181",
+      "bytes": 2461,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_22.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_22.json",
+      "source_sha256": "d9dca6eceb5bb7ebe7a4f8894512f7c6223d0fec95f985ca7b34ebc4bfe0704f",
+      "package_sha256": "40e876ce41805f2b5e7cc7ad8eb0c4da185be9363917bc1cdc8d510a360a6cfe",
+      "bytes": 3117,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_23.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_23.json",
+      "source_sha256": "0e0d37b7db417d6c4f27120039731300aaed988271cc95e7c537dc220592d403",
+      "package_sha256": "f06c4029ebf46fc85b74b66c9a5b730ac6f3606057a27ad46757d7848a039357",
+      "bytes": 4231,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_24.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_24.json",
+      "source_sha256": "cc877c3f508b1566b42cb328c031d59b00dafa5267982da94299c954d0dc80a2",
+      "package_sha256": "219b9dc591c421d47047314e068560b3036ab62b01c0af04955c9da0a7cfb985",
+      "bytes": 2356,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_25.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_25.json",
+      "source_sha256": "f3f8fa2616e6dec0599bb0d9e2a180d45e379fa0385cb7f54c8bdd5ba87517ae",
+      "package_sha256": "ece93f84430472e939bb17725c139e45407d070406717ce7fd95de26b9f31dd0",
+      "bytes": 2533,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_26.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_26.json",
+      "source_sha256": "d8f92a1fbd9964a294fef105f698a84d3158f6a5c31af8db4bb35e53a6e84539",
+      "package_sha256": "359ca2430ff456c7be37c62a7052e77f965fccfdfe625e41d0b75e9ee84a85df",
+      "bytes": 3115,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/lsd/validation_selected_uncached.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_selected_uncached.json",
+      "source_sha256": "14ba4b648a980b9f853a478ca874828f63a9310ad3c926ee81a23ed878f76084",
+      "package_sha256": "bd9649e2a4e3610dce6c6269c3283b7050ff405402515f6755c34e1e284a98f8",
+      "bytes": 162098,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/report_test.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "report_test.json",
+      "source_sha256": "88643c0dec3a75520d51e446e54203027b5e611b66463778c01a5d4cb72cf8d4",
+      "package_sha256": "da26dcb04bc0dc5bcf340657b94ece74edc5dceccc55996d96405ea075961521",
+      "bytes": 247124,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/predictions_test.npz",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "predictions_test.npz",
+      "source_sha256": "739ad008201f3161f3079058748832fe52b7bd1fb87927e52215914837fce111",
+      "package_sha256": "17bca1bcdee2d17e238841ab1b72582f1121671526d14f0e1687e9989f36c0cb",
+      "bytes": 9253387,
+      "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/selected_configuration.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "selected_configuration.json",
+      "source_sha256": "6850837ae74310bb6fb5e25122a83e0025516826d18ed73f08183fb4f37472e0",
+      "package_sha256": "78f122565498a3bc7bf5c018f1f4ab578fe473459dff1b52a63c5b7877e09c13",
+      "bytes": 471,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/wheelpath.json",
+      "source_family": "runs_wheelpath_20260921",
+      "source_artifact": "wheelpath.json",
+      "source_sha256": "45cb308f8137166ab108ff5d81a412dee7f1942fce4a832a2481fa96a33dd67a",
+      "package_sha256": "f9f3b63081ff0c2a9461adf1bb42d8e55e20a063d06cc4dc5a6f6298d7e24c1a",
+      "bytes": 65105,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_00.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_00.json",
+      "source_sha256": "6234a4c617674bc19f768d97dfd2466547d5e4951fa870a2509e27e537728b66",
+      "package_sha256": "0639139142407abdac1cefda2b3d42a00dc397aadec1e83faa88162f98d204b0",
+      "bytes": 3740,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_01.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_01.json",
+      "source_sha256": "149fbdac8d0653575c6fb12911222ff8e8cb8054b618b902a30a78062e005277",
+      "package_sha256": "d7b59db29875f9bd47fb85555974ef76fae07d25b290c649ed3244d20e331cd4",
+      "bytes": 3725,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_02.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_02.json",
+      "source_sha256": "99ec8052333db13877c1e44650c96fda37b28015084caad4921f714dac1ef5fd",
+      "package_sha256": "22f2aa2015be4739d04caa80f11f5b4e58275e30a93f0d6365fa8ae500b6515a",
+      "bytes": 3739,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_03.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_03.json",
+      "source_sha256": "deaec91b7661150eddd8abf819d4545afb3544d1c341289a7e10309dbdd0b587",
+      "package_sha256": "aaca116fcebf644a68ae2955e64c653ba4244875a7df49535f74c1b620714e1c",
+      "bytes": 3728,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_04.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_04.json",
+      "source_sha256": "8393f9f23ce7d234e1c7cb21830b87fbed9ce9987d69b23e94449423378ceee3",
+      "package_sha256": "4d193f5f83ac5eb0f28ebc3a557e84f9b32b52cf79d5d5ae7fcaf800a1496f7c",
+      "bytes": 3730,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_05.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_05.json",
+      "source_sha256": "3e092243364c044d2b373305f5b5a9ac31a7a4d7e37970f8990256cfb0c4d1ce",
+      "package_sha256": "f20d78d5bf8f877724fab7b5ed6025d5a646b23a5bb53afc303385d88efddea7",
+      "bytes": 3735,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_06.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_06.json",
+      "source_sha256": "ba6c6995f18d878c47359a60e2547bda13afbc7705f8b0513daa5e5b6ceb6660",
+      "package_sha256": "9a6f9fac531dcbd0e8596125b057d4b89164c786843edb69df5997eccecd213c",
+      "bytes": 3723,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_07.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_07.json",
+      "source_sha256": "525853a68b3d1dc1a2e566c6da71b4bbbcfc7306b42ad8b3a142b72a39014d3f",
+      "package_sha256": "ef5461be156fbeae07466df3f10d2eae42f0eea86aae2bb55cd7ff7e6ca31b1f",
+      "bytes": 3731,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional/steger_ridge/validation_08.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "validation_08.json",
+      "source_sha256": "f6ae8584dc0c3672666bc23236ece3789210cde2f592efad98f4e3c94266a268",
+      "package_sha256": "a39e274ba6f2e77c832290b1970ec25803a5bbe90accc0a4b9fc9eab4c13062c",
+      "bytes": 3740,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    },
+    {
+      "path": "artifacts/traditional_table_values.json",
+      "source_family": "runs_classical_validation_20260921",
+      "source_artifact": "table_values.json",
+      "source_sha256": "12c05516356fe63d8d7a49837d9ccfdc1e8bc9c6c72713a35a8a18f2e8823308",
+      "package_sha256": "a038f13836498e57435a42f3bd10ef25c1a4f10d4f6cb9678e712b9a0d9e06dd",
+      "bytes": 2529,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+    }
+  ],
+  "dataset_name": "OrthoLaneMark",
+  "dataset_title": "OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection",
+  "repository_name": "ortholanemark-benchmark"
+}

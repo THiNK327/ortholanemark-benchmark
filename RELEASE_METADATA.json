@@ -1,0 +1,132 @@
+{
+  "status": "local_unpublished_candidate",
+  "prepared_date": "2026-09-24",
+  "paper_title": "Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement",
+  "repository_owner": "THiNK327",
+  "repository_name": "ortholanemark-benchmark",
+  "repository_url": null,
+  "code_version": "1.0.0",
+  "dataset_version": "1.0.0",
+  "code_doi": null,
+  "dataset_doi": null,
+  "code_license": null,
+  "data_license": null,
+  "weight_license": null,
+  "public_redistribution_approved": false,
+  "approval_status": "Public release awaits agreement of all authors, as instructed on 2026-09-27.",
+  "creator_attribution_status": "author_confirmed_same_as_manuscript_2026-09-27",
+  "range_included": true,
+  "range_reason": "All 1,391 paired range-image exports included in the companion dataset; reported benchmark remains intensity-only",
+  "weights_included": false,
+  "weight_reason": "18 unchanged files remain in the separate companion; public release awaits all-author agreement and the documented pretrained-weight rights determination.",
+  "availability_statement": "Local benchmark and dataset release candidates are prepared. Public release is planned after all authors agree; actual repository URLs and DOIs will be recorded when available.",
+  "publication_steps_pending": [
+    "Record all-author release agreement and the appropriate rights holder; activate final code/data licenses",
+    "Resolve and record the checkpoint licensing scope, including pretrained initialization terms",
+    "Confirm Technical Paper versus Data Paper submission category",
+    "Create actual GitHub/Zenodo records and enter reserved identifiers; finalize release metadata/checksums",
+    "Publish after the agreed release condition and update manuscript availability/citations before acceptance"
+  ],
+  "checkpoint_companion_prepared": true,
+  "checkpoint_companion": "../checkpoints",
+  "dataset_name": "OrthoLaneMark",
+  "dataset_title": "OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection",
+  "naming_status": "Dataset name/title and repository name approved by author",
+  "range_images": 1391,
+  "range_added_date": "2026-09-26",
+  "range_companion": "../dataset/range",
+  "metadata_updated_date": "2026-09-27",
+  "target_journal": "ASCE Journal of Computing in Civil Engineering",
+  "article_type": null,
+  "article_type_working_assumption": "Technical Paper; author clarification pending",
+  "repository_owner_account_type": "personal",
+  "repository_owner_profile": "https://github.com/THiNK327",
+  "planned_repository_url": "https://github.com/THiNK327/ortholanemark-benchmark",
+  "repository_created_or_published_by_this_work": false,
+  "version_status": "planned_initial_release",
+  "publication_date": null,
+  "creators": [
+    {
+      "name": "Wang, Haolin",
+      "given_names": "Haolin",
+      "family_name": "Wang",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332",
+      "orcid": "https://orcid.org/0009-0008-7186-7409",
+      "email": "hlwang98@gatech.edu"
+    },
+    {
+      "name": "Luo, Shiwei",
+      "given_names": "Shiwei",
+      "family_name": "Luo",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332",
+      "orcid": "https://orcid.org/0009-0008-2205-8808",
+      "email": "sluo308@gatech.edu"
+    },
+    {
+      "name": "Yang, Zhongyu",
+      "given_names": "Zhongyu",
+      "family_name": "Yang",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332",
+      "orcid": "https://orcid.org/0000-0002-7535-0924",
+      "email": "zyang398@gatech.edu"
+    },
+    {
+      "name": "Tsai, Yi-Chang J.",
+      "given_names": "Yi-Chang J.",
+      "family_name": "Tsai",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332",
+      "orcid": "https://orcid.org/0000-0002-6650-2279",
+      "email": "james.tsai@ce.gatech.edu"
+    }
+  ],
+  "corresponding_contact": {
+    "name": "Zhongyu Yang",
+    "email": "zyang398@gatech.edu",
+    "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332"
+  },
+  "funding": [],
+  "funding_status": "none_author_confirmed_2026-09-27",
+  "funding_statement": "No funding was received for this study.",
+  "acknowledgments": "The authors thank Raghu Veerareddy for his assistance with data preparation.",
+  "proposed_licenses": {
+    "benchmark_authored_code": "MIT",
+    "dataset": "CC-BY-4.0",
+    "checkpoints": "CC-BY-4.0"
+  },
+  "license_status": "proposed_for_all_author_release_review_not_yet_granted",
+  "copyright_holder": null,
+  "ownership_status": "Journal article conventions do not establish code/data/checkpoint ownership; record the appropriate rights holder during the coauthor release review.",
+  "release_timing": "Publish after all authors agree; no publication date or embargo has been assigned.",
+  "release_policy_note": "For a Technical Paper, finalize repository citations and the Data Availability Statement during review, preferably before acceptance. A Data Paper requires publicly accessible data for consideration.",
+  "planned_zenodo_records": [
+    {
+      "title": "OrthoLaneMark Benchmark: Code, Results, and Checkpoints",
+      "resource_type": "software",
+      "contents": [
+        "repository/",
+        "checkpoints/"
+      ],
+      "version": "1.0.0",
+      "doi": null
+    },
+    {
+      "title": "OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection",
+      "resource_type": "dataset",
+      "contents": [
+        "dataset/"
+      ],
+      "version": "1.0.0",
+      "doi": null
+    }
+  ],
+  "policy_review": "docs/RELEASE_PLAN.md",
+  "availability_statement_status": "Preparation status only; finalize the ASCE manuscript statement using actual access and citations before acceptance.",
+  "preupload_preparation_date": "2026-09-27",
+  "third_party_code_review_status": "Inspected included components have license copies, attribution mappings and required modification notices; see THIRD_PARTY_NOTICES.md and LICENSES/manifest.json.",
+  "source_notice_provenance": "provenance/source_notice_changes.json",
+  "method_adaptations": "docs/METHOD_ADAPTATIONS.md",
+  "checkpoint_rights_review": "docs/CHECKPOINT_RIGHTS.md",
+  "checkpoint_redistribution_status": "unresolved_pretrained_weight_terms",
+  "weight_license_proposal_status": "CC-BY-4.0 proposal is not established for all checkpoint rights; no blanket relicensing grant is asserted.",
+  "upload_guide": "docs/UPLOAD_GUIDE.md"
+}

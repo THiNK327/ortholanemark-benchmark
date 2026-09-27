@@ -1,0 +1,17 @@
+{
+  "method": "scnn_faithful",
+  "seed": 0,
+  "checkpoint": "weights/scnn_faithful_seed0/best_gra.pth",
+  "checkpoint_sha256": "a6bc47232904fcac44d3f8bea72fb4e36a17c11e52f3db1884b8725feee519bc",
+  "training_performed": false,
+  "historical_checkpoint_rule": "native decoder presence decisions",
+  "best_logged_validation_gra": 0.8678451006196776,
+  "recomputed_historical_rule_validation_gra": 0.8678451121231817,
+  "old_threshold": 0.5,
+  "new_threshold": 0.5,
+  "old_gra": 0.8932141423603057,
+  "new_gra": 0.8932134845766471,
+  "old_report": "lcms_lane_benchmark\\runs_reselect\\scnn_faithful__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "9cb125aff6dfc069d1029ec6d618d93cc6184c8065cd7d2fa9b40a03062b3770"
+}

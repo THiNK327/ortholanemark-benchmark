@@ -1,0 +1,17 @@
+{
+  "method": "clrnet_faithful",
+  "seed": 1,
+  "checkpoint": "weights/clrnet_faithful_seed1/best_gra.pth",
+  "checkpoint_sha256": "63f324998f66aac8a2b331963a8ba46c84c45d49df83d6bf91d9faa60f77b357",
+  "training_performed": false,
+  "historical_checkpoint_rule": "confidence >= 0.5",
+  "best_logged_validation_gra": 0.9240842543074828,
+  "recomputed_historical_rule_validation_gra": 0.9240840989536495,
+  "old_threshold": 0.46,
+  "new_threshold": 0.46,
+  "old_gra": 0.9494284235533266,
+  "new_gra": 0.9494283141619088,
+  "old_report": "lcms_lane_benchmark\\runs_reselect\\clrnet_faithful_seed1__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "5526799b35e62ba0d96cb19060de7641ec3847ad8f517b539debb494f0253ded"
+}

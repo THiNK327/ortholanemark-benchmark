@@ -1,0 +1,17 @@
+{
+  "method": "unet_seg",
+  "seed": 1,
+  "checkpoint": "weights/unet_seg_seed1/best_gra.pth",
+  "checkpoint_sha256": "e7d3a6c5f0c75bbcc30d23eca3fd11f7df894c8af0ec847b0311bafce8c0b3a6",
+  "training_performed": false,
+  "historical_checkpoint_rule": "confidence >= 0.5",
+  "best_logged_validation_gra": 0.8051625392625809,
+  "recomputed_historical_rule_validation_gra": 0.8051625399484804,
+  "old_threshold": 0.48,
+  "new_threshold": 0.48,
+  "old_gra": 0.7863311515748747,
+  "new_gra": 0.7863312008573377,
+  "old_report": "lcms_lane_benchmark\\runs_reselect\\unet_seg_seed1__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "cc58de524f06a492e8e25266bc39dc2e666649a963b941b45616036b79078ebe"
+}

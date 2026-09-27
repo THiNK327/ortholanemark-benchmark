@@ -1,0 +1,50 @@
+{
+  "method": "steger_ridge",
+  "effective_parameters": {
+    "sigmas": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "response_threshold_percentile": 97
+  },
+  "selected_overrides": {
+    "sigmas": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "response_threshold_percentile": 97
+  },
+  "basis": "Saved selected overrides and direct inspection: predict_image forwards only points and image to robust_inner_curves; dormant constructor fields do not control that helper",
+  "constructor_arguments": {
+    "sigmas": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "response_threshold_percentile": 97,
+    "left_zone": 0.4,
+    "right_zone": 0.6,
+    "min_pixels": 100,
+    "min_y_span": 200.0
+  },
+  "unused_constructor_arguments": {
+    "left_zone": 0.4,
+    "right_zone": 0.6,
+    "min_pixels": 100,
+    "min_y_span": 200.0
+  },
+  "shared_postprocessing": {
+    "function": "robust_inner_curves",
+    "source": "lcms_lane_benchmark/literature/_common.py",
+    "left_zone": 0.45,
+    "right_zone": 0.55,
+    "min_group_points": 30,
+    "max_group_points": 3000,
+    "ransac_min_y_span": 200.0
+  }
+}

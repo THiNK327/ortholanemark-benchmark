@@ -1,0 +1,83 @@
+{
+  "prepared_on": "2026-09-27",
+  "scope": "Supplemental licenses and copyright notices for copied or ported source components. These terms do not license the dataset, checkpoints, or benchmark-authored code.",
+  "notes": [
+    "Kornia files were recovered at the exact commit cited in the packaged focal-loss headers.",
+    "The Idelbayev LICENSE was retrieved from master; the API resolved master to d5489e8995e81e91ce6b1d69dcc98ad579b0b153 during the same audit. The exact retrieved bytes are identified by SHA-256.",
+    "Torchvision v0.6.0 and MMDetection v2.19.1 are source comparison references for embedded code ancestry, not claims about the precise versions from which the CLRNet authors copied code or runtime dependencies used in training.",
+    "The five method-level LICENSE_upstream files remain in their original package locations and are additionally inventoried by provenance/package_checksums.json.",
+    "Complete framework distributions and CUDA binaries are not bundled."
+  ],
+  "files": [
+    {
+      "path": "LICENSES/Kornia-Apache-2.0.txt",
+      "license": "Apache-2.0",
+      "source_url": "https://raw.githubusercontent.com/kornia/kornia/f4f70fefb63287f72bc80cd96df9c061b1cb60dd/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/laneatt_faithful/model/focal_loss.py",
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/focal_loss.py"
+      ],
+      "retrieval": "exact public upstream bytes downloaded 2026-09-27"
+    },
+    {
+      "path": "LICENSES/Kornia-COPYRIGHT.txt",
+      "license": "Apache-2.0 copyright notice",
+      "source_url": "https://raw.githubusercontent.com/kornia/kornia/f4f70fefb63287f72bc80cd96df9c061b1cb60dd/COPYRIGHT",
+      "sha256": "4904ba2c490bead9423378eb77865c7961b1636c436da1d4bcf629f9c9ce995d",
+      "bytes": 760,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/laneatt_faithful/model/focal_loss.py",
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/focal_loss.py"
+      ],
+      "retrieval": "exact public upstream bytes downloaded 2026-09-27"
+    },
+    {
+      "path": "LICENSES/Idelbayev-ResNet-BSD-2-Clause.txt",
+      "license": "BSD-2-Clause",
+      "source_url": "https://raw.githubusercontent.com/akamaster/pytorch_resnet_cifar10/master/LICENSE",
+      "sha256": "5fd77ac414b6e19f2d22f130ff9d7e29593f05fd9f0a472e07a15661bc16671e",
+      "bytes": 1273,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/laneatt_faithful/model/resnet.py"
+      ],
+      "retrieval": "exact public upstream bytes downloaded 2026-09-27"
+    },
+    {
+      "path": "LICENSES/LaneATT-NMS-BSD-3-Clause-and-MIT.txt",
+      "license": "BSD-3-Clause AND MIT",
+      "source_url": "https://github.com/lucastabelini/LaneATT/blob/2f8583ba14eccba05e6779668bc3a38bc751984a/lib/nms/LICENSE",
+      "sha256": "6ed26cf91592fbcd3e7be579fc0cdfee76c76b3642fd47002b769380793256fc",
+      "bytes": 3062,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/laneatt_faithful/model/nms_stub.py",
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/clr_head.py"
+      ],
+      "retrieval": "exact local pinned upstream copy"
+    },
+    {
+      "path": "LICENSES/Torchvision-BSD-3-Clause.txt",
+      "license": "BSD-3-Clause",
+      "source_url": "https://raw.githubusercontent.com/pytorch/vision/v0.6.0/LICENSE",
+      "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d",
+      "bytes": 1517,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/resnet.py"
+      ],
+      "retrieval": "exact public upstream bytes downloaded 2026-09-27"
+    },
+    {
+      "path": "LICENSES/MMDetection-Apache-2.0.txt",
+      "license": "Apache-2.0",
+      "source_url": "https://raw.githubusercontent.com/open-mmlab/mmdetection/v2.19.1/LICENSE",
+      "sha256": "874b8b2e6f12306a1ff7812c068a0dbf880418b8ac1f7190382bd6c6da9f23a1",
+      "bytes": 11398,
+      "applies_to": [
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/fpn.py",
+        "lcms_lane_benchmark/literature/clrnet_faithful/model/accuracy.py"
+      ],
+      "retrieval": "exact public upstream bytes downloaded 2026-09-27"
+    }
+  ]
+}
