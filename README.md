@@ -9,6 +9,28 @@ This repository accompanies the paper:
 > Haolin Wang, Shiwei Luo, Zhongyu Yang, and Yi-Chang J. Tsai
 >
 > Georgia Institute of Technology
+>
+> **Under review at the ASCE Journal of Computing in Civil Engineering (JCCE).**
+
+<table>
+  <tr>
+    <td colspan="4" align="center"><img src="docs/images/annotation_legend.png" alt="Legend: triangles mark the left inner boundary; rectangles mark the right inner boundary." width="920"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/both_present.png" alt="Pavement image with both left and right inner boundaries annotated." width="230"></td>
+    <td align="center"><img src="docs/images/left_only.png" alt="Pavement image with only the left marking present and annotated." width="230"></td>
+    <td align="center"><img src="docs/images/right_only.png" alt="Pavement image with only the right marking present and annotated." width="230"></td>
+    <td align="center"><img src="docs/images/none_present.png" alt="Pavement image with neither left nor right marking present." width="230"></td>
+  </tr>
+  <tr>
+    <td align="center">Both present</td>
+    <td align="center">Left only</td>
+    <td align="center">Right only</td>
+    <td align="center">Neither present</td>
+  </tr>
+</table>
+
+**OrthoLaneMark annotation examples.** Present markings are annotated along their lane-facing inner edges; absent markings use the corresponding image edge for region evaluation. Symbols distinguish curves and do not represent annotation points.
 
 ## Benchmark overview
 

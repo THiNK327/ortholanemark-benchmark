@@ -1,0 +1,40 @@
+{
+  "description": "Manuscript Figure 3: annotation examples across four marking-presence categories.",
+  "source_manuscript": "20260925-Lane_Marking_Benchmark.docx",
+  "source_manuscript_sha256": "97f00f6b4d2c7a129a1d3d05ffcfaef7f409a31ffa77f380ddd2f58435a36267",
+  "source_figure": 3,
+  "license": "CC-BY-4.0",
+  "transformation": "Extracted PNG bytes unchanged; arranged as one figure in the README.",
+  "files": [
+    {
+      "path": "docs/images/annotation_legend.png",
+      "source_entry": "word/media/image6.png",
+      "bytes": 4985,
+      "sha256": "f3855bda07f1d9c7979f6c082e4d4ccc7a338c59ed1c3c3681f7b8fc968f252f"
+    },
+    {
+      "path": "docs/images/both_present.png",
+      "source_entry": "word/media/image7.png",
+      "bytes": 132916,
+      "sha256": "cfe11b03ae9eb328fb024da98824354a9b6b2ff93eef391f7314f1d4826a8f54"
+    },
+    {
+      "path": "docs/images/left_only.png",
+      "source_entry": "word/media/image8.png",
+      "bytes": 121220,
+      "sha256": "53e7a755e182ad04fb1bbef0004faf4555c6c48d8db2f36490ae838179040fbb"
+    },
+    {
+      "path": "docs/images/right_only.png",
+      "source_entry": "word/media/image9.png",
+      "bytes": 132061,
+      "sha256": "437afd6295969a1046786ca624d0420ba18cb358aaa61a0fea0b393818756a63"
+    },
+    {
+      "path": "docs/images/none_present.png",
+      "source_entry": "word/media/image10.png",
+      "bytes": 118480,
+      "sha256": "d64200c7efe614486772bfa90515860a7a2a836915ec262e394e7f811eec2733"
+    }
+  ]
+}

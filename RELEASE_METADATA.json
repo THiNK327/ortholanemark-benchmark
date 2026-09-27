@@ -1,5 +1,7 @@
 {
   "paper_title": "Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement",
+  "paper_status": "Under review",
+  "target_journal": "ASCE Journal of Computing in Civil Engineering (JCCE)",
   "repository_owner": "THiNK327",
   "repository_name": "ortholanemark-benchmark",
   "code_version": "1.0.0",
