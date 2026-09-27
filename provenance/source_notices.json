@@ -1,0 +1,41 @@
+{
+  "scope": "Retained third-party attribution prefixes on current source files.",
+  "files": [
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/accuracy.py",
+      "prefix_utf8": "# Copyright (c) OpenMMLab. All rights reserved.\n# Includes MMDetection-derived code under Apache-2.0.\n# See repository LICENSES/MMDetection-Apache-2.0.txt and THIRD_PARTY_NOTICES.md.\n\n# OrthoLaneMark modification notice\n# Adapted from Turoad/CLRNet, commit 7269e9d1c1c650343b6c7febb8e764be538b1aed.\n# This file was modified for the standalone benchmark implementation.\n# Upstream Apache-2.0 terms and component notices are retained; see\n# LICENSE_upstream and the repository THIRD_PARTY_NOTICES.md.\n# This release notice adds comments only to the evaluated source.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/dynamic_assign.py",
+      "prefix_utf8": "# OrthoLaneMark modification notice\n# Adapted from Turoad/CLRNet, commit 7269e9d1c1c650343b6c7febb8e764be538b1aed.\n# This file was modified for the standalone benchmark implementation.\n# Upstream Apache-2.0 terms and component notices are retained; see\n# LICENSE_upstream and the repository THIRD_PARTY_NOTICES.md.\n# This release notice adds comments only to the evaluated source.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/focal_loss.py",
+      "prefix_utf8": "# Kornia-derived focal-loss and one-hot helpers (Apache-2.0).\n# Copyright (c) 2017-2019 Arraiy, Inc.\n# Copyright (c) 2019- Open Source Vision Foundation.\n# Copyright (c) 2019- Kornia authors.\n# Modified from Kornia f4f70fefb63287f72bc80cd96df9c061b1cb60dd:\n# helpers combined in one module; upstream method-specific additions retained.\n# See repository LICENSES/Kornia-COPYRIGHT.txt, LICENSES/Kornia-Apache-2.0.txt\n# and THIRD_PARTY_NOTICES.md for original terms and attribution.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/fpn.py",
+      "prefix_utf8": "# Copyright (c) OpenMMLab. All rights reserved.\n# Includes MMDetection-derived code under Apache-2.0.\n# See repository LICENSES/MMDetection-Apache-2.0.txt and THIRD_PARTY_NOTICES.md.\n\n# OrthoLaneMark modification notice\n# Adapted from Turoad/CLRNet, commit 7269e9d1c1c650343b6c7febb8e764be538b1aed.\n# This file was modified for the standalone benchmark implementation.\n# Upstream Apache-2.0 terms and component notices are retained; see\n# LICENSE_upstream and the repository THIRD_PARTY_NOTICES.md.\n# This release notice adds comments only to the evaluated source.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/resnet.py",
+      "prefix_utf8": "# Includes torchvision ResNet code. Copyright (c) Soumith Chintala 2016.\n# BSD-3-Clause terms: see repository LICENSES/Torchvision-BSD-3-Clause.txt.\n\n# OrthoLaneMark modification notice\n# Adapted from Turoad/CLRNet, commit 7269e9d1c1c650343b6c7febb8e764be538b1aed.\n# This file was modified for the standalone benchmark implementation.\n# Upstream Apache-2.0 terms and component notices are retained; see\n# LICENSE_upstream and the repository THIRD_PARTY_NOTICES.md.\n# This release notice adds comments only to the evaluated source.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/clrnet_faithful/model/roi_gather.py",
+      "prefix_utf8": "# OrthoLaneMark modification notice\n# Adapted from Turoad/CLRNet, commit 7269e9d1c1c650343b6c7febb8e764be538b1aed.\n# This file was modified for the standalone benchmark implementation.\n# Upstream Apache-2.0 terms and component notices are retained; see\n# LICENSE_upstream and the repository THIRD_PARTY_NOTICES.md.\n# This release notice adds comments only to the evaluated source.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/laneatt_faithful/model/focal_loss.py",
+      "prefix_utf8": "# Kornia-derived focal-loss and one-hot helpers (Apache-2.0).\n# Copyright (c) 2017-2019 Arraiy, Inc.\n# Copyright (c) 2019- Open Source Vision Foundation.\n# Copyright (c) 2019- Kornia authors.\n# Modified from Kornia f4f70fefb63287f72bc80cd96df9c061b1cb60dd:\n# helpers combined in one module; upstream method-specific additions retained.\n# See repository LICENSES/Kornia-COPYRIGHT.txt, LICENSES/Kornia-Apache-2.0.txt\n# and THIRD_PARTY_NOTICES.md for original terms and attribution.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/laneatt_faithful/model/nms_stub.py",
+      "prefix_utf8": "# Modified port of the LaneATT lane-NMS implementation.\n# Copyright (c) 2018, Grégoire Payen de La Garanderie, Durham University.\n# Incorporates upstream notices for Copyright (c) 2015 Microsoft Corporation.\n# BSD-3-Clause and MIT terms: see repository\n# LICENSES/LaneATT-NMS-BSD-3-Clause-and-MIT.txt and THIRD_PARTY_NOTICES.md.\n\n"
+    },
+    {
+      "path": "ortholanemark/literature/laneatt_faithful/model/resnet.py",
+      "prefix_utf8": "# Includes the CIFAR ResNet implementation by Yerlan Idelbayev.\n# Copyright (c) 2018, Yerlan Idelbayev. BSD-2-Clause.\n# See repository LICENSES/Idelbayev-ResNet-BSD-2-Clause.txt.\n\n"
+    }
+  ]
+}

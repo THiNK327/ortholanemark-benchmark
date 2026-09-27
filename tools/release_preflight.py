@@ -22,7 +22,7 @@ def inspect(root, companions=False):
         path = root / row['path']
         assert hashlib.sha256(path.read_bytes()).hexdigest() == row['sha256'], str(path)
     for method in ['scnn', 'ufldv2', 'polylanenet', 'laneatt', 'clrnet']:
-        assert (root / f'lcms_lane_benchmark/literature/{method}_faithful/LICENSE_upstream').is_file()
+        assert (root / f'ortholanemark/literature/{method}_faithful/LICENSE_upstream').is_file()
     assert meta['code_license'] == 'MIT'
     assert meta['data_license'] == meta['results_license'] == 'CC-BY-4.0'
     assert meta['weight_license_scope'], 'Checkpoint component scope is missing'
@@ -32,8 +32,8 @@ def inspect(root, companions=False):
     assert '/weights/' in ignore_rules and 'weights/' not in ignore_rules, 'Weights ignore should apply only at repository root'
     assert '* -text' in (root / '.gitattributes').read_text().splitlines(), 'Exact-byte Git checkout rule is missing'
     total, notices = verify_sources(root)
-    report = {'package_verification': 'pass', 'evaluated_source_files': total,
-              'comment_only_source_notices': notices, 'component_licenses': len(licenses['files'])}
+    report = {'package_verification': 'pass', 'source_files': total,
+              'retained_attribution_prefixes': notices, 'component_licenses': len(licenses['files'])}
     if companions:
         parent = root.parent
         dataset = json.loads((parent / 'dataset/manifests/publication_metadata.json').read_text(encoding='utf-8'))

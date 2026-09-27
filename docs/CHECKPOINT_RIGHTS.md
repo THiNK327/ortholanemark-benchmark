@@ -12,12 +12,12 @@ Three U-Net checkpoints were trained from random initialization. The other 15 ch
 
 | Method | Backbone initialization | Implementation |
 |---|---|---|
-| U-Net | Random initialization | [Model](../lcms_lane_benchmark/literature/unet_seg/model.py) |
-| SCNN | ImageNet VGG-16-BN, `torchvision.models.vgg16_bn(pretrained=True)` | [Model](../lcms_lane_benchmark/literature/scnn_faithful/model.py) |
-| UFLDv2 | ImageNet ResNet-18, `torchvision.models.resnet18(pretrained=True)` | [Backbone](../lcms_lane_benchmark/literature/ufldv2_faithful/model/backbone.py) |
-| LaneATT | ImageNet ResNet-34, `torchvision.models.resnet34(pretrained=True)` | [Model](../lcms_lane_benchmark/literature/laneatt_faithful/model/laneatt.py) |
-| CLRNet | ImageNet ResNet-18, PyTorch `resnet18-5c106cde.pth` | [Download mapping](../lcms_lane_benchmark/literature/clrnet_faithful/model/resnet.py) |
-| PolyLaneNet | Standard ImageNet EfficientNet-B0, `EfficientNet.from_pretrained('efficientnet-b0')` with `efficientnet_pytorch==0.6.3` | [Model](../lcms_lane_benchmark/literature/polylanenet_faithful/models.py) |
+| U-Net | Random initialization | [Model](../ortholanemark/literature/unet_seg/model.py) |
+| SCNN | ImageNet VGG-16-BN, `torchvision.models.vgg16_bn(pretrained=True)` | [Model](../ortholanemark/literature/scnn_faithful/model.py) |
+| UFLDv2 | ImageNet ResNet-18, `torchvision.models.resnet18(pretrained=True)` | [Backbone](../ortholanemark/literature/ufldv2_faithful/model/backbone.py) |
+| LaneATT | ImageNet ResNet-34, `torchvision.models.resnet34(pretrained=True)` | [Model](../ortholanemark/literature/laneatt_faithful/model/laneatt.py) |
+| CLRNet | ImageNet ResNet-18, PyTorch `resnet18-5c106cde.pth` | [Download mapping](../ortholanemark/literature/clrnet_faithful/model/resnet.py) |
+| PolyLaneNet | Standard ImageNet EfficientNet-B0, `EfficientNet.from_pretrained('efficientnet-b0')` with `efficientnet_pytorch==0.6.3` | [Model](../ortholanemark/literature/polylanenet_faithful/models.py) |
 
 Torchvision's software is BSD-3-Clause, and its [pretrained-model documentation](https://docs.pytorch.org/vision/main/models.html) explains that model weights may carry separate provider or training-data terms. EfficientNet-PyTorch [release 1.0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/tag/1.0) distributes the B0 weights and retains an [Apache-2.0 project license](https://github.com/lukemelas/EfficientNet-PyTorch/blob/1.0/LICENSE). These software licenses do not establish a replacement CC BY license for all underlying pretrained parameters.
 

@@ -40,7 +40,7 @@
   },
   "shared_postprocessing": {
     "function": "robust_inner_curves",
-    "source": "lcms_lane_benchmark/literature/_common.py",
+    "source": "ortholanemark/literature/_common.py",
     "left_zone": 0.45,
     "right_zone": 0.55,
     "min_group_points": 30,

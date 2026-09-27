@@ -8,11 +8,11 @@ The five upstream model licenses are retained verbatim in the indicated director
 
 | Method | Recorded upstream and revision | License and retained notice |
 |---|---|---|
-| SCNN | [harryhan618/SCNN_Pytorch](https://github.com/harryhan618/SCNN_Pytorch/tree/bbe0acff4681bcda7e984f867dd31fdaa9a7bf81) | [MIT](lcms_lane_benchmark/literature/scnn_faithful/LICENSE_upstream), Copyright (c) 2019 HarryHan |
-| UFLDv2 | [cfzd/Ultra-Fast-Lane-Detection-V2](https://github.com/cfzd/Ultra-Fast-Lane-Detection-V2/tree/c903880678454dfd9b55a63022368db05c00bc6d) | [MIT](lcms_lane_benchmark/literature/ufldv2_faithful/LICENSE_upstream), Copyright (c) 2022 zequn qin |
-| PolyLaneNet | [lucastabelini/PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet/tree/6155ce2e7d3841c46a0035a25acc9d2e304d9856) | [MIT](lcms_lane_benchmark/literature/polylanenet_faithful/LICENSE_upstream), Copyright (c) 2020 Lucas Tabelini Torres |
-| LaneATT | [lucastabelini/LaneATT](https://github.com/lucastabelini/LaneATT/tree/2f8583ba14eccba05e6779668bc3a38bc751984a) | [MIT](lcms_lane_benchmark/literature/laneatt_faithful/LICENSE_upstream), Copyright (c) 2021 Lucas Tabelini; additional components listed below |
-| CLRNet | [Turoad/CLRNet](https://github.com/Turoad/CLRNet/tree/7269e9d1c1c650343b6c7febb8e764be538b1aed) | [Apache-2.0](lcms_lane_benchmark/literature/clrnet_faithful/LICENSE_upstream); additional components listed below |
+| SCNN | [harryhan618/SCNN_Pytorch](https://github.com/harryhan618/SCNN_Pytorch/tree/bbe0acff4681bcda7e984f867dd31fdaa9a7bf81) | [MIT](ortholanemark/literature/scnn_faithful/LICENSE_upstream), Copyright (c) 2019 HarryHan |
+| UFLDv2 | [cfzd/Ultra-Fast-Lane-Detection-V2](https://github.com/cfzd/Ultra-Fast-Lane-Detection-V2/tree/c903880678454dfd9b55a63022368db05c00bc6d) | [MIT](ortholanemark/literature/ufldv2_faithful/LICENSE_upstream), Copyright (c) 2022 zequn qin |
+| PolyLaneNet | [lucastabelini/PolyLaneNet](https://github.com/lucastabelini/PolyLaneNet/tree/6155ce2e7d3841c46a0035a25acc9d2e304d9856) | [MIT](ortholanemark/literature/polylanenet_faithful/LICENSE_upstream), Copyright (c) 2020 Lucas Tabelini Torres |
+| LaneATT | [lucastabelini/LaneATT](https://github.com/lucastabelini/LaneATT/tree/2f8583ba14eccba05e6779668bc3a38bc751984a) | [MIT](ortholanemark/literature/laneatt_faithful/LICENSE_upstream), Copyright (c) 2021 Lucas Tabelini; additional components listed below |
+| CLRNet | [Turoad/CLRNet](https://github.com/Turoad/CLRNet/tree/7269e9d1c1c650343b6c7febb8e764be538b1aed) | [Apache-2.0](ortholanemark/literature/clrnet_faithful/LICENSE_upstream); additional components listed below |
 
 Canny-Hough and LSD are benchmark wrappers calling separately installed OpenCV functions. The Steger-inspired ridge detector and U-Net architecture are implemented in the benchmark source; no separate original-author source distribution for either method is bundled. Their research citations describe the methods and do not replace the applicable software licenses.
 
@@ -20,7 +20,7 @@ Task-specific adapters, grayscale preprocessing, two-side targets, fitted bounda
 
 ## Components included within the method source
 
-Paths in the following table are relative to `lcms_lane_benchmark/literature/`. Licenses are included even for supporting code that the selected benchmark configuration does not execute.
+Paths in the following table are relative to `ortholanemark/literature/`. Licenses are included even for supporting code that the selected benchmark configuration does not execute.
 
 | Included component | Packaged files and attribution | License documents |
 |---|---|---|

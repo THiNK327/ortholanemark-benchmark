@@ -5,12 +5,12 @@
   "training_or_benchmark_inference_or_selection_or_timing_run": false,
   "checks": [
     {
-      "check": "18 retained selected checkpoints match archived hashes",
+      "check": "Original evaluation snapshot: 18 selected checkpoints matched archived file hashes",
       "status": "pass",
       "count": 18
     },
     {
-      "check": "Checkpoint copies match originals and metadata epochs match history",
+      "check": "Original evaluation snapshot: checkpoint copies matched originals and metadata epochs matched history",
       "status": "pass",
       "count": 18
     },
@@ -98,6 +98,16 @@
         "benchmark_compat": 1245,
         "total": 2490
       }
+    },
+    {
+      "date": "2026-09-27",
+      "change": "Public source names and archived report references normalized. Three LaneATT checkpoint metadata paths and one anchor archive prefix normalized; all tensor storage bytes unchanged.",
+      "source_manifest": "../provenance/source_manifest.json",
+      "checkpoint_metadata_record": "../provenance/checkpoint_metadata_updates.json",
+      "training_or_benchmark_inference_or_selection_or_timing_run": false,
+      "model_tensor_values_changed": false,
+      "saved_prediction_values_changed": false
     }
-  ]
+  ],
+  "scope": "Historical verification checks from the evaluated snapshot. Subsequent packaging changes are listed separately below; current file hashes are checked by the package integrity tools."
 }

@@ -2,7 +2,7 @@
   "method": "laneatt_faithful",
   "seed": 1,
   "checkpoint": "weights/laneatt_faithful_seed1/best_gra.pth",
-  "checkpoint_sha256": "5f95ddd747557b2c85d0b1b8e4de7cc3f3cdcff8c763babdf56520f92158deee",
+  "checkpoint_sha256": "e4940b425fad4b56ff5913445f70ac1fd7c32ad8cffe26de24c33649c985f598",
   "training_performed": false,
   "historical_checkpoint_rule": "native decoder presence decisions",
   "best_logged_validation_gra": 0.8010050060069615,
@@ -11,7 +11,10 @@
   "new_threshold": 0.02,
   "old_gra": 0.7478994936962736,
   "new_gra": 0.7478994922282036,
-  "old_report": "lcms_lane_benchmark\\runs_reselect\\laneatt_faithful_seed1__gra\\report_tuned.json",
+  "old_report": "ortholanemark\\runs_reselect\\laneatt_faithful_seed1__gra\\report_tuned.json",
   "presence_changes": 0,
-  "source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db"
+  "source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
+  "report_reference_convention": "Historical report path expressed with the public package name.",
+  "evaluated_checkpoint_sha256": "5f95ddd747557b2c85d0b1b8e4de7cc3f3cdcff8c763babdf56520f92158deee",
+  "checkpoint_metadata_normalized": true
 }

@@ -12,7 +12,7 @@ This repository accompanies the paper:
 >
 > **Under review at the ASCE Journal of Computing in Civil Engineering (JCCE).**
 
-![Four equally sized annotation examples: both markings present, left only, right only, and neither present.](docs/images/annotation_examples.svg)
+![Four equally sized annotation examples: both markings present, left only, right only, and neither present.](docs/images/annotation_examples.png)
 
 **OrthoLaneMark annotation examples.** Present markings are annotated along their lane-facing inner edges; absent markings use the corresponding image edge for region evaluation. Symbols distinguish curves and do not represent annotation points.
 
@@ -52,14 +52,14 @@ ortholanemark-benchmark/
 ├── LICENSE                      # MIT license for benchmark-authored code
 ├── LICENSE.md                   # License scope for code, results, and companions
 ├── CITATION.cff                 # Software citation metadata
-├── lcms_lane_benchmark/         # Nine methods, data readers, and evaluators
-├── configs/                    # Selected learning and traditional configurations
-├── artifacts/                  # Saved predictions, scores, and selection records
-├── tools/                      # Evaluation and verification commands
-├── verification/               # Reference summaries and verification records
-├── provenance/                 # Source, run, and file-hash manifests
-├── LICENSES/                   # Retained third-party component licenses
-└── docs/                       # Protocol, data, adaptations, and reproduction
+├── ortholanemark/               # Nine methods, data readers, and evaluators
+├── configs/                     # Selected learning and traditional configurations
+├── artifacts/                   # Saved predictions, scores, and selection records
+├── tools/                       # Evaluation and verification commands
+├── verification/                # Reference summaries and verification records
+├── provenance/                  # Source, run, and file-hash manifests
+├── LICENSES/                    # Retained third-party component licenses
+└── docs/                        # Protocol, data, adaptations, and reproduction
 ```
 
 ## Installation and quick start

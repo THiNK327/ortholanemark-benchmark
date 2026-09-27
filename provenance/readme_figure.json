@@ -4,7 +4,7 @@
   "source_manuscript_sha256": "97f00f6b4d2c7a129a1d3d05ffcfaef7f409a31ffa77f380ddd2f58435a36267",
   "source_figure": 3,
   "license": "CC-BY-4.0",
-  "transformation": "Original PNG bytes embedded unchanged in a self-contained SVG with four equal-sized panels and a shared legend; GitHub scales the composition as one image.",
+  "transformation": "Original PNG assets arranged as one fixed-size PNG figure. All four panel pixel arrays are identical to the source panels.",
   "files": [
     {
       "path": "docs/images/annotation_legend.png",
@@ -38,8 +38,8 @@
     }
   ],
   "composition": {
-    "path": "docs/images/annotation_examples.svg",
-    "sha256": "1ed9b127385b77e892d42d0b7d812584ef04a5e8ff61f8491ff6c20de4dc4158",
+    "path": "docs/images/annotation_examples.png",
+    "sha256": "e2d5a08ee30c9686a0370e92a42e292043aa5f93e76027976fa4812285332ab7",
     "canvas_width": 1480,
     "canvas_height": 608,
     "panels": [
@@ -75,6 +75,7 @@
         "height": 434,
         "label": "Neither present"
       }
-    ]
+    ],
+    "format": "PNG"
   }
 }

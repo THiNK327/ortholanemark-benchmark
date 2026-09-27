@@ -1,0 +1,243 @@
+"""Plain U-Net segmentation baseline training entrypoint.
+
+Deliberately mirrors `scnn_faithful/train.py` in every shared decision so
+the comparison isolates the architecture:
+
+  - Identical dataset class (`SCNNFaithfulDataset`): same rasterized
+    polynomial labels (line_width=8), same Rotation(±2°) augmentation,
+    same 800x320 input, same ImageNet normalization.
+  - Identical checkpoint selection: per-epoch val `strict_operational_iou`.
+  - Identical reproducibility + resume machinery (`_train_helpers`).
+
+Differences (inherent to "plain segmentation"):
+  - Architecture: standard U-Net, trained from scratch (no ImageNet
+    pretraining, no spatial message passing, no existence head).
+  - Loss: weighted cross-entropy on the 3-class seg map only
+    (bg weight 0.4, mirroring the SCNN port's class weighting).
+  - Optimizer: Adam 1e-3 (the conventional U-Net recipe), constant LR.
+"""
+
+from __future__ import annotations
+
+import argparse
+import time
+from pathlib import Path
+
+import torch
+from torch.utils.data import DataLoader
+
+from ortholanemark.literature.unet_seg.model import UNet
+from ortholanemark.literature.unet_seg.predict import (
+    predict_batch_with_model,
+)
+from ortholanemark.literature.scnn_faithful.dataset import (
+    SCNNFaithfulDataset, collate,
+)
+from ortholanemark.literature._train_helpers import (
+    set_global_seed, make_loader_generator, rng_snapshot, rng_restore,
+    atomic_save, atomic_json, env_metadata, load_resume_checkpoint,
+)
+from ortholanemark.literature._val_strict_iou import (
+    compute_val_strict_iou,
+)
+
+
+def parse_args():
+    p = argparse.ArgumentParser()
+    p.add_argument('--manifest', required=True)
+    p.add_argument('--save_dir', required=True)
+    p.add_argument('--epochs', type=int, default=100,
+                   help='Fair-comparison budget: identical 100 epochs '
+                        'across all faithful baselines.')
+    p.add_argument('--batch_size', type=int, default=4)
+    p.add_argument('--input_h', type=int, default=800)
+    p.add_argument('--input_w', type=int, default=320)
+    p.add_argument('--base_ch', type=int, default=64)
+    p.add_argument('--lr', type=float, default=1e-3)
+    p.add_argument('--weight_decay', type=float, default=0.0)
+    p.add_argument('--bg_weight', type=float, default=0.4,
+                   help='CE class weight for background (lanes get 1.0); '
+                        'mirrors the SCNN port convention.')
+    p.add_argument('--num_workers', type=int, default=0)
+    p.add_argument('--device', default='cuda')
+    p.add_argument('--seed', type=int, default=0)
+    p.add_argument('--resume', action='store_true',
+                   help='Resume from last.pth if present (auto-detects).')
+    p.add_argument('--no_auto_resume', action='store_true',
+                   help='Force training from scratch even if last.pth exists.')
+    return p.parse_args()
+
+
+def _val_predict_batch_fn(model, image_grays, input_h, input_w):
+    return predict_batch_with_model(model, image_grays,
+                                    input_h=input_h, input_w=input_w)
+
+
+def main():
+    args = parse_args()
+    save_dir = Path(args.save_dir)
+    save_dir.mkdir(parents=True, exist_ok=True)
+
+    set_global_seed(args.seed)
+    gen = make_loader_generator(args.seed)
+
+    train_ds = SCNNFaithfulDataset(args.manifest, 'train',
+                                   input_h=args.input_h,
+                                   input_w=args.input_w,
+                                   rotation_deg=2.0)
+    val_ds = SCNNFaithfulDataset(args.manifest, 'val',
+                                 input_h=args.input_h,
+                                 input_w=args.input_w,
+                                 rotation_deg=0.0)
+    train_dl = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True,
+                          num_workers=args.num_workers, collate_fn=collate,
+                          drop_last=True, generator=gen)
+    val_dl = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False,
+                        num_workers=args.num_workers, collate_fn=collate)
+
+    model = UNet(in_channels=3, num_classes=3,
+                 base_ch=args.base_ch).to(args.device)
+    class_weights = torch.tensor([args.bg_weight, 1.0, 1.0],
+                                 dtype=torch.float32, device=args.device)
+    criterion = torch.nn.CrossEntropyLoss(weight=class_weights)
+    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr,
+                                 weight_decay=args.weight_decay)
+
+    history = []
+    best_val_strict_iou = -1.0
+    best_val_gra = -1.0
+    start_epoch = 1
+    t_start = time.time()
+    base_elapsed = 0.0
+
+    resume_ckpt = None
+    if args.resume or (not args.no_auto_resume):
+        resume_ckpt = load_resume_checkpoint(save_dir)
+    if resume_ckpt is not None and not args.no_auto_resume:
+        model.load_state_dict(resume_ckpt['model'])
+        optimizer.load_state_dict(resume_ckpt['optimizer'])
+        history = list(resume_ckpt.get('history', []))
+        best_val_strict_iou = float(
+            resume_ckpt.get('best_val_strict_iou', -1.0))
+        best_val_gra = float(resume_ckpt.get('best_val_gra', -1.0))
+        start_epoch = int(resume_ckpt.get('epoch', 0)) + 1
+        if 'rng_state' in resume_ckpt:
+            rng_restore(resume_ckpt['rng_state'])
+        if history:
+            base_elapsed = float(history[-1].get('elapsed_min', 0.0))
+        print(f'RESUMING from epoch {start_epoch - 1} -> {args.epochs} '
+              f'(best_val_strict_iou={best_val_strict_iou:.4f})')
+
+    if start_epoch > args.epochs:
+        print(f'Already at epoch {start_epoch - 1} >= {args.epochs}; '
+              f'nothing to do.')
+        return
+
+    print(f'Train: {len(train_ds)}  Val: {len(val_ds)}  '
+          f'Batches/epoch: {len(train_dl)}  seed: {args.seed}')
+
+    for ep in range(start_epoch, args.epochs + 1):
+        model.train()
+        tr_loss = 0.0
+        n_tr = 0
+        for sample in train_dl:
+            img = sample['img'].to(args.device)
+            seg = sample['segLabel'].to(args.device)
+            optimizer.zero_grad()
+            loss = criterion(model(img), seg)
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
+            optimizer.step()
+            tr_loss += float(loss.item()) * img.size(0)
+            n_tr += img.size(0)
+        tr_loss /= max(n_tr, 1)
+
+        model.eval()
+        val_loss = 0.0
+        n_val = 0
+        with torch.no_grad():
+            for sample in val_dl:
+                img = sample['img'].to(args.device)
+                seg = sample['segLabel'].to(args.device)
+                val_loss += float(criterion(model(img), seg).item()) \
+                    * img.size(0)
+                n_val += img.size(0)
+        val_loss /= max(n_val, 1)
+
+        v = compute_val_strict_iou(
+            model, args.manifest, _val_predict_batch_fn,
+            predict_kwargs={'input_h': args.input_h,
+                            'input_w': args.input_w},
+            batch_size=args.batch_size)
+        val_strict_iou = v['val_strict_iou']
+        val_op_iou = v['val_op_iou']
+        val_gra = v['val_gra']
+
+        elapsed = base_elapsed + (time.time() - t_start) / 60.0
+        rec = {
+            'epoch': ep, 'train_loss': tr_loss, 'val_loss': val_loss,
+            'val_strict_iou': val_strict_iou, 'val_op_iou': val_op_iou,
+            'val_gra': val_gra,
+            'lr': args.lr, 'elapsed_min': elapsed,
+        }
+        history.append(rec)
+        print(f'[ep {ep:3d}] tr={tr_loss:.4f}  val_loss={val_loss:.4f}  '
+              f'val_strict_iou={val_strict_iou:.4f}  '
+              f'val_op_iou={val_op_iou:.4f}  '
+              f'val_gra={val_gra:.4f}  +{elapsed:.1f}min')
+
+        ckpt = {
+            'model': model.state_dict(),
+            'optimizer': optimizer.state_dict(),
+            'history': history,
+            'epoch': ep,
+            'best_val_strict_iou': best_val_strict_iou,
+            'best_val_gra': best_val_gra,
+            'val_loss': val_loss,
+            'val_strict_iou': val_strict_iou,
+            'val_op_iou': val_op_iou,
+            'val_gra': val_gra,
+            'rng_state': rng_snapshot(),
+            'seed': args.seed,
+            'config': {
+                'input_h': args.input_h, 'input_w': args.input_w,
+                'base_ch': args.base_ch, 'batch_size': args.batch_size,
+                'lr': args.lr, 'epochs': args.epochs,
+                'bg_weight': args.bg_weight, 'rotation_deg': 2.0,
+            },
+            'env': env_metadata(),
+        }
+        # Dual-best checkpoint selection (selection-sensitivity analysis):
+        # best.pth = strict-IoU-best epoch (UNCHANGED criterion, so the
+        # published checkpoint reproduces); best_gra.pth = GRA-best epoch
+        # (val GRA at fixed tau=0.5). Both bests come from the SAME run.
+        new_best_strict = val_strict_iou > best_val_strict_iou
+        new_best_gra = val_gra > best_val_gra
+        if new_best_strict:
+            best_val_strict_iou = val_strict_iou
+        if new_best_gra:
+            best_val_gra = val_gra
+        ckpt['best_val_strict_iou'] = best_val_strict_iou
+        ckpt['best_val_gra'] = best_val_gra
+        atomic_save(ckpt, save_dir / 'last.pth')
+        atomic_json({'history': history}, save_dir / 'history.json')
+
+        if new_best_strict:
+            atomic_save(ckpt, save_dir / 'best.pth')
+            # Re-save last.pth so a resume restores the UPDATED best —
+            # otherwise a post-resume epoch worse than the true best
+            # could overwrite best.pth.
+            atomic_save(ckpt, save_dir / 'last.pth')
+            print(f'  ** new best_val_strict_iou = '
+                  f'{best_val_strict_iou:.4f}, best.pth updated')
+        if new_best_gra:
+            atomic_save(ckpt, save_dir / 'best_gra.pth')
+            print(f'  ** new best_val_gra = '
+                  f'{best_val_gra:.4f}, best_gra.pth updated')
+
+    print(f'Training done. best_val_strict_iou={best_val_strict_iou:.4f} '
+          f'best_val_gra={best_val_gra:.4f}')
+
+
+if __name__ == '__main__':
+    main()

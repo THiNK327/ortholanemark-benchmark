@@ -14,7 +14,7 @@ The Steger method is a multiscale Hessian/ridge adaptation with shared boundary 
 
 ## Output and evaluation conventions
 
-Adapters return left/right x coordinates for every image row in original pixel coordinates, together with confidence and native presence decisions. Prediction reconstruction is separate from the annotation polynomials. The controlling implementations are [evaluation/metrics.py](../lcms_lane_benchmark/evaluation/metrics.py) and [scripts/wheelpath_diagnostic.py](../lcms_lane_benchmark/scripts/wheelpath_diagnostic.py).
+Adapters return left/right x coordinates for every image row in original pixel coordinates, together with confidence and native presence decisions. Prediction reconstruction is separate from the annotation polynomials. The controlling implementations are [evaluation/metrics.py](../ortholanemark/evaluation/metrics.py) and [scripts/wheelpath_diagnostic.py](../ortholanemark/scripts/wheelpath_diagnostic.py).
 
 GRA equals lane-region intersection-over-union only when both side-presence decisions match annotations; otherwise it is zero. Absence substitutes the corresponding image edge for evaluation, without claiming a physical lane boundary. For predictions, nonfinite rows also use the corresponding edge; finite coordinates are clipped to 0 through W-1. Raster regions include integer columns between ceil(left) and floor(right); reversed rows are empty. Zero-union region overlap is one. Equal integer-valued boundaries include one pixel, whereas equal noninteger coordinates can include none. The width used by legacy area/width diagnostics must not be conflated with inclusive raster pixel counts.
 

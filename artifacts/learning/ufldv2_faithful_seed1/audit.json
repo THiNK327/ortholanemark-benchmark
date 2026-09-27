@@ -11,7 +11,8 @@
   "new_threshold": 0.38,
   "old_gra": 0.7757907193957101,
   "new_gra": 0.7757907253027556,
-  "old_report": "lcms_lane_benchmark\\runs_reselect\\ufldv2_faithful_seed1__gra\\report_tuned.json",
+  "old_report": "ortholanemark\\runs_reselect\\ufldv2_faithful_seed1__gra\\report_tuned.json",
   "presence_changes": 0,
-  "source_sha256": "5cb2ab9d58e08a3ae07bfb5a99587608a657b23fccffe5d9ea77fbf32f653b99"
+  "source_sha256": "5cb2ab9d58e08a3ae07bfb5a99587608a657b23fccffe5d9ea77fbf32f653b99",
+  "report_reference_convention": "Historical report path expressed with the public package name."
 }

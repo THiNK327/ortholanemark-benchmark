@@ -11,7 +11,8 @@
   "new_threshold": 0.02,
   "old_gra": 0.9470600350078584,
   "new_gra": 0.9470599912973864,
-  "old_report": "lcms_lane_benchmark\\runs_reselect\\clrnet_faithful__gra\\report_tuned.json",
+  "old_report": "ortholanemark\\runs_reselect\\clrnet_faithful__gra\\report_tuned.json",
   "presence_changes": 0,
-  "source_sha256": "5526799b35e62ba0d96cb19060de7641ec3847ad8f517b539debb494f0253ded"
+  "source_sha256": "5526799b35e62ba0d96cb19060de7641ec3847ad8f517b539debb494f0253ded",
+  "report_reference_convention": "Historical report path expressed with the public package name."
 }

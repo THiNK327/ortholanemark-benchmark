@@ -9,8 +9,8 @@ import cv2
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from lcms_lane_benchmark.evaluation import metrics as m
-from lcms_lane_benchmark.data.lane_gt import LaneGeometricTruth
+from ortholanemark.evaluation import metrics as m
+from ortholanemark.data.lane_gt import LaneGeometricTruth
 
 def extract(path, names):
     text=(ROOT/path).read_text(encoding='utf-8-sig')
@@ -20,10 +20,10 @@ def extract(path, names):
     exec(compile(tree,str(path),'exec'),namespace)
     return namespace
 
-w=extract('lcms_lane_benchmark/scripts/wheelpath_diagnostic.py',['strips','disagreement'])
-lane=extract('lcms_lane_benchmark/literature/laneatt_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
-clr=extract('lcms_lane_benchmark/literature/clrnet_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
-unet=extract('lcms_lane_benchmark/literature/unet_seg/predict.py',['_decode_side'])['_decode_side']
+w=extract('ortholanemark/scripts/wheelpath_diagnostic.py',['strips','disagreement'])
+lane=extract('ortholanemark/literature/laneatt_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
+clr=extract('ortholanemark/literature/clrnet_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
+unet=extract('ortholanemark/literature/unet_seg/predict.py',['_decode_side'])['_decode_side']
 results=[]
 def check(name,fn):
     try:

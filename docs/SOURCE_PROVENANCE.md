@@ -1,17 +1,17 @@
-# Evaluated-source provenance
+# Source provenance
 
-The model and evaluator source used for the reported experiments is identified by 84 original file hashes in [provenance/source_manifest.json](../provenance/source_manifest.json).
+[provenance/source_manifest.json](../provenance/source_manifest.json) identifies the 84 distributed source and resource files by their current paths, byte counts, and SHA-256 hashes. It also retains the corresponding historical evaluated hashes and byte counts as audit references.
 
-Nine packaged Python files include added comment prefixes identifying upstream components or documenting modifications. Their executable statements, function bodies, docstrings, constants, and model configurations are unchanged. For each file, [source_notice_changes.json](../provenance/source_notice_changes.json) records the evaluated hash, packaged hash, and exact added UTF-8 prefix. Removing that prefix reconstructs the evaluated file byte-for-byte.
+The Python package is named `ortholanemark`. Release preparation updated package names, imports, paths, documentation strings, and the LaneATT anchor-resource resolver. Model computations, numeric settings, and evaluation rules were checked for equivalence during preparation. The saved-result checks described in [REPRODUCTION.md](REPRODUCTION.md) provide additional verification without rerunning model training or inference.
 
-Run:
+Nine Python files contain attribution comment prefixes recorded in [source_notices.json](../provenance/source_notices.json). Run:
 
 ```sh
 python tools/verify_sources.py
 ```
 
-The check validates all 84 evaluated files, verifies that each recorded prefix contains only comments or blank lines, reconstructs original bytes, and compares Python abstract syntax trees without source-location attributes.
+This command checks the current hashes and byte counts, confirms that the manifest covers every distributed package file apart from caches, and verifies that all nine attribution prefixes remain present and contain only comments or blank lines. It also checks that removing each prefix leaves the current file's abstract syntax tree unchanged.
 
-Package checksums identify the files as distributed; run manifests identify the source used during evaluation. Both versions can be verified using the repository alone, without a separate source archive.
+Historical hashes identify the source used for the reported evaluations; they are not reconstructed by this command. The original source and the exact release-edit records are retained in a separate author archive and are not included in this distribution. Package checksums verify the files as distributed.
 
-See [third-party notices](../THIRD_PARTY_NOTICES.md) for the component license mapping and [method adaptations](METHOD_ADAPTATIONS.md) for differences from upstream experimental setups.
+See [third-party notices](../THIRD_PARTY_NOTICES.md) for component licenses and [method adaptations](METHOD_ADAPTATIONS.md) for differences from upstream experimental setups.

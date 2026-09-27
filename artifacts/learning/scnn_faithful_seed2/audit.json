@@ -11,7 +11,8 @@
   "new_threshold": 0.48,
   "old_gra": 0.8885445994053146,
   "new_gra": 0.888544417005444,
-  "old_report": "lcms_lane_benchmark\\runs_reselect\\scnn_faithful_seed2__gra\\report_tuned.json",
+  "old_report": "ortholanemark\\runs_reselect\\scnn_faithful_seed2__gra\\report_tuned.json",
   "presence_changes": 0,
-  "source_sha256": "9cb125aff6dfc069d1029ec6d618d93cc6184c8065cd7d2fa9b40a03062b3770"
+  "source_sha256": "9cb125aff6dfc069d1029ec6d618d93cc6184c8065cd7d2fa9b40a03062b3770",
+  "report_reference_convention": "Historical report path expressed with the public package name."
 }

@@ -74,7 +74,7 @@
     "test": 294,
     "excluded_buffer": 70
   },
-  "source_notice_provenance": "provenance/source_notice_changes.json",
+  "source_notice_provenance": "provenance/source_notices.json",
   "method_adaptations": "docs/METHOD_ADAPTATIONS.md",
   "checkpoint_provenance": "docs/CHECKPOINT_RIGHTS.md",
   "companion_records": [
@@ -97,5 +97,7 @@
       "version": "1.0.0",
       "doi": null
     }
-  ]
+  ],
+  "python_package": "ortholanemark",
+  "checkpoint_metadata_updates": "provenance/checkpoint_metadata_updates.json"
 }

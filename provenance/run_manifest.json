@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-09-24",
   "run_count": 18,
-  "weights_total_bytes": 4401967587,
+  "weights_total_bytes": 4401852285,
   "runs": [
     {
       "run_id": "clrnet_faithful_seed0",
@@ -109,9 +109,9 @@
       "checkpoint_file": "weights/laneatt_faithful_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
-      "checkpoint_sha256": "3ea9264b77609c1d368dd58ca7ca5975553a4c3dea9bff259f56ec2cd6b0c3b3",
-      "checkpoint_bytes": 265802194,
-      "matches_archived_checkpoint_hash": true,
+      "checkpoint_sha256": "22a1ee5b7bb575634de1261f767cee64181e17ce757ce6770cdd26baf066b71d",
+      "checkpoint_bytes": 265763774,
+      "matches_archived_checkpoint_hash": false,
       "selected_epoch_from_history": 47,
       "selected_epoch_basis": "checkpoint metadata and first maximal historical val_gra agree",
       "historical_selection_rule": "native decoder presence decisions",
@@ -125,7 +125,7 @@
       "decoder_source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
       "selected_epoch": 47,
       "configuration_path": "configs/learning/laneatt_faithful_seed0.json",
-      "configuration_sha256": "3f2a732e9c0b49459e2972a586665411a68fcfabe42d241a667eccce615a3ab4",
+      "configuration_sha256": "4eb4fb2c7557629587323037c862c48d93d6107f0f8cd5b30742af5912e1435d",
       "training_environment": {
         "python_version": "3.12.4",
         "torch_version": "2.5.1",
@@ -133,7 +133,12 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed0/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed0/best_gra.pth",
+      "original_configuration_sha256": "3f2a732e9c0b49459e2972a586665411a68fcfabe42d241a667eccce615a3ab4",
+      "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
+      "evaluated_checkpoint_sha256": "3ea9264b77609c1d368dd58ca7ca5975553a4c3dea9bff259f56ec2cd6b0c3b3",
+      "tensor_storage_matches_evaluated_checkpoint": true,
+      "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
       "run_id": "laneatt_faithful_seed1",
@@ -142,9 +147,9 @@
       "checkpoint_file": "weights/laneatt_faithful_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
-      "checkpoint_sha256": "5f95ddd747557b2c85d0b1b8e4de7cc3f3cdcff8c763babdf56520f92158deee",
-      "checkpoint_bytes": 265801810,
-      "matches_archived_checkpoint_hash": true,
+      "checkpoint_sha256": "e4940b425fad4b56ff5913445f70ac1fd7c32ad8cffe26de24c33649c985f598",
+      "checkpoint_bytes": 265763365,
+      "matches_archived_checkpoint_hash": false,
       "selected_epoch_from_history": 43,
       "selected_epoch_basis": "checkpoint metadata and first maximal historical val_gra agree",
       "historical_selection_rule": "native decoder presence decisions",
@@ -158,7 +163,7 @@
       "decoder_source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
       "selected_epoch": 43,
       "configuration_path": "configs/learning/laneatt_faithful_seed1.json",
-      "configuration_sha256": "83ab8fc6350fec64af7f03e28a65469908942f615e2e385205aadab155071084",
+      "configuration_sha256": "41ef71cf6afa28174b1d5a4e6f55e5650070f2f38c503cca1355b46a2040073a",
       "training_environment": {
         "python_version": "3.12.4",
         "torch_version": "2.5.1",
@@ -166,7 +171,12 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed1/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed1/best_gra.pth",
+      "original_configuration_sha256": "83ab8fc6350fec64af7f03e28a65469908942f615e2e385205aadab155071084",
+      "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
+      "evaluated_checkpoint_sha256": "5f95ddd747557b2c85d0b1b8e4de7cc3f3cdcff8c763babdf56520f92158deee",
+      "tensor_storage_matches_evaluated_checkpoint": true,
+      "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
       "run_id": "laneatt_faithful_seed2",
@@ -175,9 +185,9 @@
       "checkpoint_file": "weights/laneatt_faithful_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
-      "checkpoint_sha256": "5aae231f42679fa6e23335ecc3f6818baf15a778082ae07feaef562a55080b3d",
-      "checkpoint_bytes": 265801874,
-      "matches_archived_checkpoint_hash": true,
+      "checkpoint_sha256": "f40c4544317243ffb858e83a9be50810afc198c5f06d1f15bbf34bdba9d582f3",
+      "checkpoint_bytes": 265763437,
+      "matches_archived_checkpoint_hash": false,
       "selected_epoch_from_history": 43,
       "selected_epoch_basis": "checkpoint metadata and first maximal historical val_gra agree",
       "historical_selection_rule": "native decoder presence decisions",
@@ -191,7 +201,7 @@
       "decoder_source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
       "selected_epoch": 43,
       "configuration_path": "configs/learning/laneatt_faithful_seed2.json",
-      "configuration_sha256": "bcd69125512825e2e861aff66d3c4250e49d7258b01f345bb6f3873a6732ff53",
+      "configuration_sha256": "85f4bcec9d04d5ae387cb6b6919d768e2fd8d345661ac7bb3aece15b323cee6c",
       "training_environment": {
         "python_version": "3.12.4",
         "torch_version": "2.5.1",
@@ -199,7 +209,12 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed2/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed2/best_gra.pth",
+      "original_configuration_sha256": "bcd69125512825e2e861aff66d3c4250e49d7258b01f345bb6f3873a6732ff53",
+      "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
+      "evaluated_checkpoint_sha256": "5aae231f42679fa6e23335ecc3f6818baf15a778082ae07feaef562a55080b3d",
+      "tensor_storage_matches_evaluated_checkpoint": true,
+      "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
       "run_id": "polylanenet_faithful_seed0",

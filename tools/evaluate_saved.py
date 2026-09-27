@@ -6,8 +6,8 @@ import sys
 import numpy as np
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from lcms_lane_benchmark.scripts.reselect_eval import _gt, _build_report
-from lcms_lane_benchmark.scripts.wheelpath_diagnostic import assess
+from ortholanemark.scripts.reselect_eval import _gt, _build_report
+from ortholanemark.scripts.wheelpath_diagnostic import assess
 from prepare_manifest import resolve_manifest
 
 def main():

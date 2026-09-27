@@ -28,7 +28,7 @@ Input sizes below are **height x width**. Learning-method geometry is expressed 
 | CLRNet | 320 x 800 | ResNet-18, FPN, and iterative lane-prior refinement; two-boundary targets and adapted data/configuration integration. Uses the same replacement NMS module as LaneATT. AdamW with cosine decay. | Retained proposals undergo the same fit-degree and side-assignment rules described for LaneATT, using CLRNet's own proposal decoding and thresholds. |
 | PolyLaneNet | 360 x 640 | EfficientNet-B0 with direct cubic regression and two positional output slots. Adam with cosine decay. | Predicted cubics are evaluated directly. Predicted vertical extents do not truncate the benchmark's full-height boundaries; each slot supplies its own confidence. |
 
-The exact geometry, confidence, and fallback rules are implemented in each method's `predict.py` under [literature/](../lcms_lane_benchmark/literature/) and in the traditional [shared helper](../lcms_lane_benchmark/literature/_common.py). Output adaptation can affect localization and presence results; it is part of each evaluated pipeline. Replacement NMS is an implementation adaptation, not a basis for claiming original CUDA runtime performance.
+The exact geometry, confidence, and fallback rules are implemented in each method's `predict.py` under [literature/](../ortholanemark/literature/) and in the traditional [shared helper](../ortholanemark/literature/_common.py). Output adaptation can affect localization and presence results; it is part of each evaluated pipeline. Replacement NMS is an implementation adaptation, not a basis for claiming original CUDA runtime performance.
 
 ## Recorded upstream provenance
 
