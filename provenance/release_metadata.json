@@ -60,7 +60,7 @@
   "weight_license": "CC-BY-4.0",
   "weight_license_scope": "Benchmark authors' contributions; pretrained components retain their applicable third-party terms.",
   "copyright_holder": "Haolin Wang, Shiwei Luo, Zhongyu Yang, and Yi-Chang J. Tsai",
-  "license_scope": "LICENSE.md",
+  "license_scope": "THIRD_PARTY_NOTICES.md#license-scope",
   "range_included": true,
   "range_images": 1391,
   "benchmark_input": "Intensity images only",
@@ -75,8 +75,8 @@
     "excluded_buffer": 70
   },
   "source_notice_provenance": "provenance/source_notices.json",
-  "method_adaptations": "docs/METHOD_ADAPTATIONS.md",
-  "checkpoint_provenance": "docs/CHECKPOINT_RIGHTS.md",
+  "method_adaptations": "provenance/README.md#method-adaptations",
+  "checkpoint_provenance": "THIRD_PARTY_NOTICES.md#checkpoint-initialization",
   "companion_records": [
     {
       "title": "OrthoLaneMark Benchmark: Code, Results, and Checkpoints",
@@ -99,5 +99,6 @@
     }
   ],
   "python_package": "ortholanemark",
-  "checkpoint_metadata_updates": "provenance/checkpoint_metadata_updates.json"
+  "checkpoint_metadata_updates": "provenance/checkpoint_metadata_updates.json",
+  "path_base": "Repository root; companion paths are relative to the repository root."
 }

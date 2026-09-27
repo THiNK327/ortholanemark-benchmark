@@ -21,11 +21,6 @@
       "sha256": "c7aecee3f73e6aa666cc5cd49bc42ee04911e5424371390be1e9b637e1d757ea"
     },
     {
-      "path": "CHANGELOG.md",
-      "bytes": 1637,
-      "sha256": "54fe2066ade2fb9f082f47b868d1cb3bc2b407cc6824e8c61b75d21c2b681573"
-    },
-    {
       "path": "CITATION.cff",
       "bytes": 1793,
       "sha256": "69be0bdd52a5277ea2cabaae10db78c68bae74eb3a42a4d9e485511fae3f9cdd"
@@ -34,11 +29,6 @@
       "path": "LICENSE",
       "bytes": 1137,
       "sha256": "2f3bbe7c43c589c8c4e8be5084f166204f9a0fcd05a30e60c5e25bd7748b3fe9"
-    },
-    {
-      "path": "LICENSE.md",
-      "bytes": 1624,
-      "sha256": "203abd1f53b3ede50d297bb4b63f6c244c5661250ed3e8a1a6776c3ec94defc0"
     },
     {
       "path": "LICENSES/Idelbayev-ResNet-BSD-2-Clause.txt",
@@ -77,18 +67,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7540,
-      "sha256": "2a70513f03c9c97a223f39dad7eee76611cd02b649aa1d02ce5ab285d6c7b81f"
-    },
-    {
-      "path": "RELEASE_METADATA.json",
-      "bytes": 3993,
-      "sha256": "b685ffb53fd438806d7086dc580f150909a8ba93211a57f164c26618a3749a57"
+      "bytes": 10343,
+      "sha256": "19498c52ffaba4c459e03eab77140a41b3795c77b848188921f05065b45be2a0"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 6904,
-      "sha256": "f2eb07510854c21e6c96b05ec9501b902d44d01feb3c8adc68560e113973dcbc"
+      "bytes": 10639,
+      "sha256": "ed18abdee192b8bb620108fb4a68472b02c44108f3d65379c8f1a4f4f31740a5"
     },
     {
       "path": "artifacts/learning/clrnet_faithful_seed0/audit.json",
@@ -1251,6 +1236,11 @@
       "sha256": "a038f13836498e57435a42f3bd10ef25c1a4f10d4f6cb9678e712b9a0d9e06dd"
     },
     {
+      "path": "assets/annotation_examples.png",
+      "bytes": 753746,
+      "sha256": "e2d5a08ee30c9686a0370e92a42e292043aa5f93e76027976fa4812285332ab7"
+    },
+    {
       "path": "configs/learning/clrnet_faithful_seed0.json",
       "bytes": 518,
       "sha256": "3719c705d0f8ffafd6a22d8e783525bed9371ff60a98c1083c7a80b26896ce06"
@@ -1374,76 +1364,6 @@
       "path": "configs/traditional/steger_ridge_effective.json",
       "bytes": 1146,
       "sha256": "5a61ea3522b42211e8154dadd505eeafdd3d1ae16a259aff44ecbc1d0fba0e94"
-    },
-    {
-      "path": "docs/CHECKPOINT_RIGHTS.md",
-      "bytes": 3589,
-      "sha256": "4ac945651dd1d8e3c2fe7faca8aa4da51df07ecc39efe5c91baaa7e462c07a10"
-    },
-    {
-      "path": "docs/DATASET_AND_ANNOTATIONS.md",
-      "bytes": 3042,
-      "sha256": "ec5fa98f11c15f877c5a69b57a5231c4b87988191a27235be869bb32142aa3be"
-    },
-    {
-      "path": "docs/ENVIRONMENTS.md",
-      "bytes": 2680,
-      "sha256": "c0c5189b526f31421d8748d998928d1b6cea62cabaa51c8eb000a228e8cc1e47"
-    },
-    {
-      "path": "docs/METHOD_ADAPTATIONS.md",
-      "bytes": 7564,
-      "sha256": "f76688b4d2685d3e4ad4a88c85ad05094ad1ec1cc94f57e2dd81c01546524885"
-    },
-    {
-      "path": "docs/PROTOCOL.md",
-      "bytes": 4739,
-      "sha256": "5a2400c3bce1b0170222fff2e5bf2a18b191b30d4a8b93270bc69437fe1c8d3f"
-    },
-    {
-      "path": "docs/RANGE.md",
-      "bytes": 1002,
-      "sha256": "14b954d9c1661210e5efeeca0a54a4915fda91d3d302b0069f5fec98a244d673"
-    },
-    {
-      "path": "docs/REPRODUCTION.md",
-      "bytes": 5267,
-      "sha256": "0a5c75f64b0cb738eb41ab586dc3ade990e2764629c814369b28de9d268e2fba"
-    },
-    {
-      "path": "docs/SOURCE_PROVENANCE.md",
-      "bytes": 1735,
-      "sha256": "503b295cb35c0343462ab85f0a6891d7e4f0a7f97e60fb29af19d8d17ccbad6f"
-    },
-    {
-      "path": "docs/images/annotation_examples.png",
-      "bytes": 753746,
-      "sha256": "e2d5a08ee30c9686a0370e92a42e292043aa5f93e76027976fa4812285332ab7"
-    },
-    {
-      "path": "docs/images/annotation_legend.png",
-      "bytes": 4985,
-      "sha256": "f3855bda07f1d9c7979f6c082e4d4ccc7a338c59ed1c3c3681f7b8fc968f252f"
-    },
-    {
-      "path": "docs/images/both_present.png",
-      "bytes": 132916,
-      "sha256": "cfe11b03ae9eb328fb024da98824354a9b6b2ff93eef391f7314f1d4826a8f54"
-    },
-    {
-      "path": "docs/images/left_only.png",
-      "bytes": 121220,
-      "sha256": "53e7a755e182ad04fb1bbef0004faf4555c6c48d8db2f36490ae838179040fbb"
-    },
-    {
-      "path": "docs/images/none_present.png",
-      "bytes": 118480,
-      "sha256": "d64200c7efe614486772bfa90515860a7a2a836915ec262e394e7f811eec2733"
-    },
-    {
-      "path": "docs/images/right_only.png",
-      "bytes": 132061,
-      "sha256": "437afd6295969a1046786ca624d0420ba18cb358aaa61a0fea0b393818756a63"
     },
     {
       "path": "ortholanemark/__init__.py",
@@ -1866,6 +1786,11 @@
       "sha256": "a5a4e74eb88b8be14ae6afeb80375af456f9cb6c08ad246e3e0ed9ffa9422bb0"
     },
     {
+      "path": "provenance/README.md",
+      "bytes": 5679,
+      "sha256": "ed90d2fcc594cade255a8c6e3194038f4d144c898a45597cbe41c526e9ee3079"
+    },
+    {
       "path": "provenance/artifact_manifest.json",
       "bytes": 106772,
       "sha256": "9f57cf9e007501ff63051971cfa0f9f25dc2f44843ad8197b9607a02446d1f12"
@@ -1877,8 +1802,13 @@
     },
     {
       "path": "provenance/readme_figure.json",
-      "bytes": 2581,
-      "sha256": "a0009ba0f18808b950ea64b0b6cf45edf37525a954c1f7fbcb729d07d186f4b8"
+      "bytes": 2546,
+      "sha256": "2180e36108e8040b53b771fbcba14d21a8df7387424afe7be78d441903184d56"
+    },
+    {
+      "path": "provenance/release_metadata.json",
+      "bytes": 4144,
+      "sha256": "a8a49b85245cc04d69c5900ee30c73a20a367811015eb9a647b21934b2743f4c"
     },
     {
       "path": "provenance/run_manifest.json",
@@ -1927,8 +1857,8 @@
     },
     {
       "path": "tools/release_preflight.py",
-      "bytes": 3779,
-      "sha256": "bcd5e40bdbdb823552d89a7720af0a7351f15a740cb5df59ea0e214ed566fd80"
+      "bytes": 3759,
+      "sha256": "3488a72c6589c4672a95cb37bcd1b59084c438986c4f7d218e6d629ff4cf8033"
     },
     {
       "path": "tools/run_synthetic_checks.py",

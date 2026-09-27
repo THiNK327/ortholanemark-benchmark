@@ -2,6 +2,21 @@
 
 This package contains adapted source from the projects below. Their license and copyright notices remain applicable to their components and are not replaced by the MIT license for benchmark-authored code. Dataset images, annotations, and checkpoint weights have separate release terms; the source-code licenses below do not establish permission to redistribute those materials.
 
+## License scope
+
+Copyright (c) 2026 Haolin Wang, Shiwei Luo, Zhongyu Yang, and Yi-Chang J. Tsai, for the benchmark authors' contributions.
+
+| Material | License and scope |
+|---|---|
+| Benchmark-authored code, tools, configurations, and documentation | [MIT](LICENSE) |
+| Third-party source and adaptations | Original terms below; exact texts retained alongside code and in `LICENSES/` |
+| Authors' saved scores, predictions, and analysis in `artifacts/` and `verification/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) |
+| [README figure](assets/annotation_examples.png) | CC BY 4.0; unchanged manuscript Figure 3 panel pixels, with source and composition hashes in [figure provenance](provenance/readme_figure.json) |
+| Companion dataset images, annotations, splits, and documentation | CC BY 4.0, as specified in the dataset's `LICENSE` |
+| Authors' contributions to companion checkpoints | CC BY 4.0, as specified in the checkpoint package's `LICENSE`; pretrained components retain their applicable terms |
+
+These grants cover the benchmark authors' contributions. Cite the benchmark and retain license and attribution notices. The CC BY 4.0 grants do not replace third-party licenses.
+
 ## Method implementations
 
 The five upstream model licenses are retained verbatim in the indicated directories. The pinned commits identify the upstream snapshots used by the benchmark.
@@ -40,4 +55,21 @@ No separate `NOTICE` file was found in the retained CLRNet source tree or the in
 
 Runtime dependencies include PyTorch, torchvision, NumPy, SciPy, OpenCV, Pillow, tqdm, and EfficientNet-PyTorch. Their own licenses govern those separately installed packages. This distribution does not bundle framework binaries, compiled CUDA extensions, complete upstream repository trees, or original pretrained ImageNet checkpoint downloads. The source portions expressly identified above are bundled and retain their licenses regardless of whether the complete dependency is installed separately.
 
-See the [license overview](LICENSE.md) for benchmark-authored code, results, and companion packages.
+## Checkpoint initialization
+
+The companion package contains 18 selected checkpoints: seeds 0, 1, and 2 for each learning method. Three U-Net checkpoints use random initialization; the other 15 use pretrained backbones. Traditional methods have no trained checkpoints. Selected epochs, thresholds, loading paths, and hashes are in the [run manifest](provenance/run_manifest.json) and companion `manifest.json`.
+
+| Method | Initialization | Implementation |
+|---|---|---|
+| U-Net | Random | [Model](ortholanemark/literature/unet_seg/model.py) |
+| SCNN | ImageNet VGG-16-BN, `torchvision.models.vgg16_bn(pretrained=True)` | [Model](ortholanemark/literature/scnn_faithful/model.py) |
+| UFLDv2 | ImageNet ResNet-18, `torchvision.models.resnet18(pretrained=True)` | [Backbone](ortholanemark/literature/ufldv2_faithful/model/backbone.py) |
+| LaneATT | ImageNet ResNet-34, `torchvision.models.resnet34(pretrained=True)` | [Model](ortholanemark/literature/laneatt_faithful/model/laneatt.py) |
+| CLRNet | ImageNet ResNet-18, PyTorch `resnet18-5c106cde.pth` | [Download mapping](ortholanemark/literature/clrnet_faithful/model/resnet.py) |
+| PolyLaneNet | Standard ImageNet EfficientNet-B0, `EfficientNet.from_pretrained('efficientnet-b0')`, `efficientnet_pytorch==0.6.3` | [Model](ortholanemark/literature/polylanenet_faithful/models.py) |
+
+Torchvision software is BSD-3-Clause; its [model documentation](https://docs.pytorch.org/vision/main/models.html) explains that weights may have separate provider or training-data terms. EfficientNet-PyTorch [release 1.0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/tag/1.0) distributes B0 weights under a project retaining an [Apache-2.0 license](https://github.com/lukemelas/EfficientNet-PyTorch/blob/1.0/LICENSE). These software licenses do not establish a replacement CC BY license for pretrained parameters.
+
+Initialization sources are supported by packaged training code and configurations; original download logs and full weight-file hashes were not retained. The historical torchvision version for SCNN, UFLDv2, and LaneATT is unverified; the version in [requirements-models.txt](requirements-models.txt) is a compatibility pin.
+
+CLRNet maps to [PyTorch's ResNet-18 file](https://download.pytorch.org/models/resnet18-5c106cde.pth). EfficientNet-PyTorch 0.6.3 maps standard B0 to [efficientnet-b0-355c32eb.pth](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth), not AdvProp weights. Its source-distribution SHA-256 is `6667459336893e9bf6367de3788ba449fed97f65da3b6782bf2204b6273a319f`; this verifies the provider mapping, not the original training download.

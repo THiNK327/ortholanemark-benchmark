@@ -5,77 +5,73 @@
   "source_figure": 3,
   "license": "CC-BY-4.0",
   "transformation": "Original PNG assets arranged as one fixed-size PNG figure. All four panel pixel arrays are identical to the source panels.",
-  "files": [
-    {
-      "path": "docs/images/annotation_legend.png",
-      "source_entry": "word/media/image6.png",
-      "bytes": 4985,
-      "sha256": "f3855bda07f1d9c7979f6c082e4d4ccc7a338c59ed1c3c3681f7b8fc968f252f"
-    },
-    {
-      "path": "docs/images/both_present.png",
-      "source_entry": "word/media/image7.png",
-      "bytes": 132916,
-      "sha256": "cfe11b03ae9eb328fb024da98824354a9b6b2ff93eef391f7314f1d4826a8f54"
-    },
-    {
-      "path": "docs/images/left_only.png",
-      "source_entry": "word/media/image8.png",
-      "bytes": 121220,
-      "sha256": "53e7a755e182ad04fb1bbef0004faf4555c6c48d8db2f36490ae838179040fbb"
-    },
-    {
-      "path": "docs/images/right_only.png",
-      "source_entry": "word/media/image9.png",
-      "bytes": 132061,
-      "sha256": "437afd6295969a1046786ca624d0420ba18cb358aaa61a0fea0b393818756a63"
-    },
-    {
-      "path": "docs/images/none_present.png",
-      "source_entry": "word/media/image10.png",
-      "bytes": 118480,
-      "sha256": "d64200c7efe614486772bfa90515860a7a2a836915ec262e394e7f811eec2733"
-    }
-  ],
   "composition": {
-    "path": "docs/images/annotation_examples.png",
+    "path": "assets/annotation_examples.png",
     "sha256": "e2d5a08ee30c9686a0370e92a42e292043aa5f93e76027976fa4812285332ab7",
     "canvas_width": 1480,
     "canvas_height": 608,
     "panels": [
       {
-        "source": "docs/images/both_present.png",
         "x": 24,
         "y": 110,
         "width": 346,
         "height": 434,
-        "label": "Both present"
+        "label": "Both present",
+        "source_entry": "word/media/image7.png"
       },
       {
-        "source": "docs/images/left_only.png",
         "x": 386,
         "y": 110,
         "width": 346,
         "height": 434,
-        "label": "Left only"
+        "label": "Left only",
+        "source_entry": "word/media/image8.png"
       },
       {
-        "source": "docs/images/right_only.png",
         "x": 748,
         "y": 110,
         "width": 346,
         "height": 434,
-        "label": "Right only"
+        "label": "Right only",
+        "source_entry": "word/media/image9.png"
       },
       {
-        "source": "docs/images/none_present.png",
         "x": 1110,
         "y": 110,
         "width": 346,
         "height": 434,
-        "label": "Neither present"
+        "label": "Neither present",
+        "source_entry": "word/media/image10.png"
       }
     ],
     "format": "PNG"
-  }
+  },
+  "source_assets": [
+    {
+      "source_entry": "word/media/image6.png",
+      "bytes": 4985,
+      "sha256": "f3855bda07f1d9c7979f6c082e4d4ccc7a338c59ed1c3c3681f7b8fc968f252f"
+    },
+    {
+      "source_entry": "word/media/image7.png",
+      "bytes": 132916,
+      "sha256": "cfe11b03ae9eb328fb024da98824354a9b6b2ff93eef391f7314f1d4826a8f54"
+    },
+    {
+      "source_entry": "word/media/image8.png",
+      "bytes": 121220,
+      "sha256": "53e7a755e182ad04fb1bbef0004faf4555c6c48d8db2f36490ae838179040fbb"
+    },
+    {
+      "source_entry": "word/media/image9.png",
+      "bytes": 132061,
+      "sha256": "437afd6295969a1046786ca624d0420ba18cb358aaa61a0fea0b393818756a63"
+    },
+    {
+      "source_entry": "word/media/image10.png",
+      "bytes": 118480,
+      "sha256": "d64200c7efe614486772bfa90515860a7a2a836915ec262e394e7f811eec2733"
+    }
+  ],
+  "source_asset_scope": "Historical manuscript media entries and their original hashes; separate source panels are archived outside this repository. Only the composed PNG is distributed here."
 }

@@ -9,11 +9,11 @@ from verify_integrity import main as verify_integrity
 
 
 def inspect(root, companions=False):
-    meta = json.loads((root / 'RELEASE_METADATA.json').read_text(encoding='utf-8'))
+    meta = json.loads((root / 'provenance/release_metadata.json').read_text(encoding='utf-8'))
     required = [
-        'LICENSE', 'LICENSE.md', 'CITATION.cff', 'LICENSES/manifest.json',
-        'docs/METHOD_ADAPTATIONS.md', 'docs/CHECKPOINT_RIGHTS.md',
-        'docs/SOURCE_PROVENANCE.md', 'THIRD_PARTY_NOTICES.md',
+        'README.md', 'LICENSE', 'CITATION.cff', 'LICENSES/manifest.json',
+        'provenance/README.md', 'assets/annotation_examples.png',
+        'THIRD_PARTY_NOTICES.md',
     ]
     for relative in required:
         assert (root / relative).is_file(), f'Missing package file: {relative}'
