@@ -37,8 +37,8 @@
     },
     {
       "path": "LICENSE.md",
-      "bytes": 1564,
-      "sha256": "85406e6866fd9ebeb45bd7e89247964fae83608f4f8f153ee47170842d2cd2c2"
+      "bytes": 1600,
+      "sha256": "2385b16b8d4723395715576196a7753149dd926873b64dc0a0771ae211b5f7b5"
     },
     {
       "path": "LICENSES/Idelbayev-ResNet-BSD-2-Clause.txt",
@@ -77,8 +77,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8422,
-      "sha256": "661b190bb0910f3399812aa7e473bd6fab36a7d9eacb674add5ccea067a36bd5"
+      "bytes": 7533,
+      "sha256": "680a5aa6f44f9e53a81f1535102b3b4766a625e7609897bb5d5040716f64958c"
     },
     {
       "path": "RELEASE_METADATA.json",
@@ -1416,6 +1416,11 @@
       "sha256": "5e668b5469891a9456e6d80b8266d76dde22297f772a7c6fdd780f20691d094d"
     },
     {
+      "path": "docs/images/annotation_examples.svg",
+      "bytes": 681244,
+      "sha256": "1ed9b127385b77e892d42d0b7d812584ef04a5e8ff61f8491ff6c20de4dc4158"
+    },
+    {
       "path": "docs/images/annotation_legend.png",
       "bytes": 4985,
       "sha256": "f3855bda07f1d9c7979f6c082e4d4ccc7a338c59ed1c3c3681f7b8fc968f252f"
@@ -1867,8 +1872,8 @@
     },
     {
       "path": "provenance/readme_figure.json",
-      "bytes": 1522,
-      "sha256": "347c6822cfa0c65d6bf365f81c43df2ef5761d751717bebd9c9feeedc9c46d21"
+      "bytes": 2592,
+      "sha256": "a72a63800d810a5b2f00a1ec970d1956dd5e41e5b1973ff2fbed44eb9501cacf"
     },
     {
       "path": "provenance/run_manifest.json",
