@@ -1,10 +1,10 @@
 # OrthoLaneMark third-party notices and provenance
 
-This package contains adapted source from the projects below. Their license and copyright notices remain applicable to their components and are not replaced by the license chosen for benchmark-authored code. Dataset images, annotations, and checkpoint weights have separate release terms; the source-code licenses below do not establish permission to redistribute those materials.
+This package contains adapted source from the projects below. Their license and copyright notices remain applicable to their components and are not replaced by the MIT license for benchmark-authored code. Dataset images, annotations, and checkpoint weights have separate release terms; the source-code licenses below do not establish permission to redistribute those materials.
 
 ## Method implementations
 
-The five upstream model licenses are retained verbatim in the indicated directories. The pinned commits identify the local upstream snapshots used to prepare the benchmark; upstream executable code was not upgraded during release preparation.
+The five upstream model licenses are retained verbatim in the indicated directories. The pinned commits identify the upstream snapshots used by the benchmark.
 
 | Method | Recorded upstream and revision | License and retained notice |
 |---|---|---|
@@ -40,4 +40,4 @@ No separate `NOTICE` file was found in the retained CLRNet source tree or the in
 
 Runtime dependencies include PyTorch, torchvision, NumPy, SciPy, OpenCV, Pillow, tqdm, and EfficientNet-PyTorch. Their own licenses govern those separately installed packages. This distribution does not bundle framework binaries, compiled CUDA extensions, complete upstream repository trees, or original pretrained ImageNet checkpoint downloads. The source portions expressly identified above are bundled and retain their licenses regardless of whether the complete dependency is installed separately.
 
-License notices were completed on September 27, 2026. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for the current release-license status and [docs/RELEASE_PLAN.md](docs/RELEASE_PLAN.md) for the publication plan.
+See the [license overview](LICENSE.md) for benchmark-authored code, results, and companion packages.

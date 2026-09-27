@@ -3,9 +3,18 @@
     ".git/",
     "__pycache__/",
     ".pytest_cache/",
+    ".venv/",
+    "work/",
+    "data/",
+    "weights/",
     "checksum manifest itself"
   ],
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 225,
+      "sha256": "c1d7e14cd75131ff035a899aba6cf1b929388b448eff18d7f95a0fc47acff59d"
+    },
     {
       "path": ".gitignore",
       "bytes": 201,
@@ -13,18 +22,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4176,
-      "sha256": "25cd664a5938be6dc526cd44019d188765284fb355ee17894517e0ca84d25754"
+      "bytes": 1384,
+      "sha256": "83465b7c545d6a99f05bb30b660cf12b92266e92db98a8defc1a1b3602ce1b9a"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1800,
-      "sha256": "f5444598ab5a2a3c64527e4cafe7dcc8c24ec3c7aeee93d9c8ab822bb43fad3c"
+      "bytes": 1793,
+      "sha256": "69be0bdd52a5277ea2cabaae10db78c68bae74eb3a42a4d9e485511fae3f9cdd"
     },
     {
-      "path": "LICENSE.proposed",
-      "bytes": 1376,
-      "sha256": "93b0566edbcd5c206300b3579d9906c24f53ed21c65b6f6597d7f9fbd408106f"
+      "path": "LICENSE",
+      "bytes": 1137,
+      "sha256": "2f3bbe7c43c589c8c4e8be5084f166204f9a0fcd05a30e60c5e25bd7748b3fe9"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1402,
+      "sha256": "f33b5ac33da95b7ea06729659697eddb39ed3b8d0ef5b3d4cf61a0cee38bc0c4"
     },
     {
       "path": "LICENSES/Idelbayev-ResNet-BSD-2-Clause.txt",
@@ -62,24 +76,19 @@
       "sha256": "0eedfa50f8b4eee7f4487e8c7c309a8c646246a351edb4c9ac28c5d841ef35bb"
     },
     {
-      "path": "LICENSE_STATUS.md",
-      "bytes": 1495,
-      "sha256": "11cdd088e2d7dccf40c924b65af32bd3973825013d3ad0d29a0a20c4108c56d1"
-    },
-    {
       "path": "README.md",
-      "bytes": 5644,
-      "sha256": "53ff50e0eb0cc532106d4a09b8c61eb5f76dc7beee8bf61440673a36cc6d7214"
+      "bytes": 7049,
+      "sha256": "d3cf3b8d28ead4f6cd6970d72a08a0a5052c22dd8cee46e4a015ab228e8bd3d8"
     },
     {
       "path": "RELEASE_METADATA.json",
-      "bytes": 6785,
-      "sha256": "552e46ca3d0d336ea4a1ea6891760ca891ed4d58421f1aa828b659aed74f84b5"
+      "bytes": 3768,
+      "sha256": "54668abc92f26d9076b3ec7eece1f54a38a9c1bc82d087d15ed1c53652c19a78"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 7137,
-      "sha256": "9371cfb85e28fb69574e5917650eb7ec5ff9c4b3c2cd66c050cf174d68b89f63"
+      "bytes": 6940,
+      "sha256": "410fa1a33ea5a7c89c6102caa7d2d81ade40327b3dcc861d61042f22b8c898be"
     },
     {
       "path": "artifacts/learning/clrnet_faithful_seed0/audit.json",
@@ -1368,53 +1377,43 @@
     },
     {
       "path": "docs/CHECKPOINT_RIGHTS.md",
-      "bytes": 7895,
-      "sha256": "60d841a9c62449a818da3d5f2295ed127b67b185a9251e4e29858df964f56700"
+      "bytes": 3625,
+      "sha256": "43d63f407875daec1453b9a68ce5b78f9934bafbfd1e262f78ca30c5271fab31"
     },
     {
       "path": "docs/DATASET_AND_ANNOTATIONS.md",
-      "bytes": 2844,
-      "sha256": "90d85c732770ba3f6629971f6e3d4f02cb00e94a651080336a2ec9723339f114"
+      "bytes": 3042,
+      "sha256": "ec5fa98f11c15f877c5a69b57a5231c4b87988191a27235be869bb32142aa3be"
     },
     {
       "path": "docs/ENVIRONMENTS.md",
-      "bytes": 2541,
-      "sha256": "623e01d5517e4981f961c95cabfa590a8ee54548e0ebe17d60305ce0c48f5864"
+      "bytes": 2680,
+      "sha256": "c0c5189b526f31421d8748d998928d1b6cea62cabaa51c8eb000a228e8cc1e47"
     },
     {
       "path": "docs/METHOD_ADAPTATIONS.md",
-      "bytes": 7667,
-      "sha256": "ea09ee533bc30a2664a683d1dd745485e0a6306eb1490704f891f7103685d8f9"
+      "bytes": 7576,
+      "sha256": "79f07131b113c0fcc5550e046b3eb0a81b7185c82de43cd20ad1ec23d9c0bf21"
     },
     {
       "path": "docs/PROTOCOL.md",
-      "bytes": 4568,
-      "sha256": "d3c184cf44266fea286c23fbcf3c02a52f68cff5ad0dbdc0e462c092130fa8c9"
+      "bytes": 4751,
+      "sha256": "6155fc286dd6d47060e53db46ba0bae71777e6a2963493e9c47ff2580c5f3e35"
     },
     {
       "path": "docs/RANGE.md",
-      "bytes": 989,
-      "sha256": "881a4677bc8bebcecfe10694caa1501fdcdb56785394ce9cd2ca85b4fac3cbdb"
-    },
-    {
-      "path": "docs/RELEASE_PLAN.md",
-      "bytes": 5778,
-      "sha256": "f1a477f250fc564cab7e54325f9c7c82f6e92aec972248a4bdb00552e3812ad8"
+      "bytes": 1002,
+      "sha256": "14b954d9c1661210e5efeeca0a54a4915fda91d3d302b0069f5fec98a244d673"
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "bytes": 3167,
-      "sha256": "58f27127e4be11b2c59574f95506803a2f29bdf82ead5583a2013a038126cf58"
+      "bytes": 5037,
+      "sha256": "e6cbaa39fdaf95e4df1b1bb5812535113dec492666a743ce004b30ca52cc7762"
     },
     {
       "path": "docs/SOURCE_PROVENANCE.md",
-      "bytes": 1490,
-      "sha256": "1959612f01730b36855109f46a47e4e49f322e3ea81fd9fc6b73c65eb06963dc"
-    },
-    {
-      "path": "docs/UPLOAD_GUIDE.md",
-      "bytes": 4041,
-      "sha256": "dda16fae95308489b2147c84a81a77d8193e8d8fa0446a829f5408b7b460a93d"
+      "bytes": 1334,
+      "sha256": "5e668b5469891a9456e6d80b8266d76dde22297f772a7c6fdd780f20691d094d"
     },
     {
       "path": "lcms_lane_benchmark/__init__.py",
@@ -1888,8 +1887,8 @@
     },
     {
       "path": "tools/release_preflight.py",
-      "bytes": 5253,
-      "sha256": "5e736380f0dac52009b71d94dfef49009caa7471b11d607742c8ff68454b819e"
+      "bytes": 3793,
+      "sha256": "8089174542739e586ec69ec7fac554855f3743a475ed1cae51c651a660331fc9"
     },
     {
       "path": "tools/run_synthetic_checks.py",
@@ -1933,8 +1932,8 @@
     },
     {
       "path": "verification/results.json",
-      "bytes": 4019,
-      "sha256": "5009187b5f3ba07303df834fe93584e1934714ae68afa30ff97df5d8907d5ef7"
+      "bytes": 3931,
+      "sha256": "ccd890d3cb1c155a0f07ff5d847f88804f86ca251e07bb25f34dd689c5f0e562"
     }
   ]
 }

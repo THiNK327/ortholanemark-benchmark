@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: Citation metadata for the planned 1.0.0 release. Creators confirmed; public release awaits agreement of all authors. DOI and publication date will be added when available.
+message: "If you use this benchmark, please cite it using the metadata below."
 type: software
 title: 'OrthoLaneMark Benchmark: Code, Results, and Checkpoints'
-abstract: Nine-method intensity-only lane-marking benchmark with code, configurations, saved predictions and scores, verification tools, and 18 selected checkpoints in a separate companion folder. Local unpublished candidate.
+abstract: Nine-method intensity-only lane-marking benchmark with code, configurations, saved predictions and scores, verification tools, and 18 selected checkpoints in a separate companion package.
 authors:
 - family-names: Wang
   given-names: Haolin
@@ -35,3 +35,5 @@ contact:
   affiliation: School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332
   email: zyang398@gatech.edu
   orcid: https://orcid.org/0000-0002-7535-0924
+repository-code: "https://github.com/THiNK327/ortholanemark-benchmark"
+license: MIT

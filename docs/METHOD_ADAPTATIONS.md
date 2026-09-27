@@ -2,7 +2,7 @@
 
 This benchmark evaluates nine specified pipelines for left and right lane-marking inner boundaries in pavement-survey intensity images. It does not reproduce the complete experimental setups of the original papers. The learning implementations retain their principal model components while adapting input geometry, supervision, training, and output conversion to this task. Performance therefore reflects both architecture and implementation choices.
 
-The internal identifiers ending in `_faithful` distinguish these integrations from earlier local implementations. They are stable run and provenance identifiers, not a claim that preprocessing, training schedules, decoding, or reported performance exactly reproduce an upstream experiment.
+Internal identifiers ending in `_faithful` are stable run and provenance identifiers. The suffix does not imply that preprocessing, training schedules, decoding, or reported performance exactly reproduce an upstream experiment.
 
 ## Inputs and experimental protocol
 
@@ -10,7 +10,7 @@ All methods use the same intensity-image collection and fixed training, validati
 
 All six learning methods have three retained runs (seeds 0, 1, and 2), trained for 100 epochs with training-only rotations of up to 2 degrees. Batch sizes, backbones, optimizers, and learning-rate schedules differ. Equal epochs do not imply equal optimization steps or computational budgets. U-Net starts without pretrained weights; the other learning methods use ImageNet-pretrained backbones. These are documented benchmark configurations, not an exhaustive search for each method's best performance.
 
-Checkpoint selection used historical validation GRA and method-specific training-time presence decisions. Final presence thresholds were selected separately for each retained run on validation data. Checkpoints were not reselected after the recorded full-height decoder corrections. See [Protocol](PROTOCOL.md), the [18 retained learning configurations](../configs/learning/), and [traditional effective configurations](../configs/traditional/).
+Checkpoint selection used validation GRA and method-specific training-time presence decisions. Final presence thresholds were selected separately for each run on validation data. Checkpoints were not reselected after the recorded full-height decoder corrections. See [Protocol](PROTOCOL.md), the [18 learning configurations](../configs/learning/), and [traditional effective configurations](../configs/traditional/).
 
 ## Method-specific adaptations
 

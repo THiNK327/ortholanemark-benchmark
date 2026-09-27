@@ -1,0 +1,4 @@
+# Preserve exact package bytes across platforms for SHA-256 verification.
+* -text
+# Existing CRLF endings are intentional, not trailing whitespace errors.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,44 +1,30 @@
-# Checkpoint provenance and redistribution status
+# Checkpoint provenance and terms
 
-Reviewed September 27, 2026. This record covers the 18 selected checkpoint files in the sibling `checkpoints/` package: six learning methods, each with seeds 0, 1 and 2. The checkpoint hashes, training configurations and selection records are preserved in [the run manifest](../provenance/run_manifest.json) and `../../checkpoints/manifest.json`. No weights were changed or newly evaluated during this review.
+The companion `checkpoints/` package contains 18 selected checkpoints: six learning methods, each with seeds 0, 1, and 2. File hashes, selected epochs, confidence thresholds, and loading paths are recorded in the [run manifest](../provenance/run_manifest.json) and the companion `manifest.json`.
 
-## Release status
+## License scope
 
-The upstream method code can be redistributed under its applicable licenses, as described in [the third-party notices](../THIRD_PARTY_NOTICES.md). Those code licenses do not, by themselves, establish the terms for every pretrained initialization or for our complete trained checkpoint files.
+The benchmark authors' checkpoint contributions are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode), as stated in the companion `LICENSE`. Pretrained components retain their applicable third-party terms; this grant does not replace those terms. Method-source licenses and notices are listed in [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
 
-**The checkpoint companion remains a local release candidate. A blanket CC BY 4.0 license for all 18 checkpoint files has not been established.** CC BY 4.0 remains a proposal for rights the confirmed project rights holder controls; it must not be presented as replacing applicable third-party terms. Publication awaits the authors' release agreement and resolution of the weight-specific licensing scope below. No automatic research-only or noncommercial restriction is assigned by this review, and no explicit prohibition on distributing these fine-tuned checkpoints was found in the sources inspected.
+Three U-Net checkpoints were trained from random initialization. The other 15 checkpoints were fine-tuned from pretrained backbones. The traditional methods have no trained checkpoints.
 
-## Initialization provenance
+## Initialization sources
 
-The table records the packaged training code and saved configurations. It does not claim that original download logs or complete hashes of the initialization files were retained.
-
-| Method and run IDs | Initialization | Local evidence |
+| Method | Backbone initialization | Implementation |
 |---|---|---|
-| U-Net: `unet_seg_seed{0,1,2}` | Random initialization; no pretrained model | [Training](../lcms_lane_benchmark/literature/unet_seg/train.py), [model](../lcms_lane_benchmark/literature/unet_seg/model.py) |
-| SCNN: `scnn_faithful_seed{0,1,2}` | ImageNet VGG-16-BN from `torchvision.models.vgg16_bn(pretrained=True)` | [Training](../lcms_lane_benchmark/literature/scnn_faithful/train.py), [model](../lcms_lane_benchmark/literature/scnn_faithful/model.py) |
-| UFLDv2: `ufldv2_faithful_seed{0,1,2}` | ImageNet ResNet-18 from `torchvision.models.resnet18(pretrained=True)` | [Training](../lcms_lane_benchmark/literature/ufldv2_faithful/train.py), [backbone](../lcms_lane_benchmark/literature/ufldv2_faithful/model/backbone.py), [saved configuration](../configs/learning/ufldv2_faithful_seed0.json) |
-| LaneATT: `laneatt_faithful_seed{0,1,2}` | ImageNet ResNet-34 from `torchvision.models.resnet34(pretrained=True)` | [Training](../lcms_lane_benchmark/literature/laneatt_faithful/train.py), [model](../lcms_lane_benchmark/literature/laneatt_faithful/model/laneatt.py), [saved configuration](../configs/learning/laneatt_faithful_seed0.json) |
-| CLRNet: `clrnet_faithful_seed{0,1,2}` | ImageNet ResNet-18; direct PyTorch download URL ending `resnet18-5c106cde.pth` | [Detector configuration](../lcms_lane_benchmark/literature/clrnet_faithful/model/detector.py), [download mapping](../lcms_lane_benchmark/literature/clrnet_faithful/model/resnet.py) |
-| PolyLaneNet: `polylanenet_faithful_seed{0,1,2}` | Standard ImageNet EfficientNet-B0 from `EfficientNet.from_pretrained('efficientnet-b0')`, using `efficientnet_pytorch==0.6.3` | [Training](../lcms_lane_benchmark/literature/polylanenet_faithful/train.py), [model](../lcms_lane_benchmark/literature/polylanenet_faithful/models.py), [environment record](ENVIRONMENTS.md) |
+| U-Net | Random initialization | [Model](../lcms_lane_benchmark/literature/unet_seg/model.py) |
+| SCNN | ImageNet VGG-16-BN, `torchvision.models.vgg16_bn(pretrained=True)` | [Model](../lcms_lane_benchmark/literature/scnn_faithful/model.py) |
+| UFLDv2 | ImageNet ResNet-18, `torchvision.models.resnet18(pretrained=True)` | [Backbone](../lcms_lane_benchmark/literature/ufldv2_faithful/model/backbone.py) |
+| LaneATT | ImageNet ResNet-34, `torchvision.models.resnet34(pretrained=True)` | [Model](../lcms_lane_benchmark/literature/laneatt_faithful/model/laneatt.py) |
+| CLRNet | ImageNet ResNet-18, PyTorch `resnet18-5c106cde.pth` | [Download mapping](../lcms_lane_benchmark/literature/clrnet_faithful/model/resnet.py) |
+| PolyLaneNet | Standard ImageNet EfficientNet-B0, `EfficientNet.from_pretrained('efficientnet-b0')` with `efficientnet_pytorch==0.6.3` | [Model](../lcms_lane_benchmark/literature/polylanenet_faithful/models.py) |
 
-Thus, three U-Net checkpoints have no pretrained-weight dependency, while 15 checkpoints include parameters fine-tuned from pretrained backbones. All still require the project's own rights-holder and training-data release decisions. The three traditional methods have no trained checkpoint files.
+Torchvision's software is BSD-3-Clause, and its [pretrained-model documentation](https://docs.pytorch.org/vision/main/models.html) explains that model weights may carry separate provider or training-data terms. EfficientNet-PyTorch [release 1.0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/tag/1.0) distributes the B0 weights and retains an [Apache-2.0 project license](https://github.com/lukemelas/EfficientNet-PyTorch/blob/1.0/LICENSE). These software licenses do not establish a replacement CC BY license for all underlying pretrained parameters.
 
-For SCNN, UFLDv2 and LaneATT, the historical torchvision version and initialization-file hashes are not independently recovered. The package's `torchvision==0.20.1` entry is a compatibility pin, as explained in [ENVIRONMENTS.md](ENVIRONMENTS.md), rather than proof of the original training installation. CLRNet's direct URL is [the PyTorch ResNet-18 download](https://download.pytorch.org/models/resnet18-5c106cde.pth).
+## Reproduction details
 
-For PolyLaneNet, the public [EfficientNet-PyTorch 0.6.3 source distribution](https://pypi.org/project/efficientnet-pytorch/0.6.3/#files) was retrieved and inspected for this review. Its SHA-256 is `6667459336893e9bf6367de3788ba449fed97f65da3b6782bf2204b6273a319f`, matching PyPI. Its standard B0 mapping is [efficientnet-b0-355c32eb.pth in release 1.0](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth). The packaged training call uses the standard initialization, not the optional AdvProp initialization. This verifies the provider's mapping, not the bytes downloaded during the original training run.
+The table is supported by the packaged training code and selected configurations. Original initialization download logs and complete file hashes were not retained. For SCNN, UFLDv2, and LaneATT, the historical torchvision version is also not independently recovered; the installation pin in [ENVIRONMENTS.md](ENVIRONMENTS.md) is a compatibility choice.
 
-## Verified terms and their limits
+CLRNet uses [PyTorch's ResNet-18 file](https://download.pytorch.org/models/resnet18-5c106cde.pth). EfficientNet-PyTorch 0.6.3 maps standard B0 to [efficientnet-b0-355c32eb.pth](https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b0-355c32eb.pth). Its source distribution has SHA-256 `6667459336893e9bf6367de3788ba449fed97f65da3b6782bf2204b6273a319f`; this verifies the provider mapping, not the bytes downloaded by an original training run. PolyLaneNet uses standard initialization, rather than AdvProp weights.
 
-| Source | What is verified | What this establishes for our release |
-|---|---|---|
-| [Torchvision license](https://github.com/pytorch/vision/blob/v0.20.1/LICENSE) and [official pretrained-model documentation](https://docs.pytorch.org/vision/main/models) | The software uses BSD-3-Clause. The documentation says pretrained models may have separate terms, including terms derived from training datasets. | Retain applicable software notices. The library's code license alone is insufficient evidence for an unrestricted replacement license on all initialization weights. No separate restrictive license for the VGG/ResNet files used here was identified in this review. |
-| [EfficientNet-PyTorch 0.6.3 metadata](https://pypi.org/project/efficientnet-pytorch/0.6.3/), [release 1.0 license](https://github.com/lukemelas/EfficientNet-PyTorch/blob/1.0/LICENSE), and [release page](https://github.com/lukemelas/EfficientNet-PyTorch/releases/tag/1.0) | The project declares Apache licensing; the release-tag license is Apache-2.0, and the release distributes pretrained weights. | Preserve this provenance and applicable Apache notices. No distinct weight-specific license was found on the release page. The project license is evidence supporting reuse, but this review does not infer a separate CC BY 4.0 grant for our complete PolyLaneNet checkpoints. |
-| [ImageNet access terms](https://www.image-net.org/download.php) | The database access terms limit database use to noncommercial research and education. | This package does not redistribute ImageNet images. These terms do not expressly resolve the licensing of the fine-tuned weights here; this review neither transfers the database restriction automatically to the checkpoints nor declares it irrelevant to every use. |
-
-## Decisions needed before checkpoint publication
-
-1. Confirm who can authorize release of the project's trained parameters and that the pavement-data permissions cover the intended release. Paper authorship and article copyright do not establish these rights.
-2. Record the rights holder's determination of the applicable pretrained-weight terms for the 15 initialized checkpoints. If the available provider statements do not settle the intended redistribution or relicensing, obtain clarification from the provider or institutional licensing support. No such clarification is claimed here.
-3. Assign the final checkpoint terms only for rights the licensor can grant, retaining applicable third-party terms and notices. Align `checkpoints/README.md`, the release metadata and the Zenodo description with that decision. Do not choose a single CC BY 4.0 label that implies unresolved underlying rights have been cleared.
-
-These outstanding checkpoint decisions do not change the measured results or the permissive licensing of the method source. Code, saved results and dataset materials can be prepared separately under their own verified rights and licenses. See [RELEASE_PLAN.md](RELEASE_PLAN.md) for the agreed publication condition.
+Use the selected configurations and checkpoint hashes in the run manifest for reproduction. See [REPRODUCTION.md](REPRODUCTION.md) for the model interfaces.

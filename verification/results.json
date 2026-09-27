@@ -63,11 +63,10 @@
   "remaining_gaps": [
     "No complete original dependency lock",
     "GPU original raw timing log/command unavailable; exact warm-up count unverified",
-    "Redistribution approval and final publication/citation/license metadata pending",
     "No new benchmark inference/training reproduction undertaken",
     "Range physical units/scale, invalid-value codes and calibrated registration undocumented"
   ],
-  "remaining_gaps_updated_date": "2026-09-26",
+  "remaining_gaps_updated_date": "2026-09-27",
   "packaging_updates": [
     {
       "date": "2026-09-26",

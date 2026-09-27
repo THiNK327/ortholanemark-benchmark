@@ -1,44 +1,133 @@
-# OrthoLaneMark Benchmark
+# OrthoLaneMark: Lane-Marking Detection Benchmark
 
-Planned repository: `THiNK327/ortholanemark-benchmark`, hosted on Haolin Wang's personal GitHub account. The dataset name, repository owner, and release creators are confirmed. Public release awaits agreement of all authors.
+Code and results for comparing lane-marking detection methods on orthographic pavement images. OrthoLaneMark evaluates whether left and right markings are present, how accurately their lane-facing inner boundaries are located, and how detection errors affect lane and wheelpath regions used in pavement distress measurement.
 
-Local release candidate for *Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement*. This package contains the frozen implementation, selected configurations, saved scores and predictions, and offline verification tools for the nine-method intensity-only benchmark. It has not been uploaded or published. The release uses the manuscript's four authors and order, with Zhongyu Yang as corresponding contact. Funding: none. Proposed licenses and the ASCE release plan are recorded in [docs/RELEASE_PLAN.md](docs/RELEASE_PLAN.md); actual DOIs, public URLs and the release date remain unset. See `RELEASE_METADATA.json`.
+This repository accompanies the paper:
 
-The companion **OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection** (`dataset/`) package contains 1,391 intensity images with paired range-image exports: 835 train, 192 validation, 294 test, and 70 buffer-excluded. Membership is frozen. Splits comprise spatially separated blocks within the same six surveyed sections, rather than unseen-route evaluation. All intensity and range images use PNG with decoded pixels preserved. Range exports share the same stable image IDs; the reported experiments use intensity imagery only. See `docs/RANGE.md`.
+> **Presence-Aware Benchmarking of Lane-Marking Detection Methods for Pavement Distress Measurement**
+>
+> Haolin Wang, Shiwei Luo, Zhongyu Yang, and Yi-Chang J. Tsai
+>
+> Georgia Institute of Technology
 
-## Included records
+## Benchmark overview
 
-- `lcms_lane_benchmark/`: the evaluated benchmark implementation, with comment-only redistribution notices on nine files, including nine method implementations, native model cores, data readers, GRA/localization evaluator, wheelpath evaluator, and historical tests.
-- `configs/`: all 18 learning-run configurations extracted from selected checkpoint metadata; selected traditional overrides and effective constructor settings.
-- `artifacts/`: retained per-image validation/test scores, selected test predictions, learning validation/test confidence arrays, threshold grids, histories, and traditional selection records. Only identifiers and local paths were normalized; every numeric prediction array was checked for exact dtype/value preservation.
-- `provenance/`: historical evaluated-source hashes, recoverable comment-only notice changes, run/checkpoint hashes, artifact transformations and package checksums. See [source provenance](docs/SOURCE_PROVENANCE.md).
-- `LICENSES/` and `THIRD_PARTY_NOTICES.md`: retained exact component license texts and a file-to-license mapping.
-- `tools/`: portable, offline verification and manifest-path utilities. These additions do not modify historical metric or decoder computations.
+- **Nine methods:** Canny–Hough, LSD, Steger ridge, U-Net, SCNN, UFLDv2, PolyLaneNet, LaneATT, and CLRNet.
+- **1,391 pavement images** from six surveyed road sections, with paired intensity and range images in PNG format.
+- **Fixed spatial splits:** 835 training, 192 validation, and 294 test images; 70 images excluded as boundary buffers.
+- **Evaluation:** marking presence, inner-boundary localization, gated region accuracy (GRA), and wheelpath disagreement.
+- **Reproducible records:** selected configurations, per-image scores, saved predictions, and 18 selected checkpoints in a separate companion package.
 
-The 18 selected checkpoint files are copied into the separate sibling `checkpoints/` candidate and excluded from this code candidate. Their hashes, byte sizes, epochs, final thresholds, and expected `weights/<run_id>/best_gra.pth` paths are in `provenance/run_manifest.json`. The checkpoint companion is planned for the benchmark Zenodo record; public release awaits agreement of all authors and the weight-specific rights determination in [CHECKPOINT_RIGHTS.md](docs/CHECKPOINT_RIGHTS.md). A blanket CC BY 4.0 license for all checkpoints has not been established.
+The reported experiments use intensity images only. Splits are contiguous blocks within the same surveyed sections; they do not measure generalization to unseen routes. Each method is adapted to this task, with its own input resolution and output decoding. See the [benchmark protocol](docs/PROTOCOL.md) and [method adaptations](docs/METHOD_ADAPTATIONS.md).
 
-## Run the documentation checks
+## Results
 
-From this directory, with Python and the dependencies in `requirements-verification.txt`:
+Test-set GRA measures agreement of the derived lane region, gated by correct marking-presence decisions; higher is better. Learning-method values are the mean ± population standard deviation across seeds 0, 1, and 2.
+
+| Method | Test GRA |
+|---|---:|
+| CLRNet | **0.9416 ± 0.0095** |
+| PolyLaneNet | 0.9216 ± 0.0095 |
+| SCNN | 0.9020 ± 0.0158 |
+| LaneATT | 0.8214 ± 0.0521 |
+| UFLDv2 | 0.7932 ± 0.0241 |
+| LSD | 0.7810 |
+| U-Net | 0.7671 ± 0.0147 |
+| Canny–Hough | 0.7162 |
+| Steger ridge | 0.5773 |
+
+The quick-start command below reconstructs these summaries and the presence, localization, and wheelpath metrics from the saved results.
+
+## Repository structure
+
+```text
+ortholanemark-benchmark/
+├── README.md                    # Overview and quick start
+├── LICENSE                      # MIT license for benchmark-authored code
+├── LICENSE.md                   # License scope for code, results, and companions
+├── CITATION.cff                 # Software citation metadata
+├── lcms_lane_benchmark/         # Nine methods, data readers, and evaluators
+├── configs/                    # Selected learning and traditional configurations
+├── artifacts/                  # Saved predictions, scores, and selection records
+├── tools/                      # Evaluation and verification commands
+├── verification/               # Reference summaries and verification records
+├── provenance/                 # Source, run, and file-hash manifests
+├── LICENSES/                   # Retained third-party component licenses
+└── docs/                       # Protocol, data, adaptations, and reproduction
+```
+
+## Installation and quick start
+
+Run commands from the repository root. Python 3.12 is recommended, particularly for the pinned model dependencies. To reconstruct the reported tables, install the lightweight verification dependencies:
+
+```sh
+python -m pip install -r requirements-verification.txt
+python tools/rebuild_tables.py --output work/reconstructed_tables.json
+```
+
+This writes JSON and CSV summaries under `work/` and verifies learning-method summaries against the retained results at an absolute tolerance of `1e-12`. It needs no dataset, GPU, or checkpoints.
+
+Check file integrity, evaluated-source provenance, and evaluation geometry:
 
 ```sh
 python tools/verify_integrity.py
 python tools/verify_sources.py
-python tools/rebuild_tables.py
 python tools/run_synthetic_checks.py
 python tools/check_edge_cases.py
 ```
 
-The first command checks packaged files. The source check verifies all 84 evaluated-source hashes, reconstructing nine files after removal of recorded comment prefixes and confirming identical syntax trees. The table command reconstructs results from saved scores and checks learning mean/population-standard-deviation values against their retained summary. The other commands test synthetic geometries without real images or weights. To also run the retained synthetic Torch decoder stubs, install the model dependencies and run `python tools/run_synthetic_checks.py --decoders`.
+For model interfaces, also install `requirements-models.txt`. Training environments and dependency limitations are documented in [ENVIRONMENTS.md](docs/ENVIRONMENTS.md); see [REPRODUCTION.md](docs/REPRODUCTION.md) for checkpoint loading and selected settings.
 
-Resolve the companion dataset's portable manifest for original readers:
+## Dataset and checkpoints
 
-```sh
-python tools/prepare_manifest.py --dataset-root ../dataset --manifest ../dataset/manifests/manifest_paper.json --output work/manifest_resolved.json
+The dataset and checkpoint files are distributed as companion packages, separately from this GitHub repository:
+
+| Package | Contents |
+|---|---|
+| **OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection** | 1,391 intensity/range PNG pairs, inner-boundary annotations, manifests, and fixed splits |
+| **OrthoLaneMark Benchmark: Code, Results, and Checkpoints** | This repository and 18 selected checkpoints: six learning methods × three seeds |
+
+For commands that use the companions, arrange the folders as follows. A GitHub clone can be renamed to `repository/` locally.
+
+```text
+OrthoLaneMark/
+├── repository/
+├── dataset/
+└── checkpoints/
 ```
 
-The generated manifest contains local absolute paths for your machine and is ignored by Git. All shared manifests use package-relative paths and anonymized stable IDs. See `docs/REPRODUCTION.md` for saved-prediction evaluation and model interfaces; `docs/PROTOCOL.md` for frozen selection/aggregation; [METHOD_ADAPTATIONS.md](docs/METHOD_ADAPTATIONS.md) for all nine methods' task adaptations; and `docs/ENVIRONMENTS.md` for historical environments and verification limits.
+For example, evaluate saved CLRNet predictions against the dataset annotations:
 
-For release preparation, run `python tools/release_preflight.py` with the dataset and checkpoint siblings present. It reports technical checks separately from pending author, rights and identifier decisions. `--publication` returns a nonzero status while those decisions remain unset. Follow [UPLOAD_GUIDE.md](docs/UPLOAD_GUIDE.md) after the final review.
+```sh
+python tools/evaluate_saved.py --dataset-root ../dataset --manifest ../dataset/manifests/manifest_paper.json --predictions artifacts/learning/clrnet_faithful_seed0/predictions_test.npz --output work/clrnet_seed0_metrics.json
+```
 
-No training, inference on benchmark images, threshold selection, split changes, or timing runs were performed to prepare this candidate. Saved records dated 2026-09-23 describe an earlier decoder correction; those are the learning results associated with this draft. Older release/dist snapshots are superseded and were not copied as current benchmark evidence.
+This uses the saved predictions and original evaluator without loading a model. See [dataset and annotations](docs/DATASET_AND_ANNOTATIONS.md), [range-image details](docs/RANGE.md), and [checkpoint provenance](docs/CHECKPOINT_RIGHTS.md).
+
+## Citation
+
+Please cite this benchmark when using its code or results, and acknowledge the original methods described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+
+```bibtex
+@software{wang2026ortholanemark,
+  author  = {Wang, Haolin and Luo, Shiwei and Yang, Zhongyu and Tsai, Yi-Chang J.},
+  title   = {OrthoLaneMark Benchmark: Code, Results, and Checkpoints},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/THiNK327/ortholanemark-benchmark}
+}
+```
+
+## License
+
+- **Benchmark-authored code and documentation:** [MIT](LICENSE).
+- **Saved scores and predictions:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Adapted third-party code:** original licenses and notices retained in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+- **Companion dataset and checkpoints:** see the [license overview](LICENSE.md), including the scope of checkpoint contributions and pretrained components.
+
+## Contact
+
+- Haolin Wang — [hlwang98@gatech.edu](mailto:hlwang98@gatech.edu)
+- Zhongyu Yang (corresponding author) — [zyang398@gatech.edu](mailto:zyang398@gatech.edu)
+
+The authors thank Raghu Veerareddy for assistance with data preparation. No funding was received for this study.
