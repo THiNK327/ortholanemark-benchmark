@@ -12,7 +12,7 @@ Copyright (c) 2026 Haolin Wang, Shiwei Luo, Zhongyu Yang, and Yi-Chang J. Tsai, 
 | Third-party source and adaptations | Original terms below; exact texts retained alongside code and in `LICENSES/` |
 | Authors' saved scores, predictions, and analysis in `artifacts/` and `verification/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) |
 | [README figure](assets/annotation_examples.png) | CC BY 4.0; unchanged manuscript Figure 3 panel pixels, with source and composition hashes in [figure provenance](provenance/readme_figure.json) |
-| Companion dataset images, annotations, splits, and documentation | CC BY 4.0, as specified in the dataset's `LICENSE` |
+| Companion dataset images, annotations, splits, and documentation | CC BY 4.0, as specified in the [dataset README](../dataset/README.md#license) |
 | Authors' contributions to companion checkpoints | CC BY 4.0, as specified in the checkpoint package's `LICENSE`; pretrained components retain their applicable terms |
 
 These grants cover the benchmark authors' contributions. Cite the benchmark and retain license and attribution notices. The CC BY 4.0 grants do not replace third-party licenses.

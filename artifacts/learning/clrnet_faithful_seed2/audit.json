@@ -1,7 +1,7 @@
 {
   "method": "clrnet_faithful",
   "seed": 2,
-  "checkpoint": "weights/clrnet_faithful_seed2/best_gra.pth",
+  "checkpoint": "weights/clrnet_seed2/best_gra.pth",
   "checkpoint_sha256": "65927cdcb5a2620fa7637779c6410e1524426a199bb514afd3b46a88c4a4fb56",
   "training_performed": false,
   "historical_checkpoint_rule": "confidence >= 0.5",

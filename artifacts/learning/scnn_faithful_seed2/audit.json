@@ -1,7 +1,7 @@
 {
   "method": "scnn_faithful",
   "seed": 2,
-  "checkpoint": "weights/scnn_faithful_seed2/best_gra.pth",
+  "checkpoint": "weights/scnn_seed2/best_gra.pth",
   "checkpoint_sha256": "1653814abf4fb72aa7d6e042ebd0d837e008723e1957b255b83c3af4f87fdf8b",
   "training_performed": false,
   "historical_checkpoint_rule": "native decoder presence decisions",

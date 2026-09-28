@@ -1,7 +1,7 @@
 {
   "method": "laneatt_faithful",
   "seed": 1,
-  "checkpoint": "weights/laneatt_faithful_seed1/best_gra.pth",
+  "checkpoint": "weights/laneatt_seed1/best_gra.pth",
   "checkpoint_sha256": "e4940b425fad4b56ff5913445f70ac1fd7c32ad8cffe26de24c33649c985f598",
   "training_performed": false,
   "historical_checkpoint_rule": "native decoder presence decisions",

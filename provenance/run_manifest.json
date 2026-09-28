@@ -4,10 +4,11 @@
   "weights_total_bytes": 4401852285,
   "runs": [
     {
+      "checkpoint_id": "clrnet_seed0",
       "run_id": "clrnet_faithful_seed0",
       "method": "clrnet_faithful",
       "seed": 0,
-      "checkpoint_file": "weights/clrnet_faithful_seed0/best_gra.pth",
+      "checkpoint_file": "weights/clrnet_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "45f9fda6f75684ef95670bdba35f1e67cc35b062eb6eae265804c66ad8d1c3ff",
@@ -34,13 +35,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/clrnet_faithful_seed0/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/clrnet_seed0/best_gra.pth"
     },
     {
+      "checkpoint_id": "clrnet_seed1",
       "run_id": "clrnet_faithful_seed1",
       "method": "clrnet_faithful",
       "seed": 1,
-      "checkpoint_file": "weights/clrnet_faithful_seed1/best_gra.pth",
+      "checkpoint_file": "weights/clrnet_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "63f324998f66aac8a2b331963a8ba46c84c45d49df83d6bf91d9faa60f77b357",
@@ -67,13 +69,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/clrnet_faithful_seed1/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/clrnet_seed1/best_gra.pth"
     },
     {
+      "checkpoint_id": "clrnet_seed2",
       "run_id": "clrnet_faithful_seed2",
       "method": "clrnet_faithful",
       "seed": 2,
-      "checkpoint_file": "weights/clrnet_faithful_seed2/best_gra.pth",
+      "checkpoint_file": "weights/clrnet_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "65927cdcb5a2620fa7637779c6410e1524426a199bb514afd3b46a88c4a4fb56",
@@ -100,13 +103,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/clrnet_faithful_seed2/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/clrnet_seed2/best_gra.pth"
     },
     {
+      "checkpoint_id": "laneatt_seed0",
       "run_id": "laneatt_faithful_seed0",
       "method": "laneatt_faithful",
       "seed": 0,
-      "checkpoint_file": "weights/laneatt_faithful_seed0/best_gra.pth",
+      "checkpoint_file": "weights/laneatt_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "22a1ee5b7bb575634de1261f767cee64181e17ce757ce6770cdd26baf066b71d",
@@ -133,7 +137,7 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed0/best_gra.pth",
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_seed0/best_gra.pth",
       "original_configuration_sha256": "3f2a732e9c0b49459e2972a586665411a68fcfabe42d241a667eccce615a3ab4",
       "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
       "evaluated_checkpoint_sha256": "3ea9264b77609c1d368dd58ca7ca5975553a4c3dea9bff259f56ec2cd6b0c3b3",
@@ -141,10 +145,11 @@
       "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
+      "checkpoint_id": "laneatt_seed1",
       "run_id": "laneatt_faithful_seed1",
       "method": "laneatt_faithful",
       "seed": 1,
-      "checkpoint_file": "weights/laneatt_faithful_seed1/best_gra.pth",
+      "checkpoint_file": "weights/laneatt_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "e4940b425fad4b56ff5913445f70ac1fd7c32ad8cffe26de24c33649c985f598",
@@ -171,7 +176,7 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed1/best_gra.pth",
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_seed1/best_gra.pth",
       "original_configuration_sha256": "83ab8fc6350fec64af7f03e28a65469908942f615e2e385205aadab155071084",
       "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
       "evaluated_checkpoint_sha256": "5f95ddd747557b2c85d0b1b8e4de7cc3f3cdcff8c763babdf56520f92158deee",
@@ -179,10 +184,11 @@
       "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
+      "checkpoint_id": "laneatt_seed2",
       "run_id": "laneatt_faithful_seed2",
       "method": "laneatt_faithful",
       "seed": 2,
-      "checkpoint_file": "weights/laneatt_faithful_seed2/best_gra.pth",
+      "checkpoint_file": "weights/laneatt_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "f40c4544317243ffb858e83a9be50810afc198c5f06d1f15bbf34bdba9d582f3",
@@ -209,7 +215,7 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/laneatt_faithful_seed2/best_gra.pth",
+      "checkpoint_companion_path": "../checkpoints/weights/laneatt_seed2/best_gra.pth",
       "original_configuration_sha256": "bcd69125512825e2e861aff66d3c4250e49d7258b01f345bb6f3873a6732ff53",
       "configuration_path_relocation": "The bundled anchor-resource path was normalized in configuration and checkpoint metadata; numeric training settings and model parameters are unchanged.",
       "evaluated_checkpoint_sha256": "5aae231f42679fa6e23335ecc3f6818baf15a778082ae07feaef562a55080b3d",
@@ -217,10 +223,11 @@
       "metadata_change": "Anchor-resource path normalized for the OrthoLaneMark package; model parameters unchanged."
     },
     {
+      "checkpoint_id": "polylanenet_seed0",
       "run_id": "polylanenet_faithful_seed0",
       "method": "polylanenet_faithful",
       "seed": 0,
-      "checkpoint_file": "weights/polylanenet_faithful_seed0/best_gra.pth",
+      "checkpoint_file": "weights/polylanenet_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "2a0a38087eaddd1da9c7bec40f63fffe074467ac85310581d83e71012fa8b2fa",
@@ -247,13 +254,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_faithful_seed0/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_seed0/best_gra.pth"
     },
     {
+      "checkpoint_id": "polylanenet_seed1",
       "run_id": "polylanenet_faithful_seed1",
       "method": "polylanenet_faithful",
       "seed": 1,
-      "checkpoint_file": "weights/polylanenet_faithful_seed1/best_gra.pth",
+      "checkpoint_file": "weights/polylanenet_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "803cedeeabaefe4d405e9d9846daa7d6023cbf0a732dae4b0fee087fff6a25e2",
@@ -280,13 +288,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_faithful_seed1/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_seed1/best_gra.pth"
     },
     {
+      "checkpoint_id": "polylanenet_seed2",
       "run_id": "polylanenet_faithful_seed2",
       "method": "polylanenet_faithful",
       "seed": 2,
-      "checkpoint_file": "weights/polylanenet_faithful_seed2/best_gra.pth",
+      "checkpoint_file": "weights/polylanenet_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "0682b3be270545295d41f43a035b88a5c90713c5eb581a247044716ff9e036de",
@@ -313,13 +322,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_faithful_seed2/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/polylanenet_seed2/best_gra.pth"
     },
     {
+      "checkpoint_id": "scnn_seed0",
       "run_id": "scnn_faithful_seed0",
       "method": "scnn_faithful",
       "seed": 0,
-      "checkpoint_file": "weights/scnn_faithful_seed0/best_gra.pth",
+      "checkpoint_file": "weights/scnn_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "a6bc47232904fcac44d3f8bea72fb4e36a17c11e52f3db1884b8725feee519bc",
@@ -346,13 +356,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/scnn_faithful_seed0/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/scnn_seed0/best_gra.pth"
     },
     {
+      "checkpoint_id": "scnn_seed1",
       "run_id": "scnn_faithful_seed1",
       "method": "scnn_faithful",
       "seed": 1,
-      "checkpoint_file": "weights/scnn_faithful_seed1/best_gra.pth",
+      "checkpoint_file": "weights/scnn_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "df1ee850e993e2fa119ce115ffffcf52b55cae4f61bbb8de4dab09c7ab5fb859",
@@ -379,13 +390,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/scnn_faithful_seed1/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/scnn_seed1/best_gra.pth"
     },
     {
+      "checkpoint_id": "scnn_seed2",
       "run_id": "scnn_faithful_seed2",
       "method": "scnn_faithful",
       "seed": 2,
-      "checkpoint_file": "weights/scnn_faithful_seed2/best_gra.pth",
+      "checkpoint_file": "weights/scnn_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "1653814abf4fb72aa7d6e042ebd0d837e008723e1957b255b83c3af4f87fdf8b",
@@ -412,13 +424,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/scnn_faithful_seed2/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/scnn_seed2/best_gra.pth"
     },
     {
+      "checkpoint_id": "ufldv2_seed0",
       "run_id": "ufldv2_faithful_seed0",
       "method": "ufldv2_faithful",
       "seed": 0,
-      "checkpoint_file": "weights/ufldv2_faithful_seed0/best_gra.pth",
+      "checkpoint_file": "weights/ufldv2_seed0/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "030f62f5c2141bd313e90a379f29b75432e423b63345531450accc0fc8ec7efb",
@@ -445,13 +458,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_faithful_seed0/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_seed0/best_gra.pth"
     },
     {
+      "checkpoint_id": "ufldv2_seed1",
       "run_id": "ufldv2_faithful_seed1",
       "method": "ufldv2_faithful",
       "seed": 1,
-      "checkpoint_file": "weights/ufldv2_faithful_seed1/best_gra.pth",
+      "checkpoint_file": "weights/ufldv2_seed1/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "84a639be0cec35debceb04b8cad854fbe376cc3a598c225a26ea7136ccbccdb5",
@@ -478,13 +492,14 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_faithful_seed1/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_seed1/best_gra.pth"
     },
     {
+      "checkpoint_id": "ufldv2_seed2",
       "run_id": "ufldv2_faithful_seed2",
       "method": "ufldv2_faithful",
       "seed": 2,
-      "checkpoint_file": "weights/ufldv2_faithful_seed2/best_gra.pth",
+      "checkpoint_file": "weights/ufldv2_seed2/best_gra.pth",
       "checkpoint_included": false,
       "checkpoint_retained": true,
       "checkpoint_sha256": "b03e9d634415b0edfa64968c3ae2f670cd781eb52245c5dc82a7bfcea88b5eb7",
@@ -511,9 +526,10 @@
         "cudnn_version": 90100,
         "gpu_name": "NVIDIA GeForce RTX 4070"
       },
-      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_faithful_seed2/best_gra.pth"
+      "checkpoint_companion_path": "../checkpoints/weights/ufldv2_seed2/best_gra.pth"
     },
     {
+      "checkpoint_id": "unet_seg_seed0",
       "run_id": "unet_seg_seed0",
       "method": "unet_seg",
       "seed": 0,
@@ -547,6 +563,7 @@
       "checkpoint_companion_path": "../checkpoints/weights/unet_seg_seed0/best_gra.pth"
     },
     {
+      "checkpoint_id": "unet_seg_seed1",
       "run_id": "unet_seg_seed1",
       "method": "unet_seg",
       "seed": 1,
@@ -580,6 +597,7 @@
       "checkpoint_companion_path": "../checkpoints/weights/unet_seg_seed1/best_gra.pth"
     },
     {
+      "checkpoint_id": "unet_seg_seed2",
       "run_id": "unet_seg_seed2",
       "method": "unet_seg",
       "seed": 2,

@@ -86,7 +86,7 @@
   "tuned_tau": 0.28,
   "latency_ms_mean": null,
   "params": null,
-  "ckpt": "weights/laneatt_faithful_seed0/best_gra.pth",
+  "ckpt": "weights/laneatt_seed0/best_gra.pth",
   "per_image": [
     {
       "boundary_mae_on_gt_left": 5.018469554314225,

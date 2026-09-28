@@ -42,6 +42,18 @@
       "email": "james.tsai@ce.gatech.edu"
     }
   ],
+  "contacts": [
+    {
+      "name": "Haolin Wang",
+      "email": "hlwang98@gatech.edu",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332"
+    },
+    {
+      "name": "Zhongyu Yang",
+      "email": "zyang398@gatech.edu",
+      "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332"
+    }
+  ],
   "corresponding_contact": {
     "name": "Zhongyu Yang",
     "email": "zyang398@gatech.edu",
@@ -53,7 +65,7 @@
   "title": "OrthoLaneMark Benchmark: Code, Results, and Checkpoints",
   "repository_url": "https://github.com/THiNK327/ortholanemark-benchmark",
   "code_doi": null,
-  "dataset_doi": null,
+  "dataset_doi": "10.5281/zenodo.23003580",
   "code_license": "MIT",
   "results_license": "CC-BY-4.0",
   "data_license": "CC-BY-4.0",
@@ -79,14 +91,13 @@
   "checkpoint_provenance": "THIRD_PARTY_NOTICES.md#checkpoint-initialization",
   "companion_records": [
     {
-      "title": "OrthoLaneMark Benchmark: Code, Results, and Checkpoints",
-      "resource_type": "software",
+      "title": "OrthoLaneMark Benchmark: Trained Model Checkpoints",
+      "resource_type": "model",
       "contents": [
-        "repository/",
         "checkpoints/"
       ],
       "version": "1.0.0",
-      "doi": null
+      "doi": "10.5281/zenodo.23005230"
     },
     {
       "title": "OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection",
@@ -95,10 +106,12 @@
         "dataset/"
       ],
       "version": "1.0.0",
-      "doi": null
+      "doi": "10.5281/zenodo.23003580"
     }
   ],
   "python_package": "ortholanemark",
   "checkpoint_metadata_updates": "provenance/checkpoint_metadata_updates.json",
-  "path_base": "Repository root; companion paths are relative to the repository root."
+  "path_base": "Repository root; companion paths are relative to the repository root.",
+  "checkpoint_title": "OrthoLaneMark Benchmark: Trained Model Checkpoints",
+  "checkpoint_doi": "10.5281/zenodo.23005230"
 }

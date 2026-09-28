@@ -6,6 +6,7 @@ from pathlib import Path
 
 from verify_sources import verify as verify_sources
 from verify_integrity import main as verify_integrity
+from prepare_manifest import resolve_manifest
 
 
 def inspect(root, companions=False):
@@ -36,15 +37,40 @@ def inspect(root, companions=False):
               'retained_attribution_prefixes': notices, 'component_licenses': len(licenses['files'])}
     if companions:
         parent = root.parent
-        dataset = json.loads((parent / 'dataset/manifests/publication_metadata.json').read_text(encoding='utf-8'))
         checkpoints = json.loads((parent / 'checkpoints/manifest.json').read_text(encoding='utf-8'))
-        assert meta['creators'] == dataset['creators'] == checkpoints['creators'], 'Creator lists disagree'
-        assert meta['funding'] == dataset['funding'] == checkpoints['funding'], 'Funding metadata disagrees'
-        assert meta['data_license'] == dataset['license'], 'Dataset license disagrees'
+        assert meta['creators'] == checkpoints['creators'], 'Creator lists disagree'
+        assert meta['funding'] == checkpoints['funding'], 'Funding metadata disagrees'
         assert meta['weight_license'] == checkpoints['license'], 'Checkpoint license disagrees'
-        assert meta['corresponding_contact'] == dataset['corresponding_contact'] == checkpoints['corresponding_contact'], 'Contacts disagree'
-        for package in ['dataset', 'checkpoints']:
-            assert (parent / package / 'LICENSE').is_file(), f'Missing {package} license'
+        assert meta['corresponding_contact'] == checkpoints['corresponding_contact'], 'Contacts disagree'
+        assert (parent / 'checkpoints/LICENSE').is_file(), 'Missing checkpoint license'
+
+        dataset_root = (parent / 'dataset').resolve()
+        dataset_readme = (dataset_root / 'README.md').read_text(encoding='utf-8')
+        assert 'creativecommons.org/licenses/by/4.0' in dataset_readme, 'Missing dataset license statement'
+        assert (dataset_root / 'preview.png').is_file(), 'Missing dataset preview'
+        dataset = resolve_manifest(dataset_root, dataset_root / 'annotations/splits.json')
+        counts = {split: len(entries) for split, entries in dataset['splits'].items()}
+        expected = {key: meta['splits'][key] for key in ['train', 'val', 'test']}
+        expected['buffer_excluded'] = meta['splits']['excluded_buffer']
+        assert counts == expected, 'Dataset split counts disagree'
+        ids, annotations, images = set(), set(), set()
+        for entries in dataset['splits'].values():
+            for entry in entries:
+                key = (entry['project'], entry['stem'])
+                assert key not in ids, f'Duplicate dataset membership: {key}'
+                ids.add(key)
+                intensity = Path(entry['image_path'])
+                relative = intensity.relative_to(dataset_root / 'images/intensity')
+                assert relative == Path(entry['project']) / (entry['stem'] + '.png'), key
+                paired_range = dataset_root / 'images/range' / relative
+                assert paired_range.is_file(), f'Missing range image: {key}'
+                images.update([intensity, paired_range])
+                annotation = Path(entry['clean_gt_path'])
+                assert annotation == dataset_root / 'annotations' / entry['project'] / (entry['stem'] + '.json'), key
+                annotations.add(annotation)
+        assert images == set((dataset_root / 'images').rglob('*.png')), 'Image pairs do not match split membership'
+        assert annotations == set((dataset_root / 'annotations').glob('section_*/*.json')), 'Annotations do not match split membership'
+        report['dataset_layout'] = {'image_pairs': len(ids), 'annotations': len(annotations), 'splits': counts}
         report['companion_metadata'] = 'pass'
     return report
 

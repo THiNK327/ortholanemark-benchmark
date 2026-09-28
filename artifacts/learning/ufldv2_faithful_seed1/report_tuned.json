@@ -86,7 +86,7 @@
   "tuned_tau": 0.38,
   "latency_ms_mean": null,
   "params": null,
-  "ckpt": "weights/ufldv2_faithful_seed1/best_gra.pth",
+  "ckpt": "weights/ufldv2_seed1/best_gra.pth",
   "per_image": [
     {
       "boundary_mae_on_gt_left": null,

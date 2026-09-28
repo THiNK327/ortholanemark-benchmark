@@ -95,7 +95,7 @@ The dataset and checkpoint files are distributed as companion packages, separate
 | Package | Contents |
 |---|---|
 | **OrthoLaneMark: A Pavement Survey Dataset for Lane-Marking Detection** | 1,391 intensity/range PNG pairs, inner-boundary annotations, manifests, and fixed splits |
-| **OrthoLaneMark Benchmark: Code, Results, and Checkpoints** | This repository and 18 selected checkpoints: six learning methods × three seeds |
+| **OrthoLaneMark Benchmark: Trained Model Checkpoints** | 18 selected checkpoints and their configurations: six learning methods × three seeds |
 
 For commands that use the companions, arrange the folders as follows. A GitHub clone can be renamed to `repository/` locally.
 
@@ -109,10 +109,10 @@ OrthoLaneMark/
 For example, evaluate saved CLRNet predictions against the dataset annotations:
 
 ```sh
-python tools/evaluate_saved.py --dataset-root ../dataset --manifest ../dataset/manifests/manifest_paper.json --predictions artifacts/learning/clrnet_faithful_seed0/predictions_test.npz --output work/clrnet_seed0_metrics.json
+python tools/evaluate_saved.py --dataset-root ../dataset --manifest ../dataset/annotations/splits.json --predictions artifacts/learning/clrnet_faithful_seed0/predictions_test.npz --output work/clrnet_seed0_metrics.json
 ```
 
-This uses the saved final presence decisions and original evaluator without loading a model or selecting a new threshold. Prediction IDs and order must match the manifest test split. The companion dataset's `README.md` describes its files, annotations, and range-image limitations; use `annotations/benchmark_compat/` for benchmark reproduction.
+This uses the saved final presence decisions and original evaluator without loading a model or selecting a new threshold. Prediction IDs and order must match the manifest test split. The companion dataset's `README.md` describes its files, annotations, and range-image limitations; use `annotations/section_*/` for benchmark reproduction.
 
 Saved NPZ files can be loaded with `numpy.load(..., allow_pickle=False)`. They contain IDs (`stems`, `projects`), full-height boundary coordinates (`xL`, `xR`), confidence scores (`cL`, `cR`), and image dimensions. `predictions_test.npz` also supplies the final decisions (`existsL`, `existsR`); `raw_val.npz` and `raw_test.npz` retain native adapter decisions. Arrays are numeric, boolean, or Unicode; the older object-array format in `evaluation/predictions_io.py` does not describe these release artifacts.
 
@@ -122,12 +122,12 @@ Install the additional dependencies and resolve the companion manifest for the m
 
 ```sh
 python -m pip install -r requirements-models.txt
-python tools/prepare_manifest.py --dataset-root ../dataset --manifest ../dataset/manifests/manifest_paper.json --output work/manifest_resolved.json
+python tools/prepare_manifest.py --dataset-root ../dataset --manifest ../dataset/annotations/splits.json --output work/manifest_resolved.json
 ```
 
 The resolved manifest contains paths for your machine. The shared manifest remains portable. The model dependency list pins recorded PyTorch and EfficientNet versions, with a compatible torchvision version; it is not a complete recovered training environment. Select a PyTorch build appropriate for your device. Recorded environments are in the [implementation notes](provenance/README.md#environment-and-timing).
 
-Use `ortholanemark.literature.build_method(name, **kwargs)` to construct an adapter. Learning methods accept `ckpt_path` and `device`; provide an explicit path such as `../checkpoints/weights/clrnet_faithful_seed0/best_gra.pth`. Call `predict_image(grayscale_array)` for row-wise boundaries (`pred_x_L`, `pred_x_R`), confidence scores, and native presence decisions.
+Use `ortholanemark.literature.build_method(name, **kwargs)` to construct an adapter. Learning methods accept `ckpt_path` and `device`; provide an explicit path such as `../checkpoints/weights/clrnet_seed0/best_gra.pth`. Call `predict_image(grayscale_array)` for row-wise boundaries (`pred_x_L`, `pred_x_R`), confidence scores, and native presence decisions.
 
 For the paper's presence decisions, apply `confidence >= final_side_threshold` separately to each side, using the run's threshold from [run_manifest.json](provenance/run_manifest.json). Do not substitute the native adapter decisions. Selected settings are in [learning configurations](configs/learning/) and `configs/traditional/*_effective.json`; the traditional files distinguish constructor arguments from shared postprocessing settings. The LaneATT anchor-frequency tensor is included in its source directory.
 

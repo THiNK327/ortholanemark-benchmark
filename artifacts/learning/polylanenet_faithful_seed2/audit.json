@@ -1,7 +1,7 @@
 {
   "method": "polylanenet_faithful",
   "seed": 2,
-  "checkpoint": "weights/polylanenet_faithful_seed2/best_gra.pth",
+  "checkpoint": "weights/polylanenet_seed2/best_gra.pth",
   "checkpoint_sha256": "0682b3be270545295d41f43a035b88a5c90713c5eb581a247044716ff9e036de",
   "training_performed": false,
   "historical_checkpoint_rule": "native decoder presence decisions",

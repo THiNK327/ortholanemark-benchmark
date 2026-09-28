@@ -1,7 +1,7 @@
 {
   "method": "ufldv2_faithful",
   "seed": 1,
-  "checkpoint": "weights/ufldv2_faithful_seed1/best_gra.pth",
+  "checkpoint": "weights/ufldv2_seed1/best_gra.pth",
   "checkpoint_sha256": "84a639be0cec35debceb04b8cad854fbe376cc3a598c225a26ea7136ccbccdb5",
   "training_performed": false,
   "historical_checkpoint_rule": "native decoder presence decisions",

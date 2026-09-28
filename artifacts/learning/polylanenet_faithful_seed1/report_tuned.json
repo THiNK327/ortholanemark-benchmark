@@ -86,7 +86,7 @@
   "tuned_tau": 0.18,
   "latency_ms_mean": null,
   "params": null,
-  "ckpt": "weights/polylanenet_faithful_seed1/best_gra.pth",
+  "ckpt": "weights/polylanenet_seed1/best_gra.pth",
   "per_image": [
     {
       "boundary_mae_on_gt_left": 2.4115609415582764,

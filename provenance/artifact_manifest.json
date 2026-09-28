@@ -6,8 +6,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "9e2b52564816811b08987b04bc6d7ed12fd3fe67e0f39d1f48d1ec45403ed7e7",
-      "package_sha256": "d40449154ca8c7dd37fc73430e9fa058445744cb02a76e5d80fe6b8ced16dbed",
-      "bytes": 254526,
+      "package_sha256": "9137cee7a196a0b0128336792cea1525e00e96b32c8b21772c3c95f7919dfa2f",
+      "bytes": 254517,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -15,8 +15,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "43c6da006a0f691d8f5924d9500109aaeb08a1845a9504db43654212845545f1",
-      "package_sha256": "dfa1f4505f00ee0401a89d3f415b2b543f4e6cf96c1238150e5082e699a3e1c2",
-      "bytes": 165546,
+      "package_sha256": "5067a576628f1be844bba631f864845ffedc2d6cf0cd1c0b933b9cc0031d7ddb",
+      "bytes": 165537,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -42,8 +42,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "f6091a70f4eeb12a253dbbee2ec0a0a27d2b72abd973b51955d615b91ea4fb4c",
-      "package_sha256": "c16e431f0b97805d1752c7ac6b1cf4af7e067298bc30dceeea12271dcd71b509",
-      "bytes": 837,
+      "package_sha256": "fa2219562ac51bf318bb9d0a0358cb5adc9cdce17def15ee1b869ee7e7d428f7",
+      "bytes": 828,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -78,8 +78,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0d644c3fd571d2f185de09843735aee5f7b0f5cbd5653de2899cd4e7e231fb3f",
-      "package_sha256": "7be5d88a294f29142d6dd0894c56ae491938251f462e414c61129a688da87c2a",
-      "bytes": 254890,
+      "package_sha256": "9fc3fe7fd8238845f5567bea6578cab5b1d3a6d1afbd1f30ec973c952af2c129",
+      "bytes": 254881,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -87,8 +87,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "164215ebef71f76e8e2312111adbcf3734444e094162997b0c45b144a88329b2",
-      "package_sha256": "38294b1d71f6ac3a6ecb748eee8611561f5f6a278ccc00196221def50958edde",
-      "bytes": 165756,
+      "package_sha256": "4a34eccf66b9353b3afd6f0ad48916d5650b47bb6aff748f243ea8dea6b74d7c",
+      "bytes": 165747,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -114,8 +114,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "c74254e7660c72d372284df176fcf64b0aa589a7f8dfa87f86f235fd447bdf1c",
-      "package_sha256": "2a123389462db869ae809fabbd11574555323e37c970295dcd838b21f18371e8",
-      "bytes": 843,
+      "package_sha256": "15725ce6263677371bff9c92fb7a0a244ba74763f11d7db0de5af06276613b2a",
+      "bytes": 834,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -150,8 +150,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "ab13a56f0d4b5168d2c0f44b9f95525149b29398711c892667f84ec368b4a358",
-      "package_sha256": "09dcd09158ffafe50180659759b98f15c30f649f8d5e23684a3e14749fc68d3a",
-      "bytes": 254826,
+      "package_sha256": "c6c275a456d1d907b3307d8abe25e90b5412b69784ab42914faefd77231eb8f6",
+      "bytes": 254817,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -159,8 +159,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "042212ceef667ecd9b958a904ae5a197e2f92159a153394ed373f712fc3a62b1",
-      "package_sha256": "60d4727cce26ca17ca9197c6311db72daad03e67a1edd8d3c47d4e4c97cfab83",
-      "bytes": 165949,
+      "package_sha256": "07d6efd1e23f811b6a8c55b09606ebe7112734a4727c179814030d8a33b7b8b9",
+      "bytes": 165940,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -186,8 +186,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "59ecdf27751f25e0990471ff28424d4167131019d9f5e1dfe917e626def8fc7f",
-      "package_sha256": "b8b52587bf386186fb3d154adc8ec83f1218efb2e5bdf4900558efc5a93ee516",
-      "bytes": 840,
+      "package_sha256": "230fd6562fd89283b1fee25eb692a41118e313e4d5164423e9f7db9f089d3166",
+      "bytes": 831,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -222,8 +222,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "2492dfcc59873b557c69e260242a865b335090842c17de86e14e7c5d15934aff",
-      "package_sha256": "a9ae22e005552b1180ea4a9c13b70e117a942b2ddb2f7cf9d0aa1203ca69889f",
-      "bytes": 261650,
+      "package_sha256": "563e52a8ec6b78d2a7ddc9b0ac63f12bd351ca8925d25e3e0bdfb40b26c54194",
+      "bytes": 261641,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -231,8 +231,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "9f7cf084e2a9a4c89a99782c231153d6b579329bbb1db0daa5b484b1c606b5d1",
-      "package_sha256": "db08687f61cddbe918fcdb90001cd88155445a7a690fae235cdc76b3b7eaf838",
-      "bytes": 169179,
+      "package_sha256": "bcbdd443efd9cf0f8677c945c98e60561dac5c06f0dc6ac0f955a0e56fb84768",
+      "bytes": 169170,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -258,8 +258,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5c17d1362a6f341f79fd7c7cc95515e705af3ae700348d042b24c9144b3da25a",
-      "package_sha256": "eef5762e4618bfecbaa1f885caa11f971c2dce9b1a7cfb49c1fa5f7b3a0448b5",
-      "bytes": 1001,
+      "package_sha256": "6e40bac9ab82559bf6da3063c3d8ffaca88f45464dea4bc645c16b2054ac0675",
+      "bytes": 992,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -294,8 +294,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0db3924b3367bff54e38225c8c75864f03314910a1a77482222ebe33dbadf79e",
-      "package_sha256": "d8cb0fe2612ff1997f3aa3cf3bf4ef250fd380f03e0dfe2cd288bd346e4e62f5",
-      "bytes": 261713,
+      "package_sha256": "ea9a28503137d31b49a5da89b52ee2966f98688bf6aa90a0fa3cd23ba5cdb5cd",
+      "bytes": 261704,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -303,8 +303,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "6f54fd8bc6689423ac27fc41e25e581fe3f0d683836acc3a5d350feec5192f2b",
-      "package_sha256": "410132926a78bc3e73e0c60375f1cd3cd76a60b4602d00cd9b20caa43c2d6953",
-      "bytes": 169588,
+      "package_sha256": "1a277af1ced499fd7c53acd3c8b2bff5bcdb148a841db52d1cbf622b047010d9",
+      "bytes": 169579,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -330,8 +330,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "713dd68d332aabfec3529a9aca84767a09dff2b1870f97b7c5ad9573b26fc60a",
-      "package_sha256": "c0931bf3970404494435fe63527adb7741dfb6a63acc848cea4edde59d757852",
-      "bytes": 1007,
+      "package_sha256": "3ebbe8b8e8c7a897b62d5f1b11ec0492f260f98a9dbcf0a2214355986403acad",
+      "bytes": 998,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -366,8 +366,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "46035c2f2d7b9aa83662ab57827575a0024583e9f7a61afea34e13936cca4be7",
-      "package_sha256": "143a84f8ffb9c5870e48daaff3390da47faf6e30cedcd42ced56b854f28b15a8",
-      "bytes": 257143,
+      "package_sha256": "6f7349c2955b0f6c6a9d9483a7c941e4ccf1b872526343514afa92cd4757bc60",
+      "bytes": 257134,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -375,8 +375,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "8ac55caf46bb41e4c4895aa963e2ac938d44941dde185df0cd19ed2c26f15172",
-      "package_sha256": "466d227a52a1eec9f287925c760602fad237de32649b2c96dec3e8c5b7664c95",
-      "bytes": 168957,
+      "package_sha256": "12c8040443e9a8b7bdc0455c020fcf94c3681e785b8e27688418db31372447ba",
+      "bytes": 168948,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -402,8 +402,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5ff8f1a3b14542812676756318a4d53dcdbf023c183fda0a380972ad0cba8431",
-      "package_sha256": "533e487f87aa2e34c2d53d334c3e0d5341616a688ec64a9292ebc6711e19db86",
-      "bytes": 1005,
+      "package_sha256": "4feeb7823c2805cfc3078ff66127651bfd4fd9c649df3025245a1908d2e21019",
+      "bytes": 996,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -438,8 +438,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "8cf8e547d476eca76e4d0eda59447699dcbb3091ba72332036c46780dc9e0165",
-      "package_sha256": "c179cf911c963aec0f56d888a12cdcfcb54b5aa1ebc6c0f205fb720f8406c78e",
-      "bytes": 257491,
+      "package_sha256": "509ddd33d59b985c7b21edcbef681938debcd7c941d9cf4e2903848f37fa3924",
+      "bytes": 257482,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -447,8 +447,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "2bdb473ec020901939789ef919e3c33566f0260b9fabfce926f221cb8306d833",
-      "package_sha256": "d24cbf9d0236f119695eb84ddf9db66ad22b2fca57979702868e89d645866400",
-      "bytes": 167773,
+      "package_sha256": "8933646f01b4e6af7a8f985ec79b921ac3108d7e625aebe8cd03d7ee23158b03",
+      "bytes": 167764,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -474,8 +474,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "adae0728a7ee757599f847da2fa8cc0047f3a95a52359d8f8127f5b0186cf224",
-      "package_sha256": "5a609e0947a50d7d063538c670d8109581796d3d5b1bcf48397d4e429da4ae72",
-      "bytes": 868,
+      "package_sha256": "dc8695f57ea2b7905b68362d6f6b75512c47076a3ca4881a9af32a51d41e0b4f",
+      "bytes": 859,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -510,8 +510,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "5fff081744d952187856a8aa74fbdd79878f295f30e9adb2cfacd0467b9d1d10",
-      "package_sha256": "44837362e10479fa6d7faa5b37ab0a2afd5432155b7f14a94edc2c6d2997b61b",
-      "bytes": 257216,
+      "package_sha256": "2cfe54fbd2de546f4c57ca7f47af011d2a3fa62ee02504c638c77eb66e0d93fc",
+      "bytes": 257207,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -519,8 +519,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "1bd74b3b42dafd02b3a4abc1927b7bac8619b8c79987f054160d60f625217f98",
-      "package_sha256": "d661ce3cd1e11a22d7b34baa18af39c39ed2d04d18d01202c33b5004df95d73b",
-      "bytes": 167634,
+      "package_sha256": "ade62e2be1f10af3a68fc153a635899233bf9259e7315229db7cae9bb7d82563",
+      "bytes": 167625,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -546,8 +546,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "7a0054266af04879385694b988be9aa151dc86fa92f3f75859fe0437bd57b07f",
-      "package_sha256": "042034db2aab1e0d2ddec699b5b2cd077164459c944582e964c40d3b3ae59c25",
-      "bytes": 874,
+      "package_sha256": "669dd461bf70dc7a9e051da9cfe77240a6768a6ebf690293c92bc2addf6ef899",
+      "bytes": 865,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -582,8 +582,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0bcfd9665f3525cbb5b3e003accafa7cd2f8c65aa29d593ced3dba051ae3e70f",
-      "package_sha256": "949c2d521d6b4e2113e818baf337ddb6408cb176f6c966573e729a4a976bb6e7",
-      "bytes": 257596,
+      "package_sha256": "beacd276e4252285240cd219ce62119841102d9ce3a5885c5bdbe47d505b1aa9",
+      "bytes": 257587,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -591,8 +591,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "1d2011b6a4c931e88f7a496cfef26bc57c2ee8c2da5e948c4c1625547454e180",
-      "package_sha256": "127380bf7f65c77a823dd53f6cc31ac553031bafb11e07c977a9f135a8f284e7",
-      "bytes": 167748,
+      "package_sha256": "4c69ebcc75e3d83eaf3047c8346b2555eb5c752f4d70f9039b2af752b9dbc330",
+      "bytes": 167739,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -618,8 +618,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "fec67a0ee3fd8e7c06d20b2c01d5098c274055b79052b9a807ef3769e8263246",
-      "package_sha256": "9d2fbb2bf48941f8bc2ef932cddc3e7ca4e6f53becd01c018f6a198e38cb9e01",
-      "bytes": 872,
+      "package_sha256": "2e8b8ad8b95b98e4bf723114b6aacbfb7fb258b577a0e718725875caafe10583",
+      "bytes": 863,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -654,8 +654,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "5febd8bbe37ca5392b8b64f2f59e4fb44d4b0dcabc4ac120df7832813cc08d60",
-      "package_sha256": "dad352c87bfe5d5f26a7b53bf20fab819ee3664135b4f16ddc5a5437830143d3",
-      "bytes": 258029,
+      "package_sha256": "bc7e9d5442a43037a794a93e46b640ccee3d3325dc0c480d974db5b08de37759",
+      "bytes": 258020,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -663,8 +663,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "9c4770faa6bbb7e8b8fb3abde16d9ab1989b9b245995007a09204d5bbc111556",
-      "package_sha256": "6918c15f704d1cfe2697a1b33e01e17996e2243aa55d1f63adbe16928064c60c",
-      "bytes": 169086,
+      "package_sha256": "2cd6887e178e9cec6c43b5d6d2d9847300b3b2cfa9256780445a14d3a4eabab5",
+      "bytes": 169077,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -690,8 +690,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "1e10cbb72aadb6dadf0af08aa3dbb121c00f34e3fdaac641cedba816ad4f4800",
-      "package_sha256": "5a9c20c9168b4606dfa3c27f0d12c8f31e3b64521fc6a4524ae0e9c953c18b3e",
-      "bytes": 845,
+      "package_sha256": "146c2d256332cbcdd9a4af7cd0f194a04469ce3b1df695104a81be7bbe70fdf2",
+      "bytes": 836,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -726,8 +726,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "2a23563c8f1b61778d5706409590f059611bbea5531c84a84cb4c2ac61d4a266",
-      "package_sha256": "1880080d848d4efdcb94e303ca909c7c6a401d9732868daf543fbb8c9e11bd50",
-      "bytes": 258273,
+      "package_sha256": "95d6f5b630c8ceab73e332b8ed53b4444a09fba91d51814d1d84855228311e0d",
+      "bytes": 258264,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -735,8 +735,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "46d9c4af0013314a9d316b6b73971a7905f4178cddeafd06f5eb809d931db54e",
-      "package_sha256": "3a3be93df5efaa4e317caeccdd40f84ca40b56efccd202d18eaf3a8b4032e515",
-      "bytes": 168606,
+      "package_sha256": "f798b714d3ce6068837f145a96420f960e1a096f9b140f639dd22e48c3256313",
+      "bytes": 168597,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -762,8 +762,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "29f289120b3784f50e26acdfe825e6c5db2c6fbdbc44fdcff476ec32a1b34a88",
-      "package_sha256": "fd4bfdcb34901e018c610fa393b1305be4fba770d94932d7f804ca6151fd400b",
-      "bytes": 853,
+      "package_sha256": "3e57c5f7b7792104887a9bb1b149ed160a02c3dd2af651ef16d93d78992508e7",
+      "bytes": 844,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -798,8 +798,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "86d75b96f00fd9935025ceecfd4f8aa88586d0a8f1c3848835f7f8c0cbd6cbfe",
-      "package_sha256": "615c2bc663137b032cadc5207e90dddf50169332141f7d15bfa85fb0f2466117",
-      "bytes": 257451,
+      "package_sha256": "ecadd8727d8e92d48a284a427faef3e510091e0ca2b14f80646c2aa21246693d",
+      "bytes": 257442,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -807,8 +807,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "806c68b9666a950786fe082dc333944dcfce7e1c4b9b835dff6478ebeac6e28b",
-      "package_sha256": "175dfc69e89514b8f466a947334c67f31fc40e7de0ebdf1837a3be3235773a29",
-      "bytes": 168314,
+      "package_sha256": "ef958904518deca6ca28d74dec84b5bf2e551165cb3960f10e1de17145aa54c2",
+      "bytes": 168305,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -834,8 +834,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5b2f8d90432e006c6bf0afe8dba549811401dc8abf63424b39037500d448ec78",
-      "package_sha256": "96fedc58971d9ee8f309ab2ba1254d4466271fd67c75be72d6cfb49de7a87075",
-      "bytes": 851,
+      "package_sha256": "80a728571489e9f0b30f73802b8bb1eadc68ec0f70ff82f1233efa5cd2fd46e7",
+      "bytes": 842,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -870,8 +870,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "32a5363bae06e413415892a05023bcb005dae93312d6d90ab065d7ef1b4eeeb4",
-      "package_sha256": "b1f9b74539bb44b172a34440773d4608791016b260fd5c0b4af481a6bf2a71c8",
-      "bytes": 254894,
+      "package_sha256": "74b5684943584eb971c2a59dfc47d1c7c2569da5128a2c19032bf15b3e42999d",
+      "bytes": 254885,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -879,8 +879,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "4462794edb6cfa5bc63bee86f2bc6e2b04e9f8930dcea9010aecfb422d874903",
-      "package_sha256": "b0f0fed46e8dae90d6e5be8d7c926a0b4cada1369b00836b6ca1471cd4f02212",
-      "bytes": 166637,
+      "package_sha256": "eb20d505a94e849957031dcd6c18531f3d9c85dc0abe26bb3b0cb9812e571637",
+      "bytes": 166628,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -906,8 +906,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "90410b625f0e3d80d4041783271d5d6786bac56ddaa06cb9a6f4b05b0c8b204a",
-      "package_sha256": "e58ffd8c4bc9c98d548a2cd6d4b7fe3f8195960d2c6f7c2a15dc4d4d82a0fc1c",
-      "bytes": 853,
+      "package_sha256": "0b364a40d3f6d95fdf87b0b63a6b541e005fd412027dff5783134e1ff10cf086",
+      "bytes": 844,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -942,8 +942,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "3f0ff5d286a6b225f8013c1a37bdd3b8274a4bd522ffe76a04cf86f25184afb9",
-      "package_sha256": "14ad768ce936c42e48db642febc468fdc5f3f8e3af30c03578ef318649728eed",
-      "bytes": 255175,
+      "package_sha256": "51d5f0869fd2b5dc3fee9d582c51dd0a7c5a552d6c9a6c606981a6754e37dab9",
+      "bytes": 255166,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -951,8 +951,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "d3a404a2bb83fe521bf8e9fa95da991f2f5ce7b7f58a53d063b90043c98ff038",
-      "package_sha256": "b8f9a3977d76594b72c36f063d48b793e7cfbd808de3120f383225843e6cd33c",
-      "bytes": 167509,
+      "package_sha256": "f4f1262286f0ab9e680eaa76ad55f328ddb4261b692e585a8feab4cc15db3948",
+      "bytes": 167500,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -978,8 +978,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "26eb79a1912a918b2549006217c428f03337c4f041d138121d5437f53bb3d5c6",
-      "package_sha256": "1737f3bc8ae5024643b0cf2266589841192aa749c41597811f768c9de5c4fccf",
-      "bytes": 857,
+      "package_sha256": "d5665a1135dfe0c2a5070552029b2c0d44b69ab5df23bdb6149401f351cd7957",
+      "bytes": 848,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {
@@ -1014,8 +1014,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "32484406142f9585a4a27e9e302f3fb076b76278152ef9385b99413b2a66174f",
-      "package_sha256": "35bd62b19e4e80b120a4f32392b91cc798c2a62c46f63ba7866424f601411861",
-      "bytes": 255617,
+      "package_sha256": "b7dcd6f1f397b6b72afcd75a2fcc84ae7375cf3c1a414bbe63c8029f877ce418",
+      "bytes": 255608,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -1023,8 +1023,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "c930f22d63b2c2bd31a32cc6b7a8e8661e9569caae5ebea7eb2dcd48233c9aaf",
-      "package_sha256": "2292c5aac5d2a31319f9c1f6002b529fe5f6147015c3fa90e3d5d46607547511",
-      "bytes": 166943,
+      "package_sha256": "5d01b9c3be8b606cebc74c4c92b79ff5b0314d33f84c09c7bbe76a9088a65230",
+      "bytes": 166934,
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
@@ -1050,8 +1050,8 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "81616d2f8504ee0c0427f17deb33ffbd6ceb25833474511f691d732fb6bff971",
-      "package_sha256": "9f2cab28537c8484d3a26512685a2ee73af8564c7a38236c307942df917c59be",
-      "bytes": 859,
+      "package_sha256": "29a4bf117b6c2a90841e79af61ced94b564aff8d6a5c0b15230d007707553f04",
+      "bytes": 850,
       "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
     },
     {

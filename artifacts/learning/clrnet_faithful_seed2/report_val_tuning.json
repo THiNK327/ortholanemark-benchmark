@@ -86,7 +86,7 @@
   "tuned_tau": 0.5,
   "latency_ms_mean": null,
   "params": null,
-  "ckpt": "weights/clrnet_faithful_seed2/best_gra.pth",
+  "ckpt": "weights/clrnet_seed2/best_gra.pth",
   "per_image": [
     {
       "boundary_mae_on_gt_left": null,
