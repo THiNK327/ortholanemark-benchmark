@@ -1,6 +1,6 @@
 # Implementation and provenance
 
-These records describe the evaluated OrthoLaneMark pipelines. Internal `_faithful` identifiers preserve run associations; they do not claim exact reproduction of upstream experiments. Architecture, preprocessing, optimization, and output conversion all affect the comparison.
+These records describe the evaluated OrthoLaneMark pipelines. Architecture, preprocessing, optimization, and output conversion all affect the comparison.
 
 ## Method adaptations
 

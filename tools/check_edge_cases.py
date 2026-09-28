@@ -21,8 +21,8 @@ def extract(path, names):
     return namespace
 
 w=extract('ortholanemark/scripts/wheelpath_diagnostic.py',['strips','disagreement'])
-lane=extract('ortholanemark/literature/laneatt_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
-clr=extract('ortholanemark/literature/clrnet_faithful/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
+lane=extract('ortholanemark/literature/laneatt/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
+clr=extract('ortholanemark/literature/clrnet/predict.py',['_proposal_to_full_height_curve'])['_proposal_to_full_height_curve']
 unet=extract('ortholanemark/literature/unet_seg/predict.py',['_decode_side'])['_decode_side']
 results=[]
 def check(name,fn):

@@ -1,6 +1,6 @@
 [
   {
-    "method": "clrnet_faithful",
+    "method": "clrnet",
     "runs": [
       {
         "seed": 0,
@@ -101,7 +101,7 @@
     }
   },
   {
-    "method": "laneatt_faithful",
+    "method": "laneatt",
     "runs": [
       {
         "seed": 0,
@@ -202,7 +202,7 @@
     }
   },
   {
-    "method": "polylanenet_faithful",
+    "method": "polylanenet",
     "runs": [
       {
         "seed": 0,
@@ -303,7 +303,7 @@
     }
   },
   {
-    "method": "scnn_faithful",
+    "method": "scnn",
     "runs": [
       {
         "seed": 0,
@@ -404,7 +404,7 @@
     }
   },
   {
-    "method": "ufldv2_faithful",
+    "method": "ufldv2",
     "runs": [
       {
         "seed": 0,

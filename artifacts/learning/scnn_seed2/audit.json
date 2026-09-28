@@ -1,0 +1,18 @@
+{
+  "method": "scnn",
+  "seed": 2,
+  "checkpoint": "weights/scnn_seed2/best_gra.pth",
+  "checkpoint_sha256": "1653814abf4fb72aa7d6e042ebd0d837e008723e1957b255b83c3af4f87fdf8b",
+  "training_performed": false,
+  "historical_checkpoint_rule": "native decoder presence decisions",
+  "best_logged_validation_gra": 0.879488738671712,
+  "recomputed_historical_rule_validation_gra": 0.8794885843784593,
+  "old_threshold": 0.48,
+  "new_threshold": 0.48,
+  "old_gra": 0.8885445994053146,
+  "new_gra": 0.888544417005444,
+  "old_report": "ortholanemark\\runs_reselect\\scnn_seed2__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "9cb125aff6dfc069d1029ec6d618d93cc6184c8065cd7d2fa9b40a03062b3770",
+  "report_reference_convention": "Historical report path expressed with the public package name."
+}

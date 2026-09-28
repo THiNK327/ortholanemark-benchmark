@@ -51,12 +51,12 @@ class FullHeightDecoding(unittest.TestCase):
         with self.assertRaises(ValueError):_selection_presence(output,'unknown')
 
     def test_polynomial_span_and_confidence_do_not_truncate_geometry(self):
-        p = importlib.import_module('ortholanemark.literature.polylanenet_faithful.predict')
+        p = importlib.import_module('ortholanemark.literature.polylanenet.predict')
         model = Stub('poly')
         image = np.zeros((101, 81), dtype=np.uint8)
         batch = p.predict_batch_with_model(model, [image, image], img_h=8, img_w=8)
         single = p.predict_with_model(model, image, img_h=8, img_w=8)
-        adapter = p.PolyLaneNetFaithfulMethod(device='cpu', img_h=8, img_w=8)
+        adapter = p.PolyLaneNetMethod(device='cpu', img_h=8, img_w=8)
         adapter._model = model
         direct = adapter.predict_image(image)
         expected = (0.2 + .05 * np.arange(101)/100)*80
@@ -66,12 +66,12 @@ class FullHeightDecoding(unittest.TestCase):
             self.assertAlmostEqual(result['pred_conf_L'], .3, places=6)
 
     def test_scnn_low_confidence_keeps_available_curve(self):
-        p = importlib.import_module('ortholanemark.literature.scnn_faithful.predict')
+        p = importlib.import_module('ortholanemark.literature.scnn.predict')
         model = Stub('scnn')
         image = np.zeros((101, 81), dtype=np.uint8)
         batch = p.predict_batch_with_model(model, [image, image], input_h=40, input_w=40)
         single = p.predict_with_model(model, image, input_h=40, input_w=40)
-        adapter = p.SCNNFaithfulMethod(device='cpu', input_h=40, input_w=40)
+        adapter = p.SCNNMethod(device='cpu', input_h=40, input_w=40)
         adapter._model = model
         direct = adapter.predict_image(image)
         for result in batch + [single, direct]:
@@ -90,8 +90,8 @@ class FullHeightDecoding(unittest.TestCase):
         self.assertTrue(np.isfinite(curve).all())
 
     def test_short_anchor_support_produces_full_height_curves(self):
-        lane = importlib.import_module('ortholanemark.literature.laneatt_faithful.predict')
-        clr = importlib.import_module('ortholanemark.literature.clrnet_faithful.predict')
+        lane = importlib.import_module('ortholanemark.literature.laneatt.predict')
+        clr = importlib.import_module('ortholanemark.literature.clrnet.predict')
         n = 72
         prop = np.zeros(5+n)
         prop[2], prop[4], prop[5:] = .4, 12, 300.
@@ -108,9 +108,9 @@ class FullHeightDecoding(unittest.TestCase):
     def test_ufld_and_laneatt_batch_single_class_agree(self):
         image = np.zeros((301, 1001), dtype=np.uint8)
         for kind, module, cls, kw in [
-            ('ufld', 'ufldv2_faithful', 'UFLDv2FaithfulMethod',
+            ('ufld', 'ufldv2', 'UFLDv2Method',
              dict(input_h=40, input_w=40, num_cls_row=12, num_cell_row=20)),
-            ('laneatt', 'laneatt_faithful', 'LaneATTFaithfulMethod', dict(img_h=360, img_w=640)),
+            ('laneatt', 'laneatt', 'LaneATTMethod', dict(img_h=360, img_w=640)),
         ]:
             p = importlib.import_module(f'ortholanemark.literature.{module}.predict')
             model = Stub(kind)

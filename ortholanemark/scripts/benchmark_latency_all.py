@@ -37,10 +37,10 @@ def main(argv=None):
                      cv2.IMREAD_GRAYSCALE)
 
     rows = []
-    # faithful registered methods (lazy-load their best.pth)
+    # Registered learning methods (lazy-load their checkpoints)
     from ortholanemark.literature import build_method
-    deep = ['clrnet_faithful', 'scnn_faithful', 'polylanenet_faithful',
-            'laneatt_faithful', 'ufldv2_faithful', 'ufldv2_faithful_tusimple',
+    deep = ['clrnet', 'scnn', 'polylanenet',
+            'laneatt', 'ufldv2', 'ufldv2_tusimple',
             'unet_seg']
     for name in deep:
         try:

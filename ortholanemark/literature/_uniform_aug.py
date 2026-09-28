@@ -1,4 +1,4 @@
-"""Shared uniform-augmentation helpers used by faithful dataset
+"""Shared uniform-augmentation helpers used by benchmark dataset
 shims, so the augmentation pipeline is identical across methods.
 
 Current uniform-aug policy (Option A from FIDELITY_REVIEW.md):

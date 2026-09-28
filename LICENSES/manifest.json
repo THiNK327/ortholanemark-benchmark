@@ -16,8 +16,8 @@
       "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
       "bytes": 10173,
       "applies_to": [
-        "ortholanemark/literature/laneatt_faithful/model/focal_loss.py",
-        "ortholanemark/literature/clrnet_faithful/model/focal_loss.py"
+        "ortholanemark/literature/laneatt/model/focal_loss.py",
+        "ortholanemark/literature/clrnet/model/focal_loss.py"
       ],
       "retrieval": "exact public upstream bytes downloaded 2026-09-27"
     },
@@ -28,8 +28,8 @@
       "sha256": "4904ba2c490bead9423378eb77865c7961b1636c436da1d4bcf629f9c9ce995d",
       "bytes": 760,
       "applies_to": [
-        "ortholanemark/literature/laneatt_faithful/model/focal_loss.py",
-        "ortholanemark/literature/clrnet_faithful/model/focal_loss.py"
+        "ortholanemark/literature/laneatt/model/focal_loss.py",
+        "ortholanemark/literature/clrnet/model/focal_loss.py"
       ],
       "retrieval": "exact public upstream bytes downloaded 2026-09-27"
     },
@@ -40,7 +40,7 @@
       "sha256": "5fd77ac414b6e19f2d22f130ff9d7e29593f05fd9f0a472e07a15661bc16671e",
       "bytes": 1273,
       "applies_to": [
-        "ortholanemark/literature/laneatt_faithful/model/resnet.py"
+        "ortholanemark/literature/laneatt/model/resnet.py"
       ],
       "retrieval": "exact public upstream bytes downloaded 2026-09-27"
     },
@@ -51,8 +51,8 @@
       "sha256": "6ed26cf91592fbcd3e7be579fc0cdfee76c76b3642fd47002b769380793256fc",
       "bytes": 3062,
       "applies_to": [
-        "ortholanemark/literature/laneatt_faithful/model/nms_stub.py",
-        "ortholanemark/literature/clrnet_faithful/model/clr_head.py"
+        "ortholanemark/literature/laneatt/model/nms_stub.py",
+        "ortholanemark/literature/clrnet/model/clr_head.py"
       ],
       "retrieval": "exact local pinned upstream copy"
     },
@@ -63,7 +63,7 @@
       "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d",
       "bytes": 1517,
       "applies_to": [
-        "ortholanemark/literature/clrnet_faithful/model/resnet.py"
+        "ortholanemark/literature/clrnet/model/resnet.py"
       ],
       "retrieval": "exact public upstream bytes downloaded 2026-09-27"
     },
@@ -74,8 +74,8 @@
       "sha256": "874b8b2e6f12306a1ff7812c068a0dbf880418b8ac1f7190382bd6c6da9f23a1",
       "bytes": 11398,
       "applies_to": [
-        "ortholanemark/literature/clrnet_faithful/model/fpn.py",
-        "ortholanemark/literature/clrnet_faithful/model/accuracy.py"
+        "ortholanemark/literature/clrnet/model/fpn.py",
+        "ortholanemark/literature/clrnet/model/accuracy.py"
       ],
       "retrieval": "exact public upstream bytes downloaded 2026-09-27"
     }

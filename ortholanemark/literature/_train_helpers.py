@@ -1,4 +1,4 @@
-"""Shared training helpers for the faithful learned baselines.
+"""Shared training helpers for the learned baselines.
 
 Provides:
   - set_global_seed(seed): seeds torch/np/random + cudnn deterministic.
@@ -11,7 +11,7 @@ Provides:
   - load_checkpoint_for_resume(path): convenience loader returning the
     full state dict.
 
-Used by the faithful baseline train.py entry points.
+Used by the benchmark baseline train.py entry points.
 """
 
 from __future__ import annotations

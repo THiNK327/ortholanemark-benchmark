@@ -109,7 +109,7 @@ OrthoLaneMark/
 For example, evaluate saved CLRNet predictions against the dataset annotations:
 
 ```sh
-python tools/evaluate_saved.py --dataset-root ../dataset --manifest ../dataset/annotations/splits.json --predictions artifacts/learning/clrnet_faithful_seed0/predictions_test.npz --output work/clrnet_seed0_metrics.json
+python tools/evaluate_saved.py --dataset-root ../dataset --manifest ../dataset/annotations/splits.json --predictions artifacts/learning/clrnet_seed0/predictions_test.npz --output work/clrnet_seed0_metrics.json
 ```
 
 This uses the saved final presence decisions and original evaluator without loading a model or selecting a new threshold. Prediction IDs and order must match the manifest test split. The companion dataset's `README.md` describes its files, annotations, and range-image limitations; use `annotations/section_*/` for benchmark reproduction.
@@ -127,7 +127,19 @@ python tools/prepare_manifest.py --dataset-root ../dataset --manifest ../dataset
 
 The resolved manifest contains paths for your machine. The shared manifest remains portable. The model dependency list pins recorded PyTorch and EfficientNet versions, with a compatible torchvision version; it is not a complete recovered training environment. Select a PyTorch build appropriate for your device. Recorded environments are in the [implementation notes](provenance/README.md#environment-and-timing).
 
-Use `ortholanemark.literature.build_method(name, **kwargs)` to construct an adapter. Learning methods accept `ckpt_path` and `device`; provide an explicit path such as `../checkpoints/weights/clrnet_seed0/best_gra.pth`. Call `predict_image(grayscale_array)` for row-wise boundaries (`pred_x_L`, `pred_x_R`), confidence scores, and native presence decisions.
+Construct a model adapter with its method name and checkpoint path:
+
+```python
+from ortholanemark.literature import build_method
+
+model = build_method(
+    "clrnet",
+    ckpt_path="../checkpoints/weights/clrnet_seed0/best_gra.pth",
+    device="cpu",
+)
+```
+
+Without `ckpt_path`, learning adapters look for seed 0 under the repository's `weights/` first, then under the sibling `checkpoints/weights/` folder. Supply a path to select another seed. Call `model.predict_image(grayscale_array)` for row-wise boundaries (`pred_x_L`, `pred_x_R`), confidence scores, and native presence decisions.
 
 For the paper's presence decisions, apply `confidence >= final_side_threshold` separately to each side, using the run's threshold from [run_manifest.json](provenance/run_manifest.json). Do not substitute the native adapter decisions. Selected settings are in [learning configurations](configs/learning/) and `configs/traditional/*_effective.json`; the traditional files distinguish constructor arguments from shared postprocessing settings. The LaneATT anchor-frequency tensor is included in its source directory.
 

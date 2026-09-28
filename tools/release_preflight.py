@@ -23,7 +23,7 @@ def inspect(root, companions=False):
         path = root / row['path']
         assert hashlib.sha256(path.read_bytes()).hexdigest() == row['sha256'], str(path)
     for method in ['scnn', 'ufldv2', 'polylanenet', 'laneatt', 'clrnet']:
-        assert (root / f'ortholanemark/literature/{method}_faithful/LICENSE_upstream').is_file()
+        assert (root / f'ortholanemark/literature/{method}/LICENSE_upstream').is_file()
     assert meta['code_license'] == 'MIT'
     assert meta['data_license'] == meta['results_license'] == 'CC-BY-4.0'
     assert meta['weight_license_scope'], 'Checkpoint component scope is missing'

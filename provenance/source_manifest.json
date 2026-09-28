@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "ortholanemark/__init__.py",
-      "sha256": "2325e4ef2e6ccc290b6a1f4d95650803c7badc874085a79079f5d30dc56e5ff2",
-      "bytes": 165,
+      "sha256": "363ba57ca7175aa68a9d0eaca84acf274273671eccf973e707ede3c8421645ee",
+      "bytes": 156,
       "evaluated_sha256": "393d08c5a84b758a9bd3a7537e90591c7cd67fb14a41f32c5ca80c7980cabfa7",
       "evaluated_bytes": 166
     },
@@ -60,8 +60,8 @@
     },
     {
       "path": "ortholanemark/evaluation/test_full_height_decoding.py",
-      "sha256": "5893b25d5cb05f74731765501f51219e542741c73b23b62de6c9f17e7a8c3905",
-      "bytes": 6560,
+      "sha256": "66ee95bf834eca3f9a47079b5cbaae7c53d523a1ba2335e451879b9407b5a457",
+      "bytes": 6474,
       "evaluated_sha256": "e02ea829fc06545b613d46dd95011c63d7e6972d59a1c6bd352b26b18ae55f96",
       "evaluated_bytes": 6602
     },
@@ -74,8 +74,8 @@
     },
     {
       "path": "ortholanemark/literature/__init__.py",
-      "sha256": "eae093f9cac777ca3964a74f8ea77d55a71319a25b4da9f89bf5f838b71efe65",
-      "bytes": 4741,
+      "sha256": "078e5fd3debfa17fe89bd70e653eb425a64dcb17d37870398f25b17e71f57573",
+      "bytes": 5010,
       "evaluated_sha256": "5c7571fd861ea426c59bb397433f8d95236914a1697039b5494f6b1738646419",
       "evaluated_bytes": 4800
     },
@@ -95,15 +95,15 @@
     },
     {
       "path": "ortholanemark/literature/_train_helpers.py",
-      "sha256": "f5ebae437168145a6b63bc4e49c061525982041fb10bbb5cb54ef5ace0b5e14c",
-      "bytes": 4705,
+      "sha256": "5417888e589a7ea2d0e753013da856591392592f24135556ad38e15c158d44d7",
+      "bytes": 4697,
       "evaluated_sha256": "f5ebae437168145a6b63bc4e49c061525982041fb10bbb5cb54ef5ace0b5e14c",
       "evaluated_bytes": 4705
     },
     {
       "path": "ortholanemark/literature/_uniform_aug.py",
-      "sha256": "8a179fa4273be6322eab15739f87a25d16d91acd2a2ac2a8cce5af3959956a7c",
-      "bytes": 5152,
+      "sha256": "398ce509228af1a3c6e1bd9a7ca781c2b06df9268a8cc5a98b902e905abe5926",
+      "bytes": 5153,
       "evaluated_sha256": "4fcf0e35de0e84b3018a5895267995e0251e0012df484d19200a39a200bef14b",
       "evaluated_bytes": 5148
     },
@@ -122,205 +122,205 @@
       "evaluated_bytes": 3689
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/__init__.py",
-      "sha256": "3133e7215103b20d195f6b56a66a5bbb73c0d1e5625039848c0e27eeffe951cb",
-      "bytes": 537,
+      "path": "ortholanemark/literature/clrnet/__init__.py",
+      "sha256": "bc68ec41a151b82728afb35ea5e5b2e6cd19484e5a8a23574e224b64d0fd38f5",
+      "bytes": 521,
       "evaluated_sha256": "3133e7215103b20d195f6b56a66a5bbb73c0d1e5625039848c0e27eeffe951cb",
       "evaluated_bytes": 537
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/dataset.py",
-      "sha256": "e99ed6ba0b4e5a0c9e830f3e450dabfab0e46977580f0155d0e2a9e07a8c3d6f",
-      "bytes": 9993,
+      "path": "ortholanemark/literature/clrnet/dataset.py",
+      "sha256": "d83a0fa73cb4bbb7576709a22f6bd182d2f9190758f393fb750c6e579a5d521b",
+      "bytes": 9986,
       "evaluated_sha256": "7b7062fc6471b237f0823f96b8f8622a71508308030a213fc1467c5bb3b67892",
       "evaluated_bytes": 9999
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/clrnet/LICENSE_upstream",
       "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
       "bytes": 11558,
       "evaluated_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
       "evaluated_bytes": 11558
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/clrnet/model/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/accuracy.py",
+      "path": "ortholanemark/literature/clrnet/model/accuracy.py",
       "sha256": "fd9741b627e34376fd751da7ef235f775711f372a1ed6cf16521434d10719700",
       "bytes": 3545,
       "evaluated_sha256": "a363c46a74bbefbc48d22f401c339a7d170bc04bf8a4ee0e74c95766e4b6632e",
       "evaluated_bytes": 2979
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/clr_head.py",
-      "sha256": "798a20f4d84da9ca39cf28d349be1db41d0bae05c27652c98512ffd548efbd46",
-      "bytes": 18088,
+      "path": "ortholanemark/literature/clrnet/model/clr_head.py",
+      "sha256": "81a59275c2ceb32f3f85c7303fc8d16bd14f395ea4dc0b000b64a38f0359fcd6",
+      "bytes": 18016,
       "evaluated_sha256": "e1e8f0cad0abceb2c9b9db811103a88b9c1aea089eb1f675ab7629eaec3b8c52",
       "evaluated_bytes": 18130
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/convmodule.py",
+      "path": "ortholanemark/literature/clrnet/model/convmodule.py",
       "sha256": "dcba120b0dda9bbc2d812c355d81651b3552e074247272d970441f6767158f38",
       "bytes": 1760,
       "evaluated_sha256": "dcba120b0dda9bbc2d812c355d81651b3552e074247272d970441f6767158f38",
       "evaluated_bytes": 1760
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/detector.py",
-      "sha256": "47df233c6e407cdfccb1e0365e07eda6853e4e61bbaa9f8d6b0ffd3472c7f1fb",
-      "bytes": 3228,
+      "path": "ortholanemark/literature/clrnet/model/detector.py",
+      "sha256": "91f839f79c309d1a38a79b67ac0e7ab76a7e1555dd1d1e8f920a993535510a12",
+      "bytes": 3201,
       "evaluated_sha256": "1b0bf9c1b7f23336883a46fe6c2cf94927b46620c996c72d840345b14bcb3d74",
       "evaluated_bytes": 3228
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/dynamic_assign.py",
-      "sha256": "4c57b22113d0781aff6fcfb97a1f0b22ff6174006f42f0a2d7639f286445e6f3",
-      "bytes": 5571,
+      "path": "ortholanemark/literature/clrnet/model/dynamic_assign.py",
+      "sha256": "a12f6776f58767fdc3bf8185e9aefe5a0cdc08f44d900466e120964fb66f7c1c",
+      "bytes": 5562,
       "evaluated_sha256": "94d2fc025bf0c76c6ba14ff3145aa402306d4dad6effdf4b70bdfd6c43d606ca",
       "evaluated_bytes": 5195
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/focal_loss.py",
+      "path": "ortholanemark/literature/clrnet/model/focal_loss.py",
       "sha256": "091a8a151f1c238a0a9019b78b7aa71352661f455a079eda2815038276fa77a9",
       "bytes": 7732,
       "evaluated_sha256": "920de88c26906728a4d05aa8c9e9fe9c0c4f63a672b0309344267cd4b522b9a4",
       "evaluated_bytes": 7251
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/fpn.py",
-      "sha256": "f03f1147fa9d94fffa31832a5d38e5955e7130bdcae41e0e886d8272b8a4ba20",
-      "bytes": 7812,
+      "path": "ortholanemark/literature/clrnet/model/fpn.py",
+      "sha256": "ef1077c01179aff249dcb23a63ea891f21d6542864fb819b6b91cbf294e495c1",
+      "bytes": 7803,
       "evaluated_sha256": "b8366d5a736d015f16a73703d582a844c64e53cd6c0d77e9d86432bf0a6a0966",
       "evaluated_bytes": 7252
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/lineiou_loss.py",
+      "path": "ortholanemark/literature/clrnet/model/lineiou_loss.py",
       "sha256": "86163bbb3d9a804d93743ffbdf317027ffea8abb9df5e4af99d770cda7de0b1b",
       "bytes": 1355,
       "evaluated_sha256": "86163bbb3d9a804d93743ffbdf317027ffea8abb9df5e4af99d770cda7de0b1b",
       "evaluated_bytes": 1355
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/resnet.py",
+      "path": "ortholanemark/literature/clrnet/model/resnet.py",
       "sha256": "8b0e0f5757d5a4da52d073168a2b046e8cabe119b726037f31e21de0de7bdd0d",
       "bytes": 17030,
       "evaluated_sha256": "5bf99a2f1fc109f7df27df5eda022d7fee61d1205e45b2b87df894831e11aac2",
       "evaluated_bytes": 16498
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/roi_gather.py",
-      "sha256": "6cfe456e8ffbb7e9d4fd2554d8c4565d28cd43e7fb73b4bf4ea5890abaaccd49",
-      "bytes": 5279,
+      "path": "ortholanemark/literature/clrnet/model/roi_gather.py",
+      "sha256": "3dd012536ff390fc04f633b6a65d16c3b11cb9d52498f58acd0a89048e9f01ec",
+      "bytes": 5270,
       "evaluated_sha256": "da63934858642d8a8f3fd7abd7affb6ca75be71d1e80736a181507ad2017ec72",
       "evaluated_bytes": 4903
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/seg_decoder.py",
+      "path": "ortholanemark/literature/clrnet/model/seg_decoder.py",
       "sha256": "7c1e6e9ad8e4531af9f8f8d7b71f610eab0b4ebe6060936e295aecf6fb7cf833",
       "bytes": 887,
       "evaluated_sha256": "7c1e6e9ad8e4531af9f8f8d7b71f610eab0b4ebe6060936e295aecf6fb7cf833",
       "evaluated_bytes": 887
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/predict.py",
-      "sha256": "58a2c83839f1819cb5ccc3a6396d2392bf55d38bbf063dc8287a56482ce62907",
-      "bytes": 7538,
+      "path": "ortholanemark/literature/clrnet/predict.py",
+      "sha256": "8d8eb220bbfbab12e19086a1d8aa6fa30289c862047049fddd18d9250d4e7483",
+      "bytes": 7460,
       "evaluated_sha256": "5526799b35e62ba0d96cb19060de7641ec3847ad8f517b539debb494f0253ded",
       "evaluated_bytes": 7556
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/train.py",
-      "sha256": "befc4ef0c2465975b5f4624fb7049085c51b8b02d31ff6a80fa1feed13ab20f6",
-      "bytes": 10034,
+      "path": "ortholanemark/literature/clrnet/train.py",
+      "sha256": "815369f48fc74ab95c46fc222584a069397256b8cfc2e8c8e1bd4eac6d6f589d",
+      "bytes": 9977,
       "evaluated_sha256": "80f0cda144ee104268af604038879cf37d8fbee25c92baf86ee762c7329e2a0e",
       "evaluated_bytes": 10064
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/__init__.py",
+      "path": "ortholanemark/literature/laneatt/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/dataset.py",
-      "sha256": "188a022f57e276888e9374f1bc036660070f61497bd5f10641a57ff2d2972528",
-      "bytes": 9440,
+      "path": "ortholanemark/literature/laneatt/dataset.py",
+      "sha256": "0566d9ecfa46320214fac5d27c3f42f0b562eae77bee231d6da29a9d66eb559d",
+      "bytes": 9429,
       "evaluated_sha256": "458795fa745904951165682580b73e09dad758ad4e29a64034d2fe80037fc6b0",
       "evaluated_bytes": 9452
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/gen_anchor_mask.py",
-      "sha256": "baf0b0c88c2eb50c869cf9c7d60c80f96be565697bc08c165d0d749689431dc9",
-      "bytes": 5170,
+      "path": "ortholanemark/literature/laneatt/gen_anchor_mask.py",
+      "sha256": "d1574b928331e9c7342be4a205d9a1059dffc09b5d35853d79fb00944de660f6",
+      "bytes": 5093,
       "evaluated_sha256": "fe04974c0d2faa0725ff810731af26689265a0326dca5de015c37121236aa251",
       "evaluated_bytes": 5196
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/laneatt/LICENSE_upstream",
       "sha256": "edfc8db1e7cd922f74d4d4034f59e771f4bd954c3ddf0474856874c12a9e252d",
       "bytes": 1092,
       "evaluated_sha256": "edfc8db1e7cd922f74d4d4034f59e771f4bd954c3ddf0474856874c12a9e252d",
       "evaluated_bytes": 1092
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/laneatt/model/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/focal_loss.py",
+      "path": "ortholanemark/literature/laneatt/model/focal_loss.py",
       "sha256": "0d4a08d750f84dbfa0d8690d35d71cd6964face699a02c91218c33f977e2420a",
       "bytes": 6689,
       "evaluated_sha256": "14a7a6d851722050c8ddccede80c18724de2e274585ad484c8d75e89997d7902",
       "evaluated_bytes": 6208
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/laneatt.py",
-      "sha256": "2447bf537db1726d26827d4555053b8e1967c2cd1c4d6c000ca8bf3acd3061b3",
-      "bytes": 20841,
+      "path": "ortholanemark/literature/laneatt/model/laneatt.py",
+      "sha256": "4f89ab38cd80ebf2d6536225ef3caae1056a3c884de5cbafb36c677a66725af7",
+      "bytes": 20856,
       "evaluated_sha256": "2447bf537db1726d26827d4555053b8e1967c2cd1c4d6c000ca8bf3acd3061b3",
       "evaluated_bytes": 20841
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/matching.py",
+      "path": "ortholanemark/literature/laneatt/model/matching.py",
       "sha256": "d747516d3be1700350fb6039b7008c792d3c615fd57c2b15068fb64b6f0811e4",
       "bytes": 3320,
       "evaluated_sha256": "d747516d3be1700350fb6039b7008c792d3c615fd57c2b15068fb64b6f0811e4",
       "evaluated_bytes": 3320
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/nms_stub.py",
+      "path": "ortholanemark/literature/laneatt/model/nms_stub.py",
       "sha256": "e5e67288d506ca936867a81efc96f69359b1f8372431c00470f87345c5bf1fa2",
       "bytes": 7043,
       "evaluated_sha256": "c770cdecc152f63d82380dbd9fc258fb2e2c8f88be6417c49c4797aaafcfa1f9",
       "evaluated_bytes": 6712
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/resnet.py",
+      "path": "ortholanemark/literature/laneatt/model/resnet.py",
       "sha256": "c9865ef800efef9843548fc89544f164e1e67177d546061979b3fddc52df993f",
       "bytes": 5458,
       "evaluated_sha256": "704c5e292e9aa8ed927eb16efb676b2b5214cf95d2911310c08335da193eb28c",
       "evaluated_bytes": 5278
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/predict.py",
-      "sha256": "46f8e05e8104e6dde9ee0b25effa1c1350c1db61216b56cdaeec0e1c6bc14996",
-      "bytes": 10251,
+      "path": "ortholanemark/literature/laneatt/predict.py",
+      "sha256": "f5f3afbba258aefa97e85ec5d19b1d99e3d4413f1c773ab1797daa699750fb6d",
+      "bytes": 10179,
       "evaluated_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
       "evaluated_bytes": 9801
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/train.py",
-      "sha256": "fde43c5b3de0e16add17fbab98df373802d551855eb524fe0eed29750af088af",
-      "bytes": 11679,
+      "path": "ortholanemark/literature/laneatt/train.py",
+      "sha256": "9bc27464fd900caf94132be96f6dda623f4dfa513740a35e050e4dc972cf3976",
+      "bytes": 11620,
       "evaluated_sha256": "2baefc3cabf569492d8c045846e3ccbfdce241258737fa0f9423f44076056d87",
       "evaluated_bytes": 11691
     },
@@ -332,86 +332,86 @@
       "evaluated_bytes": 2582
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/__init__.py",
+      "path": "ortholanemark/literature/polylanenet/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/dataset.py",
-      "sha256": "ae749ac2bad4be0307857ac8eb310e0c877150a8cc29c42e6ace412f5259655f",
-      "bytes": 8494,
+      "path": "ortholanemark/literature/polylanenet/dataset.py",
+      "sha256": "06929a1d44e2d976d390465bf07da08549f851296a5d49321d3efdc6c75c2584",
+      "bytes": 8486,
       "evaluated_sha256": "a1fe00bc40bc6b59d9ed2944e82e0e5b38e27b6899f5d6568a6e3e711d4466e3",
       "evaluated_bytes": 8491
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/polylanenet/LICENSE_upstream",
       "sha256": "1e2a02dc47f52ad00f27b3e2338884d235ab9d55c17c8ae81d93ba5128a8964a",
       "bytes": 1099,
       "evaluated_sha256": "1e2a02dc47f52ad00f27b3e2338884d235ab9d55c17c8ae81d93ba5128a8964a",
       "evaluated_bytes": 1099
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/models.py",
+      "path": "ortholanemark/literature/polylanenet/models.py",
       "sha256": "8191c100558de809963ec5e2a2311c9e1b2b32fb6126d67004926084db4c7463",
       "bytes": 8259,
       "evaluated_sha256": "8191c100558de809963ec5e2a2311c9e1b2b32fb6126d67004926084db4c7463",
       "evaluated_bytes": 8259
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/predict.py",
-      "sha256": "3a5c3c1bbdea091ddd7cb31e37a2d45fc15bad83400c9b92d5aa34950d15968f",
-      "bytes": 6260,
+      "path": "ortholanemark/literature/polylanenet/predict.py",
+      "sha256": "d3db3217487b88e1fad9e16cff75dd58dbcfcb5eeaa83f7a33b3360c5e914526",
+      "bytes": 6197,
       "evaluated_sha256": "aee73216196fc5b4a2d56254e78e61196490a283fc1b25794296019a70f64aba",
       "evaluated_bytes": 6278
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/train.py",
-      "sha256": "a722978b88c0635f23710d3361650265ec355410d66095f0dffe79daf01db1f1",
-      "bytes": 10717,
+      "path": "ortholanemark/literature/polylanenet/train.py",
+      "sha256": "92499f1e6bc879b2173227b2301ef74932f57a3036e5c686b1baf0f917f822dc",
+      "bytes": 10658,
       "evaluated_sha256": "57fd6f1b661628db511618c3fe1e2e6e346aba0adaa2ce534883132bb3c895c1",
       "evaluated_bytes": 10747
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/dataset.py",
-      "sha256": "e3a306087c9fd8e9c3f4a642e257628a56f400a23199445e9a9c488f1c430d48",
-      "bytes": 8028,
+      "path": "ortholanemark/literature/scnn/dataset.py",
+      "sha256": "ee676636f83d5b3b4ff92820bb785dc6eb934bfb04f4fced4cf87ed13046c22b",
+      "bytes": 8020,
       "evaluated_sha256": "113540acc172410060125c33a0d0cc837e6c4aca50eae05acf97cb0eaba550e9",
       "evaluated_bytes": 8030
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/scnn/LICENSE_upstream",
       "sha256": "44d48d2245eed9e39bb55a55a9483d76baab943aabcc5f078fbbd19e8d3eb186",
       "bytes": 1086,
       "evaluated_sha256": "44d48d2245eed9e39bb55a55a9483d76baab943aabcc5f078fbbd19e8d3eb186",
       "evaluated_bytes": 1086
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/lr_scheduler.py",
+      "path": "ortholanemark/literature/scnn/lr_scheduler.py",
       "sha256": "eee8340b35421e29a3d63d5a35d9f633aaf789b87a0c9937ea0c109a8e5117f4",
       "bytes": 1148,
       "evaluated_sha256": "eee8340b35421e29a3d63d5a35d9f633aaf789b87a0c9937ea0c109a8e5117f4",
       "evaluated_bytes": 1148
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/model.py",
+      "path": "ortholanemark/literature/scnn/model.py",
       "sha256": "a0304bab79e5213dbe8cce5c9a224af1e75e3ae7e11b0ccbc6ec2a27e37c7e68",
       "bytes": 7604,
       "evaluated_sha256": "28a7b17212f3ecbd3c5d56b633bd33c61c4a3686c7e9c3aa21d2e85a924b2d39",
       "evaluated_bytes": 7595
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/predict.py",
-      "sha256": "b44c1e068df674d6e472c8cfb2c6eba12a5bc2996780b7d32fdcd9cfa08003c5",
-      "bytes": 7811,
+      "path": "ortholanemark/literature/scnn/predict.py",
+      "sha256": "95300ffbacd2f55e158b3dd0afbd8076d14952759c4b5f8b759023ab6881cba9",
+      "bytes": 7737,
       "evaluated_sha256": "9cb125aff6dfc069d1029ec6d618d93cc6184c8065cd7d2fa9b40a03062b3770",
       "evaluated_bytes": 7829
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/train.py",
-      "sha256": "39351ebf5bc4b375b3bafae446d6837fc5b9786f56bed1921b15333ba1cba598",
-      "bytes": 12481,
+      "path": "ortholanemark/literature/scnn/train.py",
+      "sha256": "78838da529fbe10e30e8a2ea9080d5e53d4e8784bd70722f20bcc56a4297fa27",
+      "bytes": 12407,
       "evaluated_sha256": "4803e24f10a55b6454211d8aeb7243a495b834763199afcfaf133b302f8607d2",
       "evaluated_bytes": 12517
     },
@@ -430,91 +430,91 @@
       "evaluated_bytes": 1366
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/dataset.py",
-      "sha256": "5bb676c25f5aa910acbbbbc54e15d467019d10053335169c1d5b6ca29b7c939b",
-      "bytes": 13970,
+      "path": "ortholanemark/literature/ufldv2/dataset.py",
+      "sha256": "8eacd408c92c4d073da24c135a3e70dfffd696aabf35f7ef46e2a73b7a9f7958",
+      "bytes": 13960,
       "evaluated_sha256": "63813256359be87f9973716f5a9e539471ad344dfc18011d6ef603518e4b6b76",
       "evaluated_bytes": 13988
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/ufldv2/LICENSE_upstream",
       "sha256": "0689511bf2cb5d65bae999004f9b14829299fca212fd610beebbcb96e26e6b12",
       "bytes": 1087,
       "evaluated_sha256": "0689511bf2cb5d65bae999004f9b14829299fca212fd610beebbcb96e26e6b12",
       "evaluated_bytes": 1087
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/model/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/backbone.py",
+      "path": "ortholanemark/literature/ufldv2/model/backbone.py",
       "sha256": "23c3c94c1a9584710b23c1931eeb76324e69977a62288b195b8ab89b3a689fa3",
       "bytes": 2252,
       "evaluated_sha256": "23c3c94c1a9584710b23c1931eeb76324e69977a62288b195b8ab89b3a689fa3",
       "evaluated_bytes": 2252
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/layer.py",
+      "path": "ortholanemark/literature/ufldv2/model/layer.py",
       "sha256": "4f334138d4e83bfb6f3c99dce85fa2df62be293fa8aebde9a33ba5824aa4e255",
       "bytes": 4047,
       "evaluated_sha256": "4f334138d4e83bfb6f3c99dce85fa2df62be293fa8aebde9a33ba5824aa4e255",
       "evaluated_bytes": 4047
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/model_culane.py",
+      "path": "ortholanemark/literature/ufldv2/model/model_culane.py",
       "sha256": "437984b11648ad5493d3d167ebbc6cea0da078ef52298ba80e53d4624a2f231b",
       "bytes": 5691,
       "evaluated_sha256": "f2f136d11f7e76f520b38681a7a7e0a767f8c123c6bc6b1453851a727b890210",
       "evaluated_bytes": 5682
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/seg_model.py",
+      "path": "ortholanemark/literature/ufldv2/model/seg_model.py",
       "sha256": "494009356c1b92aff154924a61fbcfb18ff7aed9f6ea39d2e0dd64444c8cf11b",
       "bytes": 2836,
       "evaluated_sha256": "494009356c1b92aff154924a61fbcfb18ff7aed9f6ea39d2e0dd64444c8cf11b",
       "evaluated_bytes": 2836
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/predict.py",
-      "sha256": "ed32ccff11fbf839ecffecc6ee8b266dc81061807871b279ea089130e8afafc2",
-      "bytes": 10415,
+      "path": "ortholanemark/literature/ufldv2/predict.py",
+      "sha256": "45d1017152f9a8b0afc1bbf3a251983cdffdfaa789702862bae156f40b09626c",
+      "bytes": 10337,
       "evaluated_sha256": "5cb2ab9d58e08a3ae07bfb5a99587608a657b23fccffe5d9ea77fbf32f653b99",
       "evaluated_bytes": 10439
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/train.py",
-      "sha256": "1a615180f79171175f7712498ab5cd74ee21d81df6426325098f57614e6335e2",
-      "bytes": 20460,
+      "path": "ortholanemark/literature/ufldv2/train.py",
+      "sha256": "e4bd644a3a8e4c4094a138581cd51f7e6b43bae04fa77e8b2e546fc8b43ca24d",
+      "bytes": 20388,
       "evaluated_sha256": "3f84d94c088a58631ee0bda1b299faca2ab2b35895d12036548c718a83449638",
       "evaluated_bytes": 20478
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/utils/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evaluated_bytes": 0
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/common.py",
+      "path": "ortholanemark/literature/ufldv2/utils/common.py",
       "sha256": "5982e890f412582af7d7523191d15704b0280d099d3c5f5eb4a101b02bd9d197",
       "bytes": 1200,
       "evaluated_sha256": "5982e890f412582af7d7523191d15704b0280d099d3c5f5eb4a101b02bd9d197",
       "evaluated_bytes": 1200
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/loss.py",
+      "path": "ortholanemark/literature/ufldv2/utils/loss.py",
       "sha256": "c22d1a247a7bd96e1f7b35637b7f297234fa44efee3850c65b9aa4d48a5f74e3",
       "bytes": 7849,
       "evaluated_sha256": "c22d1a247a7bd96e1f7b35637b7f297234fa44efee3850c65b9aa4d48a5f74e3",
@@ -522,8 +522,8 @@
     },
     {
       "path": "ortholanemark/literature/unet_seg/__init__.py",
-      "sha256": "669bed404cc14dd8dadd632585c84b882495420de7b70870e50fe69e251b5b9c",
-      "bytes": 699,
+      "sha256": "04e7a791eae7e72491d8950fecfc19f3bccf26ccdceedb7cf983d17cf10ac0e5",
+      "bytes": 672,
       "evaluated_sha256": "669bed404cc14dd8dadd632585c84b882495420de7b70870e50fe69e251b5b9c",
       "evaluated_bytes": 699
     },
@@ -536,15 +536,15 @@
     },
     {
       "path": "ortholanemark/literature/unet_seg/predict.py",
-      "sha256": "27ee96f90e46b746d129784be071bdb5d3d250530b1cc8c9704880b0fbd88863",
-      "bytes": 7184,
+      "sha256": "ba663ef7a733d64412e8383e37b7845d31a00f8ecf2c08ac07828956223c33a0",
+      "bytes": 7169,
       "evaluated_sha256": "cc58de524f06a492e8e25266bc39dc2e666649a963b941b45616036b79078ebe",
       "evaluated_bytes": 7202
     },
     {
       "path": "ortholanemark/literature/unet_seg/train.py",
-      "sha256": "ae3fff6a585e450ff2823343bdf990e5109f99eae05d8a8456a6d5184f82d639",
-      "bytes": 10106,
+      "sha256": "153b2d3fe399857e7be0c4cca08b111920990f6b08d8847f1405e44fb395da3d",
+      "bytes": 10057,
       "evaluated_sha256": "203171433c5e8784073b6f75983c3602389a5da26f316aa9d46f21f2021e6ed7",
       "evaluated_bytes": 10136
     },
@@ -557,8 +557,8 @@
     },
     {
       "path": "ortholanemark/scripts/benchmark_latency_all.py",
-      "sha256": "d2bef0769ef9749fd0ecfeb2cc25cb650537d76e81f7985df1ccc1a2cf1b137e",
-      "bytes": 3738,
+      "sha256": "57d69eba298a6e6e409cae2667b013ceff74399d94b1fec8c5eba108cbff650e",
+      "bytes": 3687,
       "evaluated_sha256": "80acc02b8be7f631c9fd8ecb0dbaf0aedd9889c04dec80911e9741bc9e58cf32",
       "evaluated_bytes": 3762
     },
@@ -571,20 +571,20 @@
     },
     {
       "path": "ortholanemark/scripts/reselect_eval.py",
-      "sha256": "ebe5a57a03e569659269ecb762547fa2ba31c7269bb5cb25c115d772cb9ae363",
-      "bytes": 9817,
+      "sha256": "6881e1c6edcb23125b7908d6b6d0bb4f0047968810b0e0de2b53a72cbfdbeab4",
+      "bytes": 9735,
       "evaluated_sha256": "2a9ebcf62cca0eeeb05695d580757bc9b3a2a97d86d7e164b52cb9fe1016c13b",
       "evaluated_bytes": 9859
     },
     {
       "path": "ortholanemark/scripts/wheelpath_diagnostic.py",
-      "sha256": "a5a4e74eb88b8be14ae6afeb80375af456f9cb6c08ad246e3e0ed9ffa9422bb0",
-      "bytes": 7068,
+      "sha256": "802c873c559c4a32e4de9b65f0decab1ea6cfb5094100e5a224b1d3ebdd2fb12",
+      "bytes": 7023,
       "evaluated_sha256": "07f27be8317fc5075e4e4c513d944c10a6154d0bebe795334f0e8ae8240912d3",
       "evaluated_bytes": 7142
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/anchor_frequencies.pt",
+      "path": "ortholanemark/literature/laneatt/anchor_frequencies.pt",
       "sha256": "aef9fd6b4fffdb1de2b4e400451709b5b937fd198ee1e8c1ea35512a659231b6",
       "bytes": 12030,
       "evaluated_sha256": "36bb21b705793602ea8e1af26d0a255d944e7caf89f2a34faee0c153905e16de",

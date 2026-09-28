@@ -1,6 +1,6 @@
 """Per-checkpoint evaluator for the checkpoint-selection sensitivity analysis.
 
-Loads ONE deep-baseline checkpoint via its faithful adapter, runs inference over
+Loads ONE deep-baseline checkpoint via its benchmark adapter, runs inference over
 val / test / held_out_test (``method.predict_image`` per image — the SAME inference
 path as ``run_literature_benchmark``), tunes the existence threshold tau on val to
 maximize GRA (51-point sweep, existence := ``pred_conf >= tau`` — the SAME rule as
@@ -16,9 +16,9 @@ reproduces the published ``runs_literature_deep/<method>/report_tuned*.json`` nu
 
 Usage:
     python -m ortholanemark.scripts.reselect_eval \
-        --method clrnet_faithful \
-        --ckpt   ortholanemark/runs_literature_deep/clrnet_faithful/best.pth \
-        --output_dir ortholanemark/runs_reselect/clrnet_faithful__strict \
+        --method clrnet \
+        --ckpt   ../checkpoints/weights/clrnet_seed0/best_gra.pth \
+        --output_dir ortholanemark/runs_reselect/clrnet__strict \
         --device cuda
 """
 
@@ -169,9 +169,9 @@ def _count_params(method):
 def main(argv=None):
     p = argparse.ArgumentParser()
     p.add_argument('--method', required=True,
-                   help='Registry name, e.g. clrnet_faithful, scnn_faithful, '
-                        'ufldv2_faithful, ufldv2_faithful_tusimple, '
-                        'laneatt_faithful, polylanenet_faithful, unet_seg.')
+                   help='Registry name, e.g. clrnet, scnn, '
+                        'ufldv2, ufldv2_tusimple, '
+                        'laneatt, polylanenet, unet_seg.')
     p.add_argument('--ckpt', default=None,
                    help='Checkpoint for learned methods; omit (or NONE) for '
                         'checkpoint-free classical detectors.')

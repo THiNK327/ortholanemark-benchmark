@@ -17,7 +17,7 @@ from ortholanemark.evaluation.metrics import _operational_xs, _operational_xs_fr
 
 ROOT=Path('ortholanemark/runs_wheelpath_20260921')
 CLASSICAL=Path('ortholanemark/runs_classical_validation_20260921')
-METHODS=['clrnet_faithful','polylanenet_faithful','scnn_faithful','laneatt_faithful','ufldv2_faithful','unet_seg']
+METHODS=['clrnet','polylanenet','scnn','laneatt','ufldv2','unet_seg']
 LABELS=['CLRNet','PolyLaneNet','SCNN','LaneATT','UFLDv2','U-Net']
 MM_PER_PIXEL=4.0
 

@@ -1,0 +1,29 @@
+{
+  "epoch": 47,
+  "seed": 0,
+  "config": {
+    "img_h": 360,
+    "img_w": 640,
+    "S": 72,
+    "max_lanes": 2,
+    "backbone": "resnet34",
+    "batch_size": 8,
+    "lr": 0.0003,
+    "epochs": 100,
+    "rotation_deg": 2.0,
+    "anchors_freq_path": "ortholanemark/literature/laneatt/anchor_frequencies.pt",
+    "topk_anchors": 1000,
+    "train_nms_thres": 15.0
+  },
+  "config_model": null,
+  "env": {
+    "python_version": "3.12.4",
+    "torch_version": "2.5.1",
+    "cuda_version": "12.1",
+    "cudnn_version": 90100,
+    "gpu_name": "NVIDIA GeForce RTX 4070"
+  },
+  "val_gra": 0.8185480090493668,
+  "best_val_gra": 0.8185480090493668,
+  "method": "laneatt"
+}

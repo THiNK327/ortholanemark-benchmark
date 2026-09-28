@@ -12,7 +12,7 @@ Tier 1 — classical (no training):
   steger_ridge — Steger-style ridge detection (Steger, TPAMI 1998)
 
 Tier 2 — deep learning (retrained on manifest_paper.train):
-  polylanenet, scnn, laneatt, ufldv2 — to be vendored.
+  polylanenet, scnn, laneatt, ufldv2, clrnet, unet_seg
 
 Orchestrator: `ortholanemark.scripts.run_literature_benchmark`.
 """
@@ -20,6 +20,7 @@ Orchestrator: `ortholanemark.scripts.run_literature_benchmark`.
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from pathlib import Path
 from typing import Optional
 
 import numpy as np
@@ -67,6 +68,16 @@ def register_method(name: str):
     return deco
 
 
+def default_checkpoint_path(method: str) -> str:
+    """Locate the released seed-0 checkpoint in either supported layout."""
+    repository = Path(__file__).resolve().parents[2]
+    relative = Path('weights') / f'{method}_seed0' / 'best_gra.pth'
+    local = repository / relative
+    if local.is_file():
+        return str(local)
+    return str(repository.parent / 'checkpoints' / relative)
+
+
 def list_methods() -> list:
     _load_all_methods()
     return sorted(METHOD_REGISTRY.keys())
@@ -91,30 +102,29 @@ def _load_all_methods() -> None:
     from ortholanemark.literature import (  # noqa: F401
         lsd, canny_hough, steger_ridge, trivial_none,
     )
-    # Faithful (paper-aligned) baselines vendored from each method's
-    # official repo under `_vendor/`. The model + loss code is from
-    # upstream; only num_lanes / dataset / inference adapter are ours.
+    # Learning baselines adapted from each method's official repository.
+    # Benchmark adaptations are documented in provenance/README.md.
     try:
-        from ortholanemark.literature.scnn_faithful import (  # noqa: F401
-            predict as _scnn_faithful_predict,
+        from ortholanemark.literature.scnn import (  # noqa: F401
+            predict as _scnn_predict,
         )
     except ImportError:
         pass
     try:
-        from ortholanemark.literature.ufldv2_faithful import (  # noqa: F401
-            predict as _ufldv2_faithful_predict,
+        from ortholanemark.literature.ufldv2 import (  # noqa: F401
+            predict as _ufldv2_predict,
         )
     except ImportError:
         pass
     try:
-        from ortholanemark.literature.polylanenet_faithful import (  # noqa: F401
-            predict as _polylanenet_faithful_predict,
+        from ortholanemark.literature.polylanenet import (  # noqa: F401
+            predict as _polylanenet_predict,
         )
     except ImportError:
         pass
     try:
-        from ortholanemark.literature.laneatt_faithful import (  # noqa: F401
-            predict as _laneatt_faithful_predict,
+        from ortholanemark.literature.laneatt import (  # noqa: F401
+            predict as _laneatt_predict,
         )
     except ImportError:
         pass
@@ -125,8 +135,8 @@ def _load_all_methods() -> None:
     except ImportError:
         pass
     try:
-        from ortholanemark.literature.clrnet_faithful import (  # noqa: F401
-            predict as _clrnet_faithful_predict,
+        from ortholanemark.literature.clrnet import (  # noqa: F401
+            predict as _clrnet_predict,
         )
     except ImportError:
         pass

@@ -5,22 +5,22 @@
   "scope": "Retained median timings; no retiming",
   "rows": [
     {
-      "method": "laneatt_faithful",
+      "method": "laneatt",
       "median_ms": 8.0,
       "parameters_millions": 22.1
     },
     {
-      "method": "ufldv2_faithful",
+      "method": "ufldv2",
       "median_ms": 9.2,
       "parameters_millions": 59.2
     },
     {
-      "method": "polylanenet_faithful",
+      "method": "polylanenet",
       "median_ms": 9.3,
       "parameters_millions": 4.1
     },
     {
-      "method": "clrnet_faithful",
+      "method": "clrnet",
       "median_ms": 9.6,
       "parameters_millions": 11.8
     },
@@ -30,7 +30,7 @@
       "parameters_millions": 31.0
     },
     {
-      "method": "scnn_faithful",
+      "method": "scnn",
       "median_ms": 30.9,
       "parameters_millions": 20.6
     }

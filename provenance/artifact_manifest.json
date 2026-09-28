@@ -2,7 +2,7 @@
   "identifiers": "Match companion core dataset; private ID crosswalk excluded",
   "files": [
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed0/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "9e2b52564816811b08987b04bc6d7ed12fd3fe67e0f39d1f48d1ec45403ed7e7",
@@ -11,7 +11,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed0/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "43c6da006a0f691d8f5924d9500109aaeb08a1845a9504db43654212845545f1",
@@ -20,7 +20,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed0/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "6170aae5ecb19d116db7c32725dec28004f71117e214acbef21495b8dbaa4fd0",
@@ -29,7 +29,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed0/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "9d088693a14c44fe2abf8a379883cbf5e62c37e97b27b51efccdb0c8e96c2c2a",
@@ -38,16 +38,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/audit.json",
+      "path": "artifacts/learning/clrnet_seed0/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "f6091a70f4eeb12a253dbbee2ec0a0a27d2b72abd973b51955d615b91ea4fb4c",
-      "package_sha256": "fa2219562ac51bf318bb9d0a0358cb5adc9cdce17def15ee1b869ee7e7d428f7",
-      "bytes": 828,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "fc0e7adb194f69585277d3c469768b3a4c2dfd02dd7c379a4c7d333b2ec4c395",
+      "bytes": 810,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed0/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "f88ad1a7a8590cbe9d4e2d9f5769109bcc8decd63db39dd0b93616a290ceb49e",
@@ -56,7 +56,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed0/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "b09ceb4e2e4935d5b33c2e5773f3d71a48dffec99d14b82f0fdd6a3fbe3a56ad",
@@ -65,7 +65,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed0/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "9bbce07f3d8b7847ec14591f78535241fa9cc42e7c189bed355d9ae3016e0c80",
@@ -74,7 +74,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed1/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0d644c3fd571d2f185de09843735aee5f7b0f5cbd5653de2899cd4e7e231fb3f",
@@ -83,7 +83,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed1/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "164215ebef71f76e8e2312111adbcf3734444e094162997b0c45b144a88329b2",
@@ -92,7 +92,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed1/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "f217f9faf9d0565451f7659b66c6409e2a24eae55a846cf7a8db8daf6c9addc9",
@@ -101,7 +101,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed1/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "9c6031081e9a4800fc6071937ba401b1b8eb76ee288fea27f70d5c45fb72f4e2",
@@ -110,16 +110,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/audit.json",
+      "path": "artifacts/learning/clrnet_seed1/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "c74254e7660c72d372284df176fcf64b0aa589a7f8dfa87f86f235fd447bdf1c",
-      "package_sha256": "15725ce6263677371bff9c92fb7a0a244ba74763f11d7db0de5af06276613b2a",
-      "bytes": 834,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "1d9ba4bf72a9df211edbf95216d3fd21d42132f9693e505a1eeca6825164cf14",
+      "bytes": 816,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed1/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "a0781a94a83ae690f3e48d713ef94f87ae3047344fed167f91b94fe5e82d4b8d",
@@ -128,7 +128,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed1/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "660c42d518f2c5b239f22a7f72c9968d64c7cd6ab08c160747411f2e52362346",
@@ -137,7 +137,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed1/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "fee1b752819a98b75eb48d1048277cd3f5d80f8dc39949308cf858f4f6bc95b9",
@@ -146,7 +146,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed2/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "ab13a56f0d4b5168d2c0f44b9f95525149b29398711c892667f84ec368b4a358",
@@ -155,7 +155,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed2/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "042212ceef667ecd9b958a904ae5a197e2f92159a153394ed373f712fc3a62b1",
@@ -164,7 +164,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed2/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "a5e2cc0dc9cbf6e75cab80dd0ec4f6120b08000795998568344c8ca13e1194ff",
@@ -173,7 +173,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed2/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "bb82817e3b338b85bc92ff9623e88c7bb848430059106258ec25455b5dd2c0e4",
@@ -182,16 +182,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/audit.json",
+      "path": "artifacts/learning/clrnet_seed2/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "59ecdf27751f25e0990471ff28424d4167131019d9f5e1dfe917e626def8fc7f",
-      "package_sha256": "230fd6562fd89283b1fee25eb692a41118e313e4d5164423e9f7db9f089d3166",
-      "bytes": 831,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "e4c0328b094dc7daa3503cfad84595d9357166667c057542cd042f6e996908ba",
+      "bytes": 813,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed2/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "9c0296eb8e80cb40943d1544043a60c0410ad4c070e0c0c80028406abebe2135",
@@ -200,7 +200,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed2/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "056390078ac724c7c4f548dfc3aff8d0794b66551d20a0e151d78df7357bb4b1",
@@ -209,7 +209,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed2/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "6fc4e549dc1349b07371f8680bf8060e8ed5bbf31056cb5ccbb8aa2c9881ac01",
@@ -218,7 +218,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed0/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "2492dfcc59873b557c69e260242a865b335090842c17de86e14e7c5d15934aff",
@@ -227,7 +227,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed0/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "9f7cf084e2a9a4c89a99782c231153d6b579329bbb1db0daa5b484b1c606b5d1",
@@ -236,7 +236,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed0/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "5be94edd7ad20a9d1f7505a0558f23712c64e47b2d0583676347aa3b4ee44b8b",
@@ -245,7 +245,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed0/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "dd5e76f45f304561d582f0c8d80c1bed0e7d6f775b6023519515fc1c95a3afab",
@@ -254,16 +254,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/audit.json",
+      "path": "artifacts/learning/laneatt_seed0/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5c17d1362a6f341f79fd7c7cc95515e705af3ae700348d042b24c9144b3da25a",
-      "package_sha256": "6e40bac9ab82559bf6da3063c3d8ffaca88f45464dea4bc645c16b2054ac0675",
-      "bytes": 992,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "f1ae672201b8c45f17cfbdd5b8a9ddc9015b95df28b2b189f664a9086b71b1e6",
+      "bytes": 974,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed0/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "97aee670db4d46e7ebbdeaa1b4bfecfa69d7eb9cf57e01e14395979a737948f6",
@@ -272,7 +272,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed0/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "8ffebd39f94a00aeaa6b1939faef188b45ae5742d86b562aca29e9bdd6cc875d",
@@ -281,7 +281,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed0/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "c210d51cf8d8e23b34a6e0d79fe7c7447131aab9af865368a7975beb55b059f7",
@@ -290,7 +290,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed1/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0db3924b3367bff54e38225c8c75864f03314910a1a77482222ebe33dbadf79e",
@@ -299,7 +299,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed1/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "6f54fd8bc6689423ac27fc41e25e581fe3f0d683836acc3a5d350feec5192f2b",
@@ -308,7 +308,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed1/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "8397506d87380fe4bc6af77eb7b20f3cc2055f46b4f48ca33cc8fd7ebc4aa959",
@@ -317,7 +317,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed1/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "b15e1993976d5e5216cdc013bba00d3b193aec5e273173162c3724610c64dd2c",
@@ -326,16 +326,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/audit.json",
+      "path": "artifacts/learning/laneatt_seed1/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "713dd68d332aabfec3529a9aca84767a09dff2b1870f97b7c5ad9573b26fc60a",
-      "package_sha256": "3ebbe8b8e8c7a897b62d5f1b11ec0492f260f98a9dbcf0a2214355986403acad",
-      "bytes": 998,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "043d464f7c43b38c87b479f6e65db49e92a1a3d6696b582fb034c5f71ae9702b",
+      "bytes": 980,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed1/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "dd7e247f658e6cc8bc239587aeeb915551770b0cfc45c0c014e6c099e18a59fe",
@@ -344,7 +344,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed1/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "4733826df23c0ea310e909467ce8c9a41daf2329315d4d8cc4bf576058a04a7d",
@@ -353,7 +353,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed1/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "551c1d8bf10f7d0cfdf3ef3f71c29c22f37a0b7cec46cf0239991d2db0d5ed43",
@@ -362,7 +362,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed2/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "46035c2f2d7b9aa83662ab57827575a0024583e9f7a61afea34e13936cca4be7",
@@ -371,7 +371,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed2/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "8ac55caf46bb41e4c4895aa963e2ac938d44941dde185df0cd19ed2c26f15172",
@@ -380,7 +380,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed2/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "670000c99227ca4ba2c559b31072dfb73e88ed3b7c708ef97df325dde8bd08fd",
@@ -389,7 +389,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed2/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "6fc5c3ce00b330d1a4a8419f40267398b6d0b7b8e50daa9696f2801f8b5201db",
@@ -398,16 +398,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/audit.json",
+      "path": "artifacts/learning/laneatt_seed2/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5ff8f1a3b14542812676756318a4d53dcdbf023c183fda0a380972ad0cba8431",
-      "package_sha256": "4feeb7823c2805cfc3078ff66127651bfd4fd9c649df3025245a1908d2e21019",
-      "bytes": 996,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "c237b59eee6385bc11e3c8a4e572f1446b7e725a2d2eafc267557b6856c19c43",
+      "bytes": 978,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed2/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "bda5773deb87f925a8e65806ef8b054cb2e0d83ffb58ab4291bd1eed135d2d1a",
@@ -416,7 +416,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed2/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "be742ad6a70728cf1d3d13fc16029f739875d8e4bacea6d70b39976092fbb4cc",
@@ -425,7 +425,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed2/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "796e573059779624da6459a5f9807a79a2cac7e4c46b6795c9dd8aee52712cb0",
@@ -434,7 +434,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed0/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "8cf8e547d476eca76e4d0eda59447699dcbb3091ba72332036c46780dc9e0165",
@@ -443,7 +443,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed0/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "2bdb473ec020901939789ef919e3c33566f0260b9fabfce926f221cb8306d833",
@@ -452,7 +452,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed0/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "19f403716401cb736345a79daec3eca66c7c129eef86c3951e15e2c402ded0ef",
@@ -461,7 +461,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed0/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "0cdb1f7c10ce40cf5f5115448a739bacfd1e09eca2d4b8bf7dd74348d64861eb",
@@ -470,16 +470,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/audit.json",
+      "path": "artifacts/learning/polylanenet_seed0/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "adae0728a7ee757599f847da2fa8cc0047f3a95a52359d8f8127f5b0186cf224",
-      "package_sha256": "dc8695f57ea2b7905b68362d6f6b75512c47076a3ca4881a9af32a51d41e0b4f",
-      "bytes": 859,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "5634ac923b94703a93b2ed93b074ecb3c3de349803cbd163787414fd10f5705b",
+      "bytes": 841,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed0/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "2744d529c466ca919eaa34fb6c8baec5becec4c166b9652d4c581976747305d4",
@@ -488,7 +488,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed0/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "1986767d5dd244583b1a8461f51b6fd07c75f7115844d37af56196ea7be1d8f9",
@@ -497,7 +497,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed0/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "2712dc8182bd717a98f12b2173a292bd6edd07c45639dc9ecc8c6badb5670a22",
@@ -506,7 +506,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed1/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "5fff081744d952187856a8aa74fbdd79878f295f30e9adb2cfacd0467b9d1d10",
@@ -515,7 +515,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed1/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "1bd74b3b42dafd02b3a4abc1927b7bac8619b8c79987f054160d60f625217f98",
@@ -524,7 +524,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed1/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "b85aca004edd744f30c9d2898d0ce8b635e2e53e318e744edc508eb10a2c07c2",
@@ -533,7 +533,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed1/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "99f4df5306eb6331339c27a75e953898cc50104bdd1ddcaf10f2fe3a2fe65c93",
@@ -542,16 +542,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/audit.json",
+      "path": "artifacts/learning/polylanenet_seed1/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "7a0054266af04879385694b988be9aa151dc86fa92f3f75859fe0437bd57b07f",
-      "package_sha256": "669dd461bf70dc7a9e051da9cfe77240a6768a6ebf690293c92bc2addf6ef899",
-      "bytes": 865,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "26b9eb7a264d17f543b44ef0aa8773db9ec557e94d7afeff7618cab1903e1d63",
+      "bytes": 847,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed1/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "3cdccb33b57569906769e8d6b92864defd2f1ebfb5f83f966219d34bfbd7a878",
@@ -560,7 +560,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed1/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "15b69646aba042f9f9692d8dfb9c64a9c079f22f021d57dc10aeb27a5ba60b57",
@@ -569,7 +569,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed1/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "07fa9d7774e0e204535cf5b2a8957e78d475d92efeebc0b199cee2f1041216f0",
@@ -578,7 +578,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed2/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "0bcfd9665f3525cbb5b3e003accafa7cd2f8c65aa29d593ced3dba051ae3e70f",
@@ -587,7 +587,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed2/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "1d2011b6a4c931e88f7a496cfef26bc57c2ee8c2da5e948c4c1625547454e180",
@@ -596,7 +596,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed2/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "0c223f362b463c9de3ce14ad2182b52972770e54b9d517f999631c929f00c1f2",
@@ -605,7 +605,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed2/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "b094512d6522eeb5d237665396edc0d53cb2702d03b7560dde09e4ea2168fdcb",
@@ -614,16 +614,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/audit.json",
+      "path": "artifacts/learning/polylanenet_seed2/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "fec67a0ee3fd8e7c06d20b2c01d5098c274055b79052b9a807ef3769e8263246",
-      "package_sha256": "2e8b8ad8b95b98e4bf723114b6aacbfb7fb258b577a0e718725875caafe10583",
-      "bytes": 863,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "8350cd256ca7bcddf74fda84b29f329764ca3007730140d18fe4d564ba3361b1",
+      "bytes": 845,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed2/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "d67c77fb24982092a370c7bb731c0da1c854490052dc5c19422434feb07f1fd4",
@@ -632,7 +632,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed2/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "405af819b09e537118f51231fac7b1d89e9caf3beb158b952bbc42462706ebc3",
@@ -641,7 +641,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed2/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "7ef298420f054e978d1342ab03f3bf78484933242208d37e3df9fc255068e427",
@@ -650,7 +650,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed0/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "5febd8bbe37ca5392b8b64f2f59e4fb44d4b0dcabc4ac120df7832813cc08d60",
@@ -659,7 +659,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed0/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "9c4770faa6bbb7e8b8fb3abde16d9ab1989b9b245995007a09204d5bbc111556",
@@ -668,7 +668,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed0/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "ee74e4bfc7445766a8b693014189df97051a5ef36ba3f7f4b65ae67cf26f5c68",
@@ -677,7 +677,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed0/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "ebd1b1d1a38c60830e7624a4de60ad79420d505c4d6e06ccbbbb2e4a01322301",
@@ -686,16 +686,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/audit.json",
+      "path": "artifacts/learning/scnn_seed0/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "1e10cbb72aadb6dadf0af08aa3dbb121c00f34e3fdaac641cedba816ad4f4800",
-      "package_sha256": "146c2d256332cbcdd9a4af7cd0f194a04469ce3b1df695104a81be7bbe70fdf2",
-      "bytes": 836,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "5f31cfae41d840b3884b23cfb9b0a4a369b5b383bc0fc8d90673eeafc1cfe742",
+      "bytes": 818,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed0/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "371c65e06c2a7c12a44829e97728eb2100e48f5b59f5d516e8b1d7361768d1b3",
@@ -704,7 +704,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed0/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "96509aae5d6992aa790525988e666836706f48fdaa32212b6864cbb4b94d561b",
@@ -713,7 +713,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed0/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "cde642fb8164f7ead4b0d95abdf3c138669ba6737a494a9b15d0e56cf69a7cfb",
@@ -722,7 +722,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed1/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "2a23563c8f1b61778d5706409590f059611bbea5531c84a84cb4c2ac61d4a266",
@@ -731,7 +731,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed1/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "46d9c4af0013314a9d316b6b73971a7905f4178cddeafd06f5eb809d931db54e",
@@ -740,7 +740,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed1/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "41ae3cc7c73e82c98d159276770378315026f6020be372e4b5e5148780b5a462",
@@ -749,7 +749,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed1/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "e48eab40aa9a05837996816bd7e18b1dda3336b89c75b03e82dde11fe3797c67",
@@ -758,16 +758,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/audit.json",
+      "path": "artifacts/learning/scnn_seed1/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "29f289120b3784f50e26acdfe825e6c5db2c6fbdbc44fdcff476ec32a1b34a88",
-      "package_sha256": "3e57c5f7b7792104887a9bb1b149ed160a02c3dd2af651ef16d93d78992508e7",
-      "bytes": 844,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "afb8bbbb04b014dc34d0d9005327fb22df5f3118ddc0684df15e2c3b7e4619cc",
+      "bytes": 826,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed1/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "f0907023e297cda06d71fb38b23f1c25699a0b6bae0ea918503bad427a576531",
@@ -776,7 +776,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed1/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "18a95af100245c5a097ae8e40b81bac16b683e25512f14fd34cb2a3cf2b101d5",
@@ -785,7 +785,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed1/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "2835c05977d8eb29f393a68cdbb98ad6306be38a7ecca63d98ea0cadbf545739",
@@ -794,7 +794,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed2/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "86d75b96f00fd9935025ceecfd4f8aa88586d0a8f1c3848835f7f8c0cbd6cbfe",
@@ -803,7 +803,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed2/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "806c68b9666a950786fe082dc333944dcfce7e1c4b9b835dff6478ebeac6e28b",
@@ -812,7 +812,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed2/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "f668a88ef6838647a8276d593594016e22acb013cc663c695f44d0c91d6557e9",
@@ -821,7 +821,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed2/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "ab0e8720b3e133cbc7304b43d1a7be4592e42e03cc4307dc013eec36a11df56e",
@@ -830,16 +830,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/audit.json",
+      "path": "artifacts/learning/scnn_seed2/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "5b2f8d90432e006c6bf0afe8dba549811401dc8abf63424b39037500d448ec78",
-      "package_sha256": "80a728571489e9f0b30f73802b8bb1eadc68ec0f70ff82f1233efa5cd2fd46e7",
-      "bytes": 842,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "83fa38c797d2ff95997aca06154e5c31504b8043354205fe2cb05fcd95f910cc",
+      "bytes": 824,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed2/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "e245460a18562f1d3c32670ef552516948db2384b988b5b867b7f628c35337ff",
@@ -848,7 +848,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed2/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "5be5d4be08bb1c8ea0a4272844b9018d98f48322555f015a7f41de3ef0e58f94",
@@ -857,7 +857,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed2/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "cf6015adabecb2bcf6817dbb45b4edd6a32206c0497064e18f1dd32e717a5737",
@@ -866,7 +866,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed0/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "32a5363bae06e413415892a05023bcb005dae93312d6d90ab065d7ef1b4eeeb4",
@@ -875,7 +875,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed0/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "4462794edb6cfa5bc63bee86f2bc6e2b04e9f8930dcea9010aecfb422d874903",
@@ -884,7 +884,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed0/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "9f376a7f37c477c24177965c30a5801313475aa03c240c8fa4d26ce50e9c2213",
@@ -893,7 +893,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed0/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "d69586155638e05988bd95d9dcad719b7626d13684319714332b371269cb81d0",
@@ -902,16 +902,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/audit.json",
+      "path": "artifacts/learning/ufldv2_seed0/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "90410b625f0e3d80d4041783271d5d6786bac56ddaa06cb9a6f4b05b0c8b204a",
-      "package_sha256": "0b364a40d3f6d95fdf87b0b63a6b541e005fd412027dff5783134e1ff10cf086",
-      "bytes": 844,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "f52ce0932b6266c5c480bdc3553451f39e5b18164af3f0a25f1073f14db7d573",
+      "bytes": 826,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed0/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "627290ed39c410810a9134131c9d2091ff546c7dca31827c59fa08f9e09a0e51",
@@ -920,7 +920,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed0/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "7b442c6d7cf0d7e089a8298d40f68b5bfd25bdc44350d5c223ba6d9d59f43f94",
@@ -929,7 +929,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed0/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "ba10df4e0edf30c629360422821ea006a898f74fae23eaf2b09a97d8e0582986",
@@ -938,7 +938,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed1/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "3f0ff5d286a6b225f8013c1a37bdd3b8274a4bd522ffe76a04cf86f25184afb9",
@@ -947,7 +947,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed1/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "d3a404a2bb83fe521bf8e9fa95da991f2f5ce7b7f58a53d063b90043c98ff038",
@@ -956,7 +956,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed1/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "19cc3eb52f2cdeb41ed0286e4f9f98933d413aa23d990d22b05d74b8d6b44acc",
@@ -965,7 +965,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed1/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "5a57b000a398a90a6278e0acf36a2b8e51754a6d4d65c99e16bbbe34380454b0",
@@ -974,16 +974,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/audit.json",
+      "path": "artifacts/learning/ufldv2_seed1/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "26eb79a1912a918b2549006217c428f03337c4f041d138121d5437f53bb3d5c6",
-      "package_sha256": "d5665a1135dfe0c2a5070552029b2c0d44b69ab5df23bdb6149401f351cd7957",
-      "bytes": 848,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "a4dce9c79f8e1ae7f5c4dfa43b1cd161e3db6bedfe4d0f1cb3827991a51f7f77",
+      "bytes": 830,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed1/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "35828d45232fc8fdaa30a11e1ca0b56384d8bac19da9f5ec092bfd93da890da0",
@@ -992,7 +992,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed1/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "5a84612c8a88d2d8cbd5cf2a292ba33532a4e71898c352354cf12a37c4df74a8",
@@ -1001,7 +1001,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed1/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "1a3a6e7055958e91f1d80973c3d051570e29f2bffdd3c44bea17415555a3d178",
@@ -1010,7 +1010,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed2/report_tuned.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_tuned.json",
       "source_sha256": "32484406142f9585a4a27e9e302f3fb076b76278152ef9385b99413b2a66174f",
@@ -1019,7 +1019,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed2/report_val_tuning.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "report_val_tuning.json",
       "source_sha256": "c930f22d63b2c2bd31a32cc6b7a8e8661e9569caae5ebea7eb2dcd48233c9aaf",
@@ -1028,7 +1028,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed2/threshold_grid.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "threshold_grid.json",
       "source_sha256": "35edaca6ed0f60bb43ab31abc76c7ed441522943f3040124667078b3ed683c7b",
@@ -1037,7 +1037,7 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed2/wheelpath.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "wheelpath.json",
       "source_sha256": "37b95c20548f0e1d7c3fff64516fb8cbd3206e9ef51d1eefd9f6e739f62e1618",
@@ -1046,16 +1046,16 @@
       "transformation": "JSON: section/image identifiers and checkpoint paths only"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/audit.json",
+      "path": "artifacts/learning/ufldv2_seed2/audit.json",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "audit.json",
       "source_sha256": "81616d2f8504ee0c0427f17deb33ffbd6ceb25833474511f691d732fb6bff971",
-      "package_sha256": "29a4bf117b6c2a90841e79af61ced94b564aff8d6a5c0b15230d007707553f04",
-      "bytes": 850,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged"
+      "package_sha256": "ef5ec02964e55f6c054e5ee9012f1df99aa481c5c573036f32b3997f69a6dd93",
+      "bytes": 832,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; public package names and packaged-checkpoint hashes normalized; metric values unchanged; method/run identifiers normalized; numerical results unchanged"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed2/raw_val.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_val.npz",
       "source_sha256": "c3f56b8153f84777e3c0201d95f363ba4c70b593dc9278659b4f87cd6d992286",
@@ -1064,7 +1064,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed2/raw_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "raw_test.npz",
       "source_sha256": "3ffe08e10f5f72b97854b7ddf58ce97085895c512aaab3936132f8c7c05500aa",
@@ -1073,7 +1073,7 @@
       "transformation": "NPZ: Unicode section/image identifiers only; numeric/bool arrays dtype and values exact"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed2/predictions_test.npz",
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "predictions_test.npz",
       "source_sha256": "ab0b15b69bbe273cf0e2c0da447091a3e31866f6aac2c7483778aa8773e92b2e",
@@ -1302,9 +1302,9 @@
       "source_family": "runs_decoder_audit_20260923",
       "source_artifact": "summary.json",
       "source_sha256": "92572a14fbbf102ddf8d074fc69639e1d44ea244ecf04e7dc852f56e36bdc606",
-      "package_sha256": "1095589ea1d6b0f498a0d4ae20afdf3b7dbbeefe1de8229cca731fd0372e6147",
-      "bytes": 19774,
-      "transformation": "JSON: section/image identifiers and checkpoint paths only"
+      "package_sha256": "94450e9b203d191c36ad197b4a0387f715dd315a589a0cd1d8bf906bcff832bf",
+      "bytes": 19729,
+      "transformation": "JSON: section/image identifiers and checkpoint paths only; method/run identifiers normalized; numerical results unchanged"
     },
     {
       "path": "artifacts/traditional/canny_hough/report_test.json",

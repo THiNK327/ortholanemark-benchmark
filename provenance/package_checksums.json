@@ -62,691 +62,691 @@
     },
     {
       "path": "LICENSES/manifest.json",
-      "bytes": 4301,
-      "sha256": "d6024a6d1cd016a9cab1362e6b0aed1927fe5d360650ea2e29ff332dc0943554"
+      "bytes": 4211,
+      "sha256": "c2749a6359abe93db0e55c78d29d9fad059a2a6d9f499dd5fae2df9a6cd28365"
     },
     {
       "path": "README.md",
-      "bytes": 10763,
-      "sha256": "29f9168e91d37f4b5b90a6e6eaaf05a758e5827919473927b3eb4191f376222a"
+      "bytes": 10997,
+      "sha256": "0f468e3f3f5296cde93b726ee30e12aeca63e8aa42192b7631873a69f2b7c387"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 10666,
-      "sha256": "1f2eab440e8d015465f977d1c0a135cf9d22fd6e98e5416acc095bd3f6573959"
+      "bytes": 10504,
+      "sha256": "1daefda886e8be5c34a6966b8d44bf02e429d30641fa4039670d6ef3d37349e7"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/audit.json",
-      "bytes": 828,
-      "sha256": "fa2219562ac51bf318bb9d0a0358cb5adc9cdce17def15ee1b869ee7e7d428f7"
+      "path": "artifacts/learning/clrnet_seed0/audit.json",
+      "bytes": 810,
+      "sha256": "fc0e7adb194f69585277d3c469768b3a4c2dfd02dd7c379a4c7d333b2ec4c395"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/history.json",
+      "path": "artifacts/learning/clrnet_seed0/history.json",
       "bytes": 40036,
       "sha256": "b97915b4e7ba5db33c10ad6bba029399647a7c9705f6d75d28fc82925523538f"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed0/predictions_test.npz",
       "bytes": 7315684,
       "sha256": "d737143df2a2e7edf29422a66d373a809028e74413f186dc6b23f38705eaac41"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed0/raw_test.npz",
       "bytes": 7315231,
       "sha256": "5e85718133f293bbc59aadfa6614deb39f7203ed2fe2c12e4949e2b8cd44a81f"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed0/raw_val.npz",
       "bytes": 4286334,
       "sha256": "13635729c0603298b4860d3706894a12294522b63a644daf3f6978280c4a17b0"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed0/report_tuned.json",
       "bytes": 254517,
       "sha256": "9137cee7a196a0b0128336792cea1525e00e96b32c8b21772c3c95f7919dfa2f"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed0/report_val_tuning.json",
       "bytes": 165537,
       "sha256": "5067a576628f1be844bba631f864845ffedc2d6cf0cd1c0b933b9cc0031d7ddb"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed0/threshold_grid.json",
       "bytes": 1946,
       "sha256": "b6e45726903efb1db30047898b512d4cb4e23ad5eb5bd4a03e21fc5dbc6f93a6"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed0/wheelpath.json",
       "bytes": 65456,
       "sha256": "f34149fac5e6b5ffc0dee870146561437924bea6a998198b9a83d3cca2ce07f0"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/audit.json",
-      "bytes": 834,
-      "sha256": "15725ce6263677371bff9c92fb7a0a244ba74763f11d7db0de5af06276613b2a"
+      "path": "artifacts/learning/clrnet_seed1/audit.json",
+      "bytes": 816,
+      "sha256": "1d9ba4bf72a9df211edbf95216d3fd21d42132f9693e505a1eeca6825164cf14"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/history.json",
+      "path": "artifacts/learning/clrnet_seed1/history.json",
       "bytes": 40027,
       "sha256": "4c8415d9016c06e45f95a092a8b9f12db9a565a6bce2be9f4429543b67c33e9e"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed1/predictions_test.npz",
       "bytes": 7393041,
       "sha256": "1a4892afe52b0b423df8e3491d5dfe2ddecfa1f36559095b3d9bf9095ae5b644"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed1/raw_test.npz",
       "bytes": 7392587,
       "sha256": "c0be5cd3336fbff12c29d1cbf0b84389a88d2ddd1bc8e43d00dbc3d652049e94"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed1/raw_val.npz",
       "bytes": 4328631,
       "sha256": "63be4329d7dda22b3d02b8e775a141cf9a4ca769da5e820f91803b4c069feb46"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed1/report_tuned.json",
       "bytes": 254881,
       "sha256": "9fc3fe7fd8238845f5567bea6578cab5b1d3a6d1afbd1f30ec973c952af2c129"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed1/report_val_tuning.json",
       "bytes": 165747,
       "sha256": "4a34eccf66b9353b3afd6f0ad48916d5650b47bb6aff748f243ea8dea6b74d7c"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed1/threshold_grid.json",
       "bytes": 1979,
       "sha256": "38024f9182351804257ecaff1bd8043af4f32587ed4df63fae4dcff8a37edc8d"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed1/wheelpath.json",
       "bytes": 65467,
       "sha256": "1b4abc10de35118c317fe71a9a3ddd0e30b871c1ca965f11c51f186071d3f267"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/audit.json",
-      "bytes": 831,
-      "sha256": "230fd6562fd89283b1fee25eb692a41118e313e4d5164423e9f7db9f089d3166"
+      "path": "artifacts/learning/clrnet_seed2/audit.json",
+      "bytes": 813,
+      "sha256": "e4c0328b094dc7daa3503cfad84595d9357166667c057542cd042f6e996908ba"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/history.json",
+      "path": "artifacts/learning/clrnet_seed2/history.json",
       "bytes": 40046,
       "sha256": "9be6e3973d62551b78129284309fbdf2d53b0145ba6de51b7cb2d8aa67f99324"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/clrnet_seed2/predictions_test.npz",
       "bytes": 7492622,
       "sha256": "ad58a84663d7afde7c8ac64c67ccda912198ed1bd9c1db47703f3657aea7bd63"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/clrnet_seed2/raw_test.npz",
       "bytes": 7492174,
       "sha256": "16b8a5de4354c48d15554685b75e1809e11f1f127d6d58219c47522878c3311c"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/clrnet_seed2/raw_val.npz",
       "bytes": 4455978,
       "sha256": "1234ca7e95e2350ec23584fb9e2ff9c268dae9082dd71646638e15fa6689700a"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/clrnet_seed2/report_tuned.json",
       "bytes": 254817,
       "sha256": "c6c275a456d1d907b3307d8abe25e90b5412b69784ab42914faefd77231eb8f6"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/clrnet_seed2/report_val_tuning.json",
       "bytes": 165940,
       "sha256": "07d6efd1e23f811b6a8c55b09606ebe7112734a4727c179814030d8a33b7b8b9"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/clrnet_seed2/threshold_grid.json",
       "bytes": 1954,
       "sha256": "4fc3667ee37d6cd6cf9b2fc164a6a518d2df7a7e52a6c97797e96f88075023a5"
     },
     {
-      "path": "artifacts/learning/clrnet_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/clrnet_seed2/wheelpath.json",
       "bytes": 65479,
       "sha256": "157d8bf35d746207d3181d0b73a8a770d62a7205ead8102184f4548257f26707"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/audit.json",
-      "bytes": 992,
-      "sha256": "6e40bac9ab82559bf6da3063c3d8ffaca88f45464dea4bc645c16b2054ac0675"
+      "path": "artifacts/learning/laneatt_seed0/audit.json",
+      "bytes": 974,
+      "sha256": "f1ae672201b8c45f17cfbdd5b8a9ddc9015b95df28b2b189f664a9086b71b1e6"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/history.json",
+      "path": "artifacts/learning/laneatt_seed0/history.json",
       "bytes": 31365,
       "sha256": "1b3217aa4e33cf70613529c8d28e21a4f0a9afdccab85ec5e2abd4c6859b423b"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed0/predictions_test.npz",
       "bytes": 6416650,
       "sha256": "e061e40f54519951eb6fe3db61e65af6450e203f3196c245ee765cf80b4e3d87"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed0/raw_test.npz",
       "bytes": 6416193,
       "sha256": "b71a24c18fa85e963b7e5ec5e2ccf2f48c8802b99e7c1cfc86b4d02fc98e5447"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed0/raw_val.npz",
       "bytes": 3238121,
       "sha256": "c050c1b3510eba62773ac15459151988d799c04de6aef178fc9200479a8158a0"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed0/report_tuned.json",
       "bytes": 261641,
       "sha256": "563e52a8ec6b78d2a7ddc9b0ac63f12bd351ca8925d25e3e0bdfb40b26c54194"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed0/report_val_tuning.json",
       "bytes": 169170,
       "sha256": "bcbdd443efd9cf0f8677c945c98e60561dac5c06f0dc6ac0f955a0e56fb84768"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed0/threshold_grid.json",
       "bytes": 1983,
       "sha256": "bb7e359373afa1f128222eebef2fcd75e0832bbe312dbdf3e3437edd84283c63"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed0/wheelpath.json",
       "bytes": 65171,
       "sha256": "1348bf6c1f1e9f9104b15fea162dfda79107c4fddaa9b16a2a97d5c5649315d7"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/audit.json",
-      "bytes": 998,
-      "sha256": "3ebbe8b8e8c7a897b62d5f1b11ec0492f260f98a9dbcf0a2214355986403acad"
+      "path": "artifacts/learning/laneatt_seed1/audit.json",
+      "bytes": 980,
+      "sha256": "043d464f7c43b38c87b479f6e65db49e92a1a3d6696b582fb034c5f71ae9702b"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/history.json",
+      "path": "artifacts/learning/laneatt_seed1/history.json",
       "bytes": 31374,
       "sha256": "fd39292653146a397c19417a6f7444b0cbb01154d81fec6d1777f8937bb6a697"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed1/predictions_test.npz",
       "bytes": 5936535,
       "sha256": "88adda096244154fc4e8a75f0178c7e697506f23150d335751193bb3ca4b60b4"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed1/raw_test.npz",
       "bytes": 5936066,
       "sha256": "070b9e2c46ee9899cfe418b70633a1b8f1bbebf44be442f04a04f6ed789457ae"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed1/raw_val.npz",
       "bytes": 3157476,
       "sha256": "d11f5e6644d2621240c3008acd0ef2ea3d11a3fb0c1452e6a6f5773432cfe24f"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed1/report_tuned.json",
       "bytes": 261704,
       "sha256": "ea9a28503137d31b49a5da89b52ee2966f98688bf6aa90a0fa3cd23ba5cdb5cd"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed1/report_val_tuning.json",
       "bytes": 169579,
       "sha256": "1a277af1ced499fd7c53acd3c8b2bff5bcdb148a841db52d1cbf622b047010d9"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed1/threshold_grid.json",
       "bytes": 1993,
       "sha256": "2b6ff88f19a004315b5d48d86930801f01e9cce16a582d62846561e2118c26dd"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed1/wheelpath.json",
       "bytes": 65146,
       "sha256": "25b7cf561723f81fcc8fc40ef3e565dc50568bfc9f3aa4e98311a7a3fbd7cf69"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/audit.json",
-      "bytes": 996,
-      "sha256": "4feeb7823c2805cfc3078ff66127651bfd4fd9c649df3025245a1908d2e21019"
+      "path": "artifacts/learning/laneatt_seed2/audit.json",
+      "bytes": 978,
+      "sha256": "c237b59eee6385bc11e3c8a4e572f1446b7e725a2d2eafc267557b6856c19c43"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/history.json",
+      "path": "artifacts/learning/laneatt_seed2/history.json",
       "bytes": 31364,
       "sha256": "31f4143a01752ccfdc33776ce88c7d988bb61d0f57ab96eebfa38215d1c5641b"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/laneatt_seed2/predictions_test.npz",
       "bytes": 7216369,
       "sha256": "bfca05056b8669d60674594ffcd21f26d26a4445e747b63bca2cc19832b49224"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/laneatt_seed2/raw_test.npz",
       "bytes": 7215903,
       "sha256": "32aab6cdfa958a59acc10b603c700be3421cf28c2fddc9c0ce3ef68cb8516535"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/laneatt_seed2/raw_val.npz",
       "bytes": 4176180,
       "sha256": "1faf0455bf23394d12e8c85596c6be9b69ba8e5c9075c81e3c903c05f6474cf1"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/laneatt_seed2/report_tuned.json",
       "bytes": 257134,
       "sha256": "6f7349c2955b0f6c6a9d9483a7c941e4ccf1b872526343514afa92cd4757bc60"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/laneatt_seed2/report_val_tuning.json",
       "bytes": 168948,
       "sha256": "12c8040443e9a8b7bdc0455c020fcf94c3681e785b8e27688418db31372447ba"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/laneatt_seed2/threshold_grid.json",
       "bytes": 1992,
       "sha256": "4c31076bd23fdc3b1274c7f654bba285d718ba778f7edd4ab6ab877c457d6468"
     },
     {
-      "path": "artifacts/learning/laneatt_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/laneatt_seed2/wheelpath.json",
       "bytes": 65272,
       "sha256": "7ead0383e76dba8ad1d4f842e84edc7f0e54cb48a04effa5d364932ba4245417"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/audit.json",
-      "bytes": 859,
-      "sha256": "dc8695f57ea2b7905b68362d6f6b75512c47076a3ca4881a9af32a51d41e0b4f"
+      "path": "artifacts/learning/polylanenet_seed0/audit.json",
+      "bytes": 841,
+      "sha256": "5634ac923b94703a93b2ed93b074ecb3c3de349803cbd163787414fd10f5705b"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/history.json",
+      "path": "artifacts/learning/polylanenet_seed0/history.json",
       "bytes": 31564,
       "sha256": "f90d8e03096718be17d9a163ad373ad9f96c097082269dc5a2a1930be44bf88e"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed0/predictions_test.npz",
       "bytes": 9410310,
       "sha256": "2ccfdecb9f34aa09423075ee616ab379166367d60646b8b7c8103186f6caf51b"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed0/raw_test.npz",
       "bytes": 9409863,
       "sha256": "9e524323438c29eb92c8bc111894cdec78e1ab2d1296c1cb533b05ee8466d2b2"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed0/raw_val.npz",
       "bytes": 6025069,
       "sha256": "db32b7e96b20211cae48d5102aea17e8fb87690758ce3f97af9919f2ba94327b"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed0/report_tuned.json",
       "bytes": 257482,
       "sha256": "509ddd33d59b985c7b21edcbef681938debcd7c941d9cf4e2903848f37fa3924"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed0/report_val_tuning.json",
       "bytes": 167764,
       "sha256": "8933646f01b4e6af7a8f985ec79b921ac3108d7e625aebe8cd03d7ee23158b03"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed0/threshold_grid.json",
       "bytes": 2006,
       "sha256": "e0a574deec64ac48a1c07077225e25327d5fd2200c229dcb66c48759139abded"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed0/wheelpath.json",
       "bytes": 65323,
       "sha256": "d107313359f56a471be65ac2c4e22b0fd073d5cc24e19f82a4e185bcc4ee8f5d"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/audit.json",
-      "bytes": 865,
-      "sha256": "669dd461bf70dc7a9e051da9cfe77240a6768a6ebf690293c92bc2addf6ef899"
+      "path": "artifacts/learning/polylanenet_seed1/audit.json",
+      "bytes": 847,
+      "sha256": "26b9eb7a264d17f543b44ef0aa8773db9ec557e94d7afeff7618cab1903e1d63"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/history.json",
+      "path": "artifacts/learning/polylanenet_seed1/history.json",
       "bytes": 31548,
       "sha256": "8f68aba8860d6cbadcdc997caa9006016e48fbf324ebd3f110943abf4588eb4b"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed1/predictions_test.npz",
       "bytes": 9435127,
       "sha256": "c4dd5e8084b3f0876c8df47f6b27ac00536a185cecb71d1845a0f05697deb1e6"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed1/raw_test.npz",
       "bytes": 9434678,
       "sha256": "982919ad7102151ac622f49ff3de87b2df8176ae13616288598090123983a91f"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed1/raw_val.npz",
       "bytes": 6037008,
       "sha256": "4c63724d6dd2bae8b3e794580aa03ad29c4298826d371c82e01a1c414fd95f4e"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed1/report_tuned.json",
       "bytes": 257207,
       "sha256": "2cfe54fbd2de546f4c57ca7f47af011d2a3fa62ee02504c638c77eb66e0d93fc"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed1/report_val_tuning.json",
       "bytes": 167625,
       "sha256": "ade62e2be1f10af3a68fc153a635899233bf9259e7315229db7cae9bb7d82563"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed1/threshold_grid.json",
       "bytes": 2002,
       "sha256": "b4001539d2e2e021a6d36fc2bb1b4e27b294f69071b69bc6b7d7d1603f6bee06"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed1/wheelpath.json",
       "bytes": 65388,
       "sha256": "f6d866ca9a8f47934dafb3cfc6df426d45a28a03316fd20d50b175464f6222b8"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/audit.json",
-      "bytes": 863,
-      "sha256": "2e8b8ad8b95b98e4bf723114b6aacbfb7fb258b577a0e718725875caafe10583"
+      "path": "artifacts/learning/polylanenet_seed2/audit.json",
+      "bytes": 845,
+      "sha256": "8350cd256ca7bcddf74fda84b29f329764ca3007730140d18fe4d564ba3361b1"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/history.json",
+      "path": "artifacts/learning/polylanenet_seed2/history.json",
       "bytes": 31555,
       "sha256": "717e82498801419ea877f179eee1c03bdc8657eabaec6d8ce2765e6b233b0109"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/polylanenet_seed2/predictions_test.npz",
       "bytes": 9469879,
       "sha256": "86298ec27998bb2d2b91861648ab5711a603982737bea094926f31c1721ca2f8"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/polylanenet_seed2/raw_test.npz",
       "bytes": 9469429,
       "sha256": "beb2de32dda043e5989115777a2b3501c266f2410ee92f3933e5eddb3aa4ca2a"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/polylanenet_seed2/raw_val.npz",
       "bytes": 6081810,
       "sha256": "8b59afc3458ddcd167bc6d3de886f73e349d80c1740d99ddc8f6d762babf1a99"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/polylanenet_seed2/report_tuned.json",
       "bytes": 257587,
       "sha256": "beacd276e4252285240cd219ce62119841102d9ce3a5885c5bdbe47d505b1aa9"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/polylanenet_seed2/report_val_tuning.json",
       "bytes": 167739,
       "sha256": "4c69ebcc75e3d83eaf3047c8346b2555eb5c752f4d70f9039b2af752b9dbc330"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/polylanenet_seed2/threshold_grid.json",
       "bytes": 2005,
       "sha256": "471c43b9a39955a975fe6202c10281a01d3ea4784337dd688b524ea0b98930e9"
     },
     {
-      "path": "artifacts/learning/polylanenet_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/polylanenet_seed2/wheelpath.json",
       "bytes": 65400,
       "sha256": "ad9ab1e9f0e2f0d5f9dcff26d1ff288087b25071c9e2302466a751904687c42a"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/audit.json",
-      "bytes": 836,
-      "sha256": "146c2d256332cbcdd9a4af7cd0f194a04469ce3b1df695104a81be7bbe70fdf2"
+      "path": "artifacts/learning/scnn_seed0/audit.json",
+      "bytes": 818,
+      "sha256": "5f31cfae41d840b3884b23cfb9b0a4a369b5b383bc0fc8d90673eeafc1cfe742"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/history.json",
+      "path": "artifacts/learning/scnn_seed0/history.json",
       "bytes": 48049,
       "sha256": "cdba8a622f633cac0c5de8f8899c26296764bf5056b145e6bc5330a8aa5d80eb"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed0/predictions_test.npz",
       "bytes": 7919963,
       "sha256": "d76649e0d828c6aa48e5cf0564995a59f0d7886d8ff1c5a2753db6abc7467c88"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed0/raw_test.npz",
       "bytes": 7919520,
       "sha256": "4899884e52f0837ff9d41322460c0766044c3b9ef1dd851edf4e2c220db4a9fe"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed0/raw_val.npz",
       "bytes": 5191189,
       "sha256": "53ce0f4a839326984b1d90e39455ce0a74f7e601d4b4bec798566599f61552c3"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed0/report_tuned.json",
       "bytes": 258020,
       "sha256": "bc7e9d5442a43037a794a93e46b640ccee3d3325dc0c480d974db5b08de37759"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed0/report_val_tuning.json",
       "bytes": 169077,
       "sha256": "2cd6887e178e9cec6c43b5d6d2d9847300b3b2cfa9256780445a14d3a4eabab5"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed0/threshold_grid.json",
       "bytes": 2015,
       "sha256": "97e4283da60822b7fddfc187bb957eebcb4638f95d46f46c1d481ded7cec6819"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed0/wheelpath.json",
       "bytes": 65475,
       "sha256": "e19b9c80b25fa01fd182f89a115742f4259e720744d605cc933f15478af5e248"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/audit.json",
-      "bytes": 844,
-      "sha256": "3e57c5f7b7792104887a9bb1b149ed160a02c3dd2af651ef16d93d78992508e7"
+      "path": "artifacts/learning/scnn_seed1/audit.json",
+      "bytes": 826,
+      "sha256": "afb8bbbb04b014dc34d0d9005327fb22df5f3118ddc0684df15e2c3b7e4619cc"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/history.json",
+      "path": "artifacts/learning/scnn_seed1/history.json",
       "bytes": 48042,
       "sha256": "993c72cc296cc16d995f6ecdad29484f93d560566808708be30841eda8785ad6"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed1/predictions_test.npz",
       "bytes": 7159784,
       "sha256": "0be25138874917718c0cc56a43e331ec8218a538c7d57549d0353f79b05126df"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed1/raw_test.npz",
       "bytes": 7159334,
       "sha256": "4611329155eb70d05ef897bcdfdc346c1059815786285806db7c13f2eca32d69"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed1/raw_val.npz",
       "bytes": 4654514,
       "sha256": "28a9b6dd9ca36e258c123be3a11154d6198ce6afb6dc5751cb72f31737ddfa01"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed1/report_tuned.json",
       "bytes": 258264,
       "sha256": "95d6f5b630c8ceab73e332b8ed53b4444a09fba91d51814d1d84855228311e0d"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed1/report_val_tuning.json",
       "bytes": 168597,
       "sha256": "f798b714d3ce6068837f145a96420f960e1a096f9b140f639dd22e48c3256313"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed1/threshold_grid.json",
       "bytes": 2004,
       "sha256": "db5665304680bfda5d79ebe3b560a31902d0c1ec8297d2d1ef40729d7d68ac02"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed1/wheelpath.json",
       "bytes": 65507,
       "sha256": "b865c1db05b250196709d4ee34dfe803f03dcfdc7fe88191266d918eca902636"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/audit.json",
-      "bytes": 842,
-      "sha256": "80a728571489e9f0b30f73802b8bb1eadc68ec0f70ff82f1233efa5cd2fd46e7"
+      "path": "artifacts/learning/scnn_seed2/audit.json",
+      "bytes": 824,
+      "sha256": "83fa38c797d2ff95997aca06154e5c31504b8043354205fe2cb05fcd95f910cc"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/history.json",
+      "path": "artifacts/learning/scnn_seed2/history.json",
       "bytes": 48078,
       "sha256": "029a7d667a37801b774bf427c45610572099360d8640f236fb03b8b0084fd022"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/scnn_seed2/predictions_test.npz",
       "bytes": 7560765,
       "sha256": "ad98ddb6c6de82ded50872ea5cb27cae7e7520aa48342474731b91b5061be877"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/scnn_seed2/raw_test.npz",
       "bytes": 7560310,
       "sha256": "8d392f82e74aa55f80de90dcfb3eb62b88ce3b906aeb63ec192d1c69e8d50230"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/scnn_seed2/raw_val.npz",
       "bytes": 4720450,
       "sha256": "6a691bc2b2bb3fe14f6fb6f5a948c8cec918f1f863d1a651e2815e46652c766f"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/scnn_seed2/report_tuned.json",
       "bytes": 257442,
       "sha256": "ecadd8727d8e92d48a284a427faef3e510091e0ca2b14f80646c2aa21246693d"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/scnn_seed2/report_val_tuning.json",
       "bytes": 168305,
       "sha256": "ef958904518deca6ca28d74dec84b5bf2e551165cb3960f10e1de17145aa54c2"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/scnn_seed2/threshold_grid.json",
       "bytes": 2012,
       "sha256": "525ef12ba8b370953e6b6ae6382500f12294ebaa519f68af6ab8714eecc04a43"
     },
     {
-      "path": "artifacts/learning/scnn_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/scnn_seed2/wheelpath.json",
       "bytes": 65450,
       "sha256": "ec77cdd18e73b9fdb69467317664922b0b422a193a1555662ee1e7081922ae2e"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/audit.json",
-      "bytes": 844,
-      "sha256": "0b364a40d3f6d95fdf87b0b63a6b541e005fd412027dff5783134e1ff10cf086"
+      "path": "artifacts/learning/ufldv2_seed0/audit.json",
+      "bytes": 826,
+      "sha256": "f52ce0932b6266c5c480bdc3553451f39e5b18164af3f0a25f1073f14db7d573"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/history.json",
+      "path": "artifacts/learning/ufldv2_seed0/history.json",
       "bytes": 30468,
       "sha256": "a706b27a90a4af6078e67f047040788dfac1dbae801e2af14fb46439e33f0f10"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed0/predictions_test.npz",
       "bytes": 7619908,
       "sha256": "958ef7d62a5d60827b70471d4b6f0d4a9e4b811c47cea0e54b8bd403a2aba432"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed0/raw_test.npz",
       "bytes": 7619442,
       "sha256": "910dd2ee9e10f9c12946fa02c7c16294cfcedceab369a19b7e597ee5e1f21152"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed0/raw_val.npz",
       "bytes": 4902828,
       "sha256": "27951e7f446c4acac7ac4e4b8a001a354a6a6cf2050b88588a6826c8c645b60a"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed0/report_tuned.json",
       "bytes": 254885,
       "sha256": "74b5684943584eb971c2a59dfc47d1c7c2569da5128a2c19032bf15b3e42999d"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed0/report_val_tuning.json",
       "bytes": 166628,
       "sha256": "eb20d505a94e849957031dcd6c18531f3d9c85dc0abe26bb3b0cb9812e571637"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed0/threshold_grid.json",
       "bytes": 1992,
       "sha256": "8facca8f9a36fbfd2790216a88a47eec715b126c8259b2d527c9cb8992a3b801"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed0/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed0/wheelpath.json",
       "bytes": 65365,
       "sha256": "c0005ca8794439c9cade0dd8ee68786a8313fc010ef389f39e4a97540a0c3a29"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/audit.json",
-      "bytes": 848,
-      "sha256": "d5665a1135dfe0c2a5070552029b2c0d44b69ab5df23bdb6149401f351cd7957"
+      "path": "artifacts/learning/ufldv2_seed1/audit.json",
+      "bytes": 830,
+      "sha256": "a4dce9c79f8e1ae7f5c4dfa43b1cd161e3db6bedfe4d0f1cb3827991a51f7f77"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/history.json",
+      "path": "artifacts/learning/ufldv2_seed1/history.json",
       "bytes": 30477,
       "sha256": "a9e1e9c6371a22908549b9efb79ac985e93752b4ec5161cba00b349a2c85545a"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed1/predictions_test.npz",
       "bytes": 7269729,
       "sha256": "569f72500b2f10d377cb37060d06989d435064ea177e2db1b048bde7e3b12e9c"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed1/raw_test.npz",
       "bytes": 7269271,
       "sha256": "780b4b8cf3cd8516373992ad45ca42f848ddb23d2b5ef54e199a261b263ff300"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed1/raw_val.npz",
       "bytes": 4764027,
       "sha256": "44b1a41612a88e1a693dac4a1c5e1e389b736b047fad5045068762f277cc811e"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed1/report_tuned.json",
       "bytes": 255166,
       "sha256": "51d5f0869fd2b5dc3fee9d582c51dd0a7c5a552d6c9a6c606981a6754e37dab9"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed1/report_val_tuning.json",
       "bytes": 167500,
       "sha256": "f4f1262286f0ab9e680eaa76ad55f328ddb4261b692e585a8feab4cc15db3948"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed1/threshold_grid.json",
       "bytes": 1988,
       "sha256": "5c7187fab49f472ddad598960391abfc1e607f1ac22b12e67e64831ef22eaa7f"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed1/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed1/wheelpath.json",
       "bytes": 65347,
       "sha256": "b88fc6081db774033de2a28d9305cad6341aadd719c32baad7d4df663f3d1ba3"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/audit.json",
-      "bytes": 850,
-      "sha256": "29a4bf117b6c2a90841e79af61ced94b564aff8d6a5c0b15230d007707553f04"
+      "path": "artifacts/learning/ufldv2_seed2/audit.json",
+      "bytes": 832,
+      "sha256": "ef5ec02964e55f6c054e5ee9012f1df99aa481c5c573036f32b3997f69a6dd93"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/history.json",
+      "path": "artifacts/learning/ufldv2_seed2/history.json",
       "bytes": 30471,
       "sha256": "123dbcb8fb7e7adaa2390268735dfc21f7b7e985291d7e86537eb54f321c954d"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/predictions_test.npz",
+      "path": "artifacts/learning/ufldv2_seed2/predictions_test.npz",
       "bytes": 7353959,
       "sha256": "e474608976381702b6619c0378160d297ae8013a693ee986b3cf3a46d1f64581"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_test.npz",
+      "path": "artifacts/learning/ufldv2_seed2/raw_test.npz",
       "bytes": 7353503,
       "sha256": "5a5a60b66e97382fb48288949028afca1a09de975906946caa7b318ecc8f5e6d"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/raw_val.npz",
+      "path": "artifacts/learning/ufldv2_seed2/raw_val.npz",
       "bytes": 4819230,
       "sha256": "4a66394b18a5ad50c17c1f00dcf38de8da56a65b4dedcd83f6743252c440fd51"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/report_tuned.json",
+      "path": "artifacts/learning/ufldv2_seed2/report_tuned.json",
       "bytes": 255608,
       "sha256": "b7dcd6f1f397b6b72afcd75a2fcc84ae7375cf3c1a414bbe63c8029f877ce418"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/report_val_tuning.json",
+      "path": "artifacts/learning/ufldv2_seed2/report_val_tuning.json",
       "bytes": 166934,
       "sha256": "5d01b9c3be8b606cebc74c4c92b79ff5b0314d33f84c09c7bbe76a9088a65230"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/threshold_grid.json",
+      "path": "artifacts/learning/ufldv2_seed2/threshold_grid.json",
       "bytes": 1986,
       "sha256": "d169f47a07d62f68544ca52693db01e2429fd5f936177c01a9c05cc6c6ffd389"
     },
     {
-      "path": "artifacts/learning/ufldv2_faithful_seed2/wheelpath.json",
+      "path": "artifacts/learning/ufldv2_seed2/wheelpath.json",
       "bytes": 65392,
       "sha256": "b8b7584d9eca3d5e13699b472a0e570b646cdd7e87ac5f0713df84fb86707c78"
     },
@@ -887,13 +887,13 @@
     },
     {
       "path": "artifacts/learning_summary.json",
-      "bytes": 19774,
-      "sha256": "1095589ea1d6b0f498a0d4ae20afdf3b7dbbeefe1de8229cca731fd0372e6147"
+      "bytes": 19729,
+      "sha256": "94450e9b203d191c36ad197b4a0387f715dd315a589a0cd1d8bf906bcff832bf"
     },
     {
       "path": "artifacts/retained_gpu_latency.json",
-      "bytes": 907,
-      "sha256": "202fe3adcf004aa1c6eb647b529d866abc47ca0c3ef3f82255eff63977062f8d"
+      "bytes": 862,
+      "sha256": "8bda3857b8e256bd45dd08b66568e035c6705456ea38af4b925aa49f1e84adf1"
     },
     {
       "path": "artifacts/traditional/canny_hough/predictions_test.npz",
@@ -1241,79 +1241,79 @@
       "sha256": "e2d5a08ee30c9686a0370e92a42e292043aa5f93e76027976fa4812285332ab7"
     },
     {
-      "path": "configs/learning/clrnet_faithful_seed0.json",
-      "bytes": 518,
-      "sha256": "3719c705d0f8ffafd6a22d8e783525bed9371ff60a98c1083c7a80b26896ce06"
+      "path": "configs/learning/clrnet_seed0.json",
+      "bytes": 509,
+      "sha256": "9bf0a33f6b7e2881a0fa6a4b10f04b47179eaac99e3427d3760cbc80d8e2bda2"
     },
     {
-      "path": "configs/learning/clrnet_faithful_seed1.json",
-      "bytes": 518,
-      "sha256": "3a4dc9ef8d62bc94500f64a81beba08a9bdd1a0c80eb20609b12028c3de8dda8"
+      "path": "configs/learning/clrnet_seed1.json",
+      "bytes": 509,
+      "sha256": "604969e16e276a26d0f9a0b27fe8f582e732e30a6a62f6aa465099f6f4af9b4e"
     },
     {
-      "path": "configs/learning/clrnet_faithful_seed2.json",
-      "bytes": 518,
-      "sha256": "e98e25279cc31eb71cc03574b54e7bc065212787f50c66af281a5cafba5ab3a6"
+      "path": "configs/learning/clrnet_seed2.json",
+      "bytes": 509,
+      "sha256": "38661902de468cfa59bf8a741fbbb24331cf0fa6b5727acf86eac9a0a4396d63"
     },
     {
-      "path": "configs/learning/laneatt_faithful_seed0.json",
-      "bytes": 708,
-      "sha256": "4eb4fb2c7557629587323037c862c48d93d6107f0f8cd5b30742af5912e1435d"
+      "path": "configs/learning/laneatt_seed0.json",
+      "bytes": 690,
+      "sha256": "6f549c87d4d3876d5c235cebb9668e895d5905b38b0ab96f3fdc133295113231"
     },
     {
-      "path": "configs/learning/laneatt_faithful_seed1.json",
-      "bytes": 708,
-      "sha256": "41ef71cf6afa28174b1d5a4e6f55e5650070f2f38c503cca1355b46a2040073a"
+      "path": "configs/learning/laneatt_seed1.json",
+      "bytes": 690,
+      "sha256": "7764e8bdc82d1a0911d7ac322ae13478a6bb9eda201e8b916485b9c04d7deb69"
     },
     {
-      "path": "configs/learning/laneatt_faithful_seed2.json",
-      "bytes": 708,
-      "sha256": "85f4bcec9d04d5ae387cb6b6919d768e2fd8d345661ac7bb3aece15b323cee6c"
+      "path": "configs/learning/laneatt_seed2.json",
+      "bytes": 690,
+      "sha256": "7f52336c21ef192efe02f102440ca2efcb40979ef31588b52c4a3112aa1b127f"
     },
     {
-      "path": "configs/learning/polylanenet_faithful_seed0.json",
-      "bytes": 629,
-      "sha256": "b93c29efa88f17384adf8694e48a98a2bcf72a0db49f9f20cdd8e4cd6ae07d64"
+      "path": "configs/learning/polylanenet_seed0.json",
+      "bytes": 620,
+      "sha256": "f8644f4248ac3d75b18531af25861aa41c96067ee9a500149b90d5fe994e1608"
     },
     {
-      "path": "configs/learning/polylanenet_faithful_seed1.json",
-      "bytes": 629,
-      "sha256": "859f56bff904ba2f74c143676d112fbaede9d6ee8f96a8de7dc0658f657aebf0"
+      "path": "configs/learning/polylanenet_seed1.json",
+      "bytes": 620,
+      "sha256": "f7a249626fa62d4b3d9c2f4f1dd32f830760ce63c7768702deb036695ffdd394"
     },
     {
-      "path": "configs/learning/polylanenet_faithful_seed2.json",
-      "bytes": 629,
-      "sha256": "effdda8096d6218de6520fc5452236dad391c34a0fbb783dbbc1ac575c5f50fd"
+      "path": "configs/learning/polylanenet_seed2.json",
+      "bytes": 620,
+      "sha256": "f5f162cfbd2dc9b48e6f8ba9a587a2acf49610e05f5e76e6aad73d679d8da61d"
     },
     {
-      "path": "configs/learning/scnn_faithful_seed0.json",
-      "bytes": 514,
-      "sha256": "adc4ca81348e29c240a5fd0a8bd6f2316b0568ce3961817b784952ca6b3f7e8d"
+      "path": "configs/learning/scnn_seed0.json",
+      "bytes": 505,
+      "sha256": "a23d69354d63e00039e767121779bfc46e96c874fd37f4512416d8b250e19bcf"
     },
     {
-      "path": "configs/learning/scnn_faithful_seed1.json",
-      "bytes": 514,
-      "sha256": "0940858b9e6bef8a60412270e16c60069c5872dd466caae5e21d5242e5a1ca19"
+      "path": "configs/learning/scnn_seed1.json",
+      "bytes": 505,
+      "sha256": "d1361dd7e777f82f46b523b392d42fe97dce2e38952d947a450bba90340a5246"
     },
     {
-      "path": "configs/learning/scnn_faithful_seed2.json",
-      "bytes": 512,
-      "sha256": "6a82575b48ad96f7c647ae18a69fb7669310deb03af9710cb40104038517afad"
+      "path": "configs/learning/scnn_seed2.json",
+      "bytes": 503,
+      "sha256": "d86322daedfac80ee709d568475a3c9407ca30a4b529dbe896238fb09bde937e"
     },
     {
-      "path": "configs/learning/ufldv2_faithful_seed0.json",
-      "bytes": 918,
-      "sha256": "0c7b4b094172dc80cf07820e3f8c2227e7bf3bde27901b9e16eb0d793a502053"
+      "path": "configs/learning/ufldv2_seed0.json",
+      "bytes": 909,
+      "sha256": "da2ca61589d4e272a54a88aa63fe7eaa92400110b030aee2724176ffc7d0b7f3"
     },
     {
-      "path": "configs/learning/ufldv2_faithful_seed1.json",
-      "bytes": 916,
-      "sha256": "53c827eafb3ef833bfa5af2095f0d94fb7afd6a760916f6c9c1e86795d31c089"
+      "path": "configs/learning/ufldv2_seed1.json",
+      "bytes": 907,
+      "sha256": "e4a4b349ef501e0f49305b182c645b4e67d330e96f45aa6543cde6530d02ece9"
     },
     {
-      "path": "configs/learning/ufldv2_faithful_seed2.json",
-      "bytes": 918,
-      "sha256": "5ca393ea46834a4b7263caad6dd58ed89247b79bff17a7d5351df9d39b36e4e4"
+      "path": "configs/learning/ufldv2_seed2.json",
+      "bytes": 909,
+      "sha256": "25716daf73a7fdcad27f6fb403c7b3e416880f908c3124d9454b246d6a0d103e"
     },
     {
       "path": "configs/learning/unet_seg_seed0.json",
@@ -1367,8 +1367,8 @@
     },
     {
       "path": "ortholanemark/__init__.py",
-      "bytes": 165,
-      "sha256": "2325e4ef2e6ccc290b6a1f4d95650803c7badc874085a79079f5d30dc56e5ff2"
+      "bytes": 156,
+      "sha256": "363ba57ca7175aa68a9d0eaca84acf274273671eccf973e707ede3c8421645ee"
     },
     {
       "path": "ortholanemark/data/__init__.py",
@@ -1407,8 +1407,8 @@
     },
     {
       "path": "ortholanemark/evaluation/test_full_height_decoding.py",
-      "bytes": 6560,
-      "sha256": "5893b25d5cb05f74731765501f51219e542741c73b23b62de6c9f17e7a8c3905"
+      "bytes": 6474,
+      "sha256": "66ee95bf834eca3f9a47079b5cbaae7c53d523a1ba2335e451879b9407b5a457"
     },
     {
       "path": "ortholanemark/evaluation/test_gra.py",
@@ -1417,8 +1417,8 @@
     },
     {
       "path": "ortholanemark/literature/__init__.py",
-      "bytes": 4741,
-      "sha256": "eae093f9cac777ca3964a74f8ea77d55a71319a25b4da9f89bf5f838b71efe65"
+      "bytes": 5010,
+      "sha256": "078e5fd3debfa17fe89bd70e653eb425a64dcb17d37870398f25b17e71f57573"
     },
     {
       "path": "ortholanemark/literature/_common.py",
@@ -1432,13 +1432,13 @@
     },
     {
       "path": "ortholanemark/literature/_train_helpers.py",
-      "bytes": 4705,
-      "sha256": "f5ebae437168145a6b63bc4e49c061525982041fb10bbb5cb54ef5ace0b5e14c"
+      "bytes": 4697,
+      "sha256": "5417888e589a7ea2d0e753013da856591392592f24135556ad38e15c158d44d7"
     },
     {
       "path": "ortholanemark/literature/_uniform_aug.py",
-      "bytes": 5152,
-      "sha256": "8a179fa4273be6322eab15739f87a25d16d91acd2a2ac2a8cce5af3959956a7c"
+      "bytes": 5153,
+      "sha256": "398ce509228af1a3c6e1bd9a7ca781c2b06df9268a8cc5a98b902e905abe5926"
     },
     {
       "path": "ortholanemark/literature/_val_strict_iou.py",
@@ -1451,154 +1451,154 @@
       "sha256": "e56f9b0e77e83f05c018a1f50ea6caad7e1120bd1e5e61434ba56ac34194d1a8"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/clrnet/LICENSE_upstream",
       "bytes": 11558,
       "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/__init__.py",
-      "bytes": 537,
-      "sha256": "3133e7215103b20d195f6b56a66a5bbb73c0d1e5625039848c0e27eeffe951cb"
+      "path": "ortholanemark/literature/clrnet/__init__.py",
+      "bytes": 521,
+      "sha256": "bc68ec41a151b82728afb35ea5e5b2e6cd19484e5a8a23574e224b64d0fd38f5"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/dataset.py",
-      "bytes": 9993,
-      "sha256": "e99ed6ba0b4e5a0c9e830f3e450dabfab0e46977580f0155d0e2a9e07a8c3d6f"
+      "path": "ortholanemark/literature/clrnet/dataset.py",
+      "bytes": 9986,
+      "sha256": "d83a0fa73cb4bbb7576709a22f6bd182d2f9190758f393fb750c6e579a5d521b"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/clrnet/model/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/accuracy.py",
+      "path": "ortholanemark/literature/clrnet/model/accuracy.py",
       "bytes": 3545,
       "sha256": "fd9741b627e34376fd751da7ef235f775711f372a1ed6cf16521434d10719700"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/clr_head.py",
-      "bytes": 18088,
-      "sha256": "798a20f4d84da9ca39cf28d349be1db41d0bae05c27652c98512ffd548efbd46"
+      "path": "ortholanemark/literature/clrnet/model/clr_head.py",
+      "bytes": 18016,
+      "sha256": "81a59275c2ceb32f3f85c7303fc8d16bd14f395ea4dc0b000b64a38f0359fcd6"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/convmodule.py",
+      "path": "ortholanemark/literature/clrnet/model/convmodule.py",
       "bytes": 1760,
       "sha256": "dcba120b0dda9bbc2d812c355d81651b3552e074247272d970441f6767158f38"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/detector.py",
-      "bytes": 3228,
-      "sha256": "47df233c6e407cdfccb1e0365e07eda6853e4e61bbaa9f8d6b0ffd3472c7f1fb"
+      "path": "ortholanemark/literature/clrnet/model/detector.py",
+      "bytes": 3201,
+      "sha256": "91f839f79c309d1a38a79b67ac0e7ab76a7e1555dd1d1e8f920a993535510a12"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/dynamic_assign.py",
-      "bytes": 5571,
-      "sha256": "4c57b22113d0781aff6fcfb97a1f0b22ff6174006f42f0a2d7639f286445e6f3"
+      "path": "ortholanemark/literature/clrnet/model/dynamic_assign.py",
+      "bytes": 5562,
+      "sha256": "a12f6776f58767fdc3bf8185e9aefe5a0cdc08f44d900466e120964fb66f7c1c"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/focal_loss.py",
+      "path": "ortholanemark/literature/clrnet/model/focal_loss.py",
       "bytes": 7732,
       "sha256": "091a8a151f1c238a0a9019b78b7aa71352661f455a079eda2815038276fa77a9"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/fpn.py",
-      "bytes": 7812,
-      "sha256": "f03f1147fa9d94fffa31832a5d38e5955e7130bdcae41e0e886d8272b8a4ba20"
+      "path": "ortholanemark/literature/clrnet/model/fpn.py",
+      "bytes": 7803,
+      "sha256": "ef1077c01179aff249dcb23a63ea891f21d6542864fb819b6b91cbf294e495c1"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/lineiou_loss.py",
+      "path": "ortholanemark/literature/clrnet/model/lineiou_loss.py",
       "bytes": 1355,
       "sha256": "86163bbb3d9a804d93743ffbdf317027ffea8abb9df5e4af99d770cda7de0b1b"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/resnet.py",
+      "path": "ortholanemark/literature/clrnet/model/resnet.py",
       "bytes": 17030,
       "sha256": "8b0e0f5757d5a4da52d073168a2b046e8cabe119b726037f31e21de0de7bdd0d"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/roi_gather.py",
-      "bytes": 5279,
-      "sha256": "6cfe456e8ffbb7e9d4fd2554d8c4565d28cd43e7fb73b4bf4ea5890abaaccd49"
+      "path": "ortholanemark/literature/clrnet/model/roi_gather.py",
+      "bytes": 5270,
+      "sha256": "3dd012536ff390fc04f633b6a65d16c3b11cb9d52498f58acd0a89048e9f01ec"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/model/seg_decoder.py",
+      "path": "ortholanemark/literature/clrnet/model/seg_decoder.py",
       "bytes": 887,
       "sha256": "7c1e6e9ad8e4531af9f8f8d7b71f610eab0b4ebe6060936e295aecf6fb7cf833"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/predict.py",
-      "bytes": 7538,
-      "sha256": "58a2c83839f1819cb5ccc3a6396d2392bf55d38bbf063dc8287a56482ce62907"
+      "path": "ortholanemark/literature/clrnet/predict.py",
+      "bytes": 7460,
+      "sha256": "8d8eb220bbfbab12e19086a1d8aa6fa30289c862047049fddd18d9250d4e7483"
     },
     {
-      "path": "ortholanemark/literature/clrnet_faithful/train.py",
-      "bytes": 10034,
-      "sha256": "befc4ef0c2465975b5f4624fb7049085c51b8b02d31ff6a80fa1feed13ab20f6"
+      "path": "ortholanemark/literature/clrnet/train.py",
+      "bytes": 9977,
+      "sha256": "815369f48fc74ab95c46fc222584a069397256b8cfc2e8c8e1bd4eac6d6f589d"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/laneatt/LICENSE_upstream",
       "bytes": 1092,
       "sha256": "edfc8db1e7cd922f74d4d4034f59e771f4bd954c3ddf0474856874c12a9e252d"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/__init__.py",
+      "path": "ortholanemark/literature/laneatt/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/anchor_frequencies.pt",
+      "path": "ortholanemark/literature/laneatt/anchor_frequencies.pt",
       "bytes": 12030,
       "sha256": "aef9fd6b4fffdb1de2b4e400451709b5b937fd198ee1e8c1ea35512a659231b6"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/dataset.py",
-      "bytes": 9440,
-      "sha256": "188a022f57e276888e9374f1bc036660070f61497bd5f10641a57ff2d2972528"
+      "path": "ortholanemark/literature/laneatt/dataset.py",
+      "bytes": 9429,
+      "sha256": "0566d9ecfa46320214fac5d27c3f42f0b562eae77bee231d6da29a9d66eb559d"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/gen_anchor_mask.py",
-      "bytes": 5170,
-      "sha256": "baf0b0c88c2eb50c869cf9c7d60c80f96be565697bc08c165d0d749689431dc9"
+      "path": "ortholanemark/literature/laneatt/gen_anchor_mask.py",
+      "bytes": 5093,
+      "sha256": "d1574b928331e9c7342be4a205d9a1059dffc09b5d35853d79fb00944de660f6"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/laneatt/model/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/focal_loss.py",
+      "path": "ortholanemark/literature/laneatt/model/focal_loss.py",
       "bytes": 6689,
       "sha256": "0d4a08d750f84dbfa0d8690d35d71cd6964face699a02c91218c33f977e2420a"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/laneatt.py",
-      "bytes": 20841,
-      "sha256": "2447bf537db1726d26827d4555053b8e1967c2cd1c4d6c000ca8bf3acd3061b3"
+      "path": "ortholanemark/literature/laneatt/model/laneatt.py",
+      "bytes": 20856,
+      "sha256": "4f89ab38cd80ebf2d6536225ef3caae1056a3c884de5cbafb36c677a66725af7"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/matching.py",
+      "path": "ortholanemark/literature/laneatt/model/matching.py",
       "bytes": 3320,
       "sha256": "d747516d3be1700350fb6039b7008c792d3c615fd57c2b15068fb64b6f0811e4"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/nms_stub.py",
+      "path": "ortholanemark/literature/laneatt/model/nms_stub.py",
       "bytes": 7043,
       "sha256": "e5e67288d506ca936867a81efc96f69359b1f8372431c00470f87345c5bf1fa2"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/model/resnet.py",
+      "path": "ortholanemark/literature/laneatt/model/resnet.py",
       "bytes": 5458,
       "sha256": "c9865ef800efef9843548fc89544f164e1e67177d546061979b3fddc52df993f"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/predict.py",
-      "bytes": 10251,
-      "sha256": "46f8e05e8104e6dde9ee0b25effa1c1350c1db61216b56cdaeec0e1c6bc14996"
+      "path": "ortholanemark/literature/laneatt/predict.py",
+      "bytes": 10179,
+      "sha256": "f5f3afbba258aefa97e85ec5d19b1d99e3d4413f1c773ab1797daa699750fb6d"
     },
     {
-      "path": "ortholanemark/literature/laneatt_faithful/train.py",
-      "bytes": 11679,
-      "sha256": "fde43c5b3de0e16add17fbab98df373802d551855eb524fe0eed29750af088af"
+      "path": "ortholanemark/literature/laneatt/train.py",
+      "bytes": 11620,
+      "sha256": "9bc27464fd900caf94132be96f6dda623f4dfa513740a35e050e4dc972cf3976"
     },
     {
       "path": "ortholanemark/literature/lsd.py",
@@ -1606,64 +1606,64 @@
       "sha256": "ff0a73d0094013fdc0506421d80c0f1c0404b7337c762ae847bb59ad75abd216"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/polylanenet/LICENSE_upstream",
       "bytes": 1099,
       "sha256": "1e2a02dc47f52ad00f27b3e2338884d235ab9d55c17c8ae81d93ba5128a8964a"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/__init__.py",
+      "path": "ortholanemark/literature/polylanenet/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/dataset.py",
-      "bytes": 8494,
-      "sha256": "ae749ac2bad4be0307857ac8eb310e0c877150a8cc29c42e6ace412f5259655f"
+      "path": "ortholanemark/literature/polylanenet/dataset.py",
+      "bytes": 8486,
+      "sha256": "06929a1d44e2d976d390465bf07da08549f851296a5d49321d3efdc6c75c2584"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/models.py",
+      "path": "ortholanemark/literature/polylanenet/models.py",
       "bytes": 8259,
       "sha256": "8191c100558de809963ec5e2a2311c9e1b2b32fb6126d67004926084db4c7463"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/predict.py",
-      "bytes": 6260,
-      "sha256": "3a5c3c1bbdea091ddd7cb31e37a2d45fc15bad83400c9b92d5aa34950d15968f"
+      "path": "ortholanemark/literature/polylanenet/predict.py",
+      "bytes": 6197,
+      "sha256": "d3db3217487b88e1fad9e16cff75dd58dbcfcb5eeaa83f7a33b3360c5e914526"
     },
     {
-      "path": "ortholanemark/literature/polylanenet_faithful/train.py",
-      "bytes": 10717,
-      "sha256": "a722978b88c0635f23710d3361650265ec355410d66095f0dffe79daf01db1f1"
+      "path": "ortholanemark/literature/polylanenet/train.py",
+      "bytes": 10658,
+      "sha256": "92499f1e6bc879b2173227b2301ef74932f57a3036e5c686b1baf0f917f822dc"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/scnn/LICENSE_upstream",
       "bytes": 1086,
       "sha256": "44d48d2245eed9e39bb55a55a9483d76baab943aabcc5f078fbbd19e8d3eb186"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/dataset.py",
-      "bytes": 8028,
-      "sha256": "e3a306087c9fd8e9c3f4a642e257628a56f400a23199445e9a9c488f1c430d48"
+      "path": "ortholanemark/literature/scnn/dataset.py",
+      "bytes": 8020,
+      "sha256": "ee676636f83d5b3b4ff92820bb785dc6eb934bfb04f4fced4cf87ed13046c22b"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/lr_scheduler.py",
+      "path": "ortholanemark/literature/scnn/lr_scheduler.py",
       "bytes": 1148,
       "sha256": "eee8340b35421e29a3d63d5a35d9f633aaf789b87a0c9937ea0c109a8e5117f4"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/model.py",
+      "path": "ortholanemark/literature/scnn/model.py",
       "bytes": 7604,
       "sha256": "a0304bab79e5213dbe8cce5c9a224af1e75e3ae7e11b0ccbc6ec2a27e37c7e68"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/predict.py",
-      "bytes": 7811,
-      "sha256": "b44c1e068df674d6e472c8cfb2c6eba12a5bc2996780b7d32fdcd9cfa08003c5"
+      "path": "ortholanemark/literature/scnn/predict.py",
+      "bytes": 7737,
+      "sha256": "95300ffbacd2f55e158b3dd0afbd8076d14952759c4b5f8b759023ab6881cba9"
     },
     {
-      "path": "ortholanemark/literature/scnn_faithful/train.py",
-      "bytes": 12481,
-      "sha256": "39351ebf5bc4b375b3bafae446d6837fc5b9786f56bed1921b15333ba1cba598"
+      "path": "ortholanemark/literature/scnn/train.py",
+      "bytes": 12407,
+      "sha256": "78838da529fbe10e30e8a2ea9080d5e53d4e8784bd70722f20bcc56a4297fa27"
     },
     {
       "path": "ortholanemark/literature/steger_ridge.py",
@@ -1676,74 +1676,74 @@
       "sha256": "86b96bc730093ea282fc1b8b76b8c6af94c2678286f1a453c9b8ee53ec88b278"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/LICENSE_upstream",
+      "path": "ortholanemark/literature/ufldv2/LICENSE_upstream",
       "bytes": 1087,
       "sha256": "0689511bf2cb5d65bae999004f9b14829299fca212fd610beebbcb96e26e6b12"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/dataset.py",
-      "bytes": 13970,
-      "sha256": "5bb676c25f5aa910acbbbbc54e15d467019d10053335169c1d5b6ca29b7c939b"
+      "path": "ortholanemark/literature/ufldv2/dataset.py",
+      "bytes": 13960,
+      "sha256": "8eacd408c92c4d073da24c135a3e70dfffd696aabf35f7ef46e2a73b7a9f7958"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/model/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/backbone.py",
+      "path": "ortholanemark/literature/ufldv2/model/backbone.py",
       "bytes": 2252,
       "sha256": "23c3c94c1a9584710b23c1931eeb76324e69977a62288b195b8ab89b3a689fa3"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/layer.py",
+      "path": "ortholanemark/literature/ufldv2/model/layer.py",
       "bytes": 4047,
       "sha256": "4f334138d4e83bfb6f3c99dce85fa2df62be293fa8aebde9a33ba5824aa4e255"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/model_culane.py",
+      "path": "ortholanemark/literature/ufldv2/model/model_culane.py",
       "bytes": 5691,
       "sha256": "437984b11648ad5493d3d167ebbc6cea0da078ef52298ba80e53d4624a2f231b"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/model/seg_model.py",
+      "path": "ortholanemark/literature/ufldv2/model/seg_model.py",
       "bytes": 2836,
       "sha256": "494009356c1b92aff154924a61fbcfb18ff7aed9f6ea39d2e0dd64444c8cf11b"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/predict.py",
-      "bytes": 10415,
-      "sha256": "ed32ccff11fbf839ecffecc6ee8b266dc81061807871b279ea089130e8afafc2"
+      "path": "ortholanemark/literature/ufldv2/predict.py",
+      "bytes": 10337,
+      "sha256": "45d1017152f9a8b0afc1bbf3a251983cdffdfaa789702862bae156f40b09626c"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/train.py",
-      "bytes": 20460,
-      "sha256": "1a615180f79171175f7712498ab5cd74ee21d81df6426325098f57614e6335e2"
+      "path": "ortholanemark/literature/ufldv2/train.py",
+      "bytes": 20388,
+      "sha256": "e4bd644a3a8e4c4094a138581cd51f7e6b43bae04fa77e8b2e546fc8b43ca24d"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/__init__.py",
+      "path": "ortholanemark/literature/ufldv2/utils/__init__.py",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/common.py",
+      "path": "ortholanemark/literature/ufldv2/utils/common.py",
       "bytes": 1200,
       "sha256": "5982e890f412582af7d7523191d15704b0280d099d3c5f5eb4a101b02bd9d197"
     },
     {
-      "path": "ortholanemark/literature/ufldv2_faithful/utils/loss.py",
+      "path": "ortholanemark/literature/ufldv2/utils/loss.py",
       "bytes": 7849,
       "sha256": "c22d1a247a7bd96e1f7b35637b7f297234fa44efee3850c65b9aa4d48a5f74e3"
     },
     {
       "path": "ortholanemark/literature/unet_seg/__init__.py",
-      "bytes": 699,
-      "sha256": "669bed404cc14dd8dadd632585c84b882495420de7b70870e50fe69e251b5b9c"
+      "bytes": 672,
+      "sha256": "04e7a791eae7e72491d8950fecfc19f3bccf26ccdceedb7cf983d17cf10ac0e5"
     },
     {
       "path": "ortholanemark/literature/unet_seg/model.py",
@@ -1752,13 +1752,13 @@
     },
     {
       "path": "ortholanemark/literature/unet_seg/predict.py",
-      "bytes": 7184,
-      "sha256": "27ee96f90e46b746d129784be071bdb5d3d250530b1cc8c9704880b0fbd88863"
+      "bytes": 7169,
+      "sha256": "ba663ef7a733d64412e8383e37b7845d31a00f8ecf2c08ac07828956223c33a0"
     },
     {
       "path": "ortholanemark/literature/unet_seg/train.py",
-      "bytes": 10106,
-      "sha256": "ae3fff6a585e450ff2823343bdf990e5109f99eae05d8a8456a6d5184f82d639"
+      "bytes": 10057,
+      "sha256": "153b2d3fe399857e7be0c4cca08b111920990f6b08d8847f1405e44fb395da3d"
     },
     {
       "path": "ortholanemark/scripts/__init__.py",
@@ -1767,8 +1767,8 @@
     },
     {
       "path": "ortholanemark/scripts/benchmark_latency_all.py",
-      "bytes": 3738,
-      "sha256": "d2bef0769ef9749fd0ecfeb2cc25cb650537d76e81f7985df1ccc1a2cf1b137e"
+      "bytes": 3687,
+      "sha256": "57d69eba298a6e6e409cae2667b013ceff74399d94b1fec8c5eba108cbff650e"
     },
     {
       "path": "ortholanemark/scripts/check_wheelpath_geometry.py",
@@ -1777,28 +1777,28 @@
     },
     {
       "path": "ortholanemark/scripts/reselect_eval.py",
-      "bytes": 9817,
-      "sha256": "ebe5a57a03e569659269ecb762547fa2ba31c7269bb5cb25c115d772cb9ae363"
+      "bytes": 9735,
+      "sha256": "6881e1c6edcb23125b7908d6b6d0bb4f0047968810b0e0de2b53a72cbfdbeab4"
     },
     {
       "path": "ortholanemark/scripts/wheelpath_diagnostic.py",
-      "bytes": 7068,
-      "sha256": "a5a4e74eb88b8be14ae6afeb80375af456f9cb6c08ad246e3e0ed9ffa9422bb0"
+      "bytes": 7023,
+      "sha256": "802c873c559c4a32e4de9b65f0decab1ea6cfb5094100e5a224b1d3ebdd2fb12"
     },
     {
       "path": "provenance/README.md",
-      "bytes": 5679,
-      "sha256": "ed90d2fcc594cade255a8c6e3194038f4d144c898a45597cbe41c526e9ee3079"
+      "bytes": 5557,
+      "sha256": "034065f80d17939adfea3f041fa1dab56d8cd2f0cb8c72db41f0face49e23775"
     },
     {
       "path": "provenance/artifact_manifest.json",
-      "bytes": 106769,
-      "sha256": "e741469c5033c2e2580e10f8b9dacb1a6e8b06b954834faba4e454eb2d8b7c3d"
+      "bytes": 106713,
+      "sha256": "4cc3ef3bcec8c2ea200727cb6686b211c3bced903dcaa16a730374939010f069"
     },
     {
       "path": "provenance/checkpoint_metadata_updates.json",
-      "bytes": 362650,
-      "sha256": "7a2209f0db3ec0a55083136d82576c6121c4126f2c5105953be8bd9e943b3a00"
+      "bytes": 362641,
+      "sha256": "daa5ba34ea706832ba9c9ebe5431b6fc9100f75fd04bd37c6fea2cff854ae1f9"
     },
     {
       "path": "provenance/readme_figure.json",
@@ -1812,18 +1812,18 @@
     },
     {
       "path": "provenance/run_manifest.json",
-      "bytes": 33978,
-      "sha256": "208855cb5481ae56359927a0ed868cfc08eab8fa520d0f428b8d5167f87ea6f6"
+      "bytes": 36099,
+      "sha256": "3377f3197fb7668b9bfd696a5a6064364e2f431f880fcf7399b231c0ab06a564"
     },
     {
       "path": "provenance/source_manifest.json",
-      "bytes": 26898,
-      "sha256": "b3c254153e3632bd437c0607ae62ad1b762adff9c8a93c8d0b6d5937c90b1dff"
+      "bytes": 26402,
+      "sha256": "5fa7bef26eca8cd1075f7151ca9dc55a087a6cdd6692384436cd3c1c7dd16ab6"
     },
     {
       "path": "provenance/source_notices.json",
-      "bytes": 5140,
-      "sha256": "01a9acb6795f570faeec293e77e4171abac9d5199b067515684c013f6fef76ba"
+      "bytes": 5059,
+      "sha256": "af7011b29c30529538337078d2d1426170d6e0ff06375fbe5401673caa20b549"
     },
     {
       "path": "requirements-models.txt",
@@ -1837,8 +1837,8 @@
     },
     {
       "path": "tools/check_edge_cases.py",
-      "bytes": 6226,
-      "sha256": "5b8c5219f7545834fb7e38b5dc32744461b548f399981127b30255cac433f0ef"
+      "bytes": 6208,
+      "sha256": "a77680e4d84dfd28109432a2c1aefe481a8fdc39d3acfcd0218dd694fa650ca3"
     },
     {
       "path": "tools/evaluate_saved.py",
@@ -1857,8 +1857,8 @@
     },
     {
       "path": "tools/release_preflight.py",
-      "bytes": 5517,
-      "sha256": "688bd0922291816e54e76da18bc251089a5d031a948e6f46e15ac6cc8ddd94dc"
+      "bytes": 5508,
+      "sha256": "f0406e492e1e2d3557f2318b2aa92d481a8072b816238534cf3e506ef3009fc2"
     },
     {
       "path": "tools/run_synthetic_checks.py",
@@ -1877,8 +1877,8 @@
     },
     {
       "path": "verification/checkpoint_metadata_scan.json",
-      "bytes": 1992,
-      "sha256": "16701a4688cffde5a73fefcc7fea331096efd50d662764635aa5fa79c916ea85"
+      "bytes": 1857,
+      "sha256": "08aa6458793527829abdba04ac22242b31a3a8297a7a4c4734665341ae22a00c"
     },
     {
       "path": "verification/edge_cases.json",
@@ -1892,18 +1892,18 @@
     },
     {
       "path": "verification/reconstructed_tables.csv",
-      "bytes": 4673,
-      "sha256": "9802471d32aa47ee316aafb90185f9b948afe346f39cfdf119b43abb06042b68"
+      "bytes": 4583,
+      "sha256": "2de466177cb5f0df5ef8ee24db46a4331ecddf7a0920e891e3be3ba400c0cdcd"
     },
     {
       "path": "verification/reconstructed_tables.json",
-      "bytes": 21620,
-      "sha256": "7e3d003e0f651c0f28d9907459643567591b654b2f1215072270ce1fa322c2a2"
+      "bytes": 21575,
+      "sha256": "4e1168bde1e99956f2f3cd4bf8a9b377a2650be2d761208d74f8f350e747fbcc"
     },
     {
       "path": "verification/results.json",
-      "bytes": 4883,
-      "sha256": "1b30edc1db6ee52e1523a1f75e7243919bdfde862be8bc4d6226a93f0cba44e8"
+      "bytes": 6601,
+      "sha256": "b44e38b55e464c4bc8a32b72be85f0dd2afdac3eab3b8f1df8ec3baeead69b03"
     }
   ]
 }

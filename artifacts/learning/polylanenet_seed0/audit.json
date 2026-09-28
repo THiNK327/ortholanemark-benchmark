@@ -1,0 +1,18 @@
+{
+  "method": "polylanenet",
+  "seed": 0,
+  "checkpoint": "weights/polylanenet_seed0/best_gra.pth",
+  "checkpoint_sha256": "2a0a38087eaddd1da9c7bec40f63fffe074467ac85310581d83e71012fa8b2fa",
+  "training_performed": false,
+  "historical_checkpoint_rule": "native decoder presence decisions",
+  "best_logged_validation_gra": 0.8716158508160553,
+  "recomputed_historical_rule_validation_gra": 0.8716193858144073,
+  "old_threshold": 0.44,
+  "new_threshold": 0.44,
+  "old_gra": 0.9317235810356569,
+  "new_gra": 0.9348890759266485,
+  "old_report": "ortholanemark\\runs_reselect\\polylanenet__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "aee73216196fc5b4a2d56254e78e61196490a283fc1b25794296019a70f64aba",
+  "report_reference_convention": "Historical report path expressed with the public package name."
+}

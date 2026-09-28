@@ -1,0 +1,20 @@
+{
+  "method": "laneatt",
+  "seed": 2,
+  "checkpoint": "weights/laneatt_seed2/best_gra.pth",
+  "checkpoint_sha256": "ce86b0b4eadb52f5be0cbcf7abcab66bd9f13bf457437ee80a227306ce4c4e66",
+  "training_performed": false,
+  "historical_checkpoint_rule": "native decoder presence decisions",
+  "best_logged_validation_gra": 0.8470531215592144,
+  "recomputed_historical_rule_validation_gra": 0.8419123343622786,
+  "old_threshold": 0.3,
+  "new_threshold": 0.3,
+  "old_gra": 0.8629426279855431,
+  "new_gra": 0.8629426210470242,
+  "old_report": "ortholanemark\\runs_reselect\\laneatt_seed2__gra\\report_tuned.json",
+  "presence_changes": 0,
+  "source_sha256": "04d81d9a88d6b0a2f5d09dcffd99dc6f259fdf4f05b8440f6efa03b1f99483db",
+  "report_reference_convention": "Historical report path expressed with the public package name.",
+  "evaluated_checkpoint_sha256": "5aae231f42679fa6e23335ecc3f6818baf15a778082ae07feaef562a55080b3d",
+  "checkpoint_metadata_normalized": true
+}

@@ -2,7 +2,7 @@
 
 Registers as the literature method `unet_seg`.
 
-Decoding mirrors the `scnn_faithful` adapter exactly (softmax → 9x9 blur →
+Decoding mirrors the `scnn` adapter exactly (softmax → 9x9 blur →
 row-wise argmax above prob threshold → polynomial fit), so the comparison
 isolates the architecture. The one necessary difference: U-Net has no
 existence head, so existence is derived from segmentation support — a side
@@ -21,14 +21,14 @@ import numpy as np
 import torch
 
 from ortholanemark.literature import (
-    BaseLiteratureMethod, register_method,
+    BaseLiteratureMethod, default_checkpoint_path, register_method,
 )
 from ortholanemark.literature.unet_seg.model import UNet
 
 
 _IMAGENET_MEAN = np.array([0.485, 0.456, 0.406], dtype=np.float32)
 _IMAGENET_STD = np.array([0.229, 0.224, 0.225], dtype=np.float32)
-DEFAULT_CKPT = 'ortholanemark/runs_reselect_train/unet_seg/best_gra.pth'
+DEFAULT_CKPT = default_checkpoint_path('unet_seg')
 
 
 def _decode_side(prob_map: np.ndarray, H: int, W: int,
@@ -75,7 +75,7 @@ def predict_batch_with_model(model, image_grays, input_h: int = 800,
                              exist_row_frac: float = 0.10,
                              min_lane_rows: int = 5) -> list:
     """Batched inference: one forward over a list of images, then per-image
-    decoding. Same contract as scnn_faithful.predict_batch_with_model."""
+    decoding. Same contract as scnn.predict_batch_with_model."""
     device = next(model.parameters()).device
     sizes = [img.shape[:2] for img in image_grays]
     x = torch.stack([_preprocess(img, input_h, input_w)

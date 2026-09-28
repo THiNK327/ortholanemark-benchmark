@@ -1,9 +1,9 @@
 """Plain U-Net segmentation baseline training entrypoint.
 
-Deliberately mirrors `scnn_faithful/train.py` in every shared decision so
+Deliberately mirrors `scnn/train.py` in every shared decision so
 the comparison isolates the architecture:
 
-  - Identical dataset class (`SCNNFaithfulDataset`): same rasterized
+  - Identical dataset class (`SCNNDataset`): same rasterized
     polynomial labels (line_width=8), same Rotation(±2°) augmentation,
     same 800x320 input, same ImageNet normalization.
   - Identical checkpoint selection: per-epoch val `strict_operational_iou`.
@@ -30,8 +30,8 @@ from ortholanemark.literature.unet_seg.model import UNet
 from ortholanemark.literature.unet_seg.predict import (
     predict_batch_with_model,
 )
-from ortholanemark.literature.scnn_faithful.dataset import (
-    SCNNFaithfulDataset, collate,
+from ortholanemark.literature.scnn.dataset import (
+    SCNNDataset, collate,
 )
 from ortholanemark.literature._train_helpers import (
     set_global_seed, make_loader_generator, rng_snapshot, rng_restore,
@@ -48,7 +48,7 @@ def parse_args():
     p.add_argument('--save_dir', required=True)
     p.add_argument('--epochs', type=int, default=100,
                    help='Fair-comparison budget: identical 100 epochs '
-                        'across all faithful baselines.')
+                        'across all benchmark baselines.')
     p.add_argument('--batch_size', type=int, default=4)
     p.add_argument('--input_h', type=int, default=800)
     p.add_argument('--input_w', type=int, default=320)
@@ -81,11 +81,11 @@ def main():
     set_global_seed(args.seed)
     gen = make_loader_generator(args.seed)
 
-    train_ds = SCNNFaithfulDataset(args.manifest, 'train',
+    train_ds = SCNNDataset(args.manifest, 'train',
                                    input_h=args.input_h,
                                    input_w=args.input_w,
                                    rotation_deg=2.0)
-    val_ds = SCNNFaithfulDataset(args.manifest, 'val',
+    val_ds = SCNNDataset(args.manifest, 'val',
                                  input_h=args.input_h,
                                  input_w=args.input_w,
                                  rotation_deg=0.0)

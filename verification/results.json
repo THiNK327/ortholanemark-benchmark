@@ -107,6 +107,40 @@
       "training_or_benchmark_inference_or_selection_or_timing_run": false,
       "model_tensor_values_changed": false,
       "saved_prediction_values_changed": false
+    },
+    {
+      "date": "2026-09-27",
+      "change": "Method modules, registry identifiers, configurations and result folders use neutral method names. Seed-0 checkpoints are located in either supported release layout. Three LaneATT resource paths were normalized in checkpoint metadata.",
+      "model_tensor_values_changed": false,
+      "saved_prediction_values_changed": false,
+      "numeric_training_settings_changed": false,
+      "training_or_benchmark_inference_or_selection_or_timing_run": false,
+      "compatibility_checks": {
+        "checkpoints_deserialized_and_strictly_loaded": 18,
+        "unchanged_checkpoint_files": 15,
+        "checkpoint_tensor_storage_preserved": 18,
+        "unchanged_prediction_npz_files": 57,
+        "python_files_compile": 78,
+        "source_ast_comparisons": 36,
+        "source_ast_scope": "Equivalent after identifier and descriptive string normalization, except the released checkpoint lookup helper and its calls.",
+        "learning_score_summaries_match": 6,
+        "score_absolute_tolerance": 1e-12,
+        "traditional_score_summaries_reconstructed": 3,
+        "ground_truth_and_region_checks": 17,
+        "independent_raster_comparisons": 100,
+        "edge_case_checks": 11,
+        "decoder_and_data_checks": 6
+      },
+      "load_validation_environment": {
+        "python": "3.9.21",
+        "torch": "2.6.0+cu126",
+        "torchvision": "0.21.0+cpu",
+        "device": "cpu",
+        "numpy": "1.26.4",
+        "polylanenet_efficientnet_pytorch": "0.6.3",
+        "MKL_THREADING_LAYER": "SEQUENTIAL",
+        "scope": "Loading compatibility only; this differs from the historical training environment."
+      }
     }
   ],
   "scope": "Historical verification checks from the evaluated snapshot. Subsequent packaging changes are listed separately below; current file hashes are checked by the package integrity tools."
